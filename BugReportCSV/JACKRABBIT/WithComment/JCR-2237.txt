@@ -1,0 +1,2 @@
+ItemManager registers itself as listener too early
+This is similar to JCR-2168 but for ItemManager and SessionItemStateManager.Proposed patch. 1 for the patch thanks Applied patch in revision 801104 Also merged into 1.x branch in revision 801114

@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   11
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TOPIC4 <= 0
+|   TOPIC1 <= 0
+|   |   TOPIC3 <= 0
+|   |   |   TOPIC9 <= 0: BUG (133.0/42.0)
+|   |   |   TOPIC9 > 0
+|   |   |   |   TOPIC5 <= 0: FEATURE (2.0)
+|   |   |   |   TOPIC5 > 0
+|   |   |   |   |   TOPIC0 <= 0: BUG (23.0/9.0)
+|   |   |   |   |   TOPIC0 > 0: FEATURE (15.0/3.0)
+|   |   TOPIC3 > 0: BUG (81.0/13.0)
+|   TOPIC1 > 0
+|   |   TOPIC7 <= 0
+|   |   |   TOPIC2 <= 0
+|   |   |   |   TOPIC3 <= 0: FEATURE (59.0/7.0)
+|   |   |   |   TOPIC3 > 0
+|   |   |   |   |   TOPIC6 <= 0: FEATURE (12.0/4.0)
+|   |   |   |   |   TOPIC6 > 0: BUG (5.0/1.0)
+|   |   |   TOPIC2 > 0: BUG (9.0/3.0)
+|   |   TOPIC7 > 0: BUG (12.0/3.0)
+TOPIC4 > 0: FEATURE (2092.0/491.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0.16 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1836               75.1535 %
+Incorrectly Classified Instances       607               24.8465 %
+Kappa statistic                          0.2509
+Mean absolute error                      0.3652
+Root mean squared error                  0.4318
+Relative absolute error                 89.53   %
+Root relative squared error             95.6275 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.95      0.746      0.761	0.95	0.845      0.601    FEATURE
+                 0.254     0.05       0.67	0.254	0.368      0.601    BUG
+Weighted Avg.    0.752     0.547      0.735	0.752	0.709      0.601
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1659   87 |    a = FEATURE
+  520  177 |    b = BUG
+

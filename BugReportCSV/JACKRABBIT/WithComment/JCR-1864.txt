@@ -1,0 +1,2 @@
+Database Data Store clean up the code
+There is some unnecessary code in the DbDataStore that should be removed. Also some more tests should be added.Committed in revision 718632Merged to the 1.5 branch in revision 719573. This way we ll have an easier time merging potential bug fixes later on.

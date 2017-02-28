@@ -1,0 +1,2 @@
+Possible NPE in HttpHost
+HttpHost line 167 says         if this.port this.protocol.getDefaultPort However a few lines above protocol is checked for null. Line 167 should probably read         if this.protocol null this.port this.protocol.getDefaultPort Protocol is checked for being not null at the construction time and remains immutable for the life time of the object. I removed the superfluous null check to keep Findbugs happy. Oleg

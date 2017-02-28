@@ -1,0 +1,2 @@
+JCR-Server respect maximal value for timeout
+RFC 2518 states The timeout value for TimeType Second MUST NOT be greater than 2 32-1. - adjust constant according. BTW sending Infinite timeout in case of maximal value causes problems with microsoft builtin client that will never unlock that resource.changed constant for Infinite timeout. in addition removed the todo in XmlUtil.java asking for sending Infinite instead of Seconds- timeout in case of infinite timeout and added explanatory javadoc comment regarding the known issue with Microsoft Office.rev. 349905

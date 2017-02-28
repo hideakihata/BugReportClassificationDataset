@@ -1,0 +1,2 @@
+Upgrade all default socket factories to use SO REUSEADDR parameter
+See HTTPCORE-209Fixed in SVN trunk Oleg

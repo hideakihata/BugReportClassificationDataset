@@ -1,0 +1,2 @@
+Optimize ReadOnlyIndexReader.read int docs int freqs 
+This method is currently implemented trivially using next doc and freq . It should read in blocks and filter out deleted docs.Proposed patch reduces the average time of the query in LargeResultSetTest.testResultSet without path constraint from 16 ms to 10 ms.Committed patch in revision 959982

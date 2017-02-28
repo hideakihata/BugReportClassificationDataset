@@ -1,0 +1,2 @@
+Add JcrUtils.getPropertyTypeNames
+for property related ui its common to populate a list with all property type names. instead of hardcoding at various places that list could be provided by JcrUtils.

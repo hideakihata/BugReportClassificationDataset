@@ -1,0 +1,2 @@
+Inner classes of FilterAtomicReader trunk FilterIndexReader 3.x do not override all methods to be filtered
+This issue adds missing checks in the FilterReader test to also check overridden methods in the enum implementations inner classes similar to the checks added by Shai Erea. Patch for trunk will commt this now. This will also make the delegate fields final. Committed trunk revision 1293821 Now backporting... Patch for 3.x TermPositions is left out because its impl is fcked up. Committed 3.x revision 1293829

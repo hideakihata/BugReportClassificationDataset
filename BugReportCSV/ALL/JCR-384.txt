@@ -1,0 +1,2 @@
+Changes of JCR-313 introduced db-transaction problem
+the fix of JCR-313 changed the autocommit from true to false resulting the DatabaseFileSystems not to write back correctly anymore.restructured the DatabaseFilesystem code a bit and chaned the autocommit default to true again. fixed in r391012

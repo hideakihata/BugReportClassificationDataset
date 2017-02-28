@@ -1,0 +1,2 @@
+Bundle persistence name index not case-sensitive in MySQL and MS SQL
+As reported by Martijn Hendriks on the dev mailing list see http www.nabble.com Bundle-persistence-managers db-collation-tf3571522.html the NAME column of the NAMES table in the bundle persistence manager needs to be case-sensitive.Fixed in revision 529903 by explicitly declaring the NAME column collation as case sensitive. Note that Derby and Oracle are not affected by this since they are case sensitive by default. I m not sure about the h2 and db2 schemas so I m leaving them as-is for now.

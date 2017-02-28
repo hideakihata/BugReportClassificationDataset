@@ -1,0 +1,2 @@
+DelimitedPayloadTokenFilter copies the bufer over itsself. Instead it should only set the length. Also optimize logic.
+This is a small improvement I found when looking around. It is also a bad idea to copy a array over itsself. All tests pass will commit later Now an even optimized IdentityEncode for payloads. It uses ByteBuffer and CharBuffer to encode. Can anybody with more NIO knowledge review this Final patch will commit this soon. I verified that the code is correct accoring to NIO CharsetEncoder.encode Committed revision 890791

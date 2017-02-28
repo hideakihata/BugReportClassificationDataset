@@ -1,0 +1,2 @@
+Add method to set uuid in NodeInfoBuilder
+Fixed at revision 1136456

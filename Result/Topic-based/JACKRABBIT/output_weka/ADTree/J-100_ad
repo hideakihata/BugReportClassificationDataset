@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.222
+|  (1)TOPIC68 < 0.5: 0.084
+|  (1)TOPIC68 >= 0.5: -0.664
+|  (2)TOPIC52 < 0.5: -0.088
+|  |  (3)TOPIC85 < 0.5: 0.06
+|  |  |  (9)TOPIC73 < 0.5: 0.085
+|  |  |  |  (10)TOPIC42 < 0.5: -0.082
+|  |  |  |  (10)TOPIC42 >= 0.5: 0.437
+|  |  |  (9)TOPIC73 >= 0.5: -0.325
+|  |  (3)TOPIC85 >= 0.5: -0.66
+|  |  (5)TOPIC94 < 0.5: -0.035
+|  |  (5)TOPIC94 >= 0.5: 1.069
+|  (2)TOPIC52 >= 0.5: 0.449
+|  (4)TOPIC30 < 0.5: 0.032
+|  (4)TOPIC30 >= 0.5: -1.147
+|  (6)TOPIC77 < 0.5: 0.037
+|  (6)TOPIC77 >= 0.5: -0.681
+|  (7)TOPIC44 < 0.5: 0.028
+|  |  (8)TOPIC41 < 0.5: -0.036
+|  |  (8)TOPIC41 >= 0.5: 0.838
+|  (7)TOPIC44 >= 0.5: -0.837
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 4.55 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1676               69.7752 %
+Incorrectly Classified Instances       726               30.2248 %
+Kappa statistic                          0.3293
+Mean absolute error                      0.4252
+Root mean squared error                  0.4469
+Relative absolute error                 89.3233 %
+Root relative squared error             91.594  %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.847     0.535      0.712	0.847	0.774      0.756    FEATURE
+                 0.465     0.153      0.661	0.465	0.546      0.756    BUG
+Weighted Avg.    0.698     0.386      0.692	0.698	0.685      0.756
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1240  224 |    a = FEATURE
+  502  436 |    b = BUG
+

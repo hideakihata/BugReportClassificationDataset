@@ -1,0 +1,2 @@
+Upgrade nekohtml dependency
+The latest CyberNeko HTML parser versions are ALv2-licensed and have better Maven dependency metadata.Upgraded to version 1.9.7 in revision 669304.

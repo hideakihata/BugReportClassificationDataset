@@ -1,0 +1,155 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   91
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+              TOPIC40
+              TOPIC41
+              TOPIC42
+              TOPIC43
+              TOPIC44
+              TOPIC45
+              TOPIC46
+              TOPIC47
+              TOPIC48
+              TOPIC49
+              TOPIC50
+              TOPIC51
+              TOPIC52
+              TOPIC53
+              TOPIC54
+              TOPIC55
+              TOPIC56
+              TOPIC57
+              TOPIC58
+              TOPIC59
+              TOPIC60
+              TOPIC61
+              TOPIC62
+              TOPIC63
+              TOPIC64
+              TOPIC65
+              TOPIC66
+              TOPIC67
+              TOPIC68
+              TOPIC69
+              TOPIC70
+              TOPIC71
+              TOPIC72
+              TOPIC73
+              TOPIC74
+              TOPIC75
+              TOPIC76
+              TOPIC77
+              TOPIC78
+              TOPIC79
+              TOPIC80
+              TOPIC81
+              TOPIC82
+              TOPIC83
+              TOPIC84
+              TOPIC85
+              TOPIC86
+              TOPIC87
+              TOPIC88
+              TOPIC89
+              CLASSIFY
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.222
+|  (1)TOPIC75 < 0.5: 0.18
+|  |  (9)TOPIC57 < 0.5: 0.038
+|  |  (9)TOPIC57 >= 0.5: -0.516
+|  (1)TOPIC75 >= 0.5: -0.508
+|  (2)TOPIC40 < 0.5: -0.184
+|  (2)TOPIC40 >= 0.5: 0.346
+|  (3)TOPIC10 < 0.5: 0.032
+|  |  (4)TOPIC54 < 0.5: 0.061
+|  |  |  (7)TOPIC8 < 0.5: 0.035
+|  |  |  (7)TOPIC8 >= 0.5: -0.933
+|  |  (4)TOPIC54 >= 0.5: -0.457
+|  (3)TOPIC10 >= 0.5: -0.865
+|  (5)TOPIC34 < 0.5: 0.077
+|  |  (6)TOPIC14 < 0.5: 0.058
+|  |  |  (8)TOPIC50 < 0.5: -0.041
+|  |  |  (8)TOPIC50 >= 0.5: 0.759
+|  |  (6)TOPIC14 >= 0.5: -0.55
+|  (5)TOPIC34 >= 0.5: -0.32
+|  (10)TOPIC16 < 0.5: 0.038
+|  (10)TOPIC16 >= 0.5: -0.534
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 3.71 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1708               71.1074 %
+Incorrectly Classified Instances       694               28.8926 %
+Kappa statistic                          0.4013
+Mean absolute error                      0.4198
+Root mean squared error                  0.4436
+Relative absolute error                 88.1744 %
+Root relative squared error             90.9298 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.738     0.332      0.777	0.738	0.757      0.766    FEATURE
+                 0.668     0.262      0.621	0.668	0.644      0.766    BUG
+Weighted Avg.    0.711     0.304      0.716	0.711	0.713      0.766
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1081  383 |    a = FEATURE
+  311  627 |    b = BUG
+

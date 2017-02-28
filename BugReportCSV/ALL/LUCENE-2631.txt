@@ -1,0 +1,2 @@
+Fix small perf issues with String TermOrdValComparator
+Uncovered some silliness when working on LUCENE-2504 eg we are doing unnecessary binarySearch on a single-segment reader. reopening - this introduced a bug in both trunk and the backport to 3x. When the bottomOrd is converted ords slot is never set to the new converted ord leading to incorrect results from compare slot slot committed fix to trunk and 3x. Bulk close for 3.1

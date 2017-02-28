@@ -1,0 +1,2 @@
+FastVectorHighlighter enable FragListBuilder and FragmentsBuilder to be set per-field override
+trunk Committed revision 990301. branch 3x Committed revision 990304. Bulk close for 3.1

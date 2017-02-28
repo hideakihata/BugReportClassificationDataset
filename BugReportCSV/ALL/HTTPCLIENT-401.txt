@@ -1,0 +1,2 @@
+HttpState should have methods for clearing all cookies and credentials
+ÊCreated an attachment id 13788 Patch take 1 Works for me. MikePatch committed. Oleg

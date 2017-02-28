@@ -1,0 +1,2 @@
+IOUtils - getCreated ... - SimpleDateFormat is not threadsafe
+SimpleDateFormat is not threadsafe http bugs.sun.com bugdatabase view bug.do bug id 4146524 See exception in attachment. IMHO it will be enough to synchronize format method in HttpDateFormat class.

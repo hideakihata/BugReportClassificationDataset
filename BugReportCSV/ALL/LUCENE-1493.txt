@@ -1,0 +1,2 @@
+Enable setting hits queue size in Search Task in contrib benchmark
+In testing for LUCENE-1483 I d like to try different collector queue sizes during benchmarking. But currently contrib benchmark uses deprecated Hits with hardwired top 100 queue size. I ll switch it to the TopDocs APIs. Attached patch. It adds a search.num.hits config param. I plan to commit soon. Committed revision 727063.

@@ -1,0 +1,2 @@
+GroupImp getMembers and getDeclaredMembers should return RangeIterator
+for those cases where the total amount of members can easily be detected calculated the implementations of Group getMembers and getDeclaredMembersOf should return a RangeIterator. so far i found that Group declaredMembers can be easily adjusted for those cases where the group members are stored in a multivalued property.Merged to the 2.4 branch in revision 1232526.Resolving for 2.4 to get the change that was already made reflected in the release notes. Let s use followup issues for further improvements.

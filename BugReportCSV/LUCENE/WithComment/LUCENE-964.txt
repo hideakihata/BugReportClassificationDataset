@@ -1,0 +1,2 @@
+Remove DocumentWriter
+DocumentWriter has been replaced by DocumentsWriter from LUCENE-843 so we need to remove it fix the unit tests that directly use it... Removes DocumentWriter.java and fixes unit tests that were directly using it to use IndexWriter instead.

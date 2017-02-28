@@ -1,0 +1,2 @@
+Implement QueryResult.getSelectorNames 
+Implemented in revision 793507

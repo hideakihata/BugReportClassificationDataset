@@ -1,0 +1,2 @@
+ OCM Add unit tests with BundleDbPersistenceManager
+Until now we have not yet check the ocm framework with the BundleDbPersistenceManagerWe can close this issue because we are using org.apache.jackrabbit.core.persistence.bundle.DerbyPersistenceManager for a long time

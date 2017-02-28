@@ -1,0 +1,2 @@
+Add change warning comments in the javadocs of Payload APIs
+Since the payload API is still experimental we should change the comments in the javadocs similar to the new search function package. Committed. I forgot to change the comment in one class. Committed to trunk 2.2 branch.

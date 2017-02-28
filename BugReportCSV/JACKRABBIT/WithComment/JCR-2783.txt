@@ -1,0 +1,2 @@
+ItemManager.toString causes StackOverflowError
+fixed in svn r1022410Probably a result of JCR-2763. r1022410 Ah obvious. Thanks 

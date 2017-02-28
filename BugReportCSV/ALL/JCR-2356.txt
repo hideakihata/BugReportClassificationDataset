@@ -1,0 +1,2 @@
+Session holds LockToken after removeLockToken in XA Environment
+Applied patch in rev 825772.Merged to the 1.6 branch in revision 897941.

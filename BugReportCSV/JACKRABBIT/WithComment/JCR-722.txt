@@ -1,0 +1,2 @@
+typo in the mimetypes.properties file
+The Powerpoint mime-type ppt is wrong in mimetypes.properties file. It was written with a equals caracter in place of a dot . . fixed rev. 502343

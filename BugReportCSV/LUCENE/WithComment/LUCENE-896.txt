@@ -1,0 +1,2 @@
+Let users set Similarity for MoreLikeThis
+Let users set Similarity used for MoreLikeThis For discussion see http www.nabble.com MoreLikeThis-API-changes tf3838535.html This adds a constructor and accessors for Similarity. This also fixes a couple javadoc typos and makes isNoiseWord protected Seems very reasonable. I ll commit on Monday. Actually my copy of MLT already takes Similarity in ctor and has set getSimilarity so no patch is needed. You want need that isNoise method protected 

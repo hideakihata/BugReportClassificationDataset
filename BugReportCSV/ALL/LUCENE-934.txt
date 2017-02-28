@@ -1,0 +1,2 @@
+Uploade Lucene 2.1 to ibiblio
+Please uploaded Lucene specifically lucene-core 2.1.0 to ibiblio. I see 2.0.0 but not 2.1.0. Thanks 2.1.0 release artifacts core contribs are available at http mirrors.ibiblio.org pub mirrors maven2 org apache lucene . Please reopen issue if you find any problems with those artifacts.

@@ -1,0 +1,2 @@
+Typo in message logged upon startup when repository is already in use
+As per subjectdeteteced - detectedPatch applied in revision 425323. Thanks for reporting this 

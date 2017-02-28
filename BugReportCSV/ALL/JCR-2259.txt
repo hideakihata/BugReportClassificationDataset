@@ -1,0 +1,2 @@
+Remove unused method RedoLog.clear 
+This method is not used anymore and can be removed.Removed method in revision 803561

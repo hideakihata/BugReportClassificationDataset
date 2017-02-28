@@ -1,0 +1,2 @@
+HttpState matchCredentials is broken
+Credentials matching algorithm is flawed generates unnecessary garbage by instantiating intermediate object during lookupCreated an attachment id 11892 Patch take 1 This should take care of the problem. Let me know what you think of it OlegLooks good to me. MikePatch committed Oleg

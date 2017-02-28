@@ -1,0 +1,2 @@
+Socket streams are closed in the incorrect order.
+HttpConnection should close the streams socket in the following order OutputStream InputStream Socket http java.sun.com docs books tutorial networking sockets readingWriting.html Created an attachment id 8071 Patch Looks fine to me. OlegPatch applied.

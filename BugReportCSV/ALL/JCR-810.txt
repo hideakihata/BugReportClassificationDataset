@@ -1,0 +1,2 @@
+Typos in method names in test classes SetPropertyAssumeTypeTest 
+Misspelled ConstraintVioloationException . Fixed with revision 521310.

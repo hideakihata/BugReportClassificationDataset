@@ -1,0 +1,2 @@
+shutdown of MultiThreadedHttpConnectionManager
+- declare shutdown attributes volatile - interrupt cleanup thread to avoid polling - don t use iterator on WeakHashMap ConcurrentModificationException   might be triggered by garbage collection patch follows Here s the patch. Please review carefully as my development environment for 3.x is not stable. cheers   Roland Looks good to me. MikeIf I hear no complaints until then I ll commit the patch tomorrow. cheers   Roland Patch committed. There were a few random bytes at the beginning of release notes.txt which I removed.

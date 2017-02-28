@@ -1,0 +1,2 @@
+Move NodeTypeStorage to spi-commons and provide default implementation
+This facilitates the implementation of NodeTypes methods of RepositoryService.Fixed in revision 807714

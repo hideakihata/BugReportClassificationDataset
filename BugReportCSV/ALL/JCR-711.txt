@@ -1,0 +1,2 @@
+Select does not return declared properties of node type in FROM clause
+The query only returns the default columns jcr primaryType jcr score and jcr pathFixed in revision 497395 Thanks Paco for reporting this issue.

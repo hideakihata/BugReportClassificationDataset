@@ -1,0 +1,2 @@
+NotQuery does not implement extractTerms 
+If the not function is used in query together with the rep excerpt function an UnsupportedOperationException is thrown.Fixed in revision 531160.Merged to the 1.3 branch in revision 544278.

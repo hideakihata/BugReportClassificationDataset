@@ -1,0 +1,2 @@
+Implementation of Delete method
+The HTTP request method Delete had not been implemented. I needed it and created an HttpDelete class modeled after HttpGet.HTTP Delete methodCommitted. Thanks David Oleg

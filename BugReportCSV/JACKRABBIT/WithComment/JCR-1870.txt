@@ -1,0 +1,2 @@
+jcr2spi reloading of invalidated nodes doesn t benefit from batch-read
+issue reported by stefan upon reloading of an invalidated node jcr2spi doesn t use batch-read but only retrieves the NodeInfo. basically WorkspaceItemStateFactory ll 92 needs to be changed to omit the extra handling of invalidated node entries and always use RepositoryService.getItemInfos when build the NodeState. i will try it out as soon as possible. Reopening for 1.5.0Fixed at revision 766748

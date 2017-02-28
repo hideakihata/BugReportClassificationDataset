@@ -1,0 +1,2 @@
+replace Vector with ArrayList in Queries
+Replace Vector with ArrayList in Queries. This can make a difference in heavily concurrent scenarios when Query objects are examined or compared e.g. used as cache keys . Attaching patch that changes Vector to ArrayList in PhraseQuery MultiPhraseQuery and in BooleanQuery.Weight. I doubt there was ever any intent for these query classes to be partially thread safe. committed.

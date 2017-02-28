@@ -1,0 +1,2 @@
+Update copyright years in READMEs and NOTICEs
+The README.txt files of Jackrabbit components contain copyright lines like this     Collective work Copyright 2007 The Apache Software Foundation. The year should be updated.Fixed in revision 658575. PS. Should we be using 200x-2008 instead of just 2008 Updated the copyright lines in both READMEs and NOTICEs to contain the year of first publication and of any substantial modifications. See 1 for details. 1 http www.law.cornell.edu uscode html uscode17 usc sec 17 00000401 000-.html

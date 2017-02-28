@@ -1,0 +1,2 @@
+Keep jackrabbit jar pom s updated at ibiblio
+Please keep jackrabbit updated on ibiblio or some other maven repository. jackrabbit-1.1 needs to be added.Ibiblio is up to date again. I ve also fixed the POM errors that caused the issues with 1.1 so we shouldn t get the same problems again.

@@ -1,0 +1,2 @@
+Bad check for sv name attribute presence in system view import
+sax content handler checks the wrong variable to see if it s null in SysViewImportHandler name vs. svName patch fixes thisPatch applied to trunk in revision 812369. Thanks a lot for the patch.Merged to the 1.x branch in revision 812371. Merged to the 1.6 branch in revision 812374.Restore 1.6.1 fix version removed by mistake Restore 1.6.1 fix version removed by mistake Oops sorry about that.

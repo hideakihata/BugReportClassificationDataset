@@ -1,0 +1,2 @@
+FAQ document
+Collect the frequently discussed issues from the mailing list and the wiki into an FAQ document.The FAQ document has now been created. It is not yet will ever be complete but does already cover some of the most frequent questions. Please feel free to propose additional questions and answers or improvements to the existing ones closing resolved issue

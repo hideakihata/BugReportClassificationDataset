@@ -1,0 +1,125 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   61
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+              TOPIC40
+              TOPIC41
+              TOPIC42
+              TOPIC43
+              TOPIC44
+              TOPIC45
+              TOPIC46
+              TOPIC47
+              TOPIC48
+              TOPIC49
+              TOPIC50
+              TOPIC51
+              TOPIC52
+              TOPIC53
+              TOPIC54
+              TOPIC55
+              TOPIC56
+              TOPIC57
+              TOPIC58
+              TOPIC59
+              CLASSIFY
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)TOPIC37 < 0.5: 0.126
+|  |  (3)TOPIC56 < 0.5: 0.064
+|  |  (3)TOPIC56 >= 0.5: -1.295
+|  |  (6)TOPIC24 < 0.5: 0.197
+|  |  (6)TOPIC24 >= 0.5: -0.247
+|  (1)TOPIC37 >= 0.5: -0.562
+|  (2)TOPIC54 < 0.5: 0.152
+|  |  (4)TOPIC3 < 0.5: 0.091
+|  |  (4)TOPIC3 >= 0.5: -0.984
+|  (2)TOPIC54 >= 0.5: -0.345
+|  (5)TOPIC25 < 0.5: -0.325
+|  (5)TOPIC25 >= 0.5: 0.118
+|  (7)TOPIC7 < 0.5: 0.11
+|  (7)TOPIC7 >= 0.5: -0.256
+|  (8)TOPIC59 < 0.5: -0.123
+|  |  (9)TOPIC34 < 0.5: -0.047
+|  |  (9)TOPIC34 >= 0.5: 1.013
+|  (8)TOPIC59 >= 0.5: 0.207
+|  |  (10)TOPIC27 < 0.5: -0.062
+|  |  (10)TOPIC27 >= 0.5: 0.893
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         543               72.8859 %
+Incorrectly Classified Instances       202               27.1141 %
+Kappa statistic                          0.433 
+Mean absolute error                      0.4124
+Root mean squared error                  0.4425
+Relative absolute error                 85.2702 %
+Root relative squared error             89.9834 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.795     0.367      0.758	0.795	0.776      0.768    FEATURE
+                 0.633     0.205      0.682	0.633	0.656      0.768    BUG
+Weighted Avg.    0.729     0.301      0.727	0.729	0.727      0.768
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 350  90 |   a = FEATURE
+ 112 193 |   b = BUG
+

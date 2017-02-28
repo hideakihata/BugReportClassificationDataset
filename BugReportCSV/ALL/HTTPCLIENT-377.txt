@@ -1,0 +1,2 @@
+ API Doc HttpClient tutorial update
+Bring the tutorial up to date with the latest best practicesCreated an attachment id 12708 Patch against 2.0 Looks good. MikeCreated an attachment id 12740 Patch against HEAD Folks the patch against CVS revises and brings the tutorial the SSL guide the redirect guide the exception handling guides and the preference api guide up to date with the latest changes for the 3.0-alpha2 release Please review OlegCommit away. MikeCommitted Oleg

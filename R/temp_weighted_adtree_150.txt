@@ -1,0 +1,40 @@
+http <- read.csv(file="http_dt2", sep=",")
+
+jack <- read.csv(file="jack_dt2", sep=",")
+
+luc <- read.csv(file="luc_dt2", sep=",")
+
+#plot_colors <- c("blue","red","forestgreen")
+plot_colors <- c("black","black","black")
+
+png("/Users/pedzii/Documents/Work/Internship/work/R/workspace/without_split_dataset/perf_weighted_adtree_150_2x2.pdf", height=2.5, width=2.5, bg="white", pointsize=7,unit="in",res=300)
+
+par(mar = c(4.1, 4.1, 0.5, 0.5))
+
+plot(http$F.Measure_W, type="l", col=plot_colors[1], ylim=c(0.5,1.0), axes=FALSE, ann=FALSE)
+
+axis(1, at=1:15, lab=c("10","20","30","40","50","60","70","80","90","100","110","120","130","140","150"))
+
+axis(2, las=1, at=0.1*5:10)
+
+abline(h=seq(0.5, 1.0, by=0.1),lty=3, col="gray")
+
+box()
+
+lines(jack$F.Measure_W, type="l", lty=2, col=plot_colors[2])
+
+lines(luc$F.Measure_W, type="l", lty=4, col=plot_colors[3])
+
+#abline(v=5,lty=2, col="gray")
+
+title(xlab="Number of Topics, K", col.lab="black", cex.lab=1,font.lab=2)
+
+title(ylab="F-Measure", col.lab="black", cex.lab=1,font.lab=2)
+
+#title(main="Performance in Classification", col.main="red", font.main=4)
+
+legend(1,1.0,c("HTTPClient","Jackrabbit","Lucene"),cex=1.0,col=plot_colors, lty=c(1,2,4))
+
+dev.off()
+
+

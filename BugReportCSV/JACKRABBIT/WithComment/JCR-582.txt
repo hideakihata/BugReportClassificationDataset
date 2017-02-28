@@ -1,0 +1,2 @@
+No support for Oracle schemas
+Jackrabbit assumes that the table name f.e. prefix fs entry is unique across all schemas used on one oracle instance. So two Jackrabbit instances using two schemas on the same Oracle instance won t work.New versions of OracleFileSystem and OraclePersistenceManager. The only modification is in the checkSchema method. fixed in svn rev. 454389 thanks for reporting this issue and providing a patch 

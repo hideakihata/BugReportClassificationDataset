@@ -1,0 +1,2 @@
+PdfTextExtractor does not close temp file in case of an error
+If PDF parsing fails in PDFParser.parse a temp file is not closed and results in an open file handle.Fixed in revision 495663

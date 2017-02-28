@@ -1,0 +1,2 @@
+ItemSaveOperation should not swallow stacktrace
+When a StaleItemStateException is thrown the stacktrace is swallowed. This makes it much harder to figure out what went wrong from the logs.Thanks Committed with slight modifications in revision 1130228 and merged to the 2.2 branch in revision 1130235.

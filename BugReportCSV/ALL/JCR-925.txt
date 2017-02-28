@@ -1,0 +1,2 @@
+Incorrect transitive snapshot dependencies
+Using version in dependency declarations causes troubles since for snapshot dependencies the version variable apparently gets replaced by the exact timestamp of a deployed snapshot instead of the x.y-SNAPSHOT string. Typically the timestamps of different artifacts are not the same causing broken dependencies.Fixed in revision 538302. PS. I didn t mark this as fixed for any future version as the problem only affects SNAPSHOT dependencies.

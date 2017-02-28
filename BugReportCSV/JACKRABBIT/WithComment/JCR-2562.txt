@@ -1,0 +1,2 @@
+spi2davex uri-lookup not cleared after reordering referenceable same-name-siblings
+

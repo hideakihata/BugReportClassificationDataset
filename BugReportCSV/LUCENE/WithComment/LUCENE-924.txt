@@ -1,0 +1,2 @@
+IndexWriter has incomplete Javadocs
+A couple of getter methods in IndexWriter have no javadocs. I can take this one. All javadoc changes to add missing docs in IndexWriter.

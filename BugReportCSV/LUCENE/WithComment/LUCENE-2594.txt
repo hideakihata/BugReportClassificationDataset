@@ -1,0 +1,2 @@
+cutover oal.index. tests to use a random IWC to tease out bugs
+Current patch... tests still randomly fail though. Another iteration. latest iteration is stable on my machine OK mine too Ð 20 runs in a row with no failures. First I ll commit LUCENE-2593 then this. Latest patch Ð I think it s ready to commit but not yet merged w LUCENE-2593 commit . Committed revision 984202. I ll wait for LUCENE-2593 s merging before merging this one back to 3.x Committed revision 984298 to 3x Bulk close for 3.1

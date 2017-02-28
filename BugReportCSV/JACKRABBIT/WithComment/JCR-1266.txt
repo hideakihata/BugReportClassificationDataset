@@ -1,0 +1,2 @@
+Use creation tick instead of weak references in DocNumberCache
+This avoids the need to keep two maps in CachingMultiIndexReader. And I guess the fewer weak references the better...Changed in revision 602855

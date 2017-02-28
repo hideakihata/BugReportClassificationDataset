@@ -1,0 +1,2 @@
+Stats for Queries
+Re-enable the stats for queries as they were disabled during the refactoring phase.Fixed in revision 1186660

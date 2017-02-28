@@ -1,0 +1,2 @@
+URI.java readObject writeObject must be private
+In the class org.apache.commons.httpclient.URI the readObject writeObject methods are currently protected - they need to be private or Java will not invoke them.Fixed. Many thanks Sebastian Oleg

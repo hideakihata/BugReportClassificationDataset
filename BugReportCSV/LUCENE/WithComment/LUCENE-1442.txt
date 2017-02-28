@@ -1,0 +1,2 @@
+NOT ANALYZED fields can double-count offsets
+If the same field name has 2 NOT ANALYZED field instances then the offsets are double-counted. Attached patch. I plan to commit shortly. Committed revision 712233. Reopening for backport to 2.4.1. Committed revision 745796 on 2.4 branch.

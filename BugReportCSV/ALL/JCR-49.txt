@@ -1,0 +1,2 @@
+SQL query with jcr path LIKE foo only selects children
+A query like SELECT FROM nt base WHERE jcr path LIKE foo only selects the children of foo instead off all descendants of foo.Fixed in svn revision 154258 jcr path LIKE foo now selects descendants of fooClosing resolved issue.

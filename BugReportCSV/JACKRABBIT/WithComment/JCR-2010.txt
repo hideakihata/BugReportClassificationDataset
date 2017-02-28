@@ -1,0 +1,2 @@
+Retrieve row path via hierarchy manager instead of node
+Jackrabbit currently loads the node associated with a result row to retrieve the path. Loading the node may be prevented by retrieving the path from a caching hierarchy manager.Proposed patch.Updated patch. NodeIteratorImpl only calls next on the underlying ScoreNodeIterator when really needed - lazy initialization .Applied patch in revision 758193

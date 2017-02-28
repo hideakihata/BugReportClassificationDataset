@@ -1,0 +1,2 @@
+NullPointerException when using ancestor axis in indexing configuration
+Happens when there is an index-rule that matches the root node type and has a condition that uses the ancestor axis.Added rule to test indexing configuration and fixed implementation. Fixed in revision 926354

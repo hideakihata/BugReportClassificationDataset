@@ -1,0 +1,2 @@
+Remove deprecated Filter.bits and make Filter.getDocIdSet abstract.
+Removes the deprecated bits method and all references from core and contrib. All tests pass. I will commit this soon. Committed revision 822930.

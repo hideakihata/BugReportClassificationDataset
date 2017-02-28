@@ -1,0 +1,2 @@
+NamespaceRegistryImpl.getNameResolver getPathResolver always return null
+This seems to be a left over from restructuring commons classes JCR-1169. Those methods should be removed.Removed methods in revision 678788Merged to the 1.4 branch in revision 696274.

@@ -1,0 +1,2 @@
+In case of SocketTimeoutException and using HttpRequestRetryHandler the execution is always 1
+If my request encounter a SocketTimeoutException the HttpRequestRetryHandler retryRequest will be called with an executionCount with a value 1.Olivier Probably your expectation is wrong. The request execution counter starts at 1. However I found the issue with HttpClient passing the total execute count instead of the current request execute count to the retry handler. Fixed in trunk and 4.0.x. Oleg

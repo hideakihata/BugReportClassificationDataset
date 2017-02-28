@@ -1,0 +1,2 @@
+ API Doc Compile new preference architecture and HTTP parameterization guide
+Document the new preference architecture based on the hierarchy of HttpParams collections as well as available parameters and optionsCreated an attachment id 12684 Patch take 1 The preference architecture guide still needs quite a bit of polishing. Let me know how you think it is shaping up OlegNice work on these Oleg. I made a few minor changes but in general everything was quite good. These docs have been applied to HEAD. Mike

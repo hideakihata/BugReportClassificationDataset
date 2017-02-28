@@ -1,0 +1,2 @@
+ChainedTermEnum omits initial terms
+This is a regression caused by JCR-2393.Fixed in revision 884522

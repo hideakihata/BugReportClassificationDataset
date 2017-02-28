@@ -1,0 +1,2 @@
+Implement jcr-jackrabbit ... repository URIs
+The current file ... URIs used by the Jackrabbit RepositoryFactoryImpl class make it hard to support extra parameters and prevent other JCR implementations from using similar repository URI patterns. Thus I propose that we start supporting a jcr-jackrabbit ... URI pattern in addition to the current file ... pattern.Jackrabbit now supports repository URIs of the form jcr-jackrabbit path to repository. Additional repository configuration parameters can be included as query parameters in the URI.

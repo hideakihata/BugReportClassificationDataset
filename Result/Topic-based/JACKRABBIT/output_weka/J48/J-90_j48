@@ -1,0 +1,427 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   91
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+              TOPIC40
+              TOPIC41
+              TOPIC42
+              TOPIC43
+              TOPIC44
+              TOPIC45
+              TOPIC46
+              TOPIC47
+              TOPIC48
+              TOPIC49
+              TOPIC50
+              TOPIC51
+              TOPIC52
+              TOPIC53
+              TOPIC54
+              TOPIC55
+              TOPIC56
+              TOPIC57
+              TOPIC58
+              TOPIC59
+              TOPIC60
+              TOPIC61
+              TOPIC62
+              TOPIC63
+              TOPIC64
+              TOPIC65
+              TOPIC66
+              TOPIC67
+              TOPIC68
+              TOPIC69
+              TOPIC70
+              TOPIC71
+              TOPIC72
+              TOPIC73
+              TOPIC74
+              TOPIC75
+              TOPIC76
+              TOPIC77
+              TOPIC78
+              TOPIC79
+              TOPIC80
+              TOPIC81
+              TOPIC82
+              TOPIC83
+              TOPIC84
+              TOPIC85
+              TOPIC86
+              TOPIC87
+              TOPIC88
+              TOPIC89
+              CLASSIFY
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TOPIC13 <= 0
+|   TOPIC25 <= 0
+|   |   TOPIC40 <= 0
+|   |   |   TOPIC50 <= 0
+|   |   |   |   TOPIC15 <= 0
+|   |   |   |   |   TOPIC75 <= 0
+|   |   |   |   |   |   TOPIC56 <= 0
+|   |   |   |   |   |   |   TOPIC10 <= 0
+|   |   |   |   |   |   |   |   TOPIC8 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC14 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC26 <= 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC54 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC86 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC16 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC29 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC21 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC69 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC74 <= 0: BUG (111.0/27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC74 > 0: FEATURE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC12 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 <= 0: BUG (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 > 0: FEATURE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC12 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC69 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 <= 0: FEATURE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC78 <= 0: FEATURE (22.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC78 > 0: BUG (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC21 > 0: FEATURE (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0: FEATURE (15.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: FEATURE (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC84 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC89 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC80 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC6 <= 0: BUG (98.0/21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC6 > 0: FEATURE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC80 > 0: FEATURE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC89 > 0: FEATURE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 > 0: BUG (17.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC84 > 0: FEATURE (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC29 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC52 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC23 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC73 <= 0: FEATURE (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC73 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0: FEATURE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC23 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 > 0: BUG (13.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 > 0: BUG (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: BUG (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: FEATURE (18.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC38 > 0: FEATURE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC52 > 0: FEATURE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC9 > 0: BUG (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC16 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC52 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC39 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC20 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC71 <= 0: FEATURE (25.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC71 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC20 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC39 > 0: FEATURE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC52 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC57 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC62 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 <= 0: FEATURE (39.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 <= 0: FEATURE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC62 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC86 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC12 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC72 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 <= 0: FEATURE (34.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC39 <= 0: FEATURE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC39 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC72 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC12 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC54 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 <= 0: FEATURE (67.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0: BUG (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: FEATURE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 > 0: FEATURE (3.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC26 > 0: FEATURE (33.0/5.0)
+|   |   |   |   |   |   |   |   |   TOPIC14 > 0
+|   |   |   |   |   |   |   |   |   |   TOPIC84 <= 0: FEATURE (109.0/13.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC84 > 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC17 <= 0: FEATURE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC17 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   TOPIC8 > 0: FEATURE (43.0/5.0)
+|   |   |   |   |   |   |   TOPIC10 > 0
+|   |   |   |   |   |   |   |   TOPIC22 <= 0: FEATURE (47.0/2.0)
+|   |   |   |   |   |   |   |   TOPIC22 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   TOPIC56 > 0: FEATURE (35.0/2.0)
+|   |   |   |   |   TOPIC75 > 0: FEATURE (537.0/71.0)
+|   |   |   |   TOPIC15 > 0: FEATURE (56.0/2.0)
+|   |   |   TOPIC50 > 0
+|   |   |   |   TOPIC34 <= 0
+|   |   |   |   |   TOPIC17 <= 0
+|   |   |   |   |   |   TOPIC22 <= 0: BUG (38.0/5.0)
+|   |   |   |   |   |   TOPIC22 > 0: FEATURE (3.0/1.0)
+|   |   |   |   |   TOPIC17 > 0
+|   |   |   |   |   |   TOPIC88 <= 0
+|   |   |   |   |   |   |   TOPIC83 <= 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   TOPIC83 > 0: FEATURE (8.0)
+|   |   |   |   |   |   TOPIC88 > 0: BUG (2.0)
+|   |   |   |   TOPIC34 > 0: FEATURE (4.0)
+|   |   TOPIC40 > 0
+|   |   |   TOPIC8 <= 0
+|   |   |   |   TOPIC54 <= 0
+|   |   |   |   |   TOPIC75 <= 0
+|   |   |   |   |   |   TOPIC57 <= 0
+|   |   |   |   |   |   |   TOPIC71 <= 0
+|   |   |   |   |   |   |   |   TOPIC36 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC14 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC29 <= 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC12 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC15 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC50 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC80 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC49 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC58 <= 0: BUG (124.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC58 > 0: FEATURE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC49 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 <= 0: BUG (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 > 0: FEATURE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC73 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0: BUG (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC34 > 0: FEATURE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: FEATURE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: BUG (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC73 > 0: FEATURE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC38 > 0: BUG (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC80 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC22 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC53 <= 0: FEATURE (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC53 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC17 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC22 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC50 > 0: BUG (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC15 > 0: FEATURE (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC12 > 0: BUG (52.0/3.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC29 > 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC53 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC30 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC0 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC10 <= 0: FEATURE (32.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC10 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC66 > 0: BUG (14.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC0 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC30 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: BUG (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC53 > 0: BUG (5.0)
+|   |   |   |   |   |   |   |   |   TOPIC14 > 0
+|   |   |   |   |   |   |   |   |   |   TOPIC33 <= 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC69 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC21 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC84 <= 0: FEATURE (17.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC84 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC21 > 0: BUG (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC69 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC34 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC33 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   TOPIC36 > 0
+|   |   |   |   |   |   |   |   |   TOPIC9 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC27 <= 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC39 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 <= 0: FEATURE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC43 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 <= 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC3 > 0: FEATURE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC39 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC27 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   TOPIC9 > 0: BUG (3.0)
+|   |   |   |   |   |   |   TOPIC71 > 0: BUG (21.0/1.0)
+|   |   |   |   |   |   TOPIC57 > 0
+|   |   |   |   |   |   |   TOPIC53 <= 0
+|   |   |   |   |   |   |   |   TOPIC85 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC27 <= 0: FEATURE (40.0/10.0)
+|   |   |   |   |   |   |   |   |   TOPIC27 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   TOPIC85 > 0: BUG (4.0/1.0)
+|   |   |   |   |   |   |   TOPIC53 > 0: BUG (5.0/1.0)
+|   |   |   |   |   TOPIC75 > 0
+|   |   |   |   |   |   TOPIC22 <= 0
+|   |   |   |   |   |   |   TOPIC36 <= 0
+|   |   |   |   |   |   |   |   TOPIC12 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC16 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC34 <= 0
+|   |   |   |   |   |   |   |   |   |   |   TOPIC0 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC1 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC72 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC62 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC86 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC14 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC33 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC29 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC26 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 <= 0: FEATURE (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC83 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0: BUG (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: FEATURE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC26 > 0: FEATURE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC59 > 0: BUG (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC29 > 0: FEATURE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC48 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC33 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC14 > 0: BUG (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC86 > 0: FEATURE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC62 > 0: FEATURE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC72 > 0: FEATURE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   TOPIC5 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TOPIC1 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   |   TOPIC0 > 0: BUG (3.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC34 > 0: FEATURE (25.0/4.0)
+|   |   |   |   |   |   |   |   |   TOPIC16 > 0: FEATURE (9.0)
+|   |   |   |   |   |   |   |   TOPIC12 > 0
+|   |   |   |   |   |   |   |   |   TOPIC83 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC57 <= 0: BUG (17.0/3.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC57 > 0: FEATURE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   TOPIC83 > 0: FEATURE (6.0/2.0)
+|   |   |   |   |   |   |   TOPIC36 > 0: FEATURE (7.0)
+|   |   |   |   |   |   TOPIC22 > 0
+|   |   |   |   |   |   |   TOPIC43 <= 0: BUG (9.0/1.0)
+|   |   |   |   |   |   |   TOPIC43 > 0: FEATURE (3.0/1.0)
+|   |   |   |   TOPIC54 > 0
+|   |   |   |   |   TOPIC53 <= 0
+|   |   |   |   |   |   TOPIC9 <= 0
+|   |   |   |   |   |   |   TOPIC0 <= 0
+|   |   |   |   |   |   |   |   TOPIC48 <= 0: FEATURE (67.0/12.0)
+|   |   |   |   |   |   |   |   TOPIC48 > 0: BUG (3.0)
+|   |   |   |   |   |   |   TOPIC0 > 0: BUG (3.0)
+|   |   |   |   |   |   TOPIC9 > 0
+|   |   |   |   |   |   |   TOPIC75 <= 0: BUG (5.0)
+|   |   |   |   |   |   |   TOPIC75 > 0: FEATURE (2.0)
+|   |   |   |   |   TOPIC53 > 0: BUG (5.0)
+|   |   |   TOPIC8 > 0
+|   |   |   |   TOPIC54 <= 0: FEATURE (22.0/4.0)
+|   |   |   |   TOPIC54 > 0: BUG (3.0/1.0)
+|   TOPIC25 > 0
+|   |   TOPIC83 <= 0: BUG (29.0/3.0)
+|   |   TOPIC83 > 0
+|   |   |   TOPIC19 <= 0: BUG (2.0)
+|   |   |   TOPIC19 > 0: FEATURE (2.0)
+TOPIC13 > 0
+|   TOPIC57 <= 0: BUG (66.0/7.0)
+|   TOPIC57 > 0: FEATURE (5.0/1.0)
+
+Number of Leaves  : 	146
+
+Size of the tree : 	291
+
+
+Time taken to build model: 0.86 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1762               73.3555 %
+Incorrectly Classified Instances       640               26.6445 %
+Kappa statistic                          0.4291
+Mean absolute error                      0.3267
+Root mean squared error                  0.4558
+Relative absolute error                 68.6317 %
+Root relative squared error             93.4342 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.816     0.396      0.763	0.816	0.789      0.735    FEATURE
+                 0.604     0.184      0.678	0.604	0.639      0.735    BUG
+Weighted Avg.    0.734     0.313      0.73	0.734	0.73       0.735
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1195  269 |    a = FEATURE
+  371  567 |    b = BUG
+

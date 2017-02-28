@@ -1,0 +1,2 @@
+JcrValueType typeFromContentType throws IllegalArgumentException for type weak-ref and uri
+

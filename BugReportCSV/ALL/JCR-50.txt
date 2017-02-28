@@ -1,0 +1,2 @@
+Persistence data of versioning not cleaned up correctly
+when deleting a version or removing its label the respective persistence data is not always properly removed.Schedule for 1.0fix for JCR-374 also fixed this. Committed revision 393000. Merged to for 1.0.1 in revision 409516.

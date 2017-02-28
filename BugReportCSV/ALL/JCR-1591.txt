@@ -1,0 +1,2 @@
+JSR 283 NodeType Management
+implemented basic support with the following limitations - only trivial node type modifications are supported - node type de-registration is not supportedrepository descriptor is not set repository descriptor is not set done r797139 

@@ -1,0 +1,2 @@
+ PATCH HttpClient getHost HttpClient getPort methods are misleading
+HttpClient getHost HttpClient getPort methods are misleading accompanied by obsolete factually wrong javadocs and as such should be deprecated. OlegCreated an attachment id 11195 Patch against CVS HEAD Agreed. This one is good to go for both 2.0 and HEAD. MikeCommitted to CVS HEAD and 2.0 Oleg

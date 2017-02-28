@@ -1,0 +1,2 @@
+XMLTextFilter does not extract text elements
+XMLTextFilter only returns the text from attributes not the content of text elements Bugfix and test case included in the patch.Patch applied in revision 454276. Thanks a lot for the fix and the test case It was a stupid error in my code. -o

@@ -1,0 +1,2 @@
+Wrong link in javadoc of QNodeTypeDefinition
+The javadoc of QNodeTypeDefinition links to javax.jcr.nodetype.NodeDefinition instead of javax.jcr.nodetype.NodeTypeCommitted the patch in revision 580914 Thank you for the patch.

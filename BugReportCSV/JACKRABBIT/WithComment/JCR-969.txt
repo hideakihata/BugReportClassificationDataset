@@ -1,0 +1,2 @@
+better error for unknown date formats
+This small patch improves the exception message you get when the date format is unknown. better exceptionGood point. Patch applied in revision 546313. Thanks 

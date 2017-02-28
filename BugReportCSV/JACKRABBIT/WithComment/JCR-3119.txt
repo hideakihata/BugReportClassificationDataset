@@ -1,0 +1,2 @@
+Improve aggregate node indexing code
+Currently the aggregate nodes indexing code uses a sub-optimal way of copying and sorting the aggregated fields.Fixed in revision 1185735.

@@ -1,0 +1,2 @@
+Make inspection of BooleanQuery more efficient
+Just attempting to inspect a BooleanQuery allocates two new arrays. This could be cheaper. Changes Vector changed to ArrayList for efficiency to remove unneeded synchronization added clauses method to return the List changed getClauses to pre-allocate the correct size removing one allocation This should also be considered along with LUCENE-711 which sizes some of the other Vectors more appropriately. Closing... this patch has already been committed.

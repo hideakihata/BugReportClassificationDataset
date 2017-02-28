@@ -1,0 +1,2 @@
+analysis consumers should use reusable tokenstreams
+Some analysis consumers highlighter more like this memory index contrib queryparser ... are using Analyzer.tokenStream but should be using Analyzer.reusableTokenStream instead for better performance. patch synced up to trunk. I think its safe to commit now that LUCENE-3064 is in. Committed revision 1102817 1102820 Bulk closing for 3.2

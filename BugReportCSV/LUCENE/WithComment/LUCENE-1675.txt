@@ -1,0 +1,2 @@
+Add a link to the release archive
+It would be nice if the Releases page contained a link to the release archive at http archive.apache.org dist lucene java . Committed thanks Jukka The change should go live sometime tonite when Grant s cron job pushes it to production and Apache s mirrors then pick it up.

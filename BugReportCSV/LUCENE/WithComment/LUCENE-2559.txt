@@ -1,0 +1,2 @@
+reopen support for SegmentReader
+Reopen for SegmentReader can be supported simply as the following Override public synchronized IndexReader reopen throws CorruptIndexException IOException return reopenSegment this.si false readOnly Override public synchronized IndexReader reopen boolean openReadOnly throws CorruptIndexException IOException return reopenSegment this.si false openReadOnly Hi guys Any thoughts on this Thanks -John This looks good I ll commit shortly. Thanks John. Bulk close for 3.1

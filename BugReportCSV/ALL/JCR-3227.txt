@@ -1,0 +1,2 @@
+VolatileIndex not closed properly
+The MultiIndex.resetVolatileIndex method doesn t properly close the existing VolatileIndex instance before creating a new one. This can confuse the DynamicPooledExecutor reference count added in JCR-2836 leading to a background thread leak.yup that is indeed a bug the fix looks simple enough. attached proposed patch 1 looks good. The null assignment can be skipped since the next statement just overrides it. The null assignment can be skipped since the next statement just overrides it. agreed fixed in rev 1241461ported to 2.4 in rev 1304334.

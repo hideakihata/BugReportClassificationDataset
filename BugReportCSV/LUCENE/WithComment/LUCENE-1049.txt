@@ -1,0 +1,2 @@
+Simple toString for BooleanFilter
+While working with BooleanFilter I wanted a basic toString for debugging. This is what I came up. It works ok for me. Attached patch Jason - the patch looks like it is generated backwards minus signs not plusses . Oops here s a corrected patch Wrapped the whole toString with BooleanFilter to match the toString s for other filters Committed in revision 595996

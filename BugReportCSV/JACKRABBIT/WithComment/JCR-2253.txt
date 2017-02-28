@@ -1,0 +1,2 @@
+Discovery of privileges of any set of Principals
+jsr 283 defines means to discover the privileges for the editing session. however there is no way to determine the privileges for other principals.

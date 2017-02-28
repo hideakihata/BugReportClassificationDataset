@@ -1,0 +1,2 @@
+Avoid string concatenation in AbstractBundlePersistenceManager
+The following line         log.debug stored bundle bundle.getId should be changed to         log.debug stored bundle bundle.getId Changed in revision 794304Merged to the 1.x branch in revision 801215.

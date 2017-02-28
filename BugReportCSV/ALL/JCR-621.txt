@@ -1,0 +1,2 @@
+create jcr-browser contrib project
+If noone oposes I ll start a contrib project called jcr-browser. A live demo of the initial code is available at http edgarpoce.dyndns.org 8080 jcr-browser jcr-browser project added in rev. 473755

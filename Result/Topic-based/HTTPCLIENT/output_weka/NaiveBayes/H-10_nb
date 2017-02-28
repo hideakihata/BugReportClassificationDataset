@@ -1,0 +1,116 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   11
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute      FEATURE     BUG
+                (0.59)  (0.41)
+===============================
+TOPIC0
+  mean           0.2273  0.3639
+  std. dev.      0.4191  0.4811
+  weight sum        440     305
+  precision           1       1
+
+TOPIC1
+  mean           0.9455  0.9508
+  std. dev.      0.2271  0.2162
+  weight sum        440     305
+  precision           1       1
+
+TOPIC2
+  mean           0.1909  0.1541
+  std. dev.       0.393   0.361
+  weight sum        440     305
+  precision           1       1
+
+TOPIC3
+  mean           0.1795  0.2623
+  std. dev.      0.3838  0.4399
+  weight sum        440     305
+  precision           1       1
+
+TOPIC4
+  mean           0.0455  0.1574
+  std. dev.      0.2083  0.3642
+  weight sum        440     305
+  precision           1       1
+
+TOPIC5
+  mean           0.6386  0.3508
+  std. dev.      0.4804  0.4772
+  weight sum        440     305
+  precision           1       1
+
+TOPIC6
+  mean           0.2409   0.377
+  std. dev.      0.4276  0.4846
+  weight sum        440     305
+  precision           1       1
+
+TOPIC7
+  mean           0.3295  0.1738
+  std. dev.        0.47  0.3789
+  weight sum        440     305
+  precision           1       1
+
+TOPIC8
+  mean           0.1841  0.2328
+  std. dev.      0.3876  0.4226
+  weight sum        440     305
+  precision           1       1
+
+TOPIC9
+  mean           0.1023  0.0623
+  std. dev.       0.303  0.2417
+  weight sum        440     305
+  precision           1       1
+
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         521               69.9329 %
+Incorrectly Classified Instances       224               30.0671 %
+Kappa statistic                          0.3481
+Mean absolute error                      0.4022
+Root mean squared error                  0.4604
+Relative absolute error                 83.1702 %
+Root relative squared error             93.6255 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.85      0.518      0.703     0.85      0.77       0.722    FEATURE
+                 0.482     0.15       0.69      0.482     0.568      0.722    BUG
+Weighted Avg.    0.699     0.367      0.698	0.699	0.687      0.722
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 374  66 |   a = FEATURE
+ 158 147 |   b = BUG
+

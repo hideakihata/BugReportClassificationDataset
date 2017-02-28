@@ -1,0 +1,2 @@
+Make DefaultSecurityManager the default security manager instead of SimpleSecurityManager 
+JCR-2164 made DefaultSecurityManager the default security manager for test runs. However the repository.xml included in jackrabbit core and the one for cluster tests still refer to the SimpleSecurityManager. For consistency reasons I think it makes sense to change these places to DefaultSecurityManager.proposed patchApplied the patch at revision 1043343

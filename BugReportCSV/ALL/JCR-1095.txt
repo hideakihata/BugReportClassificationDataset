@@ -1,0 +1,2 @@
+ReferencesPropertyTest can t deal with multivalued reference properties
+The setUp method uses prop.getNode thus assuming that the reference property is not multivalued. Fixed with revision 570520. Turns out that there are more assumptions wrt the single-valued-ness. Revised proposal update code so that the mv-ness of the desired property can be specified by the test case. Fixed with revision 570564. Fixed subsequent failure in spi client with revision 570565. Merged to the 1.3 branch in revision 577867.

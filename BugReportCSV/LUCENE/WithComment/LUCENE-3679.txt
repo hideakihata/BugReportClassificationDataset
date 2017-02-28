@@ -1,0 +1,2 @@
+Replace IndexReader.getFieldNames with IndexReader.getFieldInfos
+We already have FieldInfo s to record which fields were indexed I think we should make this public experimental to replace IR.getFieldNames FieldOption . Patch tests pass. I think it s ready New patch I fixed the composite readers to throw UOE from getFieldInfos to match how I port to 4.0. I added ReaderUtil.getMergedFieldInfos IR as sugar to do the merging from the subs... I think it s ready. patch looks good to me 

@@ -1,0 +1,2 @@
+Missing dependencies in two generated maven pom files
+There are some missing dependencies in generated maven pom.xml files benchmark and highlighter Committed revision 736340. Thanks Sami 

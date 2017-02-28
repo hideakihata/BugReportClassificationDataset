@@ -1,0 +1,2 @@
+XPath relative path support missing for is null and is not null 
+I believe the change for issue JCR-247 is incomplete for instance    x and    foo x are parsed into the same query tree.Seems to be caused by missing code in   XPathQueryBuilder.visit SimpleNode Object for case JJSTEPEXPR when isAttributeAxis returns false and queryNode.getType is OPERATION NULL or OPERATION NOT NULL. Fixed in revision 553213Merged to the 1.3 branch in revision 554627.

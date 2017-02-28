@@ -1,0 +1,2 @@
+Add example test case for surround query language
+Add a fairly complex test case to Test03Distance plus some test code refactoring. Also correct a few typo s in README.txt.

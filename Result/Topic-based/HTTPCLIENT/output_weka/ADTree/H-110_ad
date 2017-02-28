@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   111
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)TOPIC95 < 0.5: 0.049
+|  |  (2)TOPIC68 < 0.5: 0.057
+|  |  |  (10)TOPIC73 < 0.5: -0.117
+|  |  |  (10)TOPIC73 >= 0.5: 0.175
+|  |  (2)TOPIC68 >= 0.5: -1.116
+|  |  (3)TOPIC69 < 0.5: 0.058
+|  |  |  (5)TOPIC98 < 0.5: 0.062
+|  |  |  |  (6)TOPIC56 < 0.5: 0.124
+|  |  |  |  (6)TOPIC56 >= 0.5: -0.28
+|  |  |  |  (8)TOPIC75 < 0.5: 0.063
+|  |  |  |  (8)TOPIC75 >= 0.5: -0.642
+|  |  |  (5)TOPIC98 >= 0.5: -0.777
+|  |  (3)TOPIC69 >= 0.5: -0.805
+|  (1)TOPIC95 >= 0.5: -1.409
+|  (4)TOPIC22 < 0.5: -0.079
+|  |  (7)TOPIC26 < 0.5: 0.047
+|  |  (7)TOPIC26 >= 0.5: -0.452
+|  |  (9)TOPIC30 < 0.5: -0.084
+|  |  (9)TOPIC30 >= 0.5: 0.43
+|  (4)TOPIC22 >= 0.5: 0.712
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.69 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         499               66.9799 %
+Incorrectly Classified Instances       246               33.0201 %
+Kappa statistic                          0.3095
+Mean absolute error                      0.4201
+Root mean squared error                  0.4494
+Relative absolute error                 86.8673 %
+Root relative squared error             91.3866 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.745     0.439      0.71	0.745	0.727      0.745    FEATURE
+                 0.561     0.255      0.604	0.561	0.582      0.745    BUG
+Weighted Avg.    0.67      0.364      0.667	0.67	0.668      0.745
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 328 112 |   a = FEATURE
+ 134 171 |   b = BUG
+

@@ -1,0 +1,2 @@
+XMLIndexFilter should index the attributes
+text xml indexer extracts the elements text but not the attribute values.Fixed in revision 418444.

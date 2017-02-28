@@ -1,0 +1,2 @@
+Refactoring config handling
+As discussed on the mailing list     Move all XML handling to a separate ConfigurationParser class     Clean up and document the Config classes     Get rid of the messy AbstractConfig classI m mostly done see http article.gmane.org gmane.comp.apache.jackrabbit.devel 1012

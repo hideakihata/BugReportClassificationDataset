@@ -1,0 +1,2 @@
+speedup recycling of per-doc RAM
+Robert found one source of slowness when indexing tiny docs where we use List.toArray to recycle the byte buffers used by per-doc doc store state stored field term vectors . This was added in LUCENE-2283 so not yet released. Simple patch avoids the .toArray. I ll commit shortly.

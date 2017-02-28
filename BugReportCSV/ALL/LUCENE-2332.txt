@@ -1,0 +1,2 @@
+Merge CharTermAttribute and deprecations to stable
+This should be merged to trunk until flex lands so the analyzers can be ported to new api. I agree. This gives us a chance to make sure it really works the way we want by porting all our own analyzers to the attribute. Also we can hopefully simplify improve some code e.g. PatternReplaceFilter with the new capabilities. Flex was merged so this is no longer needed. Merged from trunk rev. 940806

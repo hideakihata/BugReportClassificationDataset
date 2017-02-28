@@ -1,0 +1,2 @@
+Collection parameter of CompactNodeTypeDefWriter write should be covariant
+The Collection QNodeTypeDefinition parameter of the CompactNodeTypeDefWriter write methods should have type Collection extends QNodeTypeDefinition .Fixed at revision 899391Merged to the 2.0 branch in revision 900786.

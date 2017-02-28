@@ -1,0 +1,2 @@
+changes-to-html better handling of bulleted lists in CHANGES.txt
+bulleted lists should be rendered as such in output HTML Patch to handle bulleted lists in CHANGES.txt and remove code tag workarounds from CHANGES.txt. Works as expected thanks I will commit this to trunk and lucene 30 before release Committed At revision 881213 trunk At revision 881216 3.0 Thanks Steven 

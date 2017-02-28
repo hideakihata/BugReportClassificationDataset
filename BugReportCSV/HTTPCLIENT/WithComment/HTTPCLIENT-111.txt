@@ -1,0 +1,2 @@
+Add multi-part post support
+Add a new method to support multi-part post.Added Matthew Albright s files from the mailing list http www.mail-archive.com commons-dev jakarta.apache.org msg01702.html Still to be done 1 instrument for commons-logging 2 write a junit test suite 3 add to some of the example programs Thanks Matthew for the code and thanks to Mark for bringing this up again. HTTPCLIENT-96 has been marked as a duplicate of this bug. Multi-part post is in place. Thanks to everyone who worked on it.

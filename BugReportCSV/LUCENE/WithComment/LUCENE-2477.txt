@@ -1,0 +1,2 @@
+remove MoreLikeThis s default analyzer
+MoreLikeThis has the following public static final Analyzer DEFAULT ANALYZER new StandardAnalyzer Version.LUCENE CURRENT patch for 4.0 which sets the default to null. If you don t have term vectors and dont set the analyzer it throws a UOE. All tests pass for the 3.1 backport instead of setting it to null we simply deprecate DEFAULT ANALYZER and specify that you must provide it if you are using stored fields. 1 here is the 3x patch it just deprecates the default . Committed revision 949741. Bulk close for 3.1

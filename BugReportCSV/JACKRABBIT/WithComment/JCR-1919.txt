@@ -1,0 +1,2 @@
+Update copyright year to 2009
+Our normal license headers don t contain copyright years but the NOTICE.txt files do. We should update the year to 2009 where appropriate. I updated the copyright years both in trunk and in the 1.5 branch.

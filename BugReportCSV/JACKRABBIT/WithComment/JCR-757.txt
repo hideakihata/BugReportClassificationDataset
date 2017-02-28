@@ -1,0 +1,2 @@
+Allow multiple producers to feed consume journal
+Some clustered application based on jackrabbit might want to append custom records to the central journal in order to synchronize all nodes. Therefore journal should provide support for multiple consumers producers.Added consumer producer functionality to the journal and moved the associated classes to o.a.j.core.journal. Fixed in revision 509624.

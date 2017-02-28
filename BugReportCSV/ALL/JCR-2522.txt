@@ -1,0 +1,2 @@
+unable to workspace import XML.
+tika detects xml as application xml thus breaking the org.apache.jackrabbit.server.io.XmlHandler which just checks for text xml .fixed by accepting 2ndary mime type application xml 

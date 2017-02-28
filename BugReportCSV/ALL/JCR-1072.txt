@@ -1,0 +1,2 @@
+SPI-commons QValueTest.testDateValueEquality2 fails due to changes made with JCR-1018
+with the introduction of QValue.getCalendar the internal value for DATE-properties is now a Calendar was String . however the equals method has not been adjusted.fixed rev. 568172

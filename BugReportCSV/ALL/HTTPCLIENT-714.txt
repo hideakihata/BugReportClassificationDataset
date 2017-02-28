@@ -1,0 +1,2 @@
+move route computation from client to director
+The computation of routes should be done in the ClientRequestDirector not in the Client. The director needs to compute routes for redirects so it should compute all routes. Computation of original route moved to director. Computation of followup route in director still unchanged.

@@ -1,0 +1,2 @@
+Demo and contrib jars should contain NOTICE.TXT and LICENSE.TXT
+We should include NOTICE.TXT and LICENSE.TXT not only in the core jar but also in the demo and contrib jars. With this patch the two files are included in the META-INF dir of the demo jar the demo war and the contrib jars. I will commit this soon. Committed.

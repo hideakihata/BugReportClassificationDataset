@@ -1,0 +1,2 @@
+ChangeLogRecord throws NullPointerException
+Happens when the userId of the session that created the events is null.Fixed in revision 794253Merged to the 1.x branch in revision 800881.

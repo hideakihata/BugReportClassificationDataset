@@ -1,0 +1,2 @@
+ PATCH import cleanup
+This patch just removes useless imports so you get less warnings in Eclipse. Created an attachment id 12073 cleanup patch Thanks applied. Doesn t seem to break any javadocs which is why sometimes one can find extra imports in Lucene s source code.

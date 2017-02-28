@@ -1,0 +1,2 @@
+Allow to override LockManager creation
+Currently Repository.getLockManager internally creates a new lock manager if needed. Jackrabbit should provide an extension point so that a JCR repository that extends it can create a custom lock manager.Implemented in the trunk.

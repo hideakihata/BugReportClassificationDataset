@@ -1,0 +1,2 @@
+IndexReader.indexExists sometimes returns true when an index isn t present
+If you open a writer on a new dir and prepareCommit but don t finish the commit IndexReader.indexExists incorrectly returns true because it just checks for whether a segments N file is present and not whether it can be successfully read. Simple fix. Looks good Bulk close for 3.1

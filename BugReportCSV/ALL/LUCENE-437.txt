@@ -1,0 +1,2 @@
+SnowballFilter loses token position offset
+SnowballFilter doesn t set the token position increment and thus it defaults to 1 . This also affetcs SnowballAnalyzer since it uses SnowballFilter. svn diff for the testcase and patch. Q for future patches should the diffs be in one file or multiple files Yonik - thanks for the patch It has been applied.

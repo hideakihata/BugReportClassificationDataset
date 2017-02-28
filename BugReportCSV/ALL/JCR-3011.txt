@@ -1,0 +1,2 @@
+Fix incorrect IndexingQueueTest logic
+The IndexingQueueTest class assumes that a Session.save call will push all pending text extraction tasks to the indexing queue when in fact those can still be kept waiting in the VolatileIndex.Fixed in revision 1143198.

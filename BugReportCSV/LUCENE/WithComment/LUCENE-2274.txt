@@ -1,0 +1,2 @@
+Catch exceptions in Threads created by JUnit tasks
+On hudson we had several assertions failed in TestRAMDirectory that were never caught by the error reportier in JUnit as the test itsself did not fail . This patch adds a handler for uncaught exceptions to LuceneTestCase J4 that let the test fail in tearDown . The patch also fixes error reporting in the NRT test somehow unrelated but goes in same direction . New patch with improvements from IRC Mike McCandless revert for NRT to stdout Chain the handlers New patch looks good Uwe Committed Revision 912376

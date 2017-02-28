@@ -1,0 +1,2 @@
+Handle Null Arguments consistantly
+Consider throwing a NullPointerException or InvalidArgumentException for null argument when they are not allowed. Be consistant and document behaviour.These have been completed as part of the refactoring

@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   151
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)TOPIC12 < 0.5: -0.241
+|  |  (3)TOPIC25 < 0.5: 0.079
+|  |  (3)TOPIC25 >= 0.5: -0.76
+|  (1)TOPIC12 >= 0.5: 0.403
+|  (2)TOPIC123 < 0.5: 0.057
+|  |  (5)TOPIC69 < 0.5: 0.031
+|  |  (5)TOPIC69 >= 0.5: -0.985
+|  |  (6)TOPIC121 < 0.5: 0.059
+|  |  (6)TOPIC121 >= 0.5: -0.447
+|  (2)TOPIC123 >= 0.5: -0.947
+|  (4)TOPIC84 < 0.5: 0.031
+|  (4)TOPIC84 >= 0.5: -1.102
+|  (7)TOPIC62 < 0.5: 0.038
+|  |  (10)TOPIC105 < 0.5: -0.046
+|  |  (10)TOPIC105 >= 0.5: 0.494
+|  (7)TOPIC62 >= 0.5: -0.678
+|  (8)TOPIC124 < 0.5: 0.029
+|  |  (9)TOPIC11 < 0.5: -0.036
+|  |  (9)TOPIC11 >= 0.5: 0.613
+|  (8)TOPIC124 >= 0.5: -0.821
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.94 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         526               70.604  %
+Incorrectly Classified Instances       219               29.396  %
+Kappa statistic                          0.367 
+Mean absolute error                      0.423 
+Root mean squared error                  0.4484
+Relative absolute error                 87.4621 %
+Root relative squared error             91.1942 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.841     0.489      0.713	0.841	0.772      0.745    FEATURE
+                 0.511     0.159      0.69	0.511	0.588      0.745    BUG
+Weighted Avg.    0.706     0.354      0.704	0.706	0.696      0.745
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 370  70 |   a = FEATURE
+ 149 156 |   b = BUG
+

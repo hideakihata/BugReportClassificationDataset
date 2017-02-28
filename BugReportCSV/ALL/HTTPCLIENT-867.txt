@@ -1,0 +1,2 @@
+Logging documentation refers to nonexisting level ERROR in java.util.logging section
+Page Logging Practices Section java.util.logging Examples http hc.apache.org httpcomponents-client logging.html says org.apache.http.level FINEST org.apache.http.wire.level ERROR However there is no such thing as java.util.logging.Level.ERROR Did you mean SEVERE as in Logger.getLogger org.apache.http.wire .setLevel Level.SEVERE ThanksPatch to issue HTTPCLIENT-868 also fixes this issue.Fixed in trunk. Oleg

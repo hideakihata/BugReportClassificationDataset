@@ -1,0 +1,2 @@
+Misleading method names in SetValueBinaryTest
+Some of the method names in SetValueBinaryTest say Boolean when they should say Binary copy paste error from SetValueBooleanTest . Resolved with revision 521299.

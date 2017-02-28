@@ -1,0 +1,2 @@
+Make contrib collation ICU CollationKeyAnalyzer constructors public
+In contrib collation the constructors for CollationKeyAnalyzer and ICUCollationKeyAnalyzer are package private and so are effectively unusable. trivial patch adding public access to currently package private constructors Thanks Steve I ll commit shortly 

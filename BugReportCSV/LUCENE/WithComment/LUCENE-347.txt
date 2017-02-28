@@ -1,0 +1,2 @@
+ PATCH Javadoc correction for Scorer.java
+Created an attachment id 14322 Javadoc correction for Scorer.java applied thanks 

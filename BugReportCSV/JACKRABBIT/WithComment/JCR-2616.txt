@@ -1,0 +1,2 @@
+ItemInfoCacheImpl.getNodeInfo and .getPropertyInfo might not clear all relevant entries
+ItemInfoCacheImpl.getNodeInfo and .getPropertyInfo remove the retrieved entry from the cache. since entries might be cached by id AND path entires identified by path are not removed from the cache if they re retrieved by id.proposed patchsee JCR-2616.patchApplied patch at revision 938099 org.apache.jackrabbit.jcr2dav.ConformanceTest passedMerged to the 2.1 branch in revision 982293.

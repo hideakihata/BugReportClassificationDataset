@@ -1,0 +1,2 @@
+TestUTF32ToUTF8 can run forever
+Stress testing this particular test uncovered that the testRandomRanges testcase can run forever depending on the random numbers picked... Attached patch more carefully mapping around the surrogates. I also fixed LuceneTestCase J4 to pre-print the random seed if -Dtests.verbose is specified. This is important for tests that hit an infinite loop

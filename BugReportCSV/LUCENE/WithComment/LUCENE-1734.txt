@@ -1,0 +1,2 @@
+CharReader should delegate reset mark markSupported
+The final class CharReader should delegate reset mark markSupported to its wrapped reader. Otherwise clients will get reset not supported exception. CharFilter can delegate too. I d like to call reset to rewind reader in SOLR-1256. I think this patch looks good. I will commit shortly. Committed revision 791415. Thanks Koji 

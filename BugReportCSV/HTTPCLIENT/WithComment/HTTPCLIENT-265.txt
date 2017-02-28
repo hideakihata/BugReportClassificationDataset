@@ -1,0 +1,2 @@
+Error releasing chunked connections with no response body.
+HttpMethodBase.releaseConnection does not successfully release the connection if closing the response stream throws an exception.Created an attachment id 8009 Fix1 I think this should take care of the problem. MikeAny objections to committing this MikeOk for mePatch applied.

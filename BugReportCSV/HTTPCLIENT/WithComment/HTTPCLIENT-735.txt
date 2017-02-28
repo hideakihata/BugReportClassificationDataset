@@ -1,0 +1,2 @@
+allow unsetting of DEFAULT PROXY and FORCED ROUTE parameters in the client stack
+Since we don t want to delay client alpha3 until HTTPCORE-139 is solved in beta2 we need a parameter specific solution for unsetting these client parameters on the request level. Roland Why not make NO HOST a little prettier public static final HttpHost NO HOST new HttpHost -1 Oleg

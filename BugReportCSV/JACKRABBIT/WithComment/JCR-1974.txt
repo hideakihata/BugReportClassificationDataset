@@ -1,0 +1,2 @@
+JSR 283 Evaluate Capabilities
+Exposed by Session.hasCapabilitytrivial implementation added in svn r797489

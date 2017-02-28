@@ -1,0 +1,2 @@
+SPI2DAV setup automated test execution
+task copied from JCR-1877this has been covered by JCR-2451 - tests using spi2dav are executed within the jcr2dav setup

@@ -1,0 +1,2 @@
+additional conditional compliance tests for the caching module for Content-Encoding Content-Location Date Expires Server Transfer-Encoding and Vary headers
+Patch is forthcoming.This patch contains some additional unit tests for TestProtocolRequirements to capture some additional MUSTs and MUST NOTs from the RFC. The current implementation already passes all these so these are mostly useful as documentation and refactoring safety net. This patch is contributed with the permission of my employer. Patch checked in. Oleg

@@ -1,0 +1,2 @@
+CompactNodeTypeDefWriter does not escaped names properly
+CompactNodeTypeDefWriter does not escaped names properly. If the name includes a - or a the names must be surrounded by single quotes.This patch surrounds names with single quotes if neededPatch applied in revision 475687. Thanks 

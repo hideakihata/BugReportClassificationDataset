@@ -1,0 +1,2 @@
+Enable maven-source-plugin
+Currently the maven-source-plugin is enabled by default in jackrabbit-jcr-rmi but it would be good to enable it globally for all Jackrabbit components.Enabled maven-source-plugin in revision 495311.

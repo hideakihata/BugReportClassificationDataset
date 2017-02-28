@@ -1,0 +1,2 @@
+web.xml refers to 2.2 dtd
+the web.xml present in the jackrabbit-webapp project contains the following doctype DOCTYPE web-app PUBLIC - Sun Microsystems Inc. DTD Web Application 2.3 EN http java.sun.com j2ee dtds web-app 2 2.dtd what is probably meant is DOCTYPE web-app PUBLIC - Sun Microsystems Inc. DTD Web Application 2.3 EN http java.sun.com dtd web-app 2 3.dtd since the dependency also points to version 2.3 of the servlet-api if nobody objects i will adjust it accordingly.fixed with rev. 741213

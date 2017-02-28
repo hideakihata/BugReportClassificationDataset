@@ -1,0 +1,2 @@
+SPI provide batch read functionality
+extend RepositoryService interface to allow for BatchRead and modify jcr2spi accordingly.initial changes for batch-read with rev. 552873

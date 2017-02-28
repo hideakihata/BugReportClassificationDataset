@@ -1,0 +1,2 @@
+JSR 283 Workspace Management
+workspace creation is supported workspace removal is currently not supported i.e. Workspace deleteWorkspace String throws UnsupportedRepositoryOperationException. workspace removal would IMO require an extension to the PersistenceManager interface.

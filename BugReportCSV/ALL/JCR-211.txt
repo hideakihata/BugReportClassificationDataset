@@ -1,0 +1,2 @@
+jcr ext doesn t compile with jdk 1.4
+IllegalStateException String str Exception e isn t supported.if noone objects I ll apply the patchSeems fine be my guest. - 

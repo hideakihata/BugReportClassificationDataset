@@ -1,0 +1,2 @@
+Fixed Spelling mailinglist.xml
+Just fixed some spelling in the mailinglist.xml in java trunk xdocs Thanks committed.

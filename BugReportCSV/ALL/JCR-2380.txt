@@ -1,0 +1,2 @@
+NPE in ObservationManagerImpl.getRegisteredEventListeners during shutdown after broken startup
+See JCR-2378. The variable dispatcher is passed as null in the constructor.Explicitly throwing NPE earlier in constructor as it is done for other parameters as well in revision 831934. Keeping the bug open to look for a full solution as Jukka suggested in JCR-2378. Although I guess the NPE is a result of a non-stable startup. Jukka I came across this issue again by chance. I think it can be closed.OK. Marked as resolved for 2.0-beta3 for correct history.

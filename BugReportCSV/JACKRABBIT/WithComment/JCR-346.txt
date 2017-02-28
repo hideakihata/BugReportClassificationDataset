@@ -1,0 +1,2 @@
+Jcr-Server ItemDefinitionImpl.toXml throws NPE for the root node.
+ItemDefinitionImpl.toXml throws NPE for the root node due to a missing assertion regarding the declaring nodetype.fixed to be included in Version 1.0 rev 385459

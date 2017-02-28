@@ -1,0 +1,202 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,670,816,714,299,213,806,598,217,804,436,581,580,106,500,776,596,450,204,930,216,849,502,586,916,942,878,420,346,958,393,1
+Instances:    2402
+Attributes:   51
+              lang
+              java
+              org
+              core
+              merged
+              branch
+              apache
+              nullpointerexception
+              exception
+              reproduce
+              state
+              addnode
+              invoke
+              jackrabbit
+              begin
+              fixed
+              throws
+              save
+              xaitemstatemanager
+              getrootnode
+              problem
+              shareditemstatemanager
+              reflect
+              fails
+              delegatingmethodaccessorimpl
+              sessionitemstatemanager
+              null
+              dependency
+              session
+              itemimpl
+              nativemethodaccessorimpl
+              native
+              caused
+              localitemstatemanager
+              run
+              npe
+              javax
+              deadlock
+              transaction
+              dependencies
+              stack
+              lock
+              node
+              thrown
+              unable
+              sun
+              interface
+              getpath
+              util
+              improve
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                  Class
+Variable                            BUG
+=======================================
+lang                             0.2958
+java                             0.0437
+org                              0.1391
+core                             0.0249
+merged                           0.7467
+branch                           0.0923
+apache                          -0.0297
+nullpointerexception             1.3452
+exception                       -0.0638
+reproduce                        0.7758
+state                           -0.0351
+addnode                          0.3292
+invoke                          -0.4769
+jackrabbit                      -0.1344
+begin                            0.8113
+fixed                             0.409
+throws                           0.2412
+save                            -0.1209
+xaitemstatemanager              -0.7525
+getrootnode                      0.4543
+problem                          0.1001
+shareditemstatemanager           0.3108
+reflect                         -0.0796
+fails                            0.6191
+delegatingmethodaccessorimpl      1.184
+sessionitemstatemanager          -0.273
+null                             0.0542
+dependency                      -0.4466
+session                          0.0428
+itemimpl                          -0.02
+nativemethodaccessorimpl         0.2884
+native                          -0.7971
+caused                           0.0176
+localitemstatemanager           -0.0951
+run                             -0.1392
+npe                               0.793
+javax                            0.0001
+deadlock                         0.5682
+transaction                      0.2732
+dependencies                    -1.3086
+stack                           -0.4224
+lock                             0.0065
+node                             0.0127
+thrown                           0.3914
+unable                            0.589
+sun                              0.0299
+interface                       -0.6033
+getpath                          0.4779
+util                            -0.0328
+improve                         -3.5292
+Intercept                       -1.1517
+
+
+Odds Ratios...
+                                  Class
+Variable                            BUG
+=======================================
+lang                             1.3442
+java                             1.0447
+org                              1.1493
+core                             1.0253
+merged                           2.1101
+branch                           1.0967
+apache                           0.9707
+nullpointerexception              3.839
+exception                        0.9382
+reproduce                        2.1723
+state                            0.9655
+addnode                          1.3898
+invoke                           0.6207
+jackrabbit                       0.8743
+begin                            2.2509
+fixed                            1.5053
+throws                           1.2728
+save                             0.8861
+xaitemstatemanager               0.4712
+getrootnode                      1.5751
+problem                          1.1052
+shareditemstatemanager           1.3645
+reflect                          0.9235
+fails                            1.8573
+delegatingmethodaccessorimpl     3.2676
+sessionitemstatemanager          0.7611
+null                             1.0557
+dependency                       0.6398
+session                          1.0437
+itemimpl                         0.9802
+nativemethodaccessorimpl         1.3342
+native                           0.4506
+caused                           1.0178
+localitemstatemanager            0.9093
+run                                0.87
+npe                              2.2099
+javax                            1.0001
+deadlock                          1.765
+transaction                      1.3142
+dependencies                     0.2702
+stack                            0.6555
+lock                             1.0065
+node                             1.0128
+thrown                           1.4791
+unable                           1.8022
+sun                              1.0304
+interface                         0.547
+getpath                          1.6126
+util                             0.9678
+improve                          0.0293
+
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1739               72.398  %
+Incorrectly Classified Instances       663               27.602  %
+Kappa statistic                          0.3857
+Mean absolute error                      0.3634
+Root mean squared error                  0.4309
+Relative absolute error                 76.3284 %
+Root relative squared error             88.3184 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.49      0.126      0.713	0.49	0.581      0.784    BUG
+                 0.874     0.51       0.728	0.874	0.794      0.784    FEATURE
+Weighted Avg.    0.724     0.36       0.722	0.724	0.711      0.784
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  460  478 |    a = BUG
+  185 1279 |    b = FEATURE
+

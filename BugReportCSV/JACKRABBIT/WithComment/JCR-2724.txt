@@ -1,0 +1,2 @@
+Wrong argument check in BTreeManager constructor
+In the constructor of BTreeManager the argument check on maxChildren and minChildren is wrong. Instead of         if 2 minChildren maxChildren             throw new IllegalArgumentException maxChildren must be at least twice minChildren          it should be         if 2 minChildren maxChildren             throw new IllegalArgumentException maxChildren must be at least twice minChildren          Fixed at revision 988160

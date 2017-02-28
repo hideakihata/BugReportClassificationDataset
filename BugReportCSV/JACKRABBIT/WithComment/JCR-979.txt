@@ -1,0 +1,2 @@
+Extend apache parent pom for Apache wide configuration
+Apache wide config is published in the apache parent pom please usePatch applied in revision 550489. Thanks 

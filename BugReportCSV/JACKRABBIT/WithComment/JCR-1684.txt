@@ -1,0 +1,2 @@
+SPI sandbox use tests-jars introduced with JCR-1629 and JCR-1683
+... and remove the duplicated tests.

@@ -1,0 +1,2 @@
+Add Rewriteable Support to SortField.toString
+I missed adding support for the new Rewriteable SortField type to toString . Patch adding support. I will now commit. Committed revision 1138281.

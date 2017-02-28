@@ -1,0 +1,2 @@
+ PATCH add term index interval accessors
+It should be possible for folks to set the index interval used when writing indexes. Created an attachment id 14421 patch to add accessors for term index interval This patch has been applied.

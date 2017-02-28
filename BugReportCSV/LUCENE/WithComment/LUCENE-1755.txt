@@ -1,0 +1,2 @@
+WriteLineDocTask should keep docs w just title and no body
+WriteLineDocTask throws away a document if it does not have a body element. However if the document has a title then it should be kept. Some documents such as emails may not have a body which is legitimate. I ll post a patch a test case. Fix in WriteLineDocTask test cases. All Benchmark tests pass. Thanks Shai 

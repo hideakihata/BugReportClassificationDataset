@@ -1,0 +1,2 @@
+leak in MultiThreadedHttpConnectionManager.ConnectionPool.mapHosts
+Once entries are added to MultiThreadedHttpConnectionManager.ConnectionPool.mapHosts they are never cleaned up unless MultiThreadedHttpConnectionManager is shutdown.Alan does the attached one-line patch fix the issue for you Yep I think that is the right approach. I would just add the same to handleLostConnection . MikeYes it seems to work.Michael s patch committed.

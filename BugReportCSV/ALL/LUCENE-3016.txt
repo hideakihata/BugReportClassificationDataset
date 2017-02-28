@@ -1,0 +1,2 @@
+Analyzer for Latvian
+Less aggressive form of Kreslins phd thesis A stemming algorithm for Latvian. Committed revision 1092396 1092398 branch 3x Bulk closing for 3.2

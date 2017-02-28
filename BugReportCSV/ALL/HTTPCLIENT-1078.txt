@@ -1,0 +1,2 @@
+DecompressingEntity not calling close on InputStream retrieved by getContent
+The method DecompressingEntity.writeTo OutputStream outstream does not close the InputStream retrieved by getContent . According to the documentation of HttpEntity.writeTo IMPORTANT Please note all entity implementations must ensure that all allocated resources are properly deallocated when this method returns. - imho this is not satisfied in DecompressingEntity.writeToFixed in SVN trunk and 4.1.x branch. Please review re-test. Oleg

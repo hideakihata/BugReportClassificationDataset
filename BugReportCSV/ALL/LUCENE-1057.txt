@@ -1,0 +1,2 @@
+indexing doesn t reset token state
+IndexWriter DocumentsWriter forgets to reset the token state resulting in incorrect positionIncrements payloads and token types. test patch attached. Patch looks good to me Thanks Yonik. New version that clears only selected fields and also adds back Token.clone which was accidentally removed by LUCENE-969 Woops yes accidentally removed by LUCENE-969. Thanks. New patch looks good. Committed w o any CHANGES.txt entry since the fixes were just to things recently introduced and I don t need credit 

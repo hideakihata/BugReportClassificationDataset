@@ -1,0 +1,2 @@
+InternalVersionManagerBase.calculateCheckinVersionName will fail with NPE upon empty predecessors property
+ Note this can only happen on inconsistent version storage We should add a check here and throw a more descriptive exception.

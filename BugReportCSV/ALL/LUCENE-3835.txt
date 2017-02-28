@@ -1,0 +1,2 @@
+MergeThread throws unchecked exceptions from toString 
+This causes nearly all thread-dumping routines to fail and in the effect obscure the original problem. I think this should return a string always possibly indicating the underlying writer has been closed or something. 1 toString throwing exceptions is frustrating

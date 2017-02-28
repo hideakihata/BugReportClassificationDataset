@@ -1,0 +1,2 @@
+MatchAllDocsQuery doesn t honor boost or queryNorm
+MatchAllDocsQuery doesn t pay attention to either it s own boost or lucene s query normalization factor. attaching patch to use boost and queryNorm and change explain to match. patch applied.

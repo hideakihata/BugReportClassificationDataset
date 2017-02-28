@@ -1,0 +1,2 @@
+Use jackrabbit 1.2.1
+Use Jackarabit 1.2.1From now the ocm tools uses the latest Jackrabbit version 1.4-SNAPSHOT .

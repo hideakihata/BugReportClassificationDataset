@@ -1,0 +1,2 @@
+User configurable cookie policy
+Some user configurable how cookies are handled. Emulate cookie options in web browsers.Policy driven cookie management has been implemented. The following cookie specifications are currently supported - Compatibility greater compatibility cookie management of popular web browsers - Netscape Cookie Draft - RFC 2109 HTTPCLIENT-31 has been marked as a duplicate of this bug. 

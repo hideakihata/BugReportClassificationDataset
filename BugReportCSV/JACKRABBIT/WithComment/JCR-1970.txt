@@ -1,0 +1,2 @@
+populate.jsp uses Java 1.5 method
+The method is URLConnection.setReadTimeout Removed the call and cleaned up the code at the same time. svn revision 741524Merged to the 1.5 branch in revision 743342.

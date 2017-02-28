@@ -1,0 +1,2 @@
+Include all CHANGES.txt under contrib
+We already include to root CHANGES.txt but fail to include the ones under contrib. Committed revision 697114.

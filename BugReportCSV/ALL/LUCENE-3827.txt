@@ -1,0 +1,2 @@
+Make term offsets work in MemoryIndex
+Fix the logic for retrieving term offsets from DocsAndPositionsEnum on a MemoryIndex and allow subclasses to access them. This patch corrects the DocsAndPositionsEnum iterator logic to deal with cases where term offsets are stored in the postings lists. It also changes the advanced constructor from private to protected to allow subclasses to store term offsets. I just committed this. Thanks Alan 

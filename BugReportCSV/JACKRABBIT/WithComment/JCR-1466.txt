@@ -1,0 +1,2 @@
+ConfigurationException constructors are package private
+ConfigurationException constructors are package private which prevents reusing them in other packages. eg. when extending the configuration.Committed revision 635735.

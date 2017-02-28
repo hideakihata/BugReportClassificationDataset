@@ -1,0 +1,2 @@
+Rename EasySimilarity to SimilarityBase
+Renamed EasySimilarity to SimilarityBase EasyStats to BasicStats Easy DocScorer to Basic DocScorer Looks good to me seems like reasonable names at the moment. thanks David 

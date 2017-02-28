@@ -1,0 +1,2 @@
+allow AbstractFileSystemTest.getFileSystem to throw an Exception
+trivial patchonly really makes sense to implement this if AbstractFileSystemTest is reusable outside of the jackrabbit-core contextThanks Patch committed in revision 998051.

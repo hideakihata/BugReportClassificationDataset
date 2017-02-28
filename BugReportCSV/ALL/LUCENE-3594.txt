@@ -1,0 +1,2 @@
+Backport FieldCacheTermsFilter code duplication removal to 3.x
+In trunk I already cleaned up FieldCacheTermsFilter to not duplicate code of FieldCacheRangeFilter. This issue simply backports this. Backport from trunk. Committed 3.x revision 1206011

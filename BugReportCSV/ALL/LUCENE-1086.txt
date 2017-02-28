@@ -1,0 +1,2 @@
+DocMakers setup for the docs.dir property fails when passing an absolute path.
+setConfig in TrecDocMaker assumes docs.dir is a relative path. Therefore it create new File workDir docs.dir . However if docs.dir is an absolute path this works incorrectly and results in No txt files in dataDir exception. Simple patch that creates a File on docs.dir and if it is not absolute creates new File workDir d . Patch looks good. Same problem is found in 2 other doc makers update patch to follow. Updated patch fixing this also in ReutersDocMaker and DirDocMaker. Committed Thanks Shai 

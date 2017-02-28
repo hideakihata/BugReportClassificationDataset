@@ -1,0 +1,2 @@
+add shortcut method to CndImporter which makes it easier to rereigster node types
+CndImporter has a two argument registerNodeTypes method which is a nice shortcut but in order to rereigster node types you have to use the non-shortcut method. Attached patch adds a three-argument method which provide a shortcut for doing reregistration.patchThanks Patch committed to trunk and the 2.2 branch.

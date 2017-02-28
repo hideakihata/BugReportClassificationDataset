@@ -1,0 +1,2 @@
+remove support for event bundle IDs
+Event bundle IDs currently are not used. We can re-add them later in case we need them. Done with revision 580410. We need also to remove getBundleId.getBundleId . Removed EventBundle.getId with revision 581837.

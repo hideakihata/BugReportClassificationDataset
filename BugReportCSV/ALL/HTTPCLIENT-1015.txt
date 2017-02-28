@@ -1,0 +1,2 @@
+Support only-if-cached directive
+Add support for only-if-cached Cache-Control directive- If the request is not servable from the cache return a 504 Gateway Timeout. See http www.w3.org Protocols rfc2616 rfc2616-sec14.html sec14.9.4This patch adds support for the only-if-cached cache-control directive. Before requests are handed off to the backend it checks for the presence of the only-if-cached directive and if it is set will return a 504. This patch is submitted with the permission of my employer. Thank you MichajloPatch checked in. Many thanks Michajlo Oleg

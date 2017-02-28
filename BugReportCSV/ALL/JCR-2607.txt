@@ -1,0 +1,2 @@
+AbstractWebdavServlet add protected method sendUnauthorized
+

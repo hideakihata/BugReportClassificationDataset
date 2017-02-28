@@ -1,0 +1,2 @@
+the unversioned site points to a dead trunk
+The unversioned site needs to point to the new merged trunk. Currently it points to the closed-off dead trunk in two different places. attached is a patch for lucene. if no one objects i d like to commit this and make a similar patch for solr which has the same problem. attached is a patch to fix the references on the solr site. both patches are committed... if you find any outdated references on the site or wiki please correct them backported the solr part to rev 941639 Bulk close for 3.1

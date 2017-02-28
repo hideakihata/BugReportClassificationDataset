@@ -1,0 +1,2 @@
+String constants should be final
+RFC2109Spec - SET COOKIE KEY RFC2965Spec - SET COOKIE2 KEY both should be final.Fixed. Thanks go to Findbugs Sebastian Oleg

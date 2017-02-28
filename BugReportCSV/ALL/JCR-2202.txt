@@ -1,0 +1,2 @@
+UserManagement IndexNodeResolver.findNodes ..... nonExact fails to find values containing backslash
+patch originally created by tobi value should be escaped as follows StringBuffer ret new StringBuffer         for int i 0 i value.length i             char c value.charAt i             if c                 ret.append              else if c                 ret.append              else                 ret.append c                               return ret.toString 

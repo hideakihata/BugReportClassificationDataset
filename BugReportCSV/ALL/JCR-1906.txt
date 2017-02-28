@@ -1,0 +1,2 @@
+Make observation polling time configurable
+Currently the polling time is hard coded to 3 seconds in org.apache.jackrabbit.jcr2spi.WorkspaceImpl. I suggest to make it configurable similar to CacheBehaviour. That is add a respective setting to org.apache.jackrabbit.jcr2spi.config.RepositoryConfigProposed patchPatch looks good. Committed in revision 731941This change required sandbox spi client to be updated. Done in revision 732343.Reopening for 1.5.0Fixed at revision 766759

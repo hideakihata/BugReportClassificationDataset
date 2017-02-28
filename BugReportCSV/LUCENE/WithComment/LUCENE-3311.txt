@@ -1,0 +1,2 @@
+Cleanup XML QueryParser Code
+Before I move the XML QueryParser to the queryparser module I want to pass over it and bring it up to module standards. Patch which reformats most of the code moves over to Java 5 loops sets appropriate visibilities on fields makes proper constants and does some genera tidy. Ready to go. Patch which includes the demo code. Updated patch to trunk and did another pass over. This is ready to go. Committed revision 1158088.

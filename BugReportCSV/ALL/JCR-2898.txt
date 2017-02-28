@@ -1,0 +1,2 @@
+ patch remove bogus test
+code checks an int to see if it s bigger than MAX VALUE which is impossible removed.Yeah that s pretty obvious. - I committed the patch in revision 1077982. Thanks again 

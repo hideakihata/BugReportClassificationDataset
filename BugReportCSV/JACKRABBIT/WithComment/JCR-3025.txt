@@ -1,0 +1,2 @@
+NPE in ConsolidatingChangeLog
+The hasSNS NodeId method in ConsolidatingChangeLog throws an NPE when nodeId is null. It should rather return false.Fixed at revision 1148442

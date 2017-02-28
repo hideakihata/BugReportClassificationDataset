@@ -1,0 +1,2 @@
+sysview import cannot handle auto-created nodes
+when importing a serialized system-view via the Session.importXML method an ItemExistsException is thrown when a nodes has an auto-create child nodes. when the parent node is created during the import the repository automatically creates the auto-create child nodes. when then import handler tries to create the respective child node the exception is thrown. temporarily fixed. but not type-checks. fixed at revision 111978 fixed at rev. 158325

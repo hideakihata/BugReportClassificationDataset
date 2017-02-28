@@ -1,0 +1,2 @@
+Restore to base version throws NullPointerException
+This only happens when the operations are enclosed in an XA transaction. See test org.apache.jackrabbit.core.version.RestoreTestXAVersionManager.checkin did not add the frozen node to the xaItems map. Fixed in revision 638303Merged to the 1.4 branch in revisions 650317 and 650325.

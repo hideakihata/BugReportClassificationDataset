@@ -1,0 +1,2 @@
+Get rid of another hard coded path
+I just committed this. Thanks Hasan 

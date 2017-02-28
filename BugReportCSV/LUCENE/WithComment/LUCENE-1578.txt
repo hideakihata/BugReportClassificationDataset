@@ -1,0 +1,2 @@
+InstantiatedIndex supports non-optimized IndexReaders
+InstantiatedIndex does not currently support non-optimized IndexReaders. Please test this patch using a couple of different unoptimized readers in the constructor. Jason did you get a chanse to try this out It seems to work fine for me and I plan to pop it in the trunk in a few days. I think I ll have to add a warning of some kind in runtime though as it could slow down the index a bit if the reader is way fragmented. comitted Hi Karl Sorry no haven t had time to look at this. Looks like it s completed great work 

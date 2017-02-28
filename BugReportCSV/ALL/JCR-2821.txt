@@ -1,0 +1,2 @@
+Consistency check fix doesn t work with PSQL persistence manager
+PSQL doesn t save blobs directly into table row instead saves a link there and puts the binary stream somewhere else. The general consistency check method in BundleDBPersistenceManager doesn t take this into account. I ve fixed this by changing getBytes Blob method in BundleDbPersistenceManager to getBytes ResultSet and overriding it for PSQL.Thanks I committed a somewhat extended and modified version of the fix in revision 1039408.

@@ -1,0 +1,2 @@
+New Gump projects for HttpComponents 4.0
+Create new Gump definitions for the 4.0 code base both core and client. There are other Maven-based projects in Gump to learn from for example Apollo and Excalibur. They re not pretty but they work for now. Maven 2 is still not officially supported we re working with experimental code in Gump.

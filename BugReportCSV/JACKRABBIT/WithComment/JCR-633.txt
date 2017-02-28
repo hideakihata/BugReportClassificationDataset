@@ -1,0 +1,2 @@
+DerbyPersistenceManager only usable for embedded databases
+DerbyPersistenceManager always shuts down the database on exit which makes it unusable for standalone databases.Added a new configuration parameter to DerbyPersistenceManager named shutdownOnClose when set to true the default the database will be closed on exit set it to false to use with a database running standalone.

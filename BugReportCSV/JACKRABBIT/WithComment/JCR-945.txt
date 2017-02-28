@@ -1,0 +1,2 @@
+Use correct version number in repository descriptor
+The repository descriptor jcr.repository.version always shows 1.0-dev. The value should reflect the current jackrabbit version.Use resource filtering in jackrabbit-core and pom.version as the value for jcr.repository.version in repository.properties. At the same time I also changed the repository vendor URL to jackrabbit.apache.org used to be www.apache.org . Fixed in revision 541652Merged to the 1.3 branch in revision 544285.

@@ -1,0 +1,2 @@
+AccessControlEntries should be orderable
+the entries of an AccessControlList should be orderable if the order of the ac-entries matters for the access control evaluation.- added orderable to rep ACL node type in order to indicate that the order of child nodes must be preserved.   even this is always the case in jackrabbit the specification doesn t mandate this. only noticed since day s CRX explorer   listed non-orderable child nodes alphabetically sorted - extended JackrabbitAccessControlList - adjusted implementations - added some tests

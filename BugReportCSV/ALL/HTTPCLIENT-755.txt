@@ -1,0 +1,2 @@
+Use of java.net.URI.resolve is buggy
+The use of java.net.URI.resolve is buggy see http bugs.sun.com bugdatabase view bug.do bug id 4708535 gt . Affected class org.apache.http.impl.client.DefaultRedirectHandler. Proposed solution Create a resolve URI String method in o.a.h.client.utils.URLUtils.This patch adds the static resolve methods to URLUtils and changes the use of URI.resolve in DefaultRedirectHandlerPatch checked in. Many thanks Johannes Oleg

@@ -1,0 +1,2 @@
+Set property permission not checked when saving a new node
+When a new node is saved the add node permission is checked but not the set property permission on it s properties in ItemImpl.validateTransientItems . This is already fixed in trunk where the implementation is slightly different.Patch applied in revision 767907. Thanks 

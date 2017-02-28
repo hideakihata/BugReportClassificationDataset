@@ -1,0 +1,2 @@
+make frozenbuffereddeletes more efficient for terms
+when looking at LUCENE-3340 I thought its also ridiculous how much ram we use for delete by term. so we can save a lot of memory especially object overhead by being a little more efficient. Wow this looks awesome This should be a sizable reduction in the amount of RAM required to hold the buffered delete terms. seems like we have an related failure in LUCENE-3350 I resolved LUCENE-3350 - this was a bug in the test due to different semantics in FrozenDeletes term iteration. the returned term seems to be shared now

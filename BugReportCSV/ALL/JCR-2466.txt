@@ -1,0 +1,2 @@
+jcr2spi versionmanager checkout NodeState should not forward to checkout NodeState NodeId 
+VersionManager checkout NodeState nodeState is called if activity is not supported and thus should call the corresponding SPI method instead of checkout NodeState NodeId activityId applied patch to trunk and merged changes to 2.0 branch

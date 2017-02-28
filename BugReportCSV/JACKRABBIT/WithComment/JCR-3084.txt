@@ -1,0 +1,2 @@
+Script for checking releases
+Script to automate checking of releases similar to 0 heavily inspired by the sling script The command line call will look like     . check-release.sh jukka 1.6.5 4fa1e032f9b641fbc5c9ff8d6ba76fdb58b539ba This command will also be embedded in the emails announcements that come with each release so anybody can easily run it. 0 http svn.apache.org repos asf sling trunk check staged release.sh first version committed in revision 1176454I think it s fine for now

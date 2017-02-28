@@ -1,0 +1,2 @@
+Should SegmentTermPositionVector be public 
+I m wondering why SegmentTermPositionVector is public. It implements the public interface TermPositionVector. Should we remove public 1 There were no objections against making SegmentTermPositionVector package-private so I will go ahead and commit this patch soon. Committed to trunk 2.2 branch.

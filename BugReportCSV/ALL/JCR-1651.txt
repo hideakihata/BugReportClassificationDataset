@@ -1,0 +1,2 @@
+Node.addNode String String doesn t prevent use of mixin types as primary type
+fixed in svn r668147.Merged to the 1.4 branch in revision 695953.

@@ -1,0 +1,2 @@
+Fails to remove a previously assigned mixin
+Jackrabbit fails to remove a previously assigned mixin. Works fine on version 1.6.1This is probably a regression caused by JCR-2170.same as JCR-2408 which was fixed for 2. onlyfixed in svn r961769

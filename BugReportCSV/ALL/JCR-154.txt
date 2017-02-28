@@ -1,0 +1,2 @@
+Documentation - jackrabbit features beyond the spec
+the jackrabbit features beyond the spec are already covered in the documentation and faq sections.

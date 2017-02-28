@@ -1,0 +1,2 @@
+Create HTML excerpt provider
+Jackrabbit should have a built in HTML excerpt because web applications usually prefer HTML rather than XML.Added org.apache.jackrabbit.core.query.lucene.DefaultHTMLExcerpt which is now also the default. Committed in revision 537155

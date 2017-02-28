@@ -1,0 +1,2 @@
+httpclient charset encooding loosing problem
+file org apache commons httpclient HttpConstants.java line near 261 public static String getContentString final byte data String charset         return getContentString data 0 data.length      must be         return getContentString data 0 data.length charset Good catch. I ll apply the suggested fix by 22 00 GMT today OlegFix applied Oleg HTTPCLIENT-186 has been marked as a duplicate of this bug. 

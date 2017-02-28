@@ -1,0 +1,95 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   31
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.459
+|  (1)TOPIC25 < 0.5: -0.31
+|  |  (5)TOPIC20 < 0.5: 0.062
+|  |  |  (7)TOPIC21 < 0.5: 0.072
+|  |  |  (7)TOPIC21 >= 0.5: -0.65
+|  |  |  (9)TOPIC26 < 0.5: -0.026
+|  |  |  (9)TOPIC26 >= 0.5: 0.657
+|  |  (5)TOPIC20 >= 0.5: -0.689
+|  (1)TOPIC25 >= 0.5: 0.416
+|  (2)TOPIC4 < 0.5: 0.245
+|  |  (3)TOPIC18 < 0.5: 0.421
+|  |  (3)TOPIC18 >= 0.5: -0.168
+|  |  (4)TOPIC24 < 0.5: 0.083
+|  |  |  (6)TOPIC16 < 0.5: 0.135
+|  |  |  (6)TOPIC16 >= 0.5: -0.28
+|  |  (4)TOPIC24 >= 0.5: -0.838
+|  |  |  (10)TOPIC5 < 0.5: -0.188
+|  |  |  (10)TOPIC5 >= 0.5: 1.284
+|  (2)TOPIC4 >= 0.5: -0.453
+|  (8)TOPIC19 < 0.5: -0.053
+|  (8)TOPIC19 >= 0.5: 0.328
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.9 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1910               78.1826 %
+Incorrectly Classified Instances       533               21.8174 %
+Kappa statistic                          0.4356
+Mean absolute error                      0.3659
+Root mean squared error                  0.4019
+Relative absolute error                 89.7108 %
+Root relative squared error             89.0109 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.882     0.469      0.825	0.882	0.852      0.809    FEATURE
+                 0.531     0.118      0.642	0.531	0.581      0.809    BUG
+Weighted Avg.    0.782     0.369      0.773	0.782	0.775      0.809
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1540  206 |    a = FEATURE
+  327  370 |    b = BUG
+

@@ -1,0 +1,2 @@
+Improved READMEs for building sequence of trunk and jcr-server
+Thanks this is much appreciated Committed in revision 219757 with a small note about the top level multiproject setup.I think we should also add a jaas.config and mention the JAVA OPTS within the README JAVA OPTS -Djava.security.auth.login.config .....jaas.config I will add another patch ...closing resolved issue

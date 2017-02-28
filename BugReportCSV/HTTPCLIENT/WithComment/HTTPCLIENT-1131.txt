@@ -1,0 +1,2 @@
+Support http URL inline authentication
+If you try to execute a method with the httpClient using a valid url conform to the schema http username password host port the authentication will fail and you will get a 401 error.HttpClient now authenticates preemptively using BASIC scheme if a userinfo attribute is specified in the request URI. Oleg

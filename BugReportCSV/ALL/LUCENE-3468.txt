@@ -1,0 +1,2 @@
+FirstPassGroupingCollector should use pollLast 
+Currently FirstPassGroupingCollector uses last and remove method TreeSet for replacing a more relevant grouping during grouping. This can be replaced by pollLast since Lucene trunk is now Java 6. TermFirstPassGroupingCollectorJava6 in Solr can be removed as well. 1 Committed r1177008

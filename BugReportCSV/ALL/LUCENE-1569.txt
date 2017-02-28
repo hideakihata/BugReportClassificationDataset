@@ -1,0 +1,2 @@
+IndexReader.clone can leave files open
+I hit this in working on LUCENE-1516. When not using compound file format if you clone an IndexReader then close the original then close the clone the stored fields files X.fdt X.fdx remain incorrectly open. I have a test showing it fix is trivial. Will post patch commit shortly.

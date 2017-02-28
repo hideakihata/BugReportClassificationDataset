@@ -1,0 +1,2 @@
+UsernamePasswordCredentials.equals null throws NPE
+Steps to reproduce 1. new UsernamePasswordCredentials .equals null Observed NullPointerException is thrown Expected equals returns falseCreated an attachment id 16759 Patch Please review OlegLooks fine. MikePatch checked in Oleg

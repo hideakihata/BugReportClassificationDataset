@@ -1,0 +1,2 @@
+Remove System Properties page from release specific docs
+We no longer use system properties to configure Lucene in version 3.0 the page is obsolete and should be removed before release. The file was no longer used. I also updated the version numbers and removed some deprecated classes in docs. Committed revision 834837

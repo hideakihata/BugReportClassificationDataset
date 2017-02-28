@@ -1,0 +1,2 @@
+Refrase javadoc 1st sentence for IndexReader.deleteDocuments
+Mention that the term should have been indexed for IndexReader.deleteDocuments to work. Thanks patch applied.

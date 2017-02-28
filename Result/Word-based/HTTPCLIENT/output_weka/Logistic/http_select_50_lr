@@ -1,0 +1,202 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/HTTPCLIENT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R292,691,326,759,967,251,698,491,249,231,723,538,574,502,220,471,229,308,217,440,185,232,608,184,756,520,328,658,924,395,492,531,713,8,364,925,508,290,779,997,310,907,314,313,793,685,359,92,622,610,1
+Instances:    745
+Attributes:   51
+              execute
+              problem
+              fix
+              reproduce
+              user-agent
+              documentation
+              projects
+              java
+              docs
+              dependencies
+              re-test
+              loop
+              mikepatch
+              keep-alive
+              defaultclientconnection
+              interface
+              define
+              fail
+              debug
+              impl
+              content-type
+              dependency
+              npe
+              content-length
+              reported
+              line
+              fixes
+              path
+              thrown
+              http
+              javadoc
+              log
+              proxy-connection
+              abstracthttpclient
+              guide
+              throws
+              lang
+              exception
+              retry
+              wire
+              fails
+              test
+              feature
+              false
+              run
+              previous
+              gmt
+              bug
+              olegi
+              null
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                  Class
+Variable                        FEATURE
+=======================================
+execute                         -0.3623
+problem                          -0.044
+fix                              -0.337
+reproduce                        0.0048
+user-agent                       -0.254
+documentation                    1.0036
+projects                         0.1828
+java                            -0.0136
+docs                             0.9941
+dependencies                    15.5148
+re-test                          -1.423
+loop                            -0.2819
+mikepatch                       -1.4766
+keep-alive                       0.0037
+defaultclientconnection         -6.8812
+interface                        0.8354
+define                           2.4397
+fail                            -0.9391
+debug                           -0.0234
+impl                            -0.1244
+content-type                     -0.144
+dependency                       1.1496
+npe                             -0.7912
+content-length                  -0.1444
+reported                        -0.6536
+line                            -0.3668
+fixes                           -0.6435
+path                            -0.1194
+thrown                          -0.2784
+http                              0.092
+javadoc                          0.7304
+log                              0.1359
+proxy-connection               -20.6359
+abstracthttpclient               0.2226
+guide                            3.0662
+throws                          -0.0845
+lang                            -0.2913
+exception                         0.068
+retry                           -0.0925
+wire                             0.0723
+fails                           -0.4825
+test                            -0.0451
+feature                          2.6264
+false                           -0.4715
+run                              0.2151
+previous                        -1.3467
+gmt                             -0.3867
+bug                             -0.2889
+olegi                            0.8122
+null                            -0.0373
+Intercept                        0.8678
+
+
+Odds Ratios...
+                                  Class
+Variable                        FEATURE
+=======================================
+execute                          0.6961
+problem                           0.957
+fix                              0.7139
+reproduce                        1.0048
+user-agent                       0.7757
+documentation                    2.7281
+projects                         1.2006
+java                             0.9865
+docs                             2.7022
+dependencies               5469916.0428
+re-test                           0.241
+loop                             0.7544
+mikepatch                        0.2284
+keep-alive                       1.0037
+defaultclientconnection           0.001
+interface                        2.3057
+define                          11.4696
+fail                              0.391
+debug                            0.9769
+impl                              0.883
+content-type                     0.8659
+dependency                        3.157
+npe                              0.4533
+content-length                   0.8655
+reported                         0.5202
+line                             0.6929
+fixes                            0.5255
+path                             0.8874
+thrown                            0.757
+http                             1.0963
+javadoc                          2.0759
+log                              1.1456
+proxy-connection                      0
+abstracthttpclient               1.2493
+guide                           21.4611
+throws                            0.919
+lang                             0.7473
+exception                        1.0703
+retry                            0.9116
+wire                              1.075
+fails                            0.6172
+test                             0.9559
+feature                         13.8241
+false                            0.6241
+run                                1.24
+previous                         0.2601
+gmt                              0.6793
+bug                              0.7491
+olegi                            2.2528
+null                             0.9634
+
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         565               75.8389 %
+Incorrectly Classified Instances       180               24.1611 %
+Kappa statistic                          0.4859
+Mean absolute error                      0.3098
+Root mean squared error                  0.4135
+Relative absolute error                 64.0614 %
+Root relative squared error             84.0986 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.859     0.387      0.762	0.859	0.808      0.824    FEATURE
+                 0.613     0.141      0.751	0.613	0.675      0.824    BUG
+Weighted Avg.    0.758     0.286      0.758	0.758	0.753      0.824
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 378  62 |   a = FEATURE
+ 118 187 |   b = BUG
+

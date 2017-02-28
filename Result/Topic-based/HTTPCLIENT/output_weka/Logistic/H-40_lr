@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   41
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                            Class
+Variable                  FEATURE
+=================================
+TOPIC0                    -0.3461
+TOPIC1                    -0.6146
+TOPIC2                     0.2454
+TOPIC3                    -0.2023
+TOPIC4                     0.5303
+TOPIC5                     0.9892
+TOPIC6                    -0.8424
+TOPIC7                    -0.8775
+TOPIC8                    -1.1045
+TOPIC9                     1.0987
+TOPIC10                    1.0639
+TOPIC11                    1.5308
+TOPIC12                    0.0142
+TOPIC13                    1.3306
+TOPIC14                   45.4483
+TOPIC15                   -0.8251
+TOPIC16                    0.9299
+TOPIC17                   -0.8568
+TOPIC18                    0.5207
+TOPIC19                    0.7003
+TOPIC20                   -1.2686
+TOPIC21                   -0.5237
+TOPIC22                   -1.3902
+TOPIC23                   -0.8857
+TOPIC24                   -0.1143
+TOPIC25                   -1.2389
+TOPIC26                    0.5268
+TOPIC27                    -0.168
+TOPIC28                   -1.2216
+TOPIC29                   -0.6605
+TOPIC30                   -0.3364
+TOPIC31                    -0.594
+TOPIC32                   -1.1405
+TOPIC33                    0.3141
+TOPIC34                   -0.4271
+TOPIC35                   -0.1911
+TOPIC36                    0.6638
+TOPIC37                   -1.0065
+TOPIC38                   -1.6761
+TOPIC39                   -1.3576
+Intercept                  0.7584
+
+
+Odds Ratios...
+                            Class
+Variable                  FEATURE
+=================================
+TOPIC0                     0.7074
+TOPIC1                     0.5409
+TOPIC2                     1.2781
+TOPIC3                     0.8169
+TOPIC4                     1.6995
+TOPIC5                     2.6892
+TOPIC6                     0.4307
+TOPIC7                     0.4158
+TOPIC8                     0.3314
+TOPIC9                     3.0001
+TOPIC10                    2.8975
+TOPIC11                    4.6217
+TOPIC12                    1.0143
+TOPIC13                    3.7831
+TOPIC14      5.469477801834356E19
+TOPIC15                    0.4382
+TOPIC16                    2.5343
+TOPIC17                    0.4245
+TOPIC18                    1.6833
+TOPIC19                    2.0144
+TOPIC20                    0.2812
+TOPIC21                    0.5923
+TOPIC22                     0.249
+TOPIC23                    0.4124
+TOPIC24                     0.892
+TOPIC25                    0.2897
+TOPIC26                    1.6934
+TOPIC27                    0.8453
+TOPIC28                    0.2948
+TOPIC29                    0.5166
+TOPIC30                    0.7144
+TOPIC31                    0.5521
+TOPIC32                    0.3197
+TOPIC33                    1.3691
+TOPIC34                    0.6524
+TOPIC35                     0.826
+TOPIC36                    1.9422
+TOPIC37                    0.3655
+TOPIC38                    0.1871
+TOPIC39                    0.2573
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         561               75.302  %
+Incorrectly Classified Instances       184               24.698  %
+Kappa statistic                          0.4851
+Mean absolute error                      0.3217
+Root mean squared error                  0.4154
+Relative absolute error                 66.5122 %
+Root relative squared error             84.481  %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.809     0.328      0.781	0.809	0.795      0.817    FEATURE
+                 0.672     0.191      0.709	0.672	0.69       0.817    BUG
+Weighted Avg.    0.753     0.272      0.751	0.753	0.752      0.817
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 356  84 |   a = FEATURE
+ 100 205 |   b = BUG
+

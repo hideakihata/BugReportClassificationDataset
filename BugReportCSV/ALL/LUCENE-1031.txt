@@ -1,0 +1,2 @@
+Fixes a handful of misspellings mistakes in changes.txt
+There are a handful of misspellings mistakes in changes.txt. This patch fixes them. Avoided the one or two British to English conversions g Sheesh we committers really can t spell Thanks Mark I ll commit. Fixed Ð thanks Mark 

@@ -1,0 +1,2 @@
+IndexingQueue not checked on initial index creation
+With a default value of 100 for extractorBackLogSize and lots of text extractions that time out the temp folder gets filled with extractor .tmp files. This is because the IndexingQueue.getFinishedDocuments is not called during the initial index creation. This is not an issue during regular operation because the method is called periodically from a timer thread.Proposed patch.Applied patch in revision 760906Merged to the 1.5 branch in revision 767551.

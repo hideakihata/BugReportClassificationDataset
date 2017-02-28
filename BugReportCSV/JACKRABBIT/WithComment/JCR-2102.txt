@@ -1,0 +1,2 @@
+getAllLinearVersions does not return the base version
+It appears that for a given linear version history getAllLinearVersions returns less versions than getAllVersions the root version seems to be missing.fixed version iterator implementation to include the root version as well revision 783523 Danke 

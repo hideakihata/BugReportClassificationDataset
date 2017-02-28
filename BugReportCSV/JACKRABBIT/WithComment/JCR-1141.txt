@@ -1,0 +1,2 @@
+LockOperation - In a clustered environment a lock created on one server is not sent to the other servers.
+The cluster operation for a lock LockOperation always has the isLock variable set to false. The operation to represent a lock should set the isLock variable to true.            Flag indicating whether this is a lock.           private boolean isLock Absolutely right I apparently broke this one in resolution of JCR-929. Thanks for reporting. Fixed in revision 579112.Merged to the 1.3 branch in revision 581181.

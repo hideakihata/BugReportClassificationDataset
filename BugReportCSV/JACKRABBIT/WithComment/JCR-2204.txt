@@ -1,0 +1,2 @@
+GQLTest fails occasionally
+This is again the text extraction which may hit a time out.Fixed in revision 792968Merged to the 1.x branch in revision 801237.

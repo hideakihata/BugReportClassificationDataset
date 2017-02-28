@@ -1,0 +1,2 @@
+Basic refactoring of DocumentsWriter
+As a starting point for making DocumentsWriter more understandable I ve fixed its inner classes to be static and then broke the classes out into separate sources all in org.apache.lucene.index package. Attached patch. All tests pass. I will commit in a day or two. There is a small performance loss with this 924.5 docs sec vs 913.4 docs sec 1.2 best of 5 runs indexing first 200K docs of Wikipedia. But I think it s an acceptable tradeoff for cleaner code.

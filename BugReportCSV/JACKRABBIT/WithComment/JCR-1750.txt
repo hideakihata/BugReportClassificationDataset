@@ -1,0 +1,2 @@
+Creating QValue from stream stream not closed
+QValueFactoryImpl.create InputStream does not close the input stream as mandated by the contract.Proposed patchPatch applied in revision 698246. Thanks 

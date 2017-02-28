@@ -1,0 +1,2 @@
+Rename IOUtils.close methods
+The closeSafely methods that take a boolean suppressExceptions are dangerous... I ve renamed to .close no suppression and .closeWhileHandlingException suppresses all exceptions . Patch... I plan to commit soon.

@@ -1,0 +1,2 @@
+Dont use nt frozenNode to create nodes
+Some test cases may end up trying to create a new node of type nt frozenNode which fails.Fixed in revision 821778

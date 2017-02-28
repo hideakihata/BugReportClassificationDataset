@@ -1,0 +1,2 @@
+Make ant -projecthelp show the javadocs and docs targets as well
+Added a description to the targets javadocs and docs . This makes ant show them when the executes ant -projecthelp attached diff. Thanks the patch has juts been committed.

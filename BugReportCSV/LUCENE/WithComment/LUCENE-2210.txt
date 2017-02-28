@@ -1,0 +1,2 @@
+trectopicsreader doesn t properly read descriptions or narratives
+TrecTopicsReader does not read these fields correctly as demonstrated by the test case. I will commit the fix shortly unless anyone objects Committed revision 899369.

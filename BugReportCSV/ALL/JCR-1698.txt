@@ -1,0 +1,2 @@
+Remove unnecessary TestAll classes in jcr-commons
+The module jackrabbit-jcr-commons uses the default test configuration which means the TestAll test suites are not necessary. They actually cause all tests to be executed twice.Removed TestAll classes in revision 681036

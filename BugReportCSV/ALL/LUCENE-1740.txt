@@ -1,0 +1,2 @@
+Lucli Command to change the Analyzer
+Currently Lucli is hardcoded to use StandardAnalyzer. The provided patch introduces a command analyzer to specify a different Analyzer class. If something fails StandardAnalyzer is the fall-back. Patch adding analyzer command I just committed this. Thanks Bernd 

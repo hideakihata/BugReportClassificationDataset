@@ -1,0 +1,2 @@
+JSR 283 Introduce Event.getDate 
+JSR 283 adds a method to an Event that returns the date when the change happened that caused the event.Proposed patch.Updated patch to latest trunk and changed return type of EventImpl.getDate to long.Committed patch in revision 713076The timestamp of the update operation is not propagated to the ChangeLogRecord. Fixed in revision 713162

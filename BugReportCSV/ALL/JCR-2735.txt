@@ -1,0 +1,2 @@
+Make SessionProvider pluggable in JCRWebdavServerServlet
+Although there s a SessionProvider interface in o.a.j.server the SessionProviderImpl implementation class is hard-coded into JCRWebdavServerServlet.patch which allows subclasses to provide a different implementation of SessionProviderThanks Patch committed in revision 998050.

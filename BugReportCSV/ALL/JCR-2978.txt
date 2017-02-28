@@ -1,0 +1,2 @@
+Add accessor for parent to NodeInfoBuilder PropertyInfoBuilder
+NodeInfoBuilder and PropertyInfoBuilder should allow access to its respective parents. I suggest to add a getParent method to both classes.Fixed at revision 1128238

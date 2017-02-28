@@ -1,0 +1,2 @@
+ PATCH GermanAnalyzer fails silently doesn t close files
+As mentioned on the developer list the German analyzer will assume an empty list of stopwords if the stopword file isn t found. I ll attach a patch that makes it throw an IOException instead. Also the patch makes sure the file readers are closed. Created an attachment id 11011 throw exception instead of failing silently close readers Thanks. Your patch hass been applied.

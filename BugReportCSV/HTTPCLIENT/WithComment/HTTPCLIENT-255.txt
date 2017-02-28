@@ -1,0 +1,2 @@
+In J2SDK 1.5.0 Tiger enum is a keyword
+Hi Tiger adds extensions to the Java Programming Language JSR201 . One is Enumerations which required to add the new keyword enum. I just made a grep grep -lrw over some sources and found some Apache projects using enum as a word. To be compliant with the new specification please check that enum is not used as a variable field or method name. Regards RobertCreated an attachment id 8184 Patch Patch applied to HEAD 2.0 Branch Oleg

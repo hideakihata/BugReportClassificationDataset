@@ -1,0 +1,2 @@
+Create default repository in target
+One of the JCR API tests gets a default repository from the RepositoryFactory. This default repository should use a home directory under target.Implemented in revision 792932

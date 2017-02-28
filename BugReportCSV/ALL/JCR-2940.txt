@@ -1,0 +1,2 @@
+PrivilegeDefinition should implement equals and hashcode
+- added test cases - added equals hashcodethis only affects unreleased 2.3

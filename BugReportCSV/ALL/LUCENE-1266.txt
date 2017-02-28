@@ -1,0 +1,2 @@
+IndexWriter.optimize boolean doWait ignores doWait parameter
+IndexWriter.optimize boolean doWait ignores the doWait parameter and always calls optimize 1 true . That does not seem to be the intended behavior based on the doc comment. Ugh you re right. I ll fix it on 2.4 2.3.2. Thanks for catching this OK committed to 2.3.2 2.4. Thanks Grant 

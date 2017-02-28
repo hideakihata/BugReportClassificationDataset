@@ -1,0 +1,2 @@
+Create a sample search page
+The web application should have a search page that shows how to use the query features in jackrabbit.Committed in revision 541664 There s now a link on the entry page of the web application to the search page. I ve also added all available text extractors to the workspace template configuration in repository.xml and made the required changes to get support for rep excerpt with highlighting.

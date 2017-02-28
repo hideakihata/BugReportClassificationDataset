@@ -1,0 +1,2 @@
+DatabasePersistenceManager DatabaseFileSystem try to gracefully recover from connection loss
+fixed in svn r478892 the new implementation tries to reconnect and re-execute the failing stmt after a SQLException had been encountered. targeted for 1.2 since this is a rather big change. although preliminary tests were successful a lot more testing is needed especially with different backends.

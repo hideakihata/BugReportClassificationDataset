@@ -1,0 +1,2 @@
+Make IndexReader.decRef call refCount.decrementAndGet instead of getAndDecrement
+IndexReader.decRef has this code final int rc refCount.getAndDecrement if rc 1 I think it will be clearer if it was written like this final int rc refCount.decrementAndGet if rc 0 It s a very simple change which makes reading the code at least IMO easier. Will post a patch shortly. Very trivial patch. If there are no objections I d like to commit this. Committed rev 1213033 trunk . Committed rev 1213036 3x .

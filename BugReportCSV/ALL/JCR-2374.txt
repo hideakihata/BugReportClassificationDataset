@@ -1,0 +1,2 @@
+Use FieldSelector in Sorted LuceneQueryHits when reading UUID
+LuceneQueryHits currently reads the complete lucene document. This also prevents usage of an underlying UUID cache.Implemented in revision 831833The same actually also applies to SortedLuceneQueryHitsAlso fixed in SortedLuceneQueryHits in revision 831844

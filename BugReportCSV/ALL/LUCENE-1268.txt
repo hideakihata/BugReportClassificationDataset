@@ -1,0 +1,2 @@
+Changes.html should be visible to users for closed releases
+Changes.html is currently available only in the dev page for trunk. See LUCENE-1157 for discussion on where exactly to expose this. As of release 2.4.0 Changes.html is now available from the main user pages http lucene.apache.org java 2 4 0 changes Changes.html . Assuming that the release process has been modified to incorporate this feature this issue can be closed as fixed right Indeed I just updated http wiki.apache.org lucene-java ReleaseTodo to reflect this step.

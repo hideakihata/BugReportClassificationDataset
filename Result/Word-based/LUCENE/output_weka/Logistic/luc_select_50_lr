@@ -1,0 +1,202 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/LUCENE/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R135,184,94,632,33,521,214,320,3,429,747,4,339,914,528,771,881,366,314,476,265,258,661,227,96,530,872,134,913,532,417,1005,290,189,557,883,455,226,577,122,379,742,1004,482,6,961,574,11,410,238,1
+Instances:    2443
+Attributes:   51
+              classes
+              contrib
+              bug
+              package
+              api
+              lot
+              default
+              faster
+              -dtestcase
+              improvements
+              reproduce
+              -dtestmethod
+              fix
+              things
+              lucenetestcaserunner
+              runchild
+              support
+              functionality
+              fails
+              javadocs
+              easier
+              don
+              performance
+              deprecated
+              build
+              made
+              stuff
+              class
+              thing
+              make
+              implement
+              yeah
+              exception
+              core
+              methods
+              svn
+              interface
+              deprecate
+              move
+              change
+              great
+              renamed
+              xml
+              junit
+              abstract
+              users
+              module
+              added
+              idea
+              directly
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                          Class
+Variable                FEATURE
+===============================
+classes                  0.0978
+contrib                  0.4449
+bug                     -0.2947
+package                  0.4215
+api                      0.0556
+lot                      0.3194
+default                  0.1631
+faster                   0.5537
+-dtestcase              -1.0576
+improvements             0.6217
+reproduce               -0.1956
+-dtestmethod             0.9543
+fix                     -0.4907
+things                   0.1021
+lucenetestcaserunner    -0.2868
+runchild                 0.1783
+support                 -0.0015
+functionality            0.5196
+fails                   -0.2354
+javadocs                  0.316
+easier                   0.5283
+don                      -0.011
+performance              0.0661
+deprecated               0.1492
+build                    0.6145
+made                     0.4788
+stuff                    0.0831
+class                   -0.0311
+thing                    0.3192
+make                      0.046
+implement               -0.0704
+yeah                     0.3963
+exception               -0.1889
+core                    -0.0503
+methods                  0.0769
+svn                      0.1326
+interface                0.0863
+deprecate                0.4202
+move                    -0.1446
+change                   0.0563
+great                   -0.1664
+renamed                  0.8027
+xml                      0.2919
+junit                   -0.0023
+abstract                  0.073
+users                    0.0324
+module                   0.6508
+added                    0.0909
+idea                    -0.0089
+directly                   0.36
+Intercept                0.6394
+
+
+Odds Ratios...
+                          Class
+Variable                FEATURE
+===============================
+classes                  1.1028
+contrib                  1.5603
+bug                      0.7448
+package                  1.5242
+api                      1.0571
+lot                      1.3763
+default                  1.1771
+faster                   1.7396
+-dtestcase               0.3473
+improvements             1.8621
+reproduce                0.8223
+-dtestmethod              2.597
+fix                      0.6122
+things                   1.1075
+lucenetestcaserunner     0.7507
+runchild                 1.1951
+support                  0.9985
+functionality            1.6814
+fails                    0.7903
+javadocs                 1.3717
+easier                    1.696
+don                       0.989
+performance              1.0683
+deprecated               1.1609
+build                    1.8488
+made                     1.6141
+stuff                    1.0866
+class                    0.9694
+thing                     1.376
+make                     1.0471
+implement                 0.932
+yeah                     1.4864
+exception                0.8279
+core                     0.9509
+methods                  1.0799
+svn                      1.1418
+interface                1.0902
+deprecate                1.5222
+move                     0.8653
+change                   1.0579
+great                    0.8467
+renamed                  2.2315
+xml                      1.3389
+junit                    0.9977
+abstract                 1.0757
+users                    1.0329
+module                   1.9171
+added                    1.0951
+idea                     0.9912
+directly                 1.4333
+
+
+Time taken to build model: 0.3 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1938               79.3287 %
+Incorrectly Classified Instances       505               20.6713 %
+Kappa statistic                          0.4216
+Mean absolute error                      0.2932
+Root mean squared error                  0.383 
+Relative absolute error                 71.8825 %
+Root relative squared error             84.8104 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.938     0.568      0.805	0.938	0.866      0.837    FEATURE
+                 0.432     0.062      0.734	0.432	0.544      0.837    BUG
+Weighted Avg.    0.793     0.424      0.785	0.793	0.774      0.837
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1637  109 |    a = FEATURE
+  396  301 |    b = BUG
+

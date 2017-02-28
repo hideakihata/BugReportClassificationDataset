@@ -1,0 +1,2 @@
+LuceneQueryFactory should call QueryHits.close after running a query
+LuceneQueryFactory which is responsible for the JCR SQL2 implementation does not close QueryHits after running a query.Attached patchPatch committed in revision 1088991. Thanks Merged to the 2.2 branch in revision 1095669.

@@ -1,0 +1,2 @@
+Journal Use buffered input output streams
+The journal should use buffered input output streams wherever possible. Currently there are some places where bytes are directly written to the journal file which degrades performance.Proposed patch.Committed patch in revision 713072Merged to the 1.5 branch in revision 718216.

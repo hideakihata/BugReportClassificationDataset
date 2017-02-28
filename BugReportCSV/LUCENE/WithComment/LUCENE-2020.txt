@@ -1,0 +1,2 @@
+Remove unused imports
+With all of the churn recently now seems like the opportune time to do some import cleanup Still have to check the patch but here is a first go i agree currently this is just messy here s an updated checked patch... I ll commit it soon. Committed revision 1052926 trunk 1052938 3x Bulk close for 3.1

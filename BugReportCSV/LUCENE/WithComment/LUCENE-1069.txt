@@ -1,0 +1,2 @@
+CheckIndex incorrectly sees deletes as index corruption
+There is a silly bug in CheckIndex whereby any segment with deletes is considered corrupt. Thanks to Bogdan Ghidireac for reporting this. Attached patch with new unit test fixes it. I plan to commit shortly... This is the thread that spawned this issue http www.gossamer-threads.com lists lucene java-user 55124 I just committed this. Thanks for catching this reporting it Bogdan.

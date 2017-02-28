@@ -1,0 +1,2 @@
+Best effort merge if concurrent modifications include changes to mixin types
+currently the NodeStateMerger merge method immediately aborts if the mixin types of the 2 nodes are not the same.proposed patch. despite that fact that i created the patch with major care and tried to cover as much with tests please review within the next week. this sort of changes is prone to cause major problems or inconsistencies. unless someone objects raises concerns or finds issues i will apply the patch if i find time with additional tests sometime next week. 1 for the patch thanks 

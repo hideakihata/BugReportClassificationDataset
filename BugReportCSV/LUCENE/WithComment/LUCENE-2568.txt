@@ -1,0 +1,2 @@
+TestUTF32ToUTF8 fails on IBM s JRE
+This is because AutomatonTestUtil.RandomAcceptedString is returning an invalid UTF32 int Ð it has an unpaired surrogate and IBM s JRE handles this differently than Oracle s. Attached patch avoids the surrogates when computing random UTF32 int accepted by a UTF32 DFA. The tests pass with that patch I ve also upped to the latest rev which includes your other fix as well ... Thanks for the fast fix 

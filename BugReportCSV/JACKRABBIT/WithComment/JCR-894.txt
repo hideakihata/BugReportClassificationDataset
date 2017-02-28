@@ -1,0 +1,2 @@
+rep excerpt not working for attribute searches
+example element nt unstructured jcr contains textProp foobar rep excerpt produces empty excerpts.Fixed in revision 535223Merged to the 1.3 branch in revision 544259.

@@ -1,0 +1,2 @@
+Setup nightly builds for Jackrabbit
+Once the Jackrabbit zone is created see INFRA-1008 setup nightly Jackrabbit builds as discussed in http thread.gmane.org gmane.comp.apache.jackrabbit.devel 9190 . There is now a Continuum server running at http jackrabbit.zones.apache.org continuum It automatically build and tests all the release components within an hour of the last commit. Possible error notifications are sent to dev . Successful builds are deployed nightly to the Maven 2 snapshot repository at http people.apache.org repo m2-snapshot-repository 

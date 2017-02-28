@@ -1,0 +1,2 @@
+TokenFilter should implement reset 
+TokenFilter maintains a private member of TokenStream. It should implement reset and call its member TokenStream s reset method. Otherwise that TokenStream never gets reset. Patch applied. Patch which implements reset in TokenFilter I just committed this. Thanks Shai 

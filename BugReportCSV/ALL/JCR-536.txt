@@ -1,0 +1,2 @@
+Session leak in API test cases
+In setUp . AbstractPropertyTest checks whether it can execute the test and potentially throws an NotExecutableException. In this case the helper Session is lost without logging out and the parent s tearDown code isn t executed. The same problem may be present in more test classes will check . Proposed Patch. Fixed as proposed. svn revision 430101 Thank you for reporting this issue.

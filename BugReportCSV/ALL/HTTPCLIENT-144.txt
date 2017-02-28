@@ -1,0 +1,2 @@
+Add a document describing the HttpClient release process
+The commons release process http jakarta.apache.org commons releases.html is a good starting place but is out of date. When we do our own releases there are some other steps particular to maven the test-local and the webapp tests that must be documented.The first pass is in there I ll refine it over time. http jakarta.apache.org commons httpclient releases.html Still need to link to it from the nav bar.I ll call this done. The release process is pretty complete now and can be evolved over time.

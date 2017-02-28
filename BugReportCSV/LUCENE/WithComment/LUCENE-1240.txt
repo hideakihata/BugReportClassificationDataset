@@ -1,0 +1,2 @@
+TermsFilter reuse TermDocs
+TermsFilter currently calls termDocs Term once per term in the TermsFilter. If we sort the terms it s filtering on this can be optimised to call termDocs once and then skip Term once per term which should significantly speed up this filter. Attaching my attempt at improving this. The original code didn t close all the TermDocs it created either this is now fixed also. Committed this fix and added new Junit test as part of r638631

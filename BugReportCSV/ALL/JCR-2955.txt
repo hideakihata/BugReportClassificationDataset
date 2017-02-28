@@ -1,0 +1,2 @@
+Use GrowingLRUMap in CachingEntryCollector
+in order to allow for more flexibility of the cache size in caching entry collection i would like to use the GrowingLRUMap.

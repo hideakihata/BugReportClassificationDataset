@@ -1,0 +1,2 @@
+Better name and path factory exception messages
+I ve ran across a few cases where the name and path factories throw an exception about an invalid path or name but fail to include the actual path or name in the exception message. It would be very helpful to have that extra bit of information included.Done in revision 779076.

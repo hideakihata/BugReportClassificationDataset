@@ -1,0 +1,186 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   21
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute      FEATURE     BUG
+                (0.61)  (0.39)
+===============================
+TOPIC0
+  mean            0.196  0.1279
+  std. dev.       0.397   0.334
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC1
+  mean           0.2145  0.1482
+  std. dev.      0.4105  0.3553
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC2
+  mean           0.5034  0.7633
+  std. dev.         0.5   0.425
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC3
+  mean           0.0704  0.1151
+  std. dev.      0.2557  0.3192
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC4
+  mean           0.0779   0.161
+  std. dev.       0.268  0.3675
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC5
+  mean           0.8757  0.7175
+  std. dev.      0.3299  0.4502
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC6
+  mean             0.11   0.049
+  std. dev.      0.3129   0.216
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC7
+  mean           0.1025  0.0906
+  std. dev.      0.3033  0.2871
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC8
+  mean           0.1168  0.1525
+  std. dev.      0.3212  0.3595
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC9
+  mean           0.1182  0.1557
+  std. dev.      0.3228  0.3625
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC10
+  mean           0.1223  0.2324
+  std. dev.      0.3276  0.4224
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC11
+  mean           0.1086   0.113
+  std. dev.      0.3111  0.3166
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC12
+  mean           0.1851  0.0704
+  std. dev.      0.3884  0.2558
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC13
+  mean            0.026  0.1055
+  std. dev.      0.1667  0.3073
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC14
+  mean           0.1735  0.1087
+  std. dev.      0.3787  0.3113
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC15
+  mean           0.2814  0.4232
+  std. dev.      0.4497  0.4941
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC16
+  mean           0.2589  0.0949
+  std. dev.       0.438  0.2931
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC17
+  mean           0.0123  0.0757
+  std. dev.      0.1667  0.2645
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC18
+  mean           0.1066  0.1375
+  std. dev.      0.3085  0.3444
+  weight sum       1464     938
+  precision           1       1
+
+TOPIC19
+  mean           0.0471   0.065
+  std. dev.      0.2119  0.2466
+  weight sum       1464     938
+  precision           1       1
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1697               70.6495 %
+Incorrectly Classified Instances       705               29.3505 %
+Kappa statistic                          0.3783
+Mean absolute error                      0.3431
+Root mean squared error                  0.4445
+Relative absolute error                 72.0778 %
+Root relative squared error             91.1155 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.774     0.399      0.752     0.774     0.763      0.769    FEATURE
+                 0.601     0.226      0.63      0.601     0.615      0.769    BUG
+Weighted Avg.    0.706     0.331      0.704	0.706	0.705      0.769
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1133  331 |    a = FEATURE
+  374  564 |    b = BUG
+

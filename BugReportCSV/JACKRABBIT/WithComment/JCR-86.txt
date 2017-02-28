@@ -1,0 +1,2 @@
+ItemStates in the ChangeLog can not be retrieved in the sequence they were created modified deleted
+The itemstates are ordered by the hash code. It s an issue with PersistenceManagers that check referencial integrity e.g. rdbms .Change the Map implemention from java.util.HashMap to org.apache.commons.collections.SequencedHashMapThank you for the patch file submitted - fixed as suggested - added a test case that amongst others checks for order preservationSVN revision 159377

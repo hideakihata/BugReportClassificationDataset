@@ -1,0 +1,2 @@
+Use repository service wide namespace cache
+The jcr2spi layer requests namespaces for each new session that is created. It should rather cache them and make them available to other sessions.Fixed in revision 555240

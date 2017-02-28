@@ -1,0 +1,2 @@
+Replace HttpState with CredentialsProvier and CookieStore interfaces
+Replace HttpState which is a concrete class with CredentialsProvier and CookieStore interfaces. Provide default impls of those interfaces.I ll take a stab at it this weekend. Off-topic Noticed the issue number Creepy. OlegDone. Oleg

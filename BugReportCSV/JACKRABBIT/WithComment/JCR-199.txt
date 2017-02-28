@@ -1,0 +1,2 @@
+uploading large streams through rmi
+when I try to upload a file of 35 Meg I get an out of memory error. This is caused because the whole file is read into memory instead of bufferingFixed in revision 290458. Binary properties are now serialized as a sequence of smaller byte arrays instead of a one big array. Thanks for the reporting this 

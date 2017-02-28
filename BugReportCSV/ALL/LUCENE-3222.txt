@@ -1,0 +1,2 @@
+Buffered deletes under count RAM
+I found this while working on LUCENE-2548 when we freeze the deletes create FrozenBufferedDeletes when we set the bytesUsed we are failing to account for RAM required for the term bytes and now term field . Simple patch I ll commit shortly backport. bulk close for 3.3

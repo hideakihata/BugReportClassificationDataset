@@ -1,0 +1,2 @@
+Move copy objects
+Add new methods in the persistence manager to move and copy objectsResolve see issue JCR-910

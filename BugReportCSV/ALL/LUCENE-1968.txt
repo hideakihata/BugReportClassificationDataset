@@ -1,0 +1,2 @@
+Remove deprecated methods in PriorityQueue
+All tests pass. Committed revision 824013.

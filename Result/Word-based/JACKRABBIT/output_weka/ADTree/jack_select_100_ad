@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,670,816,714,299,213,806,598,217,804,436,581,580,106,500,776,596,450,204,930,216,849,502,586,916,942,878,420,346,958,393,653,318,159,396,911,302,345,937,588,85,657,619,440,674,929,122,932,297,946,902,805,684,781,395,12,905,503,823,473,668,437,898,330,641,892,410,844,1001,443,913,875,949,585,388,659,931,999,528,739,95,1
+Instances:    2402
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: 0.222
+|  (1)java < 7.5: 0.078
+|  |  (6)fails < 0.5: 0.061
+|  |  |  (8)problem < 0.5: 0.085
+|  |  |  (8)problem >= 0.5: -0.387
+|  |  |  (9)make < 0.5: -0.057
+|  |  |  (9)make >= 0.5: 0.477
+|  |  (6)fails >= 0.5: -0.441
+|  |  (7)improve < 0.5: -0.025
+|  |  (7)improve >= 0.5: 1.263
+|  |  (10)nullpointerexception < 0.5: 0.021
+|  |  (10)nullpointerexception >= 0.5: -1.045
+|  (1)java >= 7.5: -0.902
+|  (2)merged < 0.5: 0.112
+|  |  (3)fixed < 0.5: 0.234
+|  |  (3)fixed >= 0.5: -0.217
+|  (2)merged >= 0.5: -0.417
+|  (4)configuration < 0.5: -0.058
+|  (4)configuration >= 0.5: 0.547
+|  (5)dependency < 0.5: -0.037
+|  (5)dependency >= 0.5: 0.794
+Legend: -ve = BUG, +ve = FEATURE
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 5.76 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1679               69.9001 %
+Incorrectly Classified Instances       723               30.0999 %
+Kappa statistic                          0.3357
+Mean absolute error                      0.4246
+Root mean squared error                  0.4482
+Relative absolute error                 89.1903 %
+Root relative squared error             91.8624 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.481     0.161      0.656	0.481	0.555      0.748    BUG
+                 0.839     0.519      0.716	0.839	0.773      0.748    FEATURE
+Weighted Avg.    0.699     0.379      0.693	0.699	0.688      0.748
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  451  487 |    a = BUG
+  236 1228 |    b = FEATURE
+

@@ -1,0 +1,2 @@
+Some implementations require a save after a mixin has been assigned
+Some test cases do not call save after a mixin has been added.Fixed in revision 480938

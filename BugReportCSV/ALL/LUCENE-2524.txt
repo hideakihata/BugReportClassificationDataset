@@ -1,0 +1,2 @@
+when many query clases are specified in boolean or dismax query highlighted terms are always yellow if multi-colored feature is used
+The problem is the following snippet protected String getPreTag int num return preTags.length num preTags num preTags 0 it should be protected String getPreTag int num int n num preTags.length return preTags n The fix more color tags contribution attached. I ll commit shortly. trunk Committed revision 960349. branch 3x Committed revision 960353. reopening for possible 2.9.4 3.0.3 backport. Committed revision 1028850 2.9 1028854 3.0 .

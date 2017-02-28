@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   121
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.222
+|  (1)TOPIC10 < 0.5: -0.084
+|  |  (6)TOPIC112 < 0.5: 0.022
+|  |  (6)TOPIC112 >= 0.5: -1.336
+|  (1)TOPIC10 >= 0.5: 0.509
+|  (2)TOPIC93 < 0.5: 0.07
+|  (2)TOPIC93 >= 0.5: -0.468
+|  (3)TOPIC119 < 0.5: 0.058
+|  |  (4)TOPIC27 < 0.5: 0.056
+|  |  (4)TOPIC27 >= 0.5: -0.595
+|  |  (5)TOPIC12 < 0.5: 0.033
+|  |  (5)TOPIC12 >= 0.5: -0.97
+|  |  (7)TOPIC66 < 0.5: 0.062
+|  |  |  (10)TOPIC74 < 0.5: 0.049
+|  |  |  (10)TOPIC74 >= 0.5: -0.736
+|  |  (7)TOPIC66 >= 0.5: -0.436
+|  (3)TOPIC119 >= 0.5: -0.472
+|  (8)TOPIC91 < 0.5: 0.039
+|  |  (9)TOPIC86 < 0.5: 0.031
+|  |  (9)TOPIC86 >= 0.5: -0.765
+|  (8)TOPIC91 >= 0.5: -0.59
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 5.44 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1660               69.1091 %
+Incorrectly Classified Instances       742               30.8909 %
+Kappa statistic                          0.3796
+Mean absolute error                      0.432 
+Root mean squared error                  0.4518
+Relative absolute error                 90.7516 %
+Root relative squared error             92.6163 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.665     0.268      0.795	0.665	0.724      0.733    FEATURE
+                 0.732     0.335      0.583	0.732	0.649      0.733    BUG
+Weighted Avg.    0.691     0.294      0.712	0.691	0.695      0.733
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 973 491 |   a = FEATURE
+ 251 687 |   b = BUG
+

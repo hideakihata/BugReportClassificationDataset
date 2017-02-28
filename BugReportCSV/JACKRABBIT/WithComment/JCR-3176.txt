@@ -1,0 +1,2 @@
+JCARepositoryManager does not close InputStream
+JCR-3129 opened a already closed issue JCR-1667 Committed revision 1213178.

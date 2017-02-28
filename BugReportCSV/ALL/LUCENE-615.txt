@@ -1,0 +1,2 @@
+ patch javadoc and comment updates for BooleanClause.
+Javadoc and comment updates for BooleanClause one minor code simplification. Easy enough to understand patch applied.

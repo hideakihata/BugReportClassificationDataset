@@ -1,0 +1,2 @@
+Buffered I O in IndexInfos
+IndexInfos currently uses plain Input OutputStreams without buffering.Implemented in revision 831831

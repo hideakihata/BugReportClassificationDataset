@@ -1,0 +1,2 @@
+Add FileBody constructor with explicit filename
+FileBody does not allow the filename field in the Content-Disposition header to be overriden the filename taken from the File object - I have software that creates temporary files and needs to assign an implicit logical filename.Patch FileBody and TestMultipartForm to include and unit test the additional constructorPatch checked in. Oleg

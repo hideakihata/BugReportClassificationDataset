@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   131
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.459
+|  (1)TOPIC36 < 0.5: -0.289
+|  |  (2)TOPIC115 < 0.5: -0.089
+|  |  |  (4)TOPIC24 < 0.5: -0.089
+|  |  |  (4)TOPIC24 >= 0.5: 0.693
+|  |  (2)TOPIC115 >= 0.5: 0.835
+|  (1)TOPIC36 >= 0.5: 0.619
+|  (3)TOPIC97 < 0.5: 0.052
+|  |  (5)TOPIC20 < 0.5: -0.048
+|  |  (5)TOPIC20 >= 0.5: 0.646
+|  |  (6)TOPIC83 < 0.5: 0.054
+|  |  |  (7)TOPIC69 < 0.5: 0.085
+|  |  |  (7)TOPIC69 >= 0.5: -0.394
+|  |  |  (8)TOPIC106 < 0.5: 0.063
+|  |  |  (8)TOPIC106 >= 0.5: -0.384
+|  |  (6)TOPIC83 >= 0.5: -0.505
+|  (3)TOPIC97 >= 0.5: -0.931
+|  (9)TOPIC119 < 0.5: 0.027
+|  (9)TOPIC119 >= 0.5: -0.776
+|  (10)TOPIC63 < 0.5: 0.018
+|  (10)TOPIC63 >= 0.5: -1.041
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 5.66 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1933               79.124  %
+Incorrectly Classified Instances       510               20.876  %
+Kappa statistic                          0.4612
+Mean absolute error                      0.3638
+Root mean squared error                  0.4006
+Relative absolute error                 89.1919 %
+Root relative squared error             88.7062 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.887     0.449      0.832	0.887	0.859      0.814    FEATURE
+                 0.551     0.113      0.661	0.551	0.601      0.814    BUG
+Weighted Avg.    0.791     0.353      0.783	0.791	0.785      0.814
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1549  197 |    a = FEATURE
+  313  384 |    b = BUG
+

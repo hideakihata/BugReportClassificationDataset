@@ -1,0 +1,2 @@
+serious performance degradation of node operations when node has a large number of child nodes e.g. 10k child node entries 
+reimplemented NodeState internals to improve performance when handling nodes with large number of child node entries svn r. 373549 committed further NodeState optimizations which should improve performance significantly when dealing with heavy nodes svn r. 375921 .

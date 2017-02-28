@@ -1,0 +1,2 @@
+Add myqsql ddl for clustering DatabaseJournal 
+the default ddl for clustering does t work with mysql so it would be nice to include a mysql specific ddl also for clustering.mysql ddl for clustering to be added to jackrabbit-core src main java org apache jackrabbit core cluster just the same as the default but with longblob instead of varbinary Thank you very much for your contribution. I added mysql.ddl to revision 509624.

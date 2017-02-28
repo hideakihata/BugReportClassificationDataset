@@ -1,0 +1,2 @@
+Query Builder and jcr deref problem. Can t add predicate after jcr deref
+Cannot add a predicate like property value after a jcr deref function. The query builder throws an InvalidQueryException Unsupported location for jcr deref . So for example the query element nt category member jcr deref member property value is invalid and it should be valid. Translation of jcr deref function into lucene query tree was incomplete. Fixed in revision 384804Merged to 1.0 in revision 389557.

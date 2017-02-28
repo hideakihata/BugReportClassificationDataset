@@ -1,0 +1,2 @@
+Improvement in comment of QValue.getLength 
+The comment of QValue.getLength should document -1 return values.cool. thanks for the patch. in addition i adjusted the QValueFactoryTest which relied on the correct length with some binary tests... and at the same time removed the test that relied on binary values being Serializable which is true for the impl. in spi-commons but not mandated by the interface .

@@ -1,0 +1,2 @@
+MultiPhraseQuery throws AIOOBE
+See thread MultiPhraseQuery throws ArrayIndexOutOfBounds Exception on dev by Jayendra Patil. Thanks Jayendra reopening for possible 2.9.4 3.0.3 backport. The bug doesn t exist in 3.0.x 2.9.x it was introduced in LUCENE-2410 in 3x and trunk Bulk close for 3.1

@@ -1,0 +1,2 @@
+randomize skipInterval in tests
+we probably don t test the multi-level skipping very well but skipInterval etc is now private to the codec so for better test coverage we should parameterize it to the postings writers and randomize it via mockrandomcodec. just a really quick patch i hit lots of problems with Standard with this maybe just bad asserts havent even looked . oh duh i sometimes created skipInterval 1 everything seems fine now with -Dtests.codec MockRandom Committed revision 1091408.

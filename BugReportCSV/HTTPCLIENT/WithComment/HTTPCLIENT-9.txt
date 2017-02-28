@@ -1,0 +1,2 @@
+Null paths break the compare method
+The compare method cannot handle the path being nullRecent commits to Cookie.java have resolved this by changing the compare method to check for nulls and only using the path for ordering as per the rfc

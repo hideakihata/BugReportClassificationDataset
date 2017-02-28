@@ -1,0 +1,2 @@
+in advance don t try to skip if there is evidence it will fail
+There are TODO s about this in the code everywhere and this was part of Mike speeding up ExactPhraseScorer. I think the codec should do this. Query QPS trunk QPS patch Pct diff united states 10.29 11.33 10.1 spanFirst unit 5 141.96 198.54 39.9 Committed revision 1065261 1065262 3x Bulk close for 3.1

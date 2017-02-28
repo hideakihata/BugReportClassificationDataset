@@ -1,0 +1,2 @@
+QueryParser support for MatchAllDocs
+It seems like there really should be QueryParser support for MatchAllDocsQuery. I propose brings back memories of DOS 1 With this could also come negative-only queries e.g. -foo as a shortcut for -foo Here s the patch.... means MatchAllDocsQuery Since it required a grammar change I made it allow as a fieldname so one could do foo . This allows one to come up with a specialized syntax for searching across multiple fields by simply subclassing QueryParser methods. Committed.

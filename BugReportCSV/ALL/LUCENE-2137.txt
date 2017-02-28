@@ -1,0 +1,2 @@
+Replace SegmentReader.Ref with AtomicInteger
+I think the patch should be applied to backcompat tag in its entirety. I backwards branch we should only change tests as we want to test if a drop-in replacement still works . But never change the src java folder in BW. So the only option in BW is to comment out that tests as running them will fail. The functionality is tested by the trunk tests. Else 1 its rather straightforward I should have seen this during the Lucene 3.0 police audition I ll remove comment out the affected back-compat tests. Thanks Earwin 

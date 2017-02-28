@@ -1,0 +1,2 @@
+Cookie.java bookean typo
+ÊCreated an attachment id 3187 Patch for typo in log message bookean - boolean Patch applied. Thanks 

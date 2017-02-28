@@ -1,0 +1,2 @@
+Allow extendability of RepositoryImpl.WorkspaceInfo
+the workspace info has some package private and some protected methods. in order to be able to extend the workspace info we need to have all methods protected.proposed patchnew patch - make methods that implement the init dispose semantics final - make most getter methods protected - extract doInitialize and doDispose that allows extending classes to perform operations within the proper lock scope 1 cheers stefanapplied 2nd patch

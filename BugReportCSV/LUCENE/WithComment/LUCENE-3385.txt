@@ -1,0 +1,2 @@
+EasySimilarity to interpret document length as float
+docLen changed from int to float. Looks good i think this is good since it incorporates the index-time boost also at the moment. I committed this tests pass thanks David 

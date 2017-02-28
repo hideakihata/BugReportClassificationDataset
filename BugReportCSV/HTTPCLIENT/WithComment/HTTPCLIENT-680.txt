@@ -1,0 +1,2 @@
+web site for download of 3.1 fails
+Down loading version 3 is not possible. Documentation for 4. does not match 3.I manually patched HttpClient pages in commons.apache.org for now. Oleg

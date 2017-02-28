@@ -1,0 +1,2 @@
+checkindex fails if docfreq skipInterval and term is indexed more than once at same position
+This is a bad check in the skipping verification logic adding 3.2 this was also broken in that release. the bug is obvious I m gonna commit soon and add an entry to CHANGES.txt

@@ -1,0 +1,2 @@
+SSL Tunneling does not work with MultiThreadedHttpConnectionManager
+The HttpConnection is released prematurely when doing SSL tunneling with the MultiThreadedHttpConnectionManager. The ConnectMethod releases the connection in responseBodyConsumed before it can be used by the real method.Created an attachment id 5098 Fix I think the attached patch should fix this problem. Please take a look. Mike

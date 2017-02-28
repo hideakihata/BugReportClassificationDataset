@@ -1,0 +1,2 @@
+ PATCH more verbose exception messages BatchedItemOperations 
+added context to exception messages in BatchedItemOperations to aid debuggingPatch applied in revision 644653. Good stuff better exception messages are very helpful. Thanks Reponening the changes don t compile. Thanks for spotting and reverting Angela Wow i m not sure what happened there but here is the correct patch. Maybe i didn t save before creating the patch or something. My apologies.New patch applied in revision 660496. Thanks 

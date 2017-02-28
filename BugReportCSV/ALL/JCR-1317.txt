@@ -1,0 +1,2 @@
+Add a MBean method to programatically create a new Workspace.
+Would be useful to have a mbean method to create a new workspace to use if with a jmx console. A patch against 1.3.3 with a functional version of methodPatch applied in revision 691319 and polished in revision 691321. Thanks 

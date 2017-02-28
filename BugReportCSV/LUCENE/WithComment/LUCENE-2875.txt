@@ -1,0 +1,2 @@
+NumericTokenStream.NumericTermAttribute does not support cloning - Solr analysis request handlers fail
+During converting Solr s AnalysisRequestHandlers LUCENE-2374 I noticed that the current implementation of NumericTokenStream fails on cloneAttributes which is needed to buffer the tokens for structured display. This issue should fix this by refactoring the inner class. Patch will commit now. Committed revision 1060900 I committed some updates to token metadata in revision 1061060

@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/HTTPCLIENT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R292,691,326,759,967,251,698,491,249,231,723,538,574,502,220,471,229,308,217,440,185,232,608,184,756,520,328,658,924,395,492,531,713,8,364,925,508,290,779,997,310,907,314,313,793,685,359,92,622,610,1
+Instances:    745
+Attributes:   51
+              execute
+              problem
+              fix
+              reproduce
+              user-agent
+              documentation
+              projects
+              java
+              docs
+              dependencies
+              re-test
+              loop
+              mikepatch
+              keep-alive
+              defaultclientconnection
+              interface
+              define
+              fail
+              debug
+              impl
+              content-type
+              dependency
+              npe
+              content-length
+              reported
+              line
+              fixes
+              path
+              thrown
+              http
+              javadoc
+              log
+              proxy-connection
+              abstracthttpclient
+              guide
+              throws
+              lang
+              exception
+              retry
+              wire
+              fails
+              test
+              feature
+              false
+              run
+              previous
+              gmt
+              bug
+              olegi
+              null
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)problem < 0.5: -0.258
+|  (1)problem >= 0.5: 0.309
+|  (2)documentation < 0.5: 0.053
+|  (2)documentation >= 0.5: -0.847
+|  (3)execute < 1.5: -0.051
+|  |  (7)javadoc < 0.5: 0.034
+|  |  (7)javadoc >= 0.5: -0.918
+|  |  (9)test < 3.5: -0.068
+|  |  (9)test >= 3.5: 0.708
+|  (3)execute >= 1.5: 0.801
+|  (4)interface < 2.5: 0.041
+|  |  (6)fix < 0.5: -0.148
+|  |  (6)fix >= 0.5: 0.293
+|  (4)interface >= 2.5: -1.25
+|  (5)feature < 0.5: 0.048
+|  |  (10)olegi < 0.5: 0.086
+|  |  (10)olegi >= 0.5: -0.445
+|  (5)feature >= 0.5: -0.746
+|  (8)dependency < 0.5: 0.039
+|  (8)dependency >= 0.5: -1.039
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.56 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         527               70.7383 %
+Incorrectly Classified Instances       218               29.2617 %
+Kappa statistic                          0.3799
+Mean absolute error                      0.418 
+Root mean squared error                  0.4456
+Relative absolute error                 86.4245 %
+Root relative squared error             90.6185 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.807     0.436      0.727	0.807	0.765      0.756    FEATURE
+                 0.564     0.193      0.669	0.564	0.612      0.756    BUG
+Weighted Avg.    0.707     0.337      0.704	0.707	0.702      0.756
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 355  85 |   a = FEATURE
+ 133 172 |   b = BUG
+

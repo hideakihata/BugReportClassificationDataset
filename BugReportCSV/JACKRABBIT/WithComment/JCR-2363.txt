@@ -1,0 +1,2 @@
+Node.orderBefore does not check permissions
+It seems that Node.orderBefore String String does not check if the editing session is allowed to modify the parent neither immediately nor upon saving the transient changes. This issue was found by Alexandre Capt. Thanks proposed fix treat the reorder similar to a move and check if the child node to be reordered can be removed and added.

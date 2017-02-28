@@ -1,0 +1,2 @@
+Configurable Similarity
+The similarity implementation for indexing and searching should be configurable.Added new parameter similarityClass in revision 635552

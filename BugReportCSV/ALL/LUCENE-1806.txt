@@ -1,0 +1,2 @@
+Add args to test-macro
+Add passing args to JUnit. Like Solr and mainly for debugging . Adds ability to pass jvmarg s to JUnit task doing something like export ANT ARGS -Dargs -agentlib jdwp transport dt socket server y suspend y address 8888 Done thanks Jason.

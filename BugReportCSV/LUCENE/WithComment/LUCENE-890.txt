@@ -1,0 +1,2 @@
+Fix for small syntax omission in TermQuery documentation
+A coding example which could be cut n paste by a user has unbalanced parenthesis. This fix corrects the documentation making no changes to functionality only readability. Simply update to the search package.html file. Fixed thanks.

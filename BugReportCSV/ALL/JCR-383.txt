@@ -1,0 +1,2 @@
+Default namespaces in JackrabbitNodeTypeManager.registerNodetypes
+It would be nice if it wasn t necessary to always specify all the namespaces in node type definition files passed to JackrabbitNodeTypeManager.registerNodeTypes . The node type parsers should by default use the persistent namespace mappings but allow custom mappigns to be specified in the parsed node type definition files.Fixed for CND in revision 390805. Scheduled for inclusion in 1.0.1.Merged for 1.0.1 in revision 409645.

@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)TOPIC27 < 0.5: 0.166
+|  |  (3)TOPIC24 < 0.5: -0.164
+|  |  (3)TOPIC24 >= 0.5: 0.345
+|  |  (9)TOPIC98 < 0.5: 0.068
+|  |  (9)TOPIC98 >= 0.5: -0.541
+|  (1)TOPIC27 >= 0.5: -0.738
+|  (2)TOPIC92 < 0.5: 0.063
+|  |  (8)TOPIC93 < 0.5: 0.042
+|  |  (8)TOPIC93 >= 0.5: -0.585
+|  (2)TOPIC92 >= 0.5: -1.348
+|  |  (6)TOPIC96 < 0.5: -1.204
+|  |  (6)TOPIC96 >= 0.5: 1.129
+|  (4)TOPIC39 < 0.5: 0.03
+|  |  (5)TOPIC8 < 0.5: 0.044
+|  |  |  (10)TOPIC60 < 0.5: -0.049
+|  |  |  (10)TOPIC60 >= 0.5: 0.604
+|  |  (5)TOPIC8 >= 0.5: -0.994
+|  (4)TOPIC39 >= 0.5: -1.131
+|  (7)TOPIC48 < 0.5: 0.038
+|  (7)TOPIC48 >= 0.5: -0.631
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.59 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         522               70.0671 %
+Incorrectly Classified Instances       223               29.9329 %
+Kappa statistic                          0.3887
+Mean absolute error                      0.4051
+Root mean squared error                  0.4372
+Relative absolute error                 83.7699 %
+Root relative squared error             88.9128 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.718     0.325      0.761	0.718	0.739      0.774    FEATURE
+                 0.675     0.282      0.624	0.675	0.649      0.774    BUG
+Weighted Avg.    0.701     0.307      0.705	0.701	0.702      0.774
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 316 124 |   a = FEATURE
+  99 206 |   b = BUG
+

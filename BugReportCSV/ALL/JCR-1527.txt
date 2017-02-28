@@ -1,0 +1,2 @@
+Support for MaxDB SapSB Databases
+I admit that MaxDB SapSB are a bit exotic but support is easy to achieve when providing the correct ddls. DDLs for MaxDB SapDB databasesThanks Patch committed in revision 792214 and merged to the 1.x branch in revision 792215.

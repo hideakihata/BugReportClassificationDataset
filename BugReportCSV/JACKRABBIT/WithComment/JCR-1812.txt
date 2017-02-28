@@ -1,0 +1,2 @@
+WorkspaceUpdateChannel.updateCommitted logs too much
+On each cluster record update an info message is logged. I think this is too much and logging should be reduced to the DEBUG level.Proposed patch which also includes making use of SLF4Js log call optimization for not concatenating strings if not needed.Looks good. Commit it soon and I ll get this included in 1.5. - Applied patch to 1.5 branch in Rev. 704863 and to trunk in Rev. 704864.

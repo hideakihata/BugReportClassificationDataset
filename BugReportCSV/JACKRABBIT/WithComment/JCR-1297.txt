@@ -1,0 +1,2 @@
+Set svn eol-style on ddl files
+Most of the ddl files in jackrabbit-core src main resources don t have the svn eol-style property set. It should be set to native.Fixed in revision 610220 and merged to the 1.4 branch in revision 610222.

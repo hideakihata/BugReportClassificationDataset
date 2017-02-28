@@ -1,0 +1,2 @@
+jackrabbit-jcr-tests should still be based on Java 1.4
+The JCR 2.0 TCK needs to be runnable on Java 1.4 so even though we ve upgraded to Java 5 as the base platform for Jackrabbit 2.0 the jackrabbit-jcr-tests component needs to still be based on Java 1.4.I changed the POM settings in revision 771737 to use Java 1.4 for jackrabbit-jcr-tests. I also set up a new Hudson job 1 to compile just the jackrabbit-jcr-tests package with a Java 1.4 JDK. Resolving as Fixed. 1 http hudson.zones.apache.org hudson job Jackrabbit-trunk-tests-java14 

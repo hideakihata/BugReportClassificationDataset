@@ -1,0 +1,2 @@
+Add Highlighter test for RegexQuery
+Highlighter has already a test for SpanRegexQuery and the build dependencies are already in the ANT file. Here is the patch for RegexQuery Those issues LUCENE-2039 are kind of related as they eventually add more support for RegexCapabilities in Lucene. Commited in revision 836162

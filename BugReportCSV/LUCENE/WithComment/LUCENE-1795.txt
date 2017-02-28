@@ -1,0 +1,2 @@
+New QueryParser should not allow leading wildcard by default
+The current QueryParser disallows leading wildcard characters by default. Attached patch... I ll commit soon.

@@ -1,0 +1,2 @@
+Row.getValue rep excerpt . may throw ArrayIndexOutOfBoundsException
+Happens when the matching node only has properties that are configured not to be used in excerpts.Added test case and fix in revision 924224

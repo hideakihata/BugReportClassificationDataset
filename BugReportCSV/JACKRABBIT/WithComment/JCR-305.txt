@@ -1,0 +1,2 @@
+provide option to automatically dispose idle workspaces
+fixed in svn r370144 added optional maxIdleTime attribute to Workspaces element in repository.xml the maxIdleTime attribute specifies the maximum amount of time in seconds before an idle workspace is automatically shutdown. idle workspaces won t be automatically shutdown if maxIdleTime is not specified or if it is zero.

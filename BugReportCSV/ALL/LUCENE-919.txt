@@ -1,0 +1,2 @@
+DefaultSkipListReader should not be public
+There s no need for org.apache.lucene.index.DefaultSkipListReader to be public. This class hasn t been released yet so we should fix this before 2.2. Committed to trunk 2.2 branch.

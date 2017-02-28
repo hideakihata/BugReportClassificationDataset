@@ -1,0 +1,2 @@
+FastVectorHighlighter some classes and members should be publicly accessible to implement FragmentsBuilder
+I intended to design custom FragmentsBuilder can be written and pluggable though when I tried to write it out of the FVH package it came out that some classes and members should be publicly accessible. A patch attached. It includes reset methods for Tokenizer that is used by test code. I ll commit later today these trivial changes. Committed revision 898323.

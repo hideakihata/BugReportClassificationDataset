@@ -1,0 +1,2 @@
+A Property and a Node Can Have the Same Name
+according to paragraph 3.3.4 of the of the JSR 283 specification Public Review Draft a property and a node can have the same name.fixed in svn r605622It seems that the last commit deleted some changes from previous commits. For example SessionImpl.createDataStoreGarbageCollector but I think there are others. Regards.oops you re right. thanks esteban fixed in svn r605880.

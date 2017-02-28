@@ -1,0 +1,2 @@
+WebDAV add support for DAV lockroot
+see http www.webdav.org specs rfc4918.html ELEMENT lockroot this element has been added with RFC 4918. add constant to the DAVConstants and extend ActiveLock interface accordingly.

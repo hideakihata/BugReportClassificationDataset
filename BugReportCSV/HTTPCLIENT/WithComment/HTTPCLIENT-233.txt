@@ -1,0 +1,2 @@
+HttpMethodBase Javadoc patches
+Clarify that HTTP 1.1 is the default. Attaching.Created an attachment id 7019 Patch to HttpMethodBase v.1.156 Looks reasonable to me. If nobody complains loudly I ll commit the patch shortly. OlegPatch some additional corrections committed. Oleg

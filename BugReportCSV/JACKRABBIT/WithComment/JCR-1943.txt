@@ -1,0 +1,2 @@
+jcr-tests make property value s and property type s configurable
+test-cases using Node.setProperty or Property.setValue mostly hardcode the value... there should be the possibility to specify type and value in the config.- constants added to RepositoryStub - methods added to AbstractJcrTest the ease the creation of jcr values from config params.

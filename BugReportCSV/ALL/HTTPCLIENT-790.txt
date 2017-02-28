@@ -1,0 +1,2 @@
+Protocol interceptors not called when executing CONNECT methods
+When the DefaultRequestDirector tries to establish a route via a proxy to a https target registered protocol interceptors aren t being called in the createTunnelToTarget method.Justin The bug has been fixed in SVN trunk. Could you please re-test your code with the latest SVN snapshot and let me know if that solved the problem for you OlegHi Oleg Have tested with the latest in trunk and verified to be working.

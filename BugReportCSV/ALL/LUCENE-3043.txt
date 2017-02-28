@@ -1,0 +1,2 @@
+o.a.l.analysis.de.GermanStemmer crashes on some inputs
+See the tests from LUCENE-2560. GermanAnalyzer no longer uses this stemmer by default but we should fix it. this problem occurs if this stemmer encounters an empty term some things like keywordtokenizer regex do this . the fix is trivial... i ll commit soon. Committed revisions 1096194 1096199 Bulk closing for 3.2

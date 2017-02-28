@@ -1,0 +1,2 @@
+Allow importing of ACL with unknown principals
+It should be possible to import ACLs with principals that are not known to the principal provider yet.changed in revision 810701 - relaxed PrincipalManager.getPrincipal that it returns NULL instead of throwing a NoSuchPrincipalException - removed NoSuchPrincipalException - introduced UnknownPrincipal - ACL importer creates UnknownPrincpals that are not validated by the ACLTemplate - Added optional FallbackPrincipalProvider that could be used to provide any desired principal

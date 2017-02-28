@@ -1,0 +1,2 @@
+Unreachable catch block for NameException in ValueConstraint.java
+Unreachable catch block for NameException. Only more specific exceptions are thrown and handled by previous catch block s . ValueConstraint.java line 855 Patch to fix this compiler warning.FIxed as suggested in revision 603828. Thanks 

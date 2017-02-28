@@ -1,0 +1,2 @@
+JcrParser use of bitwise instead of logical AND operator
+JcrParser line 134             if insideSingleQuote insideDoubleQuote Character fixed in revision 1082611Merged to the 2.2 branch in revision 1202781.

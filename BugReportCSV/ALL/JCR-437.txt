@@ -1,0 +1,2 @@
+Restoring a node which has OPV Version children fails if they are not versionable
+when a node has a OPV Version childnode which is not versionable itself restoring of the node fails when it tries to read the versionhistory of that childnode.fixed in r408873Merged for 1.0.1 in revision 409630.

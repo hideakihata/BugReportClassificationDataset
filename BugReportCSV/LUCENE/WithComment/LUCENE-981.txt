@@ -1,0 +1,2 @@
+NewAnalyzerTask
+NewAnalyzerTask patch to follow allows a contrib benchmark algorithm to change Analyzers during a run. This is useful when comparing Analyzers NewAnalyzer NewAnalyzer WhitespaceAnalyzer SimpleAnalyzer StopAnalyzer standard.StandardAnalyzer is a sample declaration in an algorithm file. Patch should be applied in contrib benchmark. Patch also includes fix for LUCENE-980 which is pretty trivial. Committed.

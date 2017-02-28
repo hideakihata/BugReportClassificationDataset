@@ -1,0 +1,2 @@
+Occur incompletely implemented for remote use.
+Occur does not implement readResolve creating problems for ParallelMultiSearcher y. Thanks I implemented a readResolve method as suggested by you. However I kept Occur as an inner class and I made the default case throw an Exception. Can you please check if it works okay now Can you also please give an example of what exactly happens without this patch We can then add a test case. No reply so I assume it s fixed.

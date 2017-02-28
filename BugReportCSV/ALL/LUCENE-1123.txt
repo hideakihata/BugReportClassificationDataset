@@ -1,0 +1,2 @@
+Allow overriding the specification version in MANIFEST.MF
+The specification version in MANIFEST.MF should only consist of digits. When we e. g. build a release candidate with a version like 2.3-rc1 then we have to specify a different specification version. See related discussion http www.gossamer-threads.com lists lucene java-dev 56611 This simple patch allows overriding the specification version ant -Dversion 2.3-rc1 -Dspec.version 2.3 clean dist dist-src I m planning to commit this today. Committed to trunk and 2.3 branch.

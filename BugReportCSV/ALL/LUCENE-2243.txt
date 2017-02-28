@@ -1,0 +1,2 @@
+FastVectorHighlighter support DisjunctionMaxQuery
+Add DisjunctionMaxQuery support in FVH. The fix attached. I ll commit later today. Koji could you use a foreach loop instead of the iterator... just my 0.02 DisjunctionMaxQuery dmq DisjunctionMaxQuery sourceQuery for Query query dmq flatten query flatQueries simon Koji could you use a foreach loop instead of the iterator... just my 0.02 Sure. Committed revision 904776.

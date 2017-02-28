@@ -1,0 +1,2 @@
+Versioning might no be thread safe
+check versioning for thread safenessThis seems to be related to JCR-18Schedule for 1.0fixed a major synchronizity problem in verisoning see JCR-443 which probably solves this problem aswell. Date Thu May 25 03 04 54 2006 New Revision 409351Merged for 1.0.1 in revision 409626.

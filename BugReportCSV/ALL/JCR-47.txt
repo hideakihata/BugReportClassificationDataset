@@ -1,0 +1,2 @@
+Node.setProperty String String does not convert values
+when setting the value of a defined property via the Node.setProperty String String method a ConstraintViolationException is thrown. but the string value should be converted or a ValueFormatException must be thrown. fixed in r154846

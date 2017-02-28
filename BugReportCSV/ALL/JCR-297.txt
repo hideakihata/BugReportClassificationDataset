@@ -1,0 +1,2 @@
+Jcr-Server Avoid xml parsing if request body is missing
+Originally reported by Brian. as a first step i would suggest to avoid parsing the request body if the headers indicates a contentlength of 0. other than the original solution suggested by brian a contentlength of -1 meaning contentlength is not available for whatever reason would still get parsed. this would at least circumvent the parse failure if the contentlength is set to 0 e.g. http1.0 PROPFIND request for all properties where it is legal to omit the request body .change applied with rev. 368683

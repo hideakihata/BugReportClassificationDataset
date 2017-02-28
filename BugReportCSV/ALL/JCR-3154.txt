@@ -1,0 +1,2 @@
+Stats for Queries continued
+This is to track the last missing item on the Query Stats list Top Queries. Also some needed refactoring.fixed in revision 1205199.

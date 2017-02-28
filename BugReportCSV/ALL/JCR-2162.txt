@@ -1,0 +1,2 @@
+Data Store garbage collection continues when the session is closed
+Currently the data store garbage collection continues even if the session is closed. This can cause problems.This problem was actually fixed as part of bug JCR-2241 but now I added a test case.

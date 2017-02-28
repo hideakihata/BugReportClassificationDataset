@@ -1,0 +1,2 @@
+singletermsenum
+singletermsenum for flex like the existing singletermenum it is a filteredtermSenum that only matches one term to preserve multitermquery semantics Looks good Robert ok I will commit shortly. This removes nocommits from WildcardQuery and also makes porting Automaton one step easier. Committed revision 887283.

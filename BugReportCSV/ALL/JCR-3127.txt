@@ -1,0 +1,2 @@
+Upgrade to Tika 0.10
+Apache Tika 0.10 was released some while ago. It contains lots of improvements and fixes for full text extraction.Done in revision 1188168.

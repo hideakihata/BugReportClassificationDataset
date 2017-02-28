@@ -1,0 +1,2 @@
+Change project names to start with jackrabbit
+All the released projects should have artifactId s starting with jackrabbit .Package names changed in revision 389925. Merged to 1.0 in revision 389927. I did not change the directory names to avoid unnecessary complications around 1.0 but we may want to consider doing that later on.

@@ -1,0 +1,2 @@
+Flex on non-flex emulation of TermsEnum incorrectly seeks nexts beyond current field
+Spinoff of LUCENE-2111 where Uwe found this issue with the flex on non-flex emulation. Attached patch added 2 new test cases... fixed a few issues in the emulation layers.

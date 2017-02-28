@@ -1,0 +1,2 @@
+BoostingNearQuery doesn t have hashCode equals
+add hashCode equals and adds abstract hashCode equals to function base class to enforce they they are properly implemented in subclasses. r806591 Asleep at the wheel on the hashCode equals thing. I had test QueryUtils.check earlier but I was investigating two issues at once - popped the QueryUtils test back in it was originally missing thinking it worked with this hashCode equals but it catches something. My bad. I ve pulled the QueryUtils check back out. It will pass when clone is fixed in LUCENE-1838

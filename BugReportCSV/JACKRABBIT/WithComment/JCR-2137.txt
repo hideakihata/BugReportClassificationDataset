@@ -1,0 +1,2 @@
+Use type StaticOperand for fullTextSearchExpression
+See https jsr-283.dev.java.net issues show bug.cgi id 691Fixed SQL2 parser in revision 794278

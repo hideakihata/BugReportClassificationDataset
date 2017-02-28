@@ -1,0 +1,2 @@
+Missing support for some general relations in QueryTreeDump and xpath.QueryFormat
+The two classes lack support for some of the general relations in XPath. proposed patch Applied the patch in revision 426453 Thank you for reporting this issue. btw. are you working towards solving issue JCR-488     Old comment sent by email on Fri 28 Jul 2006 11 35 09 0200 Not directly but it some of what I currently do may help for that. There are several areas that where the semantics of DASL and JCR queries differ quite a lot so it may be hard. Best regards Julian

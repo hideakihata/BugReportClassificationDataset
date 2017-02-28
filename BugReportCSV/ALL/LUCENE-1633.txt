@@ -1,0 +1,2 @@
+Copy Paste-Typo in toString for SpanQueryFilter
+public String toString - return QueryWrapperFilter query return SpanQueryFilter query says it all. Committed.

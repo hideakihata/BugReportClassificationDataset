@@ -1,0 +1,2 @@
+JSR 283 QOM and SQL2
+Adjusted title. This issue now covers all query changes and enhancements in JSR 283.Implemented a first simple version in revision 768954 Deleted tests that were copied to jsr283.query.qom in revision 768957Added missing test class ChildNodeJoinConditionTest in revision 768962Remaining work includes orderings and columns.Column support implemented in revision 781369Ordering has also been implemented a while ago. Resolving as fixed.

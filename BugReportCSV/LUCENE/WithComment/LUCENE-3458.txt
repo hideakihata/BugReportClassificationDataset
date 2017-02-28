@@ -1,0 +1,2 @@
+Change BooleanFilter to have only a single clauses ArrayList so toString works fine clauses method could be added so it behaves more lik BooleanQuery
+This is unrelated to the other BF changes but should be done Patch will commit soon and update other issues. BF API now behaves like BQ Iterable toString returns clauses in orginal order ... Committed trunk revision 1175385 Committed 3.x branch revision 1175386 Bulk close after release of 3.5

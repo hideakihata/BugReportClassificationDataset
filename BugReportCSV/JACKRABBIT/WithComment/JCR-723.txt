@@ -1,0 +1,2 @@
+OpenDocument files missing in mimetypes.properties
+The mime-types from Oasis OpenDocument are missing from mimetypes.properties file.while adding the missing mimetypes would be a quick short-term solution and no problem i was rather thinking about a mechanism that allows to extend or modify the mimetype-lookup using the configuration. - adjusting summaryAdjusting priority this is not a critical issue.

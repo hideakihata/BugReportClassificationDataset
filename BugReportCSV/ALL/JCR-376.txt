@@ -1,0 +1,2 @@
+JCR-RMI depends on commons-logging
+The commons-logging dependency in JCR-RMI should be removed.Switched to SLF4J see issue in revision 389894. Merged to 1.0 in revision 389896.

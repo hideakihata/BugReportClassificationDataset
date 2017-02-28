@@ -1,0 +1,2 @@
+Set up a release goal in Maven
+Create a single Maven goal for building the Jackrabbit release packages. The goal should be based on the standard Maven dist goal but include also the jackrabbit-commons and other modules we want to include in the release.The maven dist goals in Jackrabbit core and in JCR-RMI are now complete enough to make release packages.

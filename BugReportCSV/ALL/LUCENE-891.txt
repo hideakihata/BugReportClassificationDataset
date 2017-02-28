@@ -1,0 +1,2 @@
+A number of documentation fixes for the search package summary
+Improves readability and clarity corrects some basic English makes some example text even more clear and repairs typos. Addresses a number of minor issues with the search package summary. Fixed thanks.

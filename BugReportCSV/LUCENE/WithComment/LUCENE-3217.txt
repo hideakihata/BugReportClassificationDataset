@@ -1,0 +1,2 @@
+Improve DocValues merging
+Some DocValues impl. still load all values from merged segments into memory during merge. For efficiency we should merge them on the fly without buffering in memory here is a patch for int variant. All fixed int variants are merged without loading them into memory and bulk merged if no deleted docs are present. I am going to commit this part of the patch soon if nobody objects. LUCENE-3507 attempts to fix the remaining issue here moving out see LUCENE-3507

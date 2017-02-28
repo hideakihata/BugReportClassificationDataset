@@ -1,0 +1,2 @@
+Expose directory on IndexReader
+It would be really useful to expose the index directory on the IndexReader class. Looks like this was fixed since at least 1.9.

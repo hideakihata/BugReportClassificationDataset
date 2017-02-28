@@ -1,0 +1,2 @@
+FieldValueFitler should expose the field it uses
+FieldValueFitler should expose the field it uses. It currently hides this entirely.

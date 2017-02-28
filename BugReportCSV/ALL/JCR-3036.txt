@@ -1,0 +1,2 @@
+WebDAV DaveX Servlets susceptible to CSRF Attacks
+Both the WebDAV and the remoting DaveX servlets are susceptible to CSRF attacks. Attached a possible patch. thanks for the patch. i will take a look at it as soon as possible.applied patch with minor modifications and added testsI think this is very misleading. A CSRF attack requires the server to accept POST requests with content type form-data.

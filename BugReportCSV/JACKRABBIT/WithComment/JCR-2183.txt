@@ -1,0 +1,2 @@
+Provide overridables for lock checking
+Currently checking whether a session is allowed to write to some locked node or whether it is allowed to unlock it is quite spread throughout the code. This should be collected to allow a custom lock manager overriding just a few methods to alter the default behavior.Fixed in revision 790892.

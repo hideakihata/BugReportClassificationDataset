@@ -1,0 +1,2 @@
+NullPointerException on startup if IndexingQueue has pending nodes
+This happens because of the newly introduced index version which is not yet set when the IndexingQueue is instanciated.Fixed in trunk 634632 and 1.4 branch 634633 .

@@ -1,0 +1,2 @@
+add new snowball languages
+Snowball added new languages. This patch adds support for them. http snowball.tartarus.org algorithms armenian stemmer.html http snowball.tartarus.org algorithms catalan stemmer.html http snowball.tartarus.org algorithms basque stemmer.html Committed revisions 990459 trunk 990461 3x Bulk close for 3.1

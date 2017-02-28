@@ -1,0 +1,2 @@
+FieldSortedHitQueue.lessThan should not be final
+The final seems to provide little benefit and it takes away the ability to specialize this method which I need to do forcing a customization of Lucene to remove the final . I think this final was just another cut-and-pasted relic from the days when final sometimes made things faster.

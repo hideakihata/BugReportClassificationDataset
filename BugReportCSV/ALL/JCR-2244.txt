@@ -1,0 +1,2 @@
+NodeDefinitionTemplateImpl.setDefaultPrimaryTypeName null throws exception
+expect to clear the name.fixed.

@@ -1,0 +1,2 @@
+QueryParser should use reusable token streams
+Just like indexing the query parser should use reusable token streams Patch looks good committed. not sure this belongs here can do under some issue if you want. note PrecedenceQueryParser should be fixed too more importantly it still uses next Token api Does anyone use PrecedenceQueryParser It was an experiment tossed out there but I ve not heard of anyone using it for real.

@@ -1,0 +1,2 @@
+OracleDatabaseJournal should assume Oracle defaults
+OracleFileSystem and OraclePersistenceManager assumes defaults for certain properties such as driver and databaseType. These defaults should be extended to OracleDatabaseJournal for consistency and ease of use.Attaching patch that sets default values for driver and databaseType. These calls could be moved to init . DatabaseJournal sets databaseType default which overrides a lookup in init to determine type by URL.Patch applied

@@ -1,0 +1,2 @@
+Remaining contrib testcases should use Version based ctors instead of deprecated ones
+Many testcases in contrib use deprecated ctors for WhitespaceTokenizer Analyzer etc. this patch fixes the remaining testcases in contrib. I will hold off with this patch until LUCENE-2055 is committed don t wanna interrupt roberts work with this cleanup here. According to rmuir this will not interrupt LUCENE-2055. Therefore I will commit this is a bit if nobody objects. Committed revision 907034.

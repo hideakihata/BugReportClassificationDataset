@@ -1,0 +1,2 @@
+More javadocs for Weight
+From Doug s reply of 21 Feb 2005 in bug 31841 Created an attachment id 14337 More javadocs for Weight Created an attachment id 14345 Javadoc additions to Searchable and HitCollector Derived from Doug s lucene-dev reply of 22 Feb 2004 about bug 31841 Thanks Paul committed http svn.apache.org viewcvs view rev rev 155607

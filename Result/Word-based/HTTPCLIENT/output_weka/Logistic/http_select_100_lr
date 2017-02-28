@@ -1,0 +1,252 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/HTTPCLIENT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R293,692,327,760,968,252,699,492,250,232,724,539,575,503,221,472,230,309,218,441,186,233,609,185,757,521,329,659,925,396,493,532,714,9,365,926,509,291,780,998,311,908,315,314,794,686,360,93,623,611,286,11,10,642,963,617,108,308,290,483,413,202,390,135,8,33,811,339,723,443,74,175,437,223,944,5,520,495,633,802,310,463,47,883,899,344,972,636,818,628,228,996,702,26,125,548,773,738,634,114,1
+Instances:    745
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                        Class
+Variable                              FEATURE
+=============================================
+execute                               -0.4267
+problem                               -0.0615
+fix                                   -0.4713
+reproduce                             -1.1505
+user-agent                             0.2968
+documentation                          1.0164
+projects                              -0.0778
+java                                   0.0373
+docs                                   0.9547
+dependencies                          14.7282
+re-test                               -0.5985
+loop                                  -0.9438
+mikepatch                             -0.7664
+keep-alive                            -0.3912
+defaultclientconnection              -10.4882
+interface                               0.924
+define                                 4.4821
+fail                                  -1.2686
+debug                                 -0.0356
+impl                                  -0.0395
+content-type                          -0.2221
+dependency                             1.8286
+npe                                   -1.6948
+content-length                        -0.5055
+reported                              -1.0774
+line                                  -0.5262
+fixes                                 -0.7287
+path                                  -0.1299
+thrown                                 -0.588
+http                                   0.0553
+javadoc                                0.9789
+log                                    0.1636
+proxy-connection                     -19.3955
+abstracthttpclient                      0.589
+guide                                  4.7708
+throws                                -0.4947
+lang                                  -0.0507
+exception                              0.0489
+retry                                 -0.3303
+wire                                   0.1832
+fails                                 -0.3465
+test                                   -0.276
+feature                                3.6634
+false                                 -0.5257
+run                                    0.7462
+previous                              -2.5863
+gmt                                   -0.3771
+bug                                   -0.5469
+olegi                                  0.9839
+null                                  -0.0205
+error                                 -0.1308
+abstractpoolentry                     -2.0439
+abstractpooledconnadapter              0.9831
+package                                 0.143
+uri                                   -0.0095
+occurs                                 0.7948
+calls                                 -1.9014
+factory                                2.3272
+examples                                0.626
+iso--                                 -1.4383
+httpmethodbase                         0.2386
+correctly                             -0.4705
+host                                   -0.144
+classes                                0.0834
+abstractclientconnadapter             -3.6088
+apache-httpclient                     -2.8921
+selected                              -0.5766
+free                                   1.1227
+rc                                    -2.1789
+implementation                         0.1884
+basis                                  0.9775
+connection                             0.1254
+illegalstateexception                  0.8656
+defaultclientrequestdirector          -0.8787
+true                                  -0.0386
+aborted                               -1.5006
+license                                1.3415
+javax                                  3.4944
+optional                               3.5856
+schemeregistry                        19.2161
+failed                                -0.6721
+inputstream                           -0.4942
+asp                                   -1.9704
+stream                                 0.0729
+support                                1.0837
+functionality                          3.0834
+utf-                                  -0.3234
+org                                   -0.0748
+server                                 0.2361
+open                                  -0.3395
+defaultrequestdirector                 -1.305
+wiki                                   1.1096
+properties                             0.2122
+alive                                  1.0162
+charset                               -0.0235
+making                                 0.7389
+response                               0.1416
+redirect                               0.0801
+options                                2.0699
+caused                                -0.6593
+Intercept                              0.8628
+
+
+Odds Ratios...
+                                        Class
+Variable                              FEATURE
+=============================================
+execute                                0.6527
+problem                                0.9403
+fix                                    0.6242
+reproduce                              0.3165
+user-agent                             1.3455
+documentation                          2.7633
+projects                               0.9251
+java                                    1.038
+docs                                   2.5978
+dependencies                      2490920.784
+re-test                                0.5497
+loop                                   0.3892
+mikepatch                              0.4647
+keep-alive                             0.6762
+defaultclientconnection                     0
+interface                              2.5194
+define                                88.4174
+fail                                   0.2812
+debug                                   0.965
+impl                                   0.9613
+content-type                           0.8009
+dependency                             6.2254
+npe                                    0.1836
+content-length                         0.6032
+reported                               0.3405
+line                                   0.5908
+fixes                                  0.4825
+path                                   0.8782
+thrown                                 0.5555
+http                                   1.0569
+javadoc                                2.6615
+log                                    1.1777
+proxy-connection                            0
+abstracthttpclient                     1.8022
+guide                                118.0139
+throws                                 0.6098
+lang                                   0.9506
+exception                              1.0501
+retry                                  0.7187
+wire                                   1.2011
+fails                                  0.7072
+test                                   0.7588
+feature                                38.995
+false                                  0.5911
+run                                     2.109
+previous                               0.0753
+gmt                                    0.6858
+bug                                    0.5787
+olegi                                  2.6748
+null                                   0.9797
+error                                  0.8774
+abstractpoolentry                      0.1295
+abstractpooledconnadapter              2.6728
+package                                1.1537
+uri                                    0.9906
+occurs                                 2.2139
+calls                                  0.1494
+factory                               10.2496
+examples                               1.8702
+iso--                                  0.2373
+httpmethodbase                         1.2694
+correctly                              0.6247
+host                                   0.8659
+classes                                 1.087
+abstractclientconnadapter              0.0271
+apache-httpclient                      0.0555
+selected                               0.5618
+free                                   3.0731
+rc                                     0.1132
+implementation                         1.2074
+basis                                  2.6577
+connection                             1.1336
+illegalstateexception                  2.3765
+defaultclientrequestdirector           0.4153
+true                                   0.9622
+aborted                                 0.223
+license                                3.8247
+javax                                 32.9294
+optional                              36.0756
+schemeregistry                  221533981.326
+failed                                 0.5106
+inputstream                            0.6101
+asp                                    0.1394
+stream                                 1.0756
+support                                2.9555
+functionality                         21.8316
+utf-                                   0.7237
+org                                     0.928
+server                                 1.2664
+open                                   0.7121
+defaultrequestdirector                 0.2712
+wiki                                   3.0332
+properties                             1.2364
+alive                                  2.7626
+charset                                0.9768
+making                                 2.0937
+response                               1.1521
+redirect                               1.0834
+options                                7.9241
+caused                                 0.5172
+
+
+Time taken to build model: 0.27 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         567               76.1074 %
+Incorrectly Classified Instances       178               23.8926 %
+Kappa statistic                          0.5009
+Mean absolute error                      0.28  
+Root mean squared error                  0.4321
+Relative absolute error                 57.8924 %
+Root relative squared error             87.8694 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.82      0.325      0.785	0.82	0.802      0.812    FEATURE
+                 0.675     0.18       0.723	0.675	0.698      0.812    BUG
+Weighted Avg.    0.761     0.265      0.759	0.761	0.76       0.812
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 361  79 |   a = FEATURE
+  99 206 |   b = BUG
+

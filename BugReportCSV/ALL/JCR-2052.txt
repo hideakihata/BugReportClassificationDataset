@@ -1,0 +1,2 @@
+XPath QueryFormat may produce malformed XPath statement
+When the query tree contains select properties and an order by clause then the XPath QueryFormat will produce a malformed XPath statement. E.g. element foo a b order by bar round trips to element foo order by bar a b Fixed in revision 760876Merged to the 1.5 branch in revision 767539.Merged to the 1.4 branch in revision 816572. Note that in 1.4.x this fix affects jackrabbit-core since the QueryFormat class was moved from core to spi-commons after the 1.4 release.

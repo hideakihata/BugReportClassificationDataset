@@ -1,0 +1,2 @@
+Term s equals throws ClassCastException if passed something other than a Term
+Term.equals Object does a cast to Term without checking if the other object is a Term. It s unlikely that this would ever crop up but it violates the implied contract of Object.equals . Amendment to .equals to deal with non-Term objects. Also includes standard performance optimisation in the case that the two objects are identity-equal and a test case the last assertion of which fails on current trunk but passes after patch is applies to Term . Patch applied thanks Paul 

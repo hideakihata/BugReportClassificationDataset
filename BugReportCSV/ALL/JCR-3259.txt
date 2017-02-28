@@ -1,0 +1,2 @@
+augment logging information around CachingEntryCollector
+add more logging information for the purpose of debugging CachingEntryCollector bottleneckspatch looks ok... minor detail in the jackrabbit project we use have the else block on the same line as the closing curly bracket It d be useful to include the revision number when a patch is applied and bug is closed. This was applied with revision 1301397.Opps I didn t realize the Subversion Commits tab.

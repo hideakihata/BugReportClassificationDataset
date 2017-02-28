@@ -1,0 +1,2 @@
+ PATCH better exception messages when generating schema
+When a statement fails to execute generating the schema patch outputs the statement that failed.Committed in revision 653372 Thanks for the patch SQLException was already imported by the way.Targeting 1.5. Only bug fixes should go to patch releases.

@@ -1,0 +1,2 @@
+Cannot clone BasicClientCookie2 without specified ports
+The clone method returns a null pointer exception when called on a BasicClientCookie2 that does not use any ports properties. In other words it is impossible to clone a BasicClientCookie2 instance without ports specification. In the clone method they are two main instructions Ê- calling clone method on super Ê- calling clone method on the ports integer array which is null It may be a good idea to check whether the array is null or not Thanks for the report fixed and test added .

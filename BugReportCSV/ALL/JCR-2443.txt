@@ -1,0 +1,2 @@
+AbstractSession should not synchronize on the session instance
+The local namespace mapping methods in AbstractSession are synchronized to protect against concurrent access. That s troublesome since our observation delivery needs to be able to get those mappings even when the session is synchronized to do something else.Fixed in revision 892253.We ran into exactly the same problem with observations a few days ago. Any chance this to get this backported to the 1.5 and 1.6 branch Merged to the 1.6 branch in revision 899724.

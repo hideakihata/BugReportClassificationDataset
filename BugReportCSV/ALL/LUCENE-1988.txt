@@ -1,0 +1,2 @@
+CharacterCache - references deleted
+CharacterCache is deprecated by Character.valueOf c . Hence the latter is chosen over the former. LUCENE-1987 seems to address a good number of issues as well similar to this ticket. I will close this issue when 1987 is finished. Resolved as part of parent issue.

@@ -1,0 +1,2 @@
+JSR 283 Shareable nodes support in query
+Proposed patch.Applied patch in revision 763188

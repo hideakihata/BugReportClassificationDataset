@@ -1,0 +1,2 @@
+In case of ConnectTimeoutException HttpRequestRetryHandler is not used.
+Yep. Good stuff. I ll make a few minor changes and commit the patch within a few days. OlegProbably HttpHostConnectException need to be catch too.it looks there is the same issue with SocketTimeoutException RetryHandler is not used too. Why not extends catch to Exception How about a slightly different take Please take a look at the patch and let me know if it fixes the problem for you. Olegyep perfect.Committed to SVN trunk. Oleg

@@ -1,0 +1,2 @@
+Generated cluster node id should be persisted
+If no cluster node id is specified in the configuration a cluster node id is automatically generated. This id is never persisted so after another startup a new probably different cluster node id is used. Instead an automatically generated cluster id should be persisted inside the repository home.Fixed in revision 695821.Tagging this for 1.5 as it seems a bit complex for inclusion in jackrabbit-core 1.4.6. Let me know if we should have this also in the maintenance branch.

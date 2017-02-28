@@ -1,0 +1,2 @@
+org.apache.lucene.search.BooleanQuery TooManyClauses when using operator
+when using a query with a operator the query engine does not scale with number of matching properties and a org.apache.lucene.search.BooleanQuery TooManyClauses exception is thrownSchedule for 1.0Implemented an alternative to the original Lucene RangeQuery which does not make use of rewriting to basic TermQuery s. Fixed at revision 209797

@@ -1,0 +1,2 @@
+Document Maven nightly builds artifact generation and using Maven to build Lucene Solr
+There should be documentation we can point people to when they ask how to use Maven with Lucene and Solr. Patch with a Maven README stored under dev-tools maven as well as a line in the root directory README.txt pointing it out. Committed r1101072 trunk r1101076 branches branch 3x r1101083 branches lucene solr 3 1 Bulk closing for 3.2

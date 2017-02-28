@@ -1,0 +1,2 @@
+CheckIndex overstates how many fields have norms enabled
+It simply tells you how many unique fields there are... it should instead only say how many have norms. Mike don t you think both statistics are useful how many unique fields the index holds and how many of them include norms Mike don t you think both statistics are useful how many unique fields the index holds and how many of them include norms Yes but CheckIndex already has the former on the test fields.... output .

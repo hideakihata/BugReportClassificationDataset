@@ -1,0 +1,2 @@
+Use jackrabbit-jcr-commons in jackrabbit-jcr-rmi
+The jackrabbit-jcr-rmi component should leverage the general-purpose classes in jackrabbit-jcr-commons even at the expense of introducing an extra dependency.Added the jackrabbit-jcr-commons dependency in 543807 and used it for the JCR-956 functionality. There are other parts in jackrabbit-jcr-rmi that would probably benefit from using classes from jackrabbit-jcr-commons but it s probably better to gradually introduce such changes as a part of other work on the RMI layer. Thus I m resolving this issue as Fixed for now.

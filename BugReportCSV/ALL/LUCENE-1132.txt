@@ -1,0 +1,2 @@
+Highlighter Documentation updates
+Various places in the Highlighter documentation refer to bytes i.e. SimpleFragmenter when it should be chars. See http www.gossamer-threads.com lists lucene java-user 56986 Update for highlighter. Deprecates byte related stuff in favor of chars in the naming of variable and accessors even though the underlying functionality is still the same. Committed revision 616305.

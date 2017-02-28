@@ -1,0 +1,2 @@
+Instantiating SimpleFSLockFactory by its String param constructor throws an IllegalStateException
+I am so sorry my fault. NativeFSLockFcatory is correct. You even do not need a variable for this. No problem - I ll just push an rc4 tonight so we are not really slowed down. I ll switch to no variable and just pass new File .

@@ -1,0 +1,2 @@
+Deprecate and remove ShingleMatrixFilter
+Spin-off from LUCENE-1391 This filter is unmainatined and no longer up-to-date has bugs nobody understands and does not work with attributes. This issue deprecates it as of Lucene 3.1 and removes it from trunk. Deprecated 3.x revision 1070818 Removed trunk revision 1070821 Bulk close for 3.1

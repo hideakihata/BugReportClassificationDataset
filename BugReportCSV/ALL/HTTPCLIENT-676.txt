@@ -1,0 +1,2 @@
+memory leak in MultiThreadedHttpConnectionManager
+MultiThreadedHttpConnectionManager.getConnectionsInPool hostConfiguration will create HostConnectionPool entries that will not be cleaned up unless they are later used for communication. This should be changed to not create pools in that method but rather return 0 for a non-existent pool. please reviewIf I hear no complaints I ll commit this patch this week-end.

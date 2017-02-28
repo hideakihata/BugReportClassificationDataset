@@ -1,0 +1,2 @@
+CompactNodeTypeDefWriter uses bad format for residual properties
+CompactNodeTypeDefWriter writes instead of for residual properties.The patch fixes the issue and at the same time increases test coverage.Patch applied to trunk in revision 650562 and merged to the 1.4 branch in revision 650566. Thanks 

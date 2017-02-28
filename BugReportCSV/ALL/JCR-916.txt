@@ -1,0 +1,2 @@
+Review pck names in the others ocm subprojects
+Review package structure and graffito references in the other OCM subprojects jcr-nodemanagement spring. Done in the subproject jcr-nodemanagement The subproject Spring is not migrated because the same code is in the spring module project. I will review it and if necessary I will send patches to this project

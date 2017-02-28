@@ -1,0 +1,2 @@
+Class DisjunctionSumScorer does not need to be public.
+See title patch follows. Patch also updates copyright year. Applied thanks.

@@ -1,0 +1,2 @@
+typos on FAQ
+I found out the following typos on the FAQ http lucene.sourceforge.net cgi- bin faq faqmanager.cgi of lucene in 8. Will Lucene work with my Java application felxible applciations in 16. Does Lucene has a web crawler teh correct the docuemtns This has been fixed when the FAQ was moved to the Apache Wiki.

@@ -1,0 +1,2 @@
+Add missing license headers
+The RAT tool http code.google.com p arat points out a few files within Jackrabbit trunk that are currently missing the correct license header. We should fix those.Missing license headers added.

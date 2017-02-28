@@ -1,0 +1,2 @@
+BooleanWeight should size the weights Vector correctly
+The weights field on BooleanWeight uses a Vector that will always be sized exactly the same as the outer class clauses Vector therefore can be sized correctly in the constructor. This is a trivial memory saving enhancement. Patch to move weights initialization to constructor with the correct sizing. Its not like its a big savings but hey it makes sense. Updated patch to trunk. Sending src java org apache lucene search BooleanQuery.java Transmitting file data . Committed revision 713634.

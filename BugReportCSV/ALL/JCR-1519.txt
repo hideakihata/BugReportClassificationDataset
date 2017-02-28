@@ -1,0 +1,2 @@
+Property.getLength returns -1 for BOOLEAN REFERENCE and DATE values
+It seems those three are simply missing in PropertyImpl.getLength .Proposed patch.Applied patch. svn revision 645415Merged to the 1.4 branch in revision 650345.

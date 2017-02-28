@@ -1,0 +1,2 @@
+Log path of missing node when re-indexing fails
+If one tries to re-index a corrupt workspace then the UUID of the missing nodes is logged. If possible the log should also contain the path to the missing node.Implemented in revision 643369Merged to the 1.4 branch in revision 650536.

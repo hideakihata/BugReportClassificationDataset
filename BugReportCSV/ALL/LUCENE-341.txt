@@ -1,0 +1,2 @@
+The deprecated constructor of BooleanClause does not set new state
+Nick Burch reported this on lucene-user. Patch will follow. Regards Paul Elschot Created an attachment id 14173 Forward old state to new in deprecated constructor Thanks I commited your fix but without the Exception. This way the method behaves as it did before even with strange arguments prohibited and required both true .

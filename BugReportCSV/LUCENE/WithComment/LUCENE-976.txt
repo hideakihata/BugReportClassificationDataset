@@ -1,0 +1,2 @@
+MMapDirectory is missing newly added openInput method to FSDirectory
+This issue was caused by the optimizations in LUCENE-888. The new openInput String name int bufferSize added to FSDirectory was not also overridden by MMapDirectory. Simple patch to fix this. I also added a unit test that looks all methods in FSDirectory that return IndexInput or a subclass and asserts that MMapDirectory overrides all such methods. Thanks Peter 

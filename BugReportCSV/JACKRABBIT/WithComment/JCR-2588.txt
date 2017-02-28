@@ -1,0 +1,2 @@
+UserManager.getAuthorizable may fail with InvalidQueryException
+Happens when the principal name contains an apostrophe.Proposed patch with additional test cases.suggest to avoid query completely. imo internal functionality should not depend on it. query might be slow temporarily locked or inappropriate configured.Can you please create a separate issue for that Committed patch in revision 928888Merged to the 2.0 branch in revision 939653.

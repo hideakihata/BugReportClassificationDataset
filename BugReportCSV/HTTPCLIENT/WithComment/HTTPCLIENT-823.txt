@@ -1,0 +1,2 @@
+Make it possible to adjust MaxTotalConnections parameter dynamicaly
+Make it possible to adjust MaxTotalConnections parameter at run time. Document behaviour of MaxTotalConnections and MaxConnectionsPerRoute behaviour latter cannot be changed for allocated pools Oleg http.conn-manager.max-total parameter can now be adjusted dynamically at runtime. However the size of existing connection pools per route once allocated will not be adjusted. Oleg

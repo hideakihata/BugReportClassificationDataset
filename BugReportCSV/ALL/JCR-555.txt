@@ -1,0 +1,2 @@
+ConsistencyCheck uses too much memory
+A consistency check loads all lucene documents into memory. On a large repository this may lead to an OutOfMemoryError. The consistency check should rather read the lucene documents on demand and discard them afterwards.The consistency check now only reads the UUID of the indexed nodes into memory. Memory consumption is approximately number of indexed nodes 57 bytes. Fixed in revision 439262

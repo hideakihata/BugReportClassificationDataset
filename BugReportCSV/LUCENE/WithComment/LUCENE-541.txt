@@ -1,0 +1,2 @@
+The DisjunctionMaxQuery lacks an implementation of extractTerms .
+The DisjunctionMaxQuery lacks an implementation of extractTerms . Proposed patch as in the related bug 427 I only need this after a rewrite so this implementation assumes the query was rewritten beforehand. Thanks Stefan I just committed this.

@@ -1,0 +1,2 @@
+URI uses sun.security.action.GetPropertyAction
+URI uses a sun. class but should not. Use of this class should be removed. Reported my Mark WilcoxCreated an attachment id 7261 Patch 1 I will apply this patch to HEAD and branch 2.0 if there are no objections. MikeAmen. OlegApplied to 2.0 and HEAD. Mike

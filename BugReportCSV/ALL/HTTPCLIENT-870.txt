@@ -1,0 +1,2 @@
+Incorrect Specification-Title headers in MANIFEST.MF
+The Specification-Title headers in MANIFEST.MF should all include the full project name i.e. Apache HttpComponents ... The HttpComponents qualifier is missing at present the entries are Specification-Title Apache HttpClient Specification-Title Apache HttpMime If present Implementation-Title should follow the same convention.On further reflection Apache could be left off because it s implied by the -Vendor headers. However HttpComponents is required to properly denote the project name.Fixed in SVN trunk Oleg

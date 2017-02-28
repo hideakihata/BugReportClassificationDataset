@@ -1,0 +1,2 @@
+FastVectorHighlighter latter terms cannot be highlighted if two or more terms are concatenated
+My customer found a bug in FastVectorHighlighter. I m working for the fix. I ll post it as soon as possible. We hope the fix in 2.9. the fix and the test case. Changes look good Mark is it OK to commit this We re rolling a new RC anyway for LUCENE-1911 right 1 on commit. Thanks Koji 

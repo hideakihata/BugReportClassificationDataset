@@ -1,0 +1,2 @@
+Source packaging fails if dist.dir does not exist
+package-tgz-src and package-zip-src fail if dist.dir does not exist since these two targets do not call the package target which is responsible for making the dir. I have a fix and will commit shortly. Added init-dist target and had package and package- -src call it so that it always builds the dist dir.

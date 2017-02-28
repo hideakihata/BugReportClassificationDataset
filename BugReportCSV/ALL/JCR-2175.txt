@@ -1,0 +1,2 @@
+Return bind variable names on RepositoryService.checkQueryStatement 
+To properly support JSR 283 bind variables the SPI layer needs to return the names of the bind variables. Otherwise the jcr2spi implementation cannot check for unknown names.Implemented in revision 789324

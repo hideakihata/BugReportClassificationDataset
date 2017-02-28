@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   121
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.459
+|  (1)TOPIC52 < 0.5: -0.273
+|  |  (3)TOPIC95 < 0.5: -0.053
+|  |  |  (5)TOPIC50 < 0.5: -0.055
+|  |  |  (5)TOPIC50 >= 0.5: 0.592
+|  |  |  (6)TOPIC62 < 0.5: -0.052
+|  |  |  (6)TOPIC62 >= 0.5: 0.722
+|  |  (3)TOPIC95 >= 0.5: 1.281
+|  (1)TOPIC52 >= 0.5: 0.783
+|  (2)TOPIC103 < 0.5: 0.036
+|  |  (10)TOPIC12 < 0.5: 0.023
+|  |  (10)TOPIC12 >= 0.5: -0.946
+|  (2)TOPIC103 >= 0.5: -2.125
+|  (4)TOPIC108 < 0.5: -0.054
+|  |  (7)TOPIC61 < 0.5: -0.044
+|  |  |  (8)TOPIC117 < 0.5: 0.049
+|  |  |  (8)TOPIC117 >= 0.5: -0.457
+|  |  (7)TOPIC61 >= 0.5: 0.49
+|  |  (9)TOPIC10 < 0.5: 0.038
+|  |  (9)TOPIC10 >= 0.5: -0.613
+|  (4)TOPIC108 >= 0.5: 0.583
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 5.95 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1946               79.6562 %
+Incorrectly Classified Instances       497               20.3438 %
+Kappa statistic                          0.4635
+Mean absolute error                      0.3629
+Root mean squared error                  0.4013
+Relative absolute error                 88.9577 %
+Root relative squared error             88.8746 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.904     0.473      0.827	0.904	0.864      0.799    FEATURE
+                 0.527     0.096      0.687	0.527	0.596      0.799    BUG
+Weighted Avg.    0.797     0.366      0.787	0.797	0.788      0.799
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1579  167 |    a = FEATURE
+  330  367 |    b = BUG
+

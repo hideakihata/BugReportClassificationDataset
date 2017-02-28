@@ -1,0 +1,2 @@
+Rename package names
+Rename package names graffito into jackrabbit PCK have been renamed and all Graffito references have been dropped in the code. Documentation xdoc is not yet updated. I m going to create a new issue.

@@ -1,0 +1,2 @@
+JSR 283 Query
+closing this issue. as far as i know the new query functionality is pretty much covered with the extensions made to both jcr2spi and spi. - spi2jcr the query tests pass if i m not mistaken - spi2dav ex i opened individual issues for the areas that are still not completed or buggy.

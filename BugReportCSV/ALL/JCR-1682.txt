@@ -1,0 +1,2 @@
+Session returned does not offers transaction support
+The javax.jcr.Session instance returned by the repository is an implementation of org.apache.jackrabbit.jca.JCASessionHandle which doesn t implement the interface org.apache.jackrabbit.api.XASession. Here is a patch which I believe can fix the problem.Applied the patch in revision 679811. Thanks 

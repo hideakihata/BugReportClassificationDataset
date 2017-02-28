@@ -1,0 +1,2 @@
+ PATCH Ant macro for javadocs and javadocs-internal
+This removes the duplication introduced in build.xml when the javadocs-internal build target was added. Regards Paul Elschot Created an attachment id 14761 Patch for build.xml On review I saw I used private access for the javadocs-internal and iirc this is currently package access. Applied thanks 

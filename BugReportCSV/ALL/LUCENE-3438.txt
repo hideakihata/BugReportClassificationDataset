@@ -1,0 +1,2 @@
+Move some TermsEnum.java from oal.search to oal.index
+I think FilteredTermsEnum SingleTermsEnum should move I left TermRangeTermsEnum and FuzzyTermsEnum and PrefixTermsEnum since they seemed search specific.

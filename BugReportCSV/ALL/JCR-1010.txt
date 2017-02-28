@@ -1,0 +1,2 @@
+Test failures with spi2jcr in AddEventListenerTest
+Two tests fail - AddEventListenerTest.testUUID - AddEventListenerTest.testNodeTypeFixed in revision 553547

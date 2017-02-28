@@ -1,0 +1,2 @@
+Convert Batch implementation in spi-rmi from remote object into a local one
+The current implementation of the Batch interface in spi-rmi is very simple and just uses remotes to the server side batch. This should be changed to a local object on the client and only transmit the changes in a single call to the server on save.Committed in revision 553862

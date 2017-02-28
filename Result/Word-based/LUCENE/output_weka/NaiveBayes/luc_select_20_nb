@@ -1,0 +1,186 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/LUCENE/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R135,184,94,632,33,521,214,320,3,429,747,4,339,914,528,771,881,366,314,476,1
+Instances:    2443
+Attributes:   21
+              classes
+              contrib
+              bug
+              package
+              api
+              lot
+              default
+              faster
+              -dtestcase
+              improvements
+              reproduce
+              -dtestmethod
+              fix
+              things
+              lucenetestcaserunner
+              runchild
+              support
+              functionality
+              fails
+              javadocs
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                         Class
+Attribute              FEATURE     BUG
+                        (0.71)  (0.29)
+=======================================
+classes
+  mean                   0.6277  0.1205
+  std. dev.               2.373   0.992
+  weight sum               1746     697
+  precision                   2       2
+
+contrib
+  mean                   1.2616  0.0633
+  std. dev.              4.9993  0.4671
+  weight sum               1746     697
+  precision              2.5946  2.5946
+
+bug
+  mean                   0.4897  0.8996
+  std. dev.              2.3184  2.3767
+  weight sum               1746     697
+  precision               2.375   2.375
+
+package
+  mean                   0.6415  0.0975
+  std. dev.              2.0788  0.4946
+  weight sum               1746     697
+  precision              1.9412  1.9412
+
+api
+  mean                    1.166  0.1826
+  std. dev.              7.4367  1.2475
+  weight sum               1746     697
+  precision              7.4848  7.4848
+
+lot
+  mean                   0.4201   0.092
+  std. dev.              1.2857  0.4596
+  weight sum               1746     697
+  precision               1.125   1.125
+
+default
+  mean                    1.031  0.1779
+  std. dev.              3.8288  1.1138
+  weight sum               1746     697
+  precision              2.1379  2.1379
+
+faster
+  mean                   0.4416  0.0215
+  std. dev.              2.5477     0.5
+  weight sum               1746     697
+  precision                   3       3
+
+-dtestcase
+  mean                   0.0435  0.1435
+  std. dev.              0.4955  0.9654
+  weight sum               1746     697
+  precision                   2       2
+
+improvements
+  mean                   0.1661  0.0373
+  std. dev.              0.5832  0.3493
+  weight sum               1746     697
+  precision                   1       1
+
+reproduce
+  mean                   0.0818  0.3122
+  std. dev.              0.4779  1.0551
+  weight sum               1746     697
+  precision                 1.7     1.7
+
+-dtestmethod
+  mean                   0.0611  0.2184
+  std. dev.              0.4935  0.7847
+  weight sum               1746     697
+  precision                1.75    1.75
+
+fix
+  mean                   0.7992  1.0311
+  std. dev.               2.388  1.9986
+  weight sum               1746     697
+  precision              2.0952  2.0952
+
+things
+  mean                   0.7467  0.1402
+  std. dev.              2.7104  0.6601
+  weight sum               1746     697
+  precision              2.5714  2.5714
+
+lucenetestcaserunner
+  mean                    0.055  0.2755
+  std. dev.              0.6667  1.8599
+  weight sum               1746     697
+  precision                   4       4
+
+runchild
+  mean                   0.0656  0.2869
+  std. dev.              0.6779  1.2859
+  weight sum               1746     697
+  precision              1.8182  1.8182
+
+support
+  mean                    0.454  0.1037
+  std. dev.               1.901  0.8378
+  weight sum               1746     697
+  precision               2.125   2.125
+
+functionality
+  mean                   0.2197  0.0335
+  std. dev.              0.7832  0.2292
+  weight sum               1746     697
+  precision               1.375   1.375
+
+fails
+  mean                   0.3045  0.4806
+  std. dev.              1.0929  0.8771
+  weight sum               1746     697
+  precision              1.6667  1.6667
+
+javadocs
+  mean                   0.5188  0.1145
+  std. dev.              1.8177  0.4927
+  weight sum               1746     697
+  precision                 1.4     1.4
+
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1186               48.5469 %
+Incorrectly Classified Instances      1257               51.4531 %
+Kappa statistic                          0.1591
+Mean absolute error                      0.51  
+Root mean squared error                  0.7025
+Relative absolute error                125.0379 %
+Root relative squared error            155.582  %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.308     0.069      0.918	0.308	0.461      0.723    FEATURE
+                 0.931     0.692      0.349	0.931	0.508      0.724    BUG
+Weighted Avg.    0.485     0.247      0.756	0.485	0.474      0.723
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  537 1209 |    a = FEATURE
+   48  649 |    b = BUG
+

@@ -1,0 +1,2 @@
+3.1 fileformats out of date
+The 3.1 fileformats is missing the change from LUCENE-2811 Looks good Robert nice catch Committed revision 1099529 1099534 branch-3x Bulk closing for 3.2

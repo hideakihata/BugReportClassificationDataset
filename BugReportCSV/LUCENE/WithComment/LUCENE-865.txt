@@ -1,0 +1,2 @@
+SpellChecker not working because of stale IndexSearcher
+The SpellChecker unit test did not work because of a stale IndexReader and IndexSearcher instance after calling indexDictionary Dictionary . Added Patch This was already fixed in SpellChecker.java - I can see the same type of code is there in the current version of SpellChecker.java. Also all spellchecker unit tests pass now.

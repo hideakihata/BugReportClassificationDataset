@@ -1,0 +1,2 @@
+Remove deprecated RangeQuery classes
+Remove deprecated RangeQuery classes Patch. Will commit when tests passed. Committed revision 824175

@@ -1,0 +1,2 @@
+XPath query with child axis predicates
+Executing a query using a long child path in a child axis predicate like a b c d e prop something may return too many or not enough nodes. I ll attach a zip file containing 2 tests cases showing this issue I apologize but the test data are in French . A zip file containing the 2 JUnit tests cases Fixed in trunk in revision 631619 and 1.4 branch 631620Thank you for reporting this bug and providing test cases.

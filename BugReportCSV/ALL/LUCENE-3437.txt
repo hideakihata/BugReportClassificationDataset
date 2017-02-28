@@ -1,0 +1,2 @@
+Detect the test thread by reference not by name.
+Get rid of this if doFail Thread.currentThread .getName .equals main Thread.currentThread .getName .equals Main Thread I intend to commit shortly if there are no objections and tests pass locally. nice cleanup Bulk close after release of 3.5

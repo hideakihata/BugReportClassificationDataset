@@ -1,0 +1,2 @@
+SQL2 ISDESCENDANTNODE can throw BooleanQuery TooManyClauses if there are too many matching child nodes
+Running a query that has a ISDESCENDANTNODE clause can easily go over the max clause limit from lucene s BooleanQuery when there s a bigger hierarchy involved.Fixed in revision 1182281.Merged to the 2.2 branch in revision 1202196.

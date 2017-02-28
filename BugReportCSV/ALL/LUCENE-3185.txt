@@ -1,0 +1,2 @@
+NRTCachingDirectory.deleteFile always throws exception
+Silly bug. Patch. New patch also fixes that we were not overriding the set getLF methods. With this patch all Solr Lucene tests pass if I use this dir wrapping a RAMDir. Someday hopefully we can have our tests also randomly swap in impls from contrib modules... bulk close for 3.3

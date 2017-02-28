@@ -1,0 +1,2 @@
+VersionTest.testGetUUID fails
+VersionTest.testGetUUID fails due to inproper invlaidation of the successor properties after checkin.Author tripod Date Mon Oct 3 02 55 40 2005 New Revision 293286

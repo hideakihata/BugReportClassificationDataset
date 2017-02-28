@@ -1,0 +1,2 @@
+QPropertyDefinitionImpl.equals is implemented incorrectly
+fixed in svn r1027182

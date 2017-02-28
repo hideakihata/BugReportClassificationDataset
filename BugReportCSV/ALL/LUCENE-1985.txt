@@ -1,0 +1,2 @@
+DisjunctionMaxQuery - Iterator code to for A a container construct
+For better readability - converting the Iterable T to for A a container constructs that is more intuitive to read. Committed revision 825989 Thanks Kay Kay For further Java5 fixes just add it to LUCENE-1257. Thanks Uwe. Added another patch to LUCENE-1257 to get away from some of the casting that is not necessary given that LUCENE-1984 and LUCENE-1985 are in now with generics .

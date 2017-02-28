@@ -1,0 +1,2 @@
+AbstractExcerpt uses wrong logger
+It uses DefaultXMLExcerpt instead of AbstractExcerpt.Fixed in revision 627394Merged to the 1.4 branch in revision 628269.

@@ -1,0 +1,2 @@
+Contrib CharTokenizer classes should be instantiated using their new Version based ctors
+Contrib CharTokenizer classes should be instantiated using their new Version based ctors introduced by LUCENE-2183 and LUCENE-2240 converted contrib analyzers I will commit this in a bit if nobody objects Committed revision 905065.

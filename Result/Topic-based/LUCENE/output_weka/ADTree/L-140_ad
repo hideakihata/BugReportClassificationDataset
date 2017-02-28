@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   141
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.459
+|  (1)TOPIC35 < 0.5: -0.141
+|  |  (8)TOPIC33 < 0.5: -0.071
+|  |  (8)TOPIC33 >= 0.5: 0.352
+|  (1)TOPIC35 >= 0.5: 0.745
+|  (2)TOPIC58 < 0.5: 0.05
+|  |  (4)TOPIC19 < 0.5: -0.144
+|  |  |  (5)TOPIC120 < 0.5: -0.076
+|  |  |  |  (7)TOPIC87 < 0.5: -0.08
+|  |  |  |  (7)TOPIC87 >= 0.5: 0.768
+|  |  |  (5)TOPIC120 >= 0.5: 1.01
+|  |  (4)TOPIC19 >= 0.5: 0.308
+|  |  (10)TOPIC96 < 0.5: -0.025
+|  |  (10)TOPIC96 >= 0.5: 0.95
+|  (2)TOPIC58 >= 0.5: -1.234
+|  (3)TOPIC69 < 0.5: 0.049
+|  |  (6)TOPIC54 < 0.5: -0.055
+|  |  |  (9)TOPIC7 < 0.5: -0.032
+|  |  |  (9)TOPIC7 >= 0.5: 0.966
+|  |  (6)TOPIC54 >= 0.5: 0.642
+|  (3)TOPIC69 >= 0.5: -1.171
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 6.61 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1910               78.1826 %
+Incorrectly Classified Instances       533               21.8174 %
+Kappa statistic                          0.4126
+Mean absolute error                      0.3671
+Root mean squared error                  0.4041
+Relative absolute error                 89.9903 %
+Root relative squared error             89.4958 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.907     0.531      0.811	0.907	0.856      0.802    FEATURE
+                 0.469     0.093      0.667	0.469	0.551      0.802    BUG
+Weighted Avg.    0.782     0.406      0.77	0.782	0.769      0.802
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1583  163 |    a = FEATURE
+  370  327 |    b = BUG
+

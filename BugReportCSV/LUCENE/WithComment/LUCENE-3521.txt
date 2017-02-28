@@ -1,0 +1,2 @@
+upgrade icu jar to 4.8.1.1 remove lucenetestcase hack
+This bug fix release fixes problems with icu under java7 http bugs.icu-project.org trac ticket 8734 looks like the bug still exists so we need the hack. ill see if i can make another test case my original test case submitted to ICU http bugs.icu-project.org trac ticket 8734 still fails so this is still broken. I will add back the hack to lucenetestcase and let them know. we upgraded unfortunately we still have the hack. Bulk close after release of 3.5

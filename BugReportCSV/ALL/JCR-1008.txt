@@ -1,0 +1,2 @@
+SerializationTest leaks sessions
+The class TreeComparator extends from AbstractJCRTest and opens a session in its constructor because it calls the setUp method. The tearDown method is never called.Fixed in revision 553529Merged to the 1.3 branch in revision 577706.

@@ -1,0 +1,2 @@
+Consistently refer to Apache Jackrabbit in docs and site
+We need to consistently refer to our project and product as Apache Jackrabbit on our site and docs except where the context is obvious. This is an ongoing work item but the most significant docs are fixed for 1.0. This is relatively well covered in the main parts of the site and documentation. Changing the issue to an ongoing task with no target release.I think we re pretty good on this one nowadays. Resolving as Fixed let s deal with future branding issues on case by case basis.

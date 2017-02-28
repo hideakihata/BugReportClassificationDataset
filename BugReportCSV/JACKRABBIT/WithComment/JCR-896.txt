@@ -1,0 +1,2 @@
+Unnecessary parsing of Name value
+When a Name value is created for a call like Property.getValue the internal QName if formatted parsed and formatted again.Fixed in revision 535128

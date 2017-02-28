@@ -1,0 +1,2 @@
+Lucene requires ant 1.6 
+The latest version in CVS as of April 3rd only builds with ant 1.6. If this is intentional BUILD.txt should be updated. Here s the error I get with ant 1.5 BUILD FAILED file Users skybrian remote-cvs jakarta-lucene build.xml 11 Unexpected element tstamp Yes Ant 1.6 is now required not out of necessity but moreso for cleanliness . The Sandbox has required Ant 1.6 for a while now and uses several new features of Ant. I ve just updated and commited the changes to BUILD.txt for Ant 1.6.

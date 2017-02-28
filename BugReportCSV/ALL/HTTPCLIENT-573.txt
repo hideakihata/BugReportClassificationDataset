@@ -1,0 +1,2 @@
+Disallow the use of SecureProtocolSocketFactory with ProxyClient
+ProxyClient cannot work correctly if SecureProtocolSocketFactory socket factory is being used to establish connection with the target serverCreated an attachment id 17930 Patch take 1 Please review OlegHi Oleg can you use hostconf.getProtocol .isSecure instead of performing an instanceof check on the socket factory cheers   RolandCreated an attachment id 17946 Patch take 2 Good idea Roland. New patch attached OlegFolks any objections to committing this patch Oleggo for itPatch checked in Oleg

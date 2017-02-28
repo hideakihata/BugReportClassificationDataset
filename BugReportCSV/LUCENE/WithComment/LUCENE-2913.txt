@@ -1,0 +1,2 @@
+Add missing getter methods to NumericField NumericTokenStream NumericRangeQuery NumericRangeFilter
+These classes are missing bean-style getter methods for some basic properties. This is inconsistent and should be fixed. Patch for trunk will commit soon. Committed trunk revision 1069341 Committed 3.x revision 1069343 Bulk close for 3.1

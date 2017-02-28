@@ -1,0 +1,19 @@
+
+##########################################################################################
+Import Data
+##########################################################################################
+
+
+bin/mallet import-dir --input /directory/that/contains/bugReports/for/training/in/CSV/format/ --output output.file.name.train --keep-sequence --remove-stopwords --skip-html --gram-sizes 1 --token-regex "\\p{L}[\\p{L}\\p{P}]+\\p{L}"
+
+
+##########################################################################################
+Train model (Topic modeling)
+##########################################################################################
+
+
+bin/mallet train-topics --input output.file.name.train --output-topic-keys train_topic-keys.txt --output-doc-topics train_doc-topics.txt --output-state train_topic-state.gz --doc-topics-threshold 0.05 --optimize-interval 20 --num-top-words 50 --num-topics 500
+
+
+
+

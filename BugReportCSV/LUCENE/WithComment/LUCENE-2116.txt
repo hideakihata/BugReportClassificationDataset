@@ -1,0 +1,2 @@
+Add link to irc channel lucene on the website
+We should add a link to lucene IRC channel on chat.freenode.org. Created a patch for the website. As mike mentioned in the chat it would be desirable to have an archive for the IRC channel. Does anybody know how IRC archiving works and who initially created the channel Why does this talk about Hadoop Ie shouldn t it be Lucene LOL - I should not do any copy paste Ð will fix later s hadoop Lucene Looks good thanks Simon I ll commit shortly. Thanks Simon 

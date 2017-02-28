@@ -1,0 +1,2 @@
+ArrayStoreException while reregistering existing node types
+class NodeTypeManagerImpl method public NodeType registerNodeTypes InputStream in String contentType boolean reregisterExisting                 ...                 return NodeType nodeTypes.toArray new NodeTypeDef nodeTypes.size                 ... should be I suppose                 return NodeType nodeTypes.toArray new NodeType nodeTypes.size should be I suppose return NodeType nodeTypes.toArray new NodeType nodeTypes.size oops absolutely - thanks for spotting this. fixed in svn r528476

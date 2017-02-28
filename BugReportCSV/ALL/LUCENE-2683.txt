@@ -1,0 +1,2 @@
+upgrade icu libraries to 4.4.2
+modules analysis uses 4.4 solr contrib extraction uses 4.2.1 I think we should keep them the same version for consistency and go to 4.4.2 since it has bugfixes. all tests pass upgrading icu in both places. I replaced the ICU4J jars in modules analysis icu lib and solr contrib extraction lib with the 4.4.2 version then ran ant clean test from the top level and all tests passed. Debian Etch Linux 64-bit Sun JDK 1.6.0 21 64-bit Committed revision 1004335 trunk 1004344 3x thanks for testing Steven Bulk close for 3.1

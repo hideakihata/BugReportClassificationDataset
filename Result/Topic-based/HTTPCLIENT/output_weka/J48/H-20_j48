@@ -1,0 +1,117 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   21
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TOPIC8 <= 0
+|   TOPIC12 <= 0
+|   |   TOPIC6 <= 0: BUG (110.0/24.0)
+|   |   TOPIC6 > 0
+|   |   |   TOPIC0 <= 0: FEATURE (5.0)
+|   |   |   TOPIC0 > 0: BUG (8.0/1.0)
+|   TOPIC12 > 0
+|   |   TOPIC18 <= 0
+|   |   |   TOPIC17 <= 0: FEATURE (17.0/4.0)
+|   |   |   TOPIC17 > 0: BUG (2.0)
+|   |   TOPIC18 > 0: BUG (3.0)
+TOPIC8 > 0
+|   TOPIC9 <= 0
+|   |   TOPIC12 <= 0
+|   |   |   TOPIC14 <= 0: FEATURE (118.0/15.0)
+|   |   |   TOPIC14 > 0
+|   |   |   |   TOPIC5 <= 0
+|   |   |   |   |   TOPIC7 <= 0
+|   |   |   |   |   |   TOPIC6 <= 0
+|   |   |   |   |   |   |   TOPIC18 <= 0
+|   |   |   |   |   |   |   |   TOPIC17 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC2 <= 0
+|   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0: FEATURE (104.0/35.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: BUG (17.0/7.0)
+|   |   |   |   |   |   |   |   |   TOPIC2 > 0
+|   |   |   |   |   |   |   |   |   |   TOPIC19 <= 0: BUG (41.0/17.0)
+|   |   |   |   |   |   |   |   |   |   TOPIC19 > 0: FEATURE (16.0/3.0)
+|   |   |   |   |   |   |   |   TOPIC17 > 0: BUG (39.0/16.0)
+|   |   |   |   |   |   |   TOPIC18 > 0
+|   |   |   |   |   |   |   |   TOPIC4 <= 0: BUG (7.0/1.0)
+|   |   |   |   |   |   |   |   TOPIC4 > 0: FEATURE (5.0/2.0)
+|   |   |   |   |   |   TOPIC6 > 0: FEATURE (54.0/13.0)
+|   |   |   |   |   TOPIC7 > 0
+|   |   |   |   |   |   TOPIC4 <= 0: FEATURE (4.0/1.0)
+|   |   |   |   |   |   TOPIC4 > 0: BUG (11.0/1.0)
+|   |   |   |   TOPIC5 > 0
+|   |   |   |   |   TOPIC19 <= 0
+|   |   |   |   |   |   TOPIC11 <= 0
+|   |   |   |   |   |   |   TOPIC16 <= 0
+|   |   |   |   |   |   |   |   TOPIC7 <= 0
+|   |   |   |   |   |   |   |   |   TOPIC3 <= 0: BUG (17.0/5.0)
+|   |   |   |   |   |   |   |   |   TOPIC3 > 0: FEATURE (4.0/1.0)
+|   |   |   |   |   |   |   |   TOPIC7 > 0: FEATURE (3.0/1.0)
+|   |   |   |   |   |   |   TOPIC16 > 0: FEATURE (3.0)
+|   |   |   |   |   |   TOPIC11 > 0: BUG (12.0/1.0)
+|   |   |   |   |   TOPIC19 > 0: BUG (5.0)
+|   |   TOPIC12 > 0: FEATURE (111.0/10.0)
+|   TOPIC9 > 0
+|   |   TOPIC14 <= 0: FEATURE (2.0)
+|   |   TOPIC14 > 0: BUG (27.0/6.0)
+
+Number of Leaves  : 	26
+
+Size of the tree : 	51
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         517               69.396  %
+Incorrectly Classified Instances       228               30.604  %
+Kappa statistic                          0.3601
+Mean absolute error                      0.3708
+Root mean squared error                  0.461 
+Relative absolute error                 76.6765 %
+Root relative squared error             93.7542 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.766     0.41       0.729	0.766	0.747      0.722    FEATURE
+                 0.59      0.234      0.636	0.59	0.612      0.722    BUG
+Weighted Avg.    0.694     0.338      0.691	0.694	0.692      0.722
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 337 103 |   a = FEATURE
+ 125 180 |   b = BUG
+

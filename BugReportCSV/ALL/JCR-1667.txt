@@ -1,0 +1,2 @@
+JCARepositoryManager does not close InputStream used to obtain repository config from classpath
+Attaching a patch.Applied patch in revision 674028 Thank you for providing the patch.

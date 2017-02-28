@@ -1,0 +1,2 @@
+References to old repository-1.x.dtd
+Some components still reference old version of the repository-1.x.dtd. All components should be upgraded to repository-1.6.dtdCommitted in revision 750008I m wondering if we could get rid of some of those configuration files. The preferred approach would be to reuse the default repository.xml in jackrabbit-core as much as possible.

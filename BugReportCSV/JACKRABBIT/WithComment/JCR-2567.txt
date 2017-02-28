@@ -1,0 +1,2 @@
+please have spi2dav create a test-jar
+for my davex-on-sling integration tests I need the test classes from spi2dav.this is basically the assembly from jcr2spi with some exclusions.Thanks Patch applied in revision 931479 and merged to the 2.1 branch in revision 931480.

@@ -1,0 +1,2 @@
+Indexing configuration not refreshed after node type registration
+The indexing configuration has internal caches that speed up node type matches. Those caches are not updated on new node type registration and newly registered node types are not properly resolved when index-rules are checked. See also test case in attached patch.Test case and proposed fix.Applied patch to trunk in revision 900314 and merged into 2.0 branch in revision 900317

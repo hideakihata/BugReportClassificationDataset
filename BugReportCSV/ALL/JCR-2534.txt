@@ -1,0 +1,2 @@
+jcr-server NPE in SearchResourceImpl if PathValue path is null
+line 368 in SearchResourceImpl doesn t deal with null path thus causing NPE in the valuefactory.i added a check for null path... this resolved the problem and didn t introduce additional problems as far as i saw. in addition not mention in the commit message resolved remaining TODO in the static collectSelectorNames method

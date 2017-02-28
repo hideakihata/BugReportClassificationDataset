@@ -1,0 +1,2 @@
+Remove some unused code in Surround query parser
+Remove getTermsEnum method from SpanNearClauseFactory. The patch was generated from an svn diff in the contrib directory. Thanks Paul 

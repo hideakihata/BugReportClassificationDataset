@@ -1,0 +1,2 @@
+DEFAULT HEADERS not added to subsequent requests
+DEFAULT HEADERS are added to the original request only not to subsequent requests for redirects or authentication.Probably the easiest and most elegant solution to the problem would be moving DEFAULT HEADERS logic to a protocol interceptor. OlegFixed in SVN trunk Oleg

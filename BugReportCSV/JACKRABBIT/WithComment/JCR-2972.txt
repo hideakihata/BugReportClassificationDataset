@@ -1,0 +1,2 @@
+Allow name to be set in PropertyInfoBuilder and NodeInfoBuilder
+Currently the property name for new Properties and Nodes can only be set when their builder is created. I suggest to add methods for setting the names by themselves.fixed at revision 1126926

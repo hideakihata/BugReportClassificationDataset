@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/LUCENE/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R135,184,94,632,33,521,214,320,3,429,747,4,339,914,528,771,881,366,314,476,265,258,661,227,96,530,872,134,913,532,417,1005,290,189,557,883,455,226,577,122,379,742,1004,482,6,961,574,11,410,238,1
+Instances:    2443
+Attributes:   51
+              classes
+              contrib
+              bug
+              package
+              api
+              lot
+              default
+              faster
+              -dtestcase
+              improvements
+              reproduce
+              -dtestmethod
+              fix
+              things
+              lucenetestcaserunner
+              runchild
+              support
+              functionality
+              fails
+              javadocs
+              easier
+              don
+              performance
+              deprecated
+              build
+              made
+              stuff
+              class
+              thing
+              make
+              implement
+              yeah
+              exception
+              core
+              methods
+              svn
+              interface
+              deprecate
+              move
+              change
+              great
+              renamed
+              xml
+              junit
+              abstract
+              users
+              module
+              added
+              idea
+              directly
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.459
+|  (1)contrib < 1.5: 0.08
+|  |  (2)bug < 0.5: -0.186
+|  |  |  (4)fix < 0.5: -0.227
+|  |  |  |  (8)-dtestcase < 0.5: -0.103
+|  |  |  |  (8)-dtestcase >= 0.5: 1.126
+|  |  |  (4)fix >= 0.5: 0.317
+|  |  (2)bug >= 0.5: 0.454
+|  |  (3)classes < 0.5: 0.093
+|  |  |  (10)improvements < 0.5: 0.016
+|  |  |  (10)improvements >= 0.5: -0.907
+|  |  (3)classes >= 0.5: -0.705
+|  (1)contrib >= 1.5: -1.037
+|  (5)faster < 0.5: 0.063
+|  (5)faster >= 0.5: -0.797
+|  (6)exception < 0.5: -0.104
+|  (6)exception >= 0.5: 0.369
+|  (7)default < 1.5: 0.063
+|  |  (9)api < 0.5: 0.077
+|  |  (9)api >= 0.5: -0.447
+|  (7)default >= 1.5: -0.601
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 2.63 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1901               77.8142 %
+Incorrectly Classified Instances       542               22.1858 %
+Kappa statistic                          0.3903
+Mean absolute error                      0.3622
+Root mean squared error                  0.4017
+Relative absolute error                 88.7997 %
+Root relative squared error             88.9521 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.916     0.568      0.802	0.916	0.855      0.811    FEATURE
+                 0.432     0.084      0.673	0.432	0.526      0.811    BUG
+Weighted Avg.    0.778     0.43       0.765	0.778	0.761      0.811
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1600  146 |    a = FEATURE
+  396  301 |    b = BUG
+

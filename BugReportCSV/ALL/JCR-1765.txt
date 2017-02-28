@@ -1,0 +1,2 @@
+Config make all elements in the security configuration optional
+in order not to introduce new mandatory elements in the security configuration.I committed a simple version of this in revision 704165 to make my backwards compatibility tests in sandbox work. Feel free to modify.... which caused a conflict on my side. so. i committed my changes without testing again... that s basically what i wanted to do. OK thanks I ll get the changes merged to the 1.5 branch.

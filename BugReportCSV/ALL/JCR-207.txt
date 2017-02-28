@@ -1,0 +1,2 @@
+moving locked node removes locked state
+when moving a locked node it looses it locked state.Fixed in r279325.

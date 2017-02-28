@@ -1,0 +1,2 @@
+NodeTypeManagerImpl.hasNodeType should allow unknown prefixes
+The current implementation of NodeTypeImpl.hasNodeType String throws an exception if the given name uses an unknown prefix. A better alternative would be to just return false as by definition a node type in an unknown namespace can not exist.Fixed in revision 538843.

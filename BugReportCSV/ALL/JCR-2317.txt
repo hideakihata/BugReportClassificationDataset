@@ -1,0 +1,2 @@
+Lower log level for index updates from queue
+The log level is currently at info and should be lowered to debug.Changed in svn revision 817637

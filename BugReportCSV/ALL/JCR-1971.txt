@@ -1,0 +1,2 @@
+Use the new Jackrabbit parent POM
+Now that we have an official release of the new org.apache.jackrabbit parent 2 POM we should start using that as the parent of all Jackrabbit builds.I ve updated the main Jackrabbit project as well as commons jcr-rmi and sandbox jcr-cmis to us the new parent POM. Other builds can be updated as needed.

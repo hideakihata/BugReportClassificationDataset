@@ -1,0 +1,2 @@
+add option to CheckIndex to only check certain segments
+Simple patch to add -segment option to CheckIndex tool to have it only check the particular segment instead of all segments from your index. Attached patch. All tests pass. I ll commit after 2.3 is out. I just committed this.

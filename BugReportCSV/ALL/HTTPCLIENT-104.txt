@@ -1,0 +1,2 @@
+Incorrect debug message in HttpMethodBase
+HttpMethodBase.addContentLengthRequestHeader has the wrong debug message. See attached patch.Created an attachment id 3026 Patch to repair addContentLengthRequestHeader debug message Patch applied.

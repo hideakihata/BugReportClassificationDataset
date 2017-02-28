@@ -1,0 +1,2 @@
+Reorganize Jackrabbit into core api and commons 
+will create jackrabbit api jackrabbit-api-1.0-dev.jar commons jackrabbit-commons-1.0-dev.jar core jackrabbit-core-1.0-dev.jar please note that the commons is not called commons-jackrabbit.jar since this should not be confused with a jackarta commons lib. This change was reverted in revision 280348 after a related discussion and vote on the Jackrabbit mailing list. See the vote at http thread.gmane.org gmane.comp.apache.jackrabbit.devel 3441.

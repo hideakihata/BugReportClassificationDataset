@@ -1,0 +1,2 @@
+AbstractResource Use jcr createdBy to expose DAV creator-displayname
+as of jcr 2.0 the DeltaV property DAV creator-displayname could be extracted from the jcr createdBy property. the comment in abstract resource creator-displayname comment not value available from jcr therefore is outdated. and so is the subsequent line.mapped jcr createdBy to DAV creator-displayname for PROPFIND request. Note however that this jcr property is defined to be autocreated-protected and thus cannot be modified using PROPPATCH. a separate custom property needs to be created in this case.

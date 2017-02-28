@@ -1,0 +1,2 @@
+Remove HitCollector
+Remove the rest of HitCollectors attached is the patch. Will commit when full testsuite has run again. Committed revision 824781

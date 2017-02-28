@@ -1,0 +1,2 @@
+Add the ability to disable the content-type and transfer encoding headers for Parts
+ÊCreated an attachment id 8358 Patch 1 Please take a look at the attached patch and let me know. MikeFine with me. OlegAfter some delay committed to 2.0 and HEAD. Mike

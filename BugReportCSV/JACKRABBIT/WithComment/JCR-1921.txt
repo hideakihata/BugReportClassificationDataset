@@ -1,0 +1,2 @@
+EventFilterImpl should implement toString
+This would simplify logging and debugging.Proposed patchI d rather not keep the string representation in asString. The method toString is only used for debugging right Which means there is no need to make it quick for frequent calls.That s fine with me. Do you need me to update the patch Committed a changed version of the patch where the string is not held as local variable. svn revision 732678

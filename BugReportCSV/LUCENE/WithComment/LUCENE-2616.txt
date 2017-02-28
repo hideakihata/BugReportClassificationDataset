@@ -1,0 +1,2 @@
+FastVectorHighlighter out of alignment when the first value is empty in multiValued field
+trunk Committed revision 989035. branch 3x Committed revision 989056. reopening for possible 2.9.4 3.0.3 backport. Committed revision 1028984 2.9 1028986 3.0 .

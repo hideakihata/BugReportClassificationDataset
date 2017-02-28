@@ -1,0 +1,2 @@
+More verbose message on reference constraint violation
+This patch is just a proposal. Please reviewadjusting priorityapplied the patch with a minor change reused Text.implode instead of adding private method fixed in svn r516080 thanks for reporting this issue and providing a patch 

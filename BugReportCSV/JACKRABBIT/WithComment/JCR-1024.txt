@@ -1,0 +1,2 @@
+Only load root node definition when required
+The root node definition is currently loaded whenever a session logs in.Fixed in revision 555290

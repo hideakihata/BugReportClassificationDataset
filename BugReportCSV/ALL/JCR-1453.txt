@@ -1,0 +1,2 @@
+Allow access to journal inside ClusterNode
+JCR-757 added support multiple consumers producers to be attached to the same journal. In order to access this journal however o.a.j.core.cluster.ClusterNode has to allow access to the journal it has created.Fixed in revision both trunk and branches 1.4.Is this an improvement or a bug fix i.e. should we have this in 1.4 branch You re right it is a bug fix after all although the change is really trivial. Changing the type to Bug fix .

@@ -1,0 +1,2 @@
+ PATCH FilteredTermEnum code cleanup
+FilteredTermEnum s constructor takes two parameters but doesn t use them. This patch changes that and thus makes the code easier readable. Maybe the old constructor should be kept as deprecated I m not sure this version seems cleaner to me. Created an attachment id 11474 change constructor patch My powerful IDE XEmacs eyes confirms this Thanks committed to CVS. I think this deserves its own entry in CHANGES.txt as it affects the API. I will attach one. Created an attachment id 11612 entry for CHANGES.txt Done thanks.

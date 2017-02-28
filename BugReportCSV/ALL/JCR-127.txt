@@ -1,0 +1,2 @@
+Speedup Startup
+jackrabbit startup gets slower the more items are in the repository. possible reasons - versioning - search indeximproved versioning startup by removing intermediate virtual layer. fixed in r191172closing resolved issue

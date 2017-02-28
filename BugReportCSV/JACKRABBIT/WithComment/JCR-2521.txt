@@ -1,0 +1,2 @@
+WorkspaceImporter throws exception
+sessio.getWorkspace .getImportContentHandler throws java.lang.UnsupportedOperationException Workspace-Import of protected nodes Not yet implement. suggest to issue warning instead of throwing.fixed as suggested.

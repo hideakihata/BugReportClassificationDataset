@@ -1,0 +1,2 @@
+ jcr-rmi workspace.copy doesn t work
+swapped parameters in org apache jackrabbit rmi client ClientWorkspace ClientWorkspace.

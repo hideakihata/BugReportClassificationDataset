@@ -1,0 +1,2 @@
+HttpConnection.isResponseAvailable calls setSoTimeout but does not catch IOException
+HttpConnection.isResponseAvailable can throw an IOException when setting the soTimeout but should probably just return false in this case. http marc.theaimsgroup.com t 106268485100002 r 1 w 2 Created an attachment id 8107 patch Attached are a few changes to make HttpConnection.isResponseAvailable a little more robust particularly when used by HeadMethod. Please take a look and let me know. MikeI think this one is good to be committed to HEAD and 2.0 OlegPatch applied.

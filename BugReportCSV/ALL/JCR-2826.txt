@@ -1,0 +1,2 @@
+Test dependency on Jackrabbit core from o.a.j.c.security.user.XPathQueryEvaluator 
+o.a.j.c.security.user.XPathQueryEvaluator wrongly imports     import org.apache.jackrabbit.test.api.util.Text instead of     import org.apache.jackrabbit.util.Text Fixed at revision 1040958Reopening for 2.2 branchFixed at revision 1040961

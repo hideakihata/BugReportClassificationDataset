@@ -1,0 +1,2 @@
+Hop 0 sample app doesn t exit because of on-daemon thread pool-1-thread-1
+When starting the sample app Hop 0 or any other Hop sample app if there is no repository directory then the application doesn t exit because there is a non-daemon thread named pool-1-thread-1 .I couldn t find where the thread is created. Possibly this is related to search because the problem goes away if I disable search in the repository.xmlThe problem is DynamicPooledExecutor which creates a ThreadPoolExecutor using the default ThreadFactory.

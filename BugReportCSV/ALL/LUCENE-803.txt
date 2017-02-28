@@ -1,0 +1,2 @@
+add svn ignores for eclipse artifacts
+Be nice to ignore the files eclipse puts into the project root as we do the .idea file for intellij. The two files are .project .classpath I m gonna lie and say there s a patch available for this because an svn diff patch with propery changes can t be applied with patch anyway. This probably goes for IntelliJ too .iml .iws .ipr and .settings I added the following ignore properties .settings .classpath .project .iml .iws .ipr While we re here can we add prj.el for JDE done

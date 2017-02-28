@@ -1,0 +1,2 @@
+ PATCH Better lock obtain timed out error message
+The attached patch prints the complete path and name of the lock file. This should simplify debugging it s actually a wish from the Wiki . Created an attachment id 11472 better error message the RAMDirectory changes just remove unused variables not related to the other improvement patch applied thanks 

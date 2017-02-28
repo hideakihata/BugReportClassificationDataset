@@ -1,0 +1,2 @@
+deadlock on concurrent commit locking
+there can happen an iterlock between the dispatching part of the shared item state manager and the lockmanager.added very ugly hack by disably write lock inside the version specific item state manager during transaction commits. fixed in revision 410655.

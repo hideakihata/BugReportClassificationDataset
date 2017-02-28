@@ -1,0 +1,2 @@
+cache module should strip Content-Encoding identity from responses
+Per the RFC the identity content coding SHOULD NOT be used in the Content-Encoding header http www.w3.org Protocols rfc2616 rfc2616-sec3.html sec3.5 The current implementation will pass Content-Encoding identity through unchanged although it would be simple enough to filter this out. The attached patch fixes this issue by filtering Content-Encoding identity out of upstream responses. This patch is contributed with the permission of my employer. Patch checked in. Oleg

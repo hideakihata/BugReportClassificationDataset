@@ -1,0 +1,2 @@
+UserManagement Missing assertion that Principal name isn t 
+Creating users groups with a Principal having an empty name should not be allowed.

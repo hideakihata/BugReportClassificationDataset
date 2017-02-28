@@ -1,0 +1,2 @@
+Move PatternAnalyzer out of contrib memory to contrib analyzers
+in the memory index contrib there is a PatternAnalyzer. i think this analyzer belongs in contrib analyzers instead it has no relation to memory index. 1 go on and move it Hi although unrelated really the MemoryIndex had some code where it would check for this PatternAnalyzer and do some special FastStringReader things. I believe we should ultimately remove this FastStringReader completely but for now just use a normal StringReader in MemoryIndex. Committed revision 832889.

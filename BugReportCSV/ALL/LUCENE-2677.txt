@@ -1,0 +1,2 @@
+Tests failing when run with tests.iter 1
+TestMultiLevelSkipList and TestsFieldReader are falling if run with -Dtests.iter 1 - not all values are reset though I will attach a patch in a second. here is a patch committed rev. 1002724 Same is true for org.apache.lucene.search.TestRemoteCachingWrapperFilter - I will fix committed in rev. 1003747

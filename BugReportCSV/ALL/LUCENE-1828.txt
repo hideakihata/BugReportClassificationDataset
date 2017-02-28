@@ -1,0 +1,2 @@
+MemoryIndex doesn t call TokenStream.reset and TokenStream.end 
+MemoryIndex from contrib memory does not honor the contract for a consumer of a TokenStream will work up a patch right quick Patch to call TokenStream.reset and TokenStream.end in MemoryIndex Committed revision 806444. Thanks Tim 

@@ -1,0 +1,2 @@
+GetReferencesNodeTest test assumptions
+Bad test assumptions in GetReferencesNodeTest 1 In setUp there is a primary node type including mixin versionable. Proposed fix just create the node try to add mixin versionable check the node type after save. 2 The repository supports non-protected reference properties. Proposed fix check with AbstractJCRTest s ensureCanSetProperty method and let NotExecutableException be thrown. Fixed with revision 575319.Merged to the 1.3 branch in revision 577874.

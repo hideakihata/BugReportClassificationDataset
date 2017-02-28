@@ -1,0 +1,2 @@
+Connections are not release when a recoverable exception occurs.
+Please see the url for discussion details.Created an attachment id 8487 patch 1 This patch should take care of the problem. The connection should definitely be released in this case since it is closed. This patch should be applied before rc2 is tagged. MikeMike I think the patch is good to be committed. OlegPatch applied to 2.0 and with slight modifications to HEAD. Mike

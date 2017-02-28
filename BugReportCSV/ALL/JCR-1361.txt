@@ -1,0 +1,2 @@
+Lock test assumes that changes in one session are immediately visible in different session
+LockTest.testLogout assumes that a change in one session logging out removing a session-scoped lock is immediately visible in another session. Proposal insert a Ên1.getSession .refresh true call before checking ÊassertFalse node must not be locked n1.isLocked 1Fixed with revision 618965.

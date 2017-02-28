@@ -1,0 +1,2 @@
+Error reporting page for jackrabbit-webapp
+The Jackrabbit webapp should have an error reporting page that would help users collect all relevant environment and log information for inclusion in bug reports.Implemented in revision 610765. Merged to the 1.4 branch in revision 610769.

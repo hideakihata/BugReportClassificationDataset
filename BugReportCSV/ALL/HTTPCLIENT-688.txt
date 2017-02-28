@@ -1,0 +1,2 @@
+HttpOptions.getAllowedMethods expects single Allow header
+In client.methods.HttpOptions.getAllowMethods a single Allow header is parsed to obtain the result. Since the value is a comma-separated list servers can optionally return the values in multiple headers. HttpMethod.getHeaders name should be used instead of .getFirstHeader name . I hope this is a suitable patch Selva AndreaPatch checked in. I just made a minor change to it and replaced the array of Headers with our new shiny HeaderIterator. Many thanks for contributing the patch Adrea Oleg

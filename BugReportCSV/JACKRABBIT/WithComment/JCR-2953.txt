@@ -1,0 +1,2 @@
+PathParser accepts illegal paths containing curly brackets
+o.a.jackrabbit.spi.commons.conversion.PathParser accepts the following path public . . private the normalized resulting Path object represents private that s a potential security risk.Just as an additional comment this is not only a security risk but imho wrong path handlingMerged to the 2.2 branch in revision 1126998 to 2.1 in revision 1127002 and to 2.0 in revision 1127004.

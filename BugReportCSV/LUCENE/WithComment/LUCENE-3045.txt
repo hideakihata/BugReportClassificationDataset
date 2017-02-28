@@ -1,0 +1,2 @@
+QueryNodeImpl.containsTag String should lowercase the tag key
+QueryNodeImpl.containsTag String key tag keys are supposed to be case insensitive however QueryNodeImpl.containsTag method is considering the case when looking up for tag. Bug found by Karsten Fissmer Here is the fix I will commit it tomorrow if no one has any complains. fixed on r1096983 I also added a junit so we make sure the problem does not come back in future

@@ -1,0 +1,2 @@
+Evaluate if membershipcache JCR-2703 obsoletes the cache in DefaultPrincipalProvider
+removed the membership cache in defaultprincipalprovider and moved the corresponding code to the new membership cache including adding supported for node-based member structure 

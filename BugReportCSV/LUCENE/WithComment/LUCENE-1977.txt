@@ -1,0 +1,2 @@
+Remove MultiTermQuery.getTerm 
+Removes the field and methods in MTQ that return the pattern term. Here the patch. This also fixes the highlighter problem with NumericRange. Committed revision 824771

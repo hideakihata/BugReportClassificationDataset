@@ -1,0 +1,2 @@
+IntParser and FloatParser unused by FieldCacheImpl
+FieldCacheImpl doesn t use IntParser or FloatParser to parse values attached patch to use the parse methods of IntParser and FloatParser

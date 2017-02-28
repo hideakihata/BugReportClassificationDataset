@@ -1,0 +1,2 @@
+JE Directory Implementation
+I ve created a port of DbDirectory to JE Attached code. It still needs an Ant build file. fixed in rev 366041 db contrib area structure was rearranged to accomodate multiple implementations and new Berkeley DB JE contribution by Aaron Donovan was added.

@@ -1,0 +1,2 @@
+ JCR levels link on http jackrabbit.apache.org doc index.html broken
+The JCR levels link on the Jackrabbit home page is broken. Fixed the link in revision 516350. I ll push the change to the web server later today along with the 1.2.3 release announcement. Thanks for reporting this 

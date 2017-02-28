@@ -1,0 +1,2 @@
+Fix unexpected behavior of Text.getName 
+Text.getName and variants does return an empty string if the given path is already a name. eg Text.getName foo returns and not foo as one would expect for relative paths. suggest to change this. 1fixed as proposed.Reopening this change seems to have caused a regression in spi2jcr. See http hudson.zones.apache.org hudson job Jackrabbit-trunk 142 fixed again - 

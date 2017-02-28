@@ -1,0 +1,2 @@
+Remove unused LuceneQueryBuilder.createQuery method
+The following method is not used anymore in Jackrabbit and can be removed     public static Query createQuery QueryRootNode root                                     SessionImpl session                                     ItemStateManager sharedItemMgr                                     NamespaceMappings nsMappings                                     Analyzer analyzer                                     PropertyTypeRegistry propReg             throws RepositoryException Removed method in revision 569323

@@ -1,0 +1,2 @@
+Missing third party notices and license info
+The components that bundle external libraries jackrabbit-webapp and jackrabbit-jca should come with appropriate copyright notices and license information.Resolving as Fixed. As the final piece I added an About Apache Jackrabbit page that shows the copyright and licensing details the webapp.

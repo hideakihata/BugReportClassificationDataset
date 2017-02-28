@@ -1,0 +1,2 @@
+Reduce number of compiler warning by adding Override and generics where appropriate
+Same as JCR-2482 for the webdav library and the modules using it.hopefully nothing broken now... i run the litmus test suite against the default webdav server and some API tests in the setup jcr2spi-spi2dav-jcrserver.

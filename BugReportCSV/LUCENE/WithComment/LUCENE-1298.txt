@@ -1,0 +1,2 @@
+MoreLikeThis ignores custom similarity
+MoreLikeThis only allows the use of the DefaultSimilarity. Patch shortly Patch Committed revision 663054.

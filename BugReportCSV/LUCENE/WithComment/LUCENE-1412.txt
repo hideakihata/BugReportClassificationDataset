@@ -1,0 +1,2 @@
+FileNotFoundException thrown by Directory.copy 
+java.io.FileNotFoundException segments bu at org.apache.lucene.store.RAMDirectory.openInput RAMDirectory.java 234 at org.apache.lucene.store.Directory.copy Directory.java 190 Actually Directory.copy is not designed to work correctly when the source directory is being modified. I ll update its javadocs to that effect. OK I just committed that. Thanks Anthony 

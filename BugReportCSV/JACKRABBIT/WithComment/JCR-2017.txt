@@ -1,0 +1,2 @@
+System view export truncates carriage return
+If a string contains a carriage return r this character was truncated on some platforms.Committed in revision 752457 trunk Merged to the 1.5 branch in revision 767525.

@@ -1,0 +1,2 @@
+Provide base classes to simplify read only RepositoryService implementations
+There should be base classes that simplify the implementation of a RepositoryService for read only access.Proposed patch.Applied patch in revision 763205Missing lock method on AbstractReadableRepositoryService added in revision 763215

@@ -1,0 +1,2 @@
+IndexSearcher fails to pass docBase to Collector when using ExecutorService
+This bug is causing the failure in TestSearchAfter. We are now always passing docBase 0 to Collector when you use ExecutorService with IndexSearcher. This doesn t affect trunk AtomicReaderContext carries the right docBase only 3.x. Patch storing docBase in IndexSearcher w private ctor used only when top IS has an ES instead of passing docBase to the subs per-search. Nice catch thanks to Robert Bulk close after release of 3.5

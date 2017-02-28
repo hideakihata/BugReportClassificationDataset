@@ -1,0 +1,2 @@
+IndexReader.isCurrent incorrectly returns false after writer.prepareCommit has been called
+Spinoff from thread 2 phase commit with external data on java-user. The IndexReader should not see the index as changed after a prepareCommit has been called but before commit is called. Attached patch. Simple fix. Thanks Peter backport

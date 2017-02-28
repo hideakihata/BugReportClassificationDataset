@@ -1,0 +1,2 @@
+Allow query results with unknown size
+To further optimize certain queries the query implementation should be changed to allow for unknown result sizes. Currently there is only one query where the query result returns an unknown size and a special query result implementation is returned. At the same time this should be fixed that only one implementation is used.QueryHits is now an interface and there are two implementations LuceneQueryHits and NodeTraversingQueryHits. Implemented in revision 629145

@@ -1,0 +1,2 @@
+Reduce exposure of nightly build documentation
+From LUCENE-1157 - ..the nightly build documentation is too prominent. A search for indexwriter api on Google or Yahoo returns nightly documentation before released documentation. https issues.apache.org jira browse LUCENE-1157 focusedCommentId 12565820 action 12565820 This was once fixed by adding a robots.txt to Hudson. But since move of Hudson to new machines this is an issue again. I opened INFRA-3389. Corresponding INFRA-3389 was solved https hudson.apache.org robots.txt

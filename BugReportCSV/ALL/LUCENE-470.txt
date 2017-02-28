@@ -1,0 +1,2 @@
+Refactoring and slight extension of regex testing code.
+Includes the tests of TestSpanRegexQuery.java. Adds a few test cases. Paul - I committed your changes thanks I did have to add String in front of the declaration of the FN variable though

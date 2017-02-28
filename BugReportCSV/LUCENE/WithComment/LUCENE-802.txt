@@ -1,0 +1,2 @@
+lucene jars should include LiCENSE and NOTICE
+The Lucene jars created by the build should include the LICENSE and NOTICE files in META-INF. Committed. Thanks Steven 

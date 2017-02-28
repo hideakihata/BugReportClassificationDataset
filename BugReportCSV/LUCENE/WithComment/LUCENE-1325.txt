@@ -1,0 +1,2 @@
+add IndexCommit.isOptimized method
+Spinoff from here http mail-archives.apache.org mod mbox lucene-java-user 200807.mbox 3C69de18140807010347s6269fea5r12c3212e0ec0a12a mail.gmail.com 3E Attached patch. I plan to commit in a day or so.

@@ -1,0 +1,2 @@
+introduce QValue.getCalendar 
+Introduce QValue.getCalendar in order to avoid unnecessary conversions from to string format. Added changes to interface and a dummy implementation in revision 554958. Proposed change to ValueFormat taking advantage of QValue.getCalendar. Marcel can you take over from here implementing getCalendar in QValueFactoryImpl sureFixed in revision 554984

@@ -1,0 +1,2 @@
+Additional excerpt provider implementation
+The current DefaultHTMLExcerpt implementation is very simple. It basically picks the first three fragments regardless of how many matches it contains. There should be an alternative implementation that weights the fragments based on the number of matching terms and the whether phrases have matched.Added WeightedXMLExcerpt and WeightedHTMLExcerpt in revision 612123

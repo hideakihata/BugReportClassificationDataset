@@ -1,0 +1,2 @@
+Add more unit on collection fields
+collection fields based on List are supported not yet tested correctly. Check if other kind collection are well testedNull values for collection attributes are not well supported. We have to test that for all CollectionConverters. Here is a good scenario to test Model Class A contains an attribute collection which is a list of items based on class B Create an instance of A with collection null insert A save Get instance of A set the attribute collection update A saveDone. I added more unit test for null values

@@ -1,0 +1,2 @@
+contrib Highlighter javadoc example needs to be updated
+The Javadoc package.html example code is outdated as it still uses QueryParser.parse. http lucene.zones.apache.org 8080 hudson job Lucene-Nightly javadoc contrib-highlighter index.html It also only demonstrates using the Analyzer to get the tokenStream and not term vectors TermSources First draft at a bit of an update to the package javadocs committed.

@@ -1,0 +1,2 @@
+spi2dav list of known issues in the pom.xml
+I added a complete list of failing tests both to jcr2dav and spi2dav pom.xml at Revision 918950. the list is ordered by component. I tried to identify the source of each failing test and commented the list accordingly. in addition i created a couple of new issues for problem i detected. with the changes made i was able to successfully run the ConformanceTest in jackrabbit-jcr2dav. on my machine it took 7 minutes which is far from being brilliant... anyway... better than not running the tests at all.

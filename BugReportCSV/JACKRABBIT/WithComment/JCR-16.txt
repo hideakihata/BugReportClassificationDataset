@@ -1,0 +1,2 @@
+Observation tests fail
+Path returned by Event.getPath is wrong. It always returns the path to the parent node connected to the event. That is if e.g. a node foo bar is created the path foo is returned instead of foo bar. This issue had been introduced with changed from api version 0.14 to 0.15.- Changed EventImpl to return the path of the child item associated with the event - Changed SearchManager handling for property change events related to wrong path returned by Event.getPath Fixed in SVN revision 56655

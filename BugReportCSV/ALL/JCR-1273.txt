@@ -1,0 +1,2 @@
+Unnecessary parsing of Name value
+InternalValue.toJCRValue NamePathResolver formats the Name value and constructs a NameValue using the formatted String. The implementation of NameValue.valueOf String again checks the format which is quite expensive and unnecessary in this case.In the long run I think we should move the Value stuff to spi-commons as well this would allow NameValue to operate on Name.Proposed change.Applied patch in revision 605171

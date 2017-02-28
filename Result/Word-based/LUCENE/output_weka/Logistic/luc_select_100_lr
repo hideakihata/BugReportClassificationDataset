@@ -1,0 +1,252 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/LUCENE/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R135,184,94,632,33,521,214,320,3,429,747,4,339,914,528,771,881,366,314,476,265,258,661,227,96,530,872,134,913,532,417,1005,290,189,557,883,455,226,577,122,379,742,1004,482,6,961,574,11,410,238,377,498,41,904,65,738,75,818,850,658,594,956,894,428,488,62,797,73,21,983,426,14,5,720,643,590,578,418,960,494,990,923,475,567,223,319,161,610,650,568,444,389,556,878,34,702,10,955,860,915,1
+Instances:    2443
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                          Class
+Variable                FEATURE
+===============================
+classes                  0.1145
+contrib                  0.4275
+bug                     -0.3166
+package                  0.4657
+api                      0.0562
+lot                      0.3585
+default                  0.1938
+faster                   0.6498
+-dtestcase              -1.7535
+improvements             0.4934
+reproduce               -0.0533
+-dtestmethod             1.2873
+fix                     -0.4843
+things                  -0.0231
+lucenetestcaserunner    -0.0857
+runchild                -0.0543
+support                 -0.0216
+functionality            0.5894
+fails                   -0.2987
+javadocs                 0.1913
+easier                   0.5747
+don                     -0.0284
+performance              0.0834
+deprecated               0.1617
+build                     0.693
+made                     0.4281
+stuff                    0.0159
+class                   -0.0214
+thing                     0.304
+make                    -0.0012
+implement                -0.095
+yeah                     0.4645
+exception               -0.2059
+core                    -0.0555
+methods                  0.0515
+svn                      0.1746
+interface                0.0703
+deprecate                0.2991
+move                    -0.1161
+change                   0.0295
+great                   -0.2161
+renamed                  0.7636
+xml                      0.3342
+junit                    0.0181
+abstract                 0.1697
+users                    0.0207
+module                   0.4061
+added                    0.0345
+idea                    -0.1867
+directly                 0.4695
+good                     0.0528
+level                   -0.0549
+approach                 0.1583
+testcase                -0.1217
+backwards                0.1867
+removed                  0.0349
+big                     -0.1623
+simple                   -0.008
+src                      0.0539
+people                    0.002
+nice                     0.1857
+updated                   0.266
+task                      0.367
+improvement              0.5124
+lang                    -0.4808
+back                    -0.0572
+sense                    0.0772
+benchmark               -0.0539
+agree                   -0.1321
+wiki                     0.7198
+improve                  0.5964
+addition                 0.6776
+-dtests                  0.1544
+ready                    0.2092
+part                    -0.0629
+needed                   0.0099
+moved                    0.0254
+implementation          -0.1683
+user                     0.1804
+leave                    0.4578
+work                     -0.041
+time                     0.0532
+javadoc                  0.0911
+mockrandom               -0.399
+dependency               0.4765
+fast                    -0.1096
+common                   0.0986
+objects                  0.2456
+patch                   -0.0787
+mocksep                 -0.2738
+information              0.5038
+hard                     0.1924
+method                   0.0743
+suggestions              1.8536
+apis                      0.401
+put                     -0.0159
+add                       0.041
+update                   0.1611
+step                     0.0909
+thinking                -0.3621
+Intercept                0.6143
+
+
+Odds Ratios...
+                          Class
+Variable                FEATURE
+===============================
+classes                  1.1213
+contrib                  1.5334
+bug                      0.7287
+package                  1.5931
+api                      1.0579
+lot                      1.4312
+default                  1.2139
+faster                   1.9152
+-dtestcase               0.1732
+improvements             1.6379
+reproduce                0.9481
+-dtestmethod             3.6231
+fix                      0.6161
+things                   0.9772
+lucenetestcaserunner     0.9178
+runchild                 0.9471
+support                  0.9786
+functionality            1.8028
+fails                    0.7417
+javadocs                 1.2108
+easier                   1.7766
+don                       0.972
+performance               1.087
+deprecated               1.1755
+build                    1.9996
+made                     1.5344
+stuff                     1.016
+class                    0.9788
+thing                    1.3552
+make                     0.9988
+implement                0.9094
+yeah                     1.5912
+exception                0.8139
+core                      0.946
+methods                  1.0528
+svn                      1.1907
+interface                1.0728
+deprecate                1.3486
+move                     0.8904
+change                   1.0299
+great                    0.8056
+renamed                  2.1461
+xml                      1.3968
+junit                    1.0182
+abstract                 1.1849
+users                     1.021
+module                   1.5009
+added                    1.0351
+idea                     0.8297
+directly                 1.5991
+good                     1.0542
+level                    0.9466
+approach                 1.1715
+testcase                 0.8855
+backwards                1.2052
+removed                  1.0355
+big                      0.8502
+simple                   0.9921
+src                      1.0554
+people                    1.002
+nice                      1.204
+updated                  1.3048
+task                     1.4434
+improvement              1.6693
+lang                     0.6183
+back                     0.9444
+sense                    1.0802
+benchmark                0.9475
+agree                    0.8763
+wiki                      2.054
+improve                  1.8155
+addition                 1.9691
+-dtests                   1.167
+ready                    1.2327
+part                      0.939
+needed                     1.01
+moved                    1.0257
+implementation           0.8451
+user                     1.1977
+leave                    1.5806
+work                     0.9598
+time                     1.0547
+javadoc                  1.0954
+mockrandom                0.671
+dependency               1.6104
+fast                     0.8962
+common                   1.1037
+objects                  1.2783
+patch                    0.9243
+mocksep                  0.7605
+information               1.655
+hard                     1.2122
+method                   1.0772
+suggestions              6.3825
+apis                     1.4933
+put                      0.9842
+add                      1.0418
+update                   1.1748
+step                     1.0951
+thinking                 0.6962
+
+
+Time taken to build model: 0.41 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1930               79.0012 %
+Incorrectly Classified Instances       513               20.9988 %
+Kappa statistic                          0.4249
+Mean absolute error                      0.2848
+Root mean squared error                  0.3861
+Relative absolute error                 69.8124 %
+Root relative squared error             85.5041 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.923     0.542      0.81	0.923	0.863      0.83     FEATURE
+                 0.458     0.077      0.703	0.458	0.554      0.83     BUG
+Weighted Avg.    0.79      0.41       0.779	0.79	0.775      0.83 
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1611  135 |    a = FEATURE
+  378  319 |    b = BUG
+

@@ -1,0 +1,2 @@
+EventImpl should implement toString
+This would simplify logging and debugging.Suggested patchLooks good except for the typo uderIdThanks for reviewing. I ll fix that.Fixed at revision 792102Merged to the 1.x branch in revision 793614.

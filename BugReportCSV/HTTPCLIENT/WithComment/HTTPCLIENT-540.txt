@@ -1,0 +1,2 @@
+Typo in API CHANGES 3 0.txt
+DigestSheme should be DigestScheme Also why is there not an httpclient component in the list Fixed

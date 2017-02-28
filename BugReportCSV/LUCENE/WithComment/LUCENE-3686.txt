@@ -1,0 +1,2 @@
+EnhancementsPayloadIterator.getCategoryData CategoryEnhancement problematic usage of Object.equals 
+EnhancementsPayloadIterator has an internal list of category enhancemnets and in getCategoryData CategoryEnhancement there is a lookup of the given CategoryEnhancement in the list. In order to make sure this lookup works CategoryEnhancement must override Object.equals Object . My first Lucene patch Patch looks good many formatting changes though . I added a CHANGES entry under contrib CHANGES.txt. Committed revision 1230429 3x . Committed revision 1230431 trunk . Thanks Sivan 

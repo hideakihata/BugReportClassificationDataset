@@ -1,0 +1,2 @@
+ PATCH No need to call toString on a String
+code calls toString on a StringApplied patch in revision 631235 Thank you for the patch.

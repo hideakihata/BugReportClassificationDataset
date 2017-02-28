@@ -1,0 +1,2 @@
+remove DocsAndPositionsEnum.getPayloadLength
+This was an accidental leftover now that getPayload returns a BytesRef this method is not needed. Trivial patch... I ll commit soon.

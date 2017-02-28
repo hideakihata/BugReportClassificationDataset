@@ -1,0 +1,2 @@
+Session move doesn t trigger rebuild of parent node aggregation
+The summary says it all.attaching patch. I have removed what looked like an optimisation. But I can t remember what the reason for this optim was most probably performance related . If a node is both in the removed and in the added sets then it is definitely a move operation. By removing it from the removedIds set the aggregation info would not be updated for the given node. fixed in rev 1210826

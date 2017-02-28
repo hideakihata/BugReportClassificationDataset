@@ -1,0 +1,2 @@
+Jackrabbit s lucene based query implementation does not check property constraints on the root node.
+XPath queries of the kind jcr root any property constraint apparently always match.Fixed in revision 831900

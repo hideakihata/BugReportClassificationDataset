@@ -1,0 +1,2 @@
+ItemInfoBuilder fails to set correct path on properties
+This only happens if the parent node s nodeId is id based in contrast to path based . The build method should not rely on the nodeId providing the full path. Instead it should us the parent node s getPath method to construct the full path.Fixed at revision 1159708

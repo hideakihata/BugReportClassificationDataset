@@ -1,0 +1,2 @@
+While you could use a custom Sort Comparator source with remote searchable before you can no longer do so with FieldComparatorSource
+FieldComparatorSource is not serializable but can live on a SortField I guess I ve just got to make the FieldComparatorSource serializable before 2.9 goes out. We are also moving RMI RemoteSearchable out of core for 2.9 under LUCENE-1407 though we still must do this issue for 2.9 since RemoteSearchable will be deprecated but still usable .

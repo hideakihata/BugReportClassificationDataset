@@ -1,0 +1,2 @@
+IndexReader.undeleteAll can mess up the deletion count stored in the segments file
+Spinoff from LUCENE-1474. I ll attach a test case showing the issue. Test case showing the issue. Attached patch w test showing the issue and fix that fixes the test. I plan to commit in a day or two.

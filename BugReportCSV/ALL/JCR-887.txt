@@ -1,0 +1,2 @@
+DateField class should be public
+The class org.apache.jackrabbit.core.query.lucene.DateField should be made public. It has several public methods which are useful but are currently not accessible because the class itself is not accessible outside of its package. All of the other Field classes in that package are public and accessible LongField DoubleField etc. DateField is now public. Fixed in revision 532464

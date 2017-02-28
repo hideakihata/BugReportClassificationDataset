@@ -1,0 +1,2 @@
+Cleanup good queries code
+Before moving some of the classes from the queries contrib to the queries module I want to just pass over them and clean them up since we want code in modules to be of the same calibre as core code. Patch which fixes indentation moves over to Java 5 loops cleans up some comparisons and leaves a TODO in TermsFilter for future work. Tests pass. Ready to go. Tests pass. Ready to go. 1 Improved patch. Committed revision 1145916.

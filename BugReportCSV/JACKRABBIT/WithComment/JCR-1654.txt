@@ -1,0 +1,2 @@
+Incorrect slf4j-log4j12 dependency scope in spi-commons
+The slf4j-log4j12 dependency scope in jackrabbit-spi-commons is runtime when it should be test . We don t want to impose a specific logging solution to downstream projects.Fixed in revision 669301.

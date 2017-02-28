@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,670,816,714,299,213,806,598,217,804,436,581,580,106,500,776,596,450,204,930,216,849,502,586,916,942,878,420,346,958,393,1
+Instances:    2402
+Attributes:   51
+              lang
+              java
+              org
+              core
+              merged
+              branch
+              apache
+              nullpointerexception
+              exception
+              reproduce
+              state
+              addnode
+              invoke
+              jackrabbit
+              begin
+              fixed
+              throws
+              save
+              xaitemstatemanager
+              getrootnode
+              problem
+              shareditemstatemanager
+              reflect
+              fails
+              delegatingmethodaccessorimpl
+              sessionitemstatemanager
+              null
+              dependency
+              session
+              itemimpl
+              nativemethodaccessorimpl
+              native
+              caused
+              localitemstatemanager
+              run
+              npe
+              javax
+              deadlock
+              transaction
+              dependencies
+              stack
+              lock
+              node
+              thrown
+              unable
+              sun
+              interface
+              getpath
+              util
+              improve
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: 0.222
+|  (1)java < 7.5: 0.078
+|  |  (6)fails < 0.5: 0.061
+|  |  |  (7)throws < 0.5: 0.054
+|  |  |  (7)throws >= 0.5: -0.509
+|  |  |  (8)interface < 0.5: -0.036
+|  |  |  |  (10)nullpointerexception < 0.5: 0.014
+|  |  |  |  (10)nullpointerexception >= 0.5: -1.328
+|  |  |  (8)interface >= 0.5: 0.719
+|  |  |  (9)problem < 0.5: 0.075
+|  |  |  (9)problem >= 0.5: -0.352
+|  |  (6)fails >= 0.5: -0.452
+|  (1)java >= 7.5: -0.902
+|  (2)merged < 0.5: 0.112
+|  |  (3)fixed < 0.5: 0.234
+|  |  (3)fixed >= 0.5: -0.217
+|  (2)merged >= 0.5: -0.417
+|  (4)dependency < 0.5: -0.038
+|  |  (5)improve < 0.5: -0.024
+|  |  (5)improve >= 0.5: 1.188
+|  (4)dependency >= 0.5: 0.782
+Legend: -ve = BUG, +ve = FEATURE
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 3.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1671               69.567  %
+Incorrectly Classified Instances       731               30.433  %
+Kappa statistic                          0.3414
+Mean absolute error                      0.4253
+Root mean squared error                  0.449 
+Relative absolute error                 89.3484 %
+Root relative squared error             92.027  %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.529     0.197      0.632	0.529	0.576      0.746    BUG
+                 0.803     0.471      0.727	0.803	0.763      0.746    FEATURE
+Weighted Avg.    0.696     0.364      0.69	0.696	0.69       0.746
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  496  442 |    a = BUG
+  289 1175 |    b = FEATURE
+

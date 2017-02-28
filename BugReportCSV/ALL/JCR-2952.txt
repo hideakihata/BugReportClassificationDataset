@@ -1,0 +1,2 @@
+PrivilegeHandlerTest fails on Windows
+The test fails on Windows because there are differences in line breaks between expected and actual results.i will take a look at it. the test case is garbage anyway because it compares the exact string values instead of testing if the resulting definitions are equals which was the desired effect ... saw that before but didn t have time to rewrite it.modified test case and replace string comparison which includes linebreaks by testing if re-reading the written definitions results in the expected definitions.

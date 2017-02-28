@@ -1,0 +1,2 @@
+PulsingTermState.clone leaks memory
+I looked at the heap dump from the OOME this morning thank you Uwe for turning this on and I think it s a real memory leak. Well not really a leak rather the cloned PulsingTermState which we cache in the terms dict cache is hanging onto large byte unnecessarily. Patch. I fixed PulsingTermState s clone to make a new PulsingTerm state and then copy like we do for StandardCodec . I did the same for SepCodec though I don t think that one is leaking memory.

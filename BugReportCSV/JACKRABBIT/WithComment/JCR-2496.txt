@@ -1,0 +1,2 @@
+Internal error in WorkspaceItemStateFactory createDeepNodeState
+When WorkspaceItemStateFactory createDeepNodeState receives the current entry as argument for anyParent it throws RepositoryException with the message Internal error while getting deep itemState . This is incorrect probably a leftover from JCR-1797 since any entry is valid as argument for anyParent.Fixed at revision 910470

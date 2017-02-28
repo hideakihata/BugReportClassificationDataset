@@ -1,0 +1,2 @@
+Systemrequirements should say 1.5 instead of 1.4
+The website still says Java 1.4 but it should say 1.5 Committed revision 834833 In general this should be fixed in a version-specific system requirements page see LUCENE-1154 

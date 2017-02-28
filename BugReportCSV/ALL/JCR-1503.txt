@@ -1,0 +1,2 @@
+Typo in repository.xml
+There s another typo in repository.xml. This is basically the same as JCR-1460 but for the SearchIndex element at the bottom of the repository.xml.Fixed in revision 641284There are other parameters that are invalid for SimpleLoginModule - anonymousId - adminIdFixed in jackrabbit-core with revision 641300. ... and revision 641321 respectively.Merged to the 1.4 branch in revision 650557.

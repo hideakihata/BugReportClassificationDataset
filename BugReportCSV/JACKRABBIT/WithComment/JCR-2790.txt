@@ -1,0 +1,2 @@
+jcr like on node name
+Until now it is only possible to do an exact match on the node name. It would be useful to also use jcr like on the node name.Proposed patch implements support for fn name in jcr like . The patch also extends GQL query to support name expressions including wildcards .Applied patch in revision 1030038

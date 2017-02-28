@@ -1,0 +1,2 @@
+Rename FilterIndexReader to FilterAtomicReader
+This class has to be renamed to be consistent with the new naming. Easy patch will commit soon Committed trunk revision 1243051

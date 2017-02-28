@@ -1,0 +1,2 @@
+NPE in PredefinedNodeTypeTest.getPropertyDefSpec
+Occurs when PropertyDefinition.getValueConstraints returns null which is allowed by the spec. I agree. The JavaDoc of PropertyDefinition.getValueConstraints says Reporting of value constraints is optional. An implementation may return null indicating that value constraint information is unavailable though a constraint may still exist . I removed the check from PredefinedNodeTypeTest and adapted the node type specs in org.apache.jackrabbit.test.api.nodetype.spec. svn revision 430715 Thank you for reporting this issue.

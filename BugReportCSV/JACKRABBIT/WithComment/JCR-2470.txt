@@ -1,0 +1,2 @@
+Include to jackrabbit-jcr-rmi and jackrabbit-jcr-servlet in main trunk
+Jackrabbit 2.0 should include the 2.0 version of the RMI component and the related jcr-servlet updates.As mentioned on dev I m actually thinking of solving this by bringing jackrabbit-jcr-rmi and jackrabbit-jcr-servlet back to the main Jackrabbit trunk.Updated the issue summary we ll move these components into the main trunk to avoid having to deal with separate release cycles.Done in trunk and merged to the 2.0 branch. Resolving as fixed.

@@ -1,0 +1,2 @@
+upgrade icu to 4.8
+we should upgrade from 4.6 to 4.8. some internal methods became public also a package-private reflection hack can be removed. Committed trunk rev 1130439 branch 3x 1130440 I don t know anything about the license validation stuff but I noticed that the license files for the ICU4J jars are differently named in branch 3x and trunk though their contents are identical branch 3x icu4j-LICENSE-ASL.txt trunk icu4j-LICENSE-BSD LIKE.txt it should be BSD LIKE everywhere. it should be BSD LIKE everywhere. I committed a fix in branch 3x. bulk close for 3.3

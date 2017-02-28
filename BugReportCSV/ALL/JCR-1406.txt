@@ -1,0 +1,2 @@
+Add the org.apache.jackrabbit.rmi.jackrabbit package to the rmic generation
+From the UnicastRemoteObject s ServerJackrabbitNodeTypeManager ServerJackrabbitWorkspace should be stubs generated. Fixed in revision 630284.Schedule für rmi 1.4.1 releaseBackported to 1.4 branch for release in Rev. 636783Released in jackrabbit-jcr-rmi 1.4.1 release. Closing issue.

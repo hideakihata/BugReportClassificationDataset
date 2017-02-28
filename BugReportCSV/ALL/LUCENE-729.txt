@@ -1,0 +1,2 @@
+non-recursive MultiTermDocs
+A non-recursive implementation of MultiTermDocs.next and skipTo would be nice as it s currently possible to get a stack overflow in very rare situations. Attaching non-recursive version. Seems simple enough but I ll wait till tomorrow to commit as I m home sick today with a fever and I tend to make far more mistakes This patch looks good to me. Do we know if there are any other places where we consume one stack frame per segment Committed. Thanks for the review Michael off the top of my head I don t know of other recursive functions like this.

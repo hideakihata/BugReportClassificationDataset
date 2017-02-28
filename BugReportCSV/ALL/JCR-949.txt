@@ -1,0 +1,2 @@
+PostgreSQL support in clustering module
+There is no ddl file for PostgreSQL in clustering module so I m attaching here the one we are using in our project. Hope it helps.This is the ddl we are using for PostgreSQL based journalCommitted the ddl file in revision 544005. Thanks 

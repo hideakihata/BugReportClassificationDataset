@@ -1,0 +1,2 @@
+Update site level documentation
+ugg - a fun one - my brain is sliding to the bottom of my skull from excitement. Must update all of the site level pages to current API usage. none of the links work - they all points to api org apache lucene rather than api core org apache lucene I ve gotten the majority of this done. I m still on the lookout for dead links and what not - but most things are in working order from what I can tell.

@@ -1,0 +1,2 @@
+simple webdav server does not support lock timeouts
+The simple WebDAV server still does not support lock timeouts HTTP trace shows MS word requests 3600s timeout but gets infinity .Merged to the 2.4 branch in revision 1235743.

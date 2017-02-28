@@ -1,0 +1,2 @@
+Two consecutive score calls return different scores for Boolean Queries.
+Two consecutive calls to score return different scores no next or skipTo calls in between . Background in LUCENE-912 . patch attached for future reference contains Michael s fix new test in QueryUtils that exposes the bug some debugging improvements in QueryUtils. Committed thanks Michael 

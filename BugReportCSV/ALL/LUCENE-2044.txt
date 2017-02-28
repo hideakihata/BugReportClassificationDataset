@@ -1,0 +1,2 @@
+Allow random seed to be set in DeleteByPercentTask
+Need this to make index identical on multiple runs. Trivial fix adds delete.percent.rand.seed config option.

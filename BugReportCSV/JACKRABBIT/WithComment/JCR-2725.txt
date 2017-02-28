@@ -1,0 +1,2 @@
+PostgreSQL Failed to guess validation query
+When using PostgreSQL the following warning appears in the log file WARN org.apache.jackrabbit.core.util.db.ConnectionFactory main Failed to guess validation query for URL jdbc postgresql ...Perhaps someone could also fix Failed to guess validation query for URL jdbc hsqldb hsql ... for the Hypersonic database.

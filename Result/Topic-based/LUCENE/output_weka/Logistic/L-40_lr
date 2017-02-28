@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   41
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable     FEATURE
+====================
+TOPIC0        0.1181
+TOPIC1       -0.4389
+TOPIC2        0.7372
+TOPIC3        -1.198
+TOPIC4       -0.0076
+TOPIC5        0.4609
+TOPIC6       -0.6402
+TOPIC7       -0.5795
+TOPIC8       -0.3166
+TOPIC9          0.42
+TOPIC10      -0.4012
+TOPIC11       0.1773
+TOPIC12       0.3952
+TOPIC13       0.1835
+TOPIC14       0.0767
+TOPIC15      -0.1335
+TOPIC16       0.6038
+TOPIC17      -0.6353
+TOPIC18       0.8759
+TOPIC19         1.12
+TOPIC20       0.3066
+TOPIC21       0.1619
+TOPIC22      -0.3536
+TOPIC23       0.0289
+TOPIC24      -0.7896
+TOPIC25      -1.8674
+TOPIC26       0.3383
+TOPIC27       -0.091
+TOPIC28       0.6222
+TOPIC29      -0.2966
+TOPIC30      -0.0613
+TOPIC31       0.0455
+TOPIC32       0.6109
+TOPIC33      -0.0508
+TOPIC34      -0.2402
+TOPIC35      -0.4452
+TOPIC36       0.1677
+TOPIC37       0.0084
+TOPIC38      -0.6413
+TOPIC39       1.5674
+Intercept     0.8886
+
+
+Odds Ratios...
+               Class
+Variable     FEATURE
+====================
+TOPIC0        1.1254
+TOPIC1        0.6447
+TOPIC2        2.0901
+TOPIC3        0.3018
+TOPIC4        0.9924
+TOPIC5        1.5854
+TOPIC6        0.5272
+TOPIC7        0.5602
+TOPIC8        0.7286
+TOPIC9         1.522
+TOPIC10       0.6695
+TOPIC11        1.194
+TOPIC12       1.4848
+TOPIC13       1.2014
+TOPIC14       1.0797
+TOPIC15        0.875
+TOPIC16       1.8291
+TOPIC17       0.5298
+TOPIC18       2.4009
+TOPIC19       3.0647
+TOPIC20       1.3588
+TOPIC21       1.1757
+TOPIC22       0.7022
+TOPIC23       1.0293
+TOPIC24        0.454
+TOPIC25       0.1545
+TOPIC26       1.4026
+TOPIC27        0.913
+TOPIC28       1.8631
+TOPIC29       0.7433
+TOPIC30       0.9405
+TOPIC31       1.0465
+TOPIC32        1.842
+TOPIC33       0.9505
+TOPIC34       0.7865
+TOPIC35       0.6407
+TOPIC36       1.1826
+TOPIC37       1.0085
+TOPIC38       0.5266
+TOPIC39       4.7942
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1962               80.3111 %
+Incorrectly Classified Instances       481               19.6889 %
+Kappa statistic                          0.4961
+Mean absolute error                      0.274 
+Root mean squared error                  0.3735
+Relative absolute error                 67.1829 %
+Root relative squared error             82.7141 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.89      0.415      0.843	0.89	0.866      0.84     FEATURE
+                 0.585     0.11       0.68	0.585	0.629      0.84     BUG
+Weighted Avg.    0.803     0.328      0.797	0.803	0.798      0.84 
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1554  192 |    a = FEATURE
+  289  408 |    b = BUG
+

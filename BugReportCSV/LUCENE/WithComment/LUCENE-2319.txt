@@ -1,0 +1,2 @@
+IndexReader doCommit - typo nit about v3.0 in trunk
+Trunk is already in 3.0.1 . But the documentation says - In 3.0 this will become ... . Since it is already in 3.0 it might as well be removed. Thanks Kay Kay Ð I just committed this. sorry wrong version Mh removing version again - was a doc update for 3.0 only - cannot be backported to 2.9

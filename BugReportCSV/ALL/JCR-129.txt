@@ -1,0 +1,2 @@
+ORM PersistenceManagers don t compile
+ORM PMs are out of synch with the latest changes of the api.Quick patch to allow for compilation of the ORM persistence managers with the changes introduced for 0.16.4.1applied patch as is r201998 

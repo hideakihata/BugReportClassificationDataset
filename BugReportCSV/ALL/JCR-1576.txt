@@ -1,0 +1,2 @@
+Remove RepositoryService exists 
+RepositoryService exists is not used anywhere. I suggest to remove it.This patch deprecates RepositoryService.exists I suggest to remove it. 1fine with me as well... if nobody object i will apply the patch and adjust the sandbox projects accordingly.btw... since we already remove other methods from the RepositoryService i guess i would rather remove this as well... instead of only deprecating it.

@@ -1,0 +1,2 @@
+consistency check should get node ids in chunks not rely on total count
+The PM consistency checker should use the paging feature to fetch nodeIds in chunks and also not rely on the total number of ids for logging purposes.proposed changeThe proposed change fetches 64K nodes at once. The test cases pass but it would be good if somebody else did a sanity check before I commit the change.Looks good to me and works for simple tests so I merged also this one to the 2.4 branch. Revision 1233349.

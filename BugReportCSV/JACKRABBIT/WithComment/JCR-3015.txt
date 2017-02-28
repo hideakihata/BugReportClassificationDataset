@@ -1,0 +1,2 @@
+EntryCollector may log warning for inexistent item
+Currently the EntryCollector may log a warning when the node reported in the event does not exist. This may happen when the repository runs in a cluster and a node is created and immediately removed again. This issue is related to JCR-3014. The call to Session.nodeExists should actually return false when the identifier path cannot be resolved. Currently it throws a RepositoryException.Fixed in trunk in revision 1143738 and merged into 2.2 branch in revision 1143747

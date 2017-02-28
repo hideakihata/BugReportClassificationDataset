@@ -1,0 +1,2 @@
+Add toString methods to QOM tree classes
+Having the QOM tree classes render themselves to SQL2 in their toString methods would make debugging the QOM code quite a bit easier.Done.

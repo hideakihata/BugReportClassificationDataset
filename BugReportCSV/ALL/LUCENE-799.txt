@@ -1,0 +1,2 @@
+Garbage data when reading a compressed text field lazily
+lazy compressed text fields is a case that was neglected during lazy field implementation. TestCase and patch provided. test case and fix Patch committed. Thanks Mike. Closing all issues that were resolved for 2.1.

@@ -1,0 +1,2 @@
+JSR 283 Evaluate Capabilities
+rev. 797416 added trivial implementation

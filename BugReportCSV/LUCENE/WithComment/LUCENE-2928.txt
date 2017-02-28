@@ -1,0 +1,2 @@
+Improve LuceneTestCase javadocs
+Now that the Lucene test-framework javadocs will be published they should get some attention. Here s a patch with some additional javadocs for the most commonly used stuff. Committed revision 1072591 Bulk close for 3.1

@@ -1,0 +1,2 @@
+SPI Description of Path.isDescendantOf Path 
+Description of Path.isDescendantOf lists different reasons for IllegalArgumentException and RepositoryException than isAncestorOf... this is obviously a mistake.patch that adjusts javadoc according to isAncestorOf.

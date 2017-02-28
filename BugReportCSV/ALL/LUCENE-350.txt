@@ -1,0 +1,2 @@
+counter field in segments file is not documented in fileformats.xml
+The counter field in the current segments file format is not documented. Both name counter and segment counter are now document at http lucene.apache.org java docs fileformats.html so I guess this report can be closed.

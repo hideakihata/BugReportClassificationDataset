@@ -1,0 +1,2 @@
+Implementation of a memory file system
+I needed a memory file system for my test cases. A patch for a simple implementation the works well in my environment is attachedApplied the patch in revision 480872 after adding the ASF license headers based on your selecting the Grant license option and replacing Class.getSimpleName since it s not included in Java 1.4. Thanks for the contribution 

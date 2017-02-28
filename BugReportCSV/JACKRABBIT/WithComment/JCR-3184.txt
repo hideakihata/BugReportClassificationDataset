@@ -1,0 +1,2 @@
+extend ConsistencyChecker API to allow adoption of orphaned nodes to a to-be-specified parent node
+The optional ConsistencyChecker API on persistence managers allows analyzing and fixing storage inconsistencies. The current fixup code though does not attempt to adopt orphaned nodes. work in progress activation through PM config currently missing This patch adds the adoption functionality but leaves the choice of where to move the nodes to the caller.proposed patchMerged to the 2.4 branch in revision 1232414. It ll be useful to have this already in 2.4.0.

@@ -1,0 +1,2 @@
+Update LICENSE and NOTICE files to match the updated dependencies
+We ve made quite a few dependency updates since Jackrabbit 1.6 and need to update the license metadata accordingly.Done in revision 901122.

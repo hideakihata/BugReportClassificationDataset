@@ -1,0 +1,2 @@
+Do not log warning when coercing value in query is not possible
+The LuceneQueryBuilder currently logs a warning when a String literal cannot be coerced into a type derived from information provided by the node type manager. The log level should be lowered to debug.Fixed in revision 681059

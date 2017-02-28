@@ -1,0 +1,2 @@
+Allow usage of HyphenationCompoundWordTokenFilter without dictionary
+We should allow to use the HyphenationCompoundWordTokenFilter without a dictionary. This produces a lot of nonword tokens but might be useful sometimes. I think this is a nice feature. I see some interesting hyphenation-only results presented here http lwa09.informatik.tu-darmstadt.de pub IR WebHome wir2009 leveling.pdf I updated your patch to trunk I would like to commit to trunk 3x in a few days if no one objects. Committed revision 946139 trunk 946145 3x . Thanks Thomas Bulk close for 3.1

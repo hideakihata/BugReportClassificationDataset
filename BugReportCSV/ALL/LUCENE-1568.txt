@@ -1,0 +1,2 @@
+Fix for NPE s in Spatial Lucene for searching bounding box only
+NPE occurs when using DistanceQueryBuilder for minimal bounding box search without the distance filter. Fixes an NPE when using DistanceQueryBuilder for just minimal bounding box searches e.g. final DistanceQueryBuilder dq new DistanceQueryBuilder latitude longitude radius latField name of latitude field in index lngField name of longitude field in index tierPrefix prefix of tier fields in index false filter by radius false means mbb search If nobody objects I ll commit this later today committed resolved

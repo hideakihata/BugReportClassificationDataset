@@ -1,0 +1,2 @@
+improve efficiency of snowballfilter
+snowball stemming currently creates 2 new strings and 1 new stringbuilder for every word. all of this is unnecessary so don t do it. trivial patch i left the string-based stuff alone even though it could be improved since we no longer use them with this patch. i tested this with some English benchmark pkg etc and at most it seems to only improve processing speed 10 . but I think its worth the trouble since its an easy improvement. i ll commit in a few days if no one objects. looks good robert. Nice improvement. Committed revision 897449.

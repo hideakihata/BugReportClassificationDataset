@@ -1,0 +1,312 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   131
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                             Class
+Variable                   FEATURE
+==================================
+TOPIC0                     -2.5245
+TOPIC1                      1.6235
+TOPIC2                    -77.1357
+TOPIC3                     -0.1289
+TOPIC4                       1.364
+TOPIC5                      0.5468
+TOPIC6                     -0.7641
+TOPIC7                      1.0961
+TOPIC8                    -80.6352
+TOPIC9                       1.465
+TOPIC10                    -0.3459
+TOPIC11                    -0.3111
+TOPIC12                     0.1017
+TOPIC13                    -1.6858
+TOPIC14                    -0.7354
+TOPIC15                    -0.1722
+TOPIC16                    -0.5028
+TOPIC17                    -0.9689
+TOPIC18                     0.2957
+TOPIC19                    -0.3955
+TOPIC20                    -0.5742
+TOPIC21                      1.491
+TOPIC22                     1.3076
+TOPIC23                     1.2715
+TOPIC24                    -0.1272
+TOPIC25                    -1.6459
+TOPIC26                    -0.3171
+TOPIC27                     1.1822
+TOPIC28                    -3.5454
+TOPIC29                     0.0996
+TOPIC30                     0.6366
+TOPIC31                     0.7264
+TOPIC32                   -77.3892
+TOPIC33                     2.8393
+TOPIC34                    -0.9518
+TOPIC35                     0.6011
+TOPIC36                    -0.2345
+TOPIC37                     0.1488
+TOPIC38                      0.927
+TOPIC39                    -1.6208
+TOPIC40                     -1.839
+TOPIC41                     0.2952
+TOPIC42                    -0.3495
+TOPIC43                    -1.0878
+TOPIC44                    -0.3986
+TOPIC45                    -1.1936
+TOPIC46                     0.6077
+TOPIC47                     0.6298
+TOPIC48                    -0.3236
+TOPIC49                    -2.0207
+TOPIC50                    -0.9313
+TOPIC51                     0.1616
+TOPIC52                    -0.0311
+TOPIC53                    -0.3127
+TOPIC54                    -2.7932
+TOPIC55                    -0.2156
+TOPIC56                     2.0305
+TOPIC57                    -0.8198
+TOPIC58                      0.052
+TOPIC59                     0.0863
+TOPIC60                     0.5874
+TOPIC61                     3.2316
+TOPIC62                   -77.5791
+TOPIC63                    -2.1249
+TOPIC64                     0.0262
+TOPIC65                    -0.9141
+TOPIC66                     0.2714
+TOPIC67                    -1.6414
+TOPIC68                    -1.1571
+TOPIC69                     0.1998
+TOPIC70                    -0.3381
+TOPIC71                    -0.6354
+TOPIC72                    -0.3032
+TOPIC73                     0.0974
+TOPIC74                     0.4924
+TOPIC75                    -1.4678
+TOPIC76                     1.5113
+TOPIC77                    -0.3169
+TOPIC78                    -0.1534
+TOPIC79                     0.8692
+TOPIC80                     0.9101
+TOPIC81                    -1.5484
+TOPIC82                     0.4781
+TOPIC83                     1.6149
+TOPIC84                    -0.9386
+TOPIC85                     1.4535
+TOPIC86                    -0.5881
+TOPIC87                    -1.3471
+TOPIC88                     0.2493
+TOPIC89                     -0.221
+TOPIC90                    -0.8839
+TOPIC91                     0.2136
+TOPIC92                    -1.3417
+TOPIC93                    58.5971
+TOPIC94                    -1.1021
+TOPIC95                     0.6761
+TOPIC96                    -1.8689
+TOPIC97                     1.1944
+TOPIC98                     0.9014
+TOPIC99                    -1.4135
+TOPIC100                   -0.1817
+TOPIC101                   -0.2082
+TOPIC102                    0.3843
+TOPIC103                    0.6616
+TOPIC104                   -0.4867
+TOPIC105                    -0.824
+TOPIC106                   -2.1724
+TOPIC107                   -0.4641
+TOPIC108                    1.1799
+TOPIC109                   -0.3077
+TOPIC110                   55.9013
+TOPIC111                     1.759
+TOPIC112                   -0.1824
+TOPIC113                    0.5769
+TOPIC114                   -1.5827
+TOPIC115                   -1.0686
+TOPIC116                   -2.8222
+TOPIC117                    0.2303
+TOPIC118                    1.2157
+TOPIC119                    1.5859
+TOPIC120                    0.6807
+TOPIC121                   -2.4653
+TOPIC122                    0.5718
+TOPIC123                   -0.5148
+TOPIC124                   -1.1811
+TOPIC125                   -0.7858
+TOPIC126                    0.7047
+TOPIC127                    0.1723
+TOPIC128                   -0.9859
+TOPIC129                   -0.9143
+Intercept                   0.6962
+
+
+Odds Ratios...
+                             Class
+Variable                   FEATURE
+==================================
+TOPIC0                      0.0801
+TOPIC1                      5.0706
+TOPIC2                           0
+TOPIC3                      0.8791
+TOPIC4                       3.912
+TOPIC5                      1.7278
+TOPIC6                      0.4658
+TOPIC7                      2.9923
+TOPIC8                           0
+TOPIC9                      4.3275
+TOPIC10                     0.7076
+TOPIC11                     0.7327
+TOPIC12                      1.107
+TOPIC13                     0.1853
+TOPIC14                     0.4793
+TOPIC15                     0.8418
+TOPIC16                     0.6048
+TOPIC17                     0.3795
+TOPIC18                     1.3441
+TOPIC19                     0.6733
+TOPIC20                     0.5631
+TOPIC21                     4.4417
+TOPIC22                     3.6972
+TOPIC23                     3.5663
+TOPIC24                     0.8806
+TOPIC25                     0.1928
+TOPIC26                     0.7282
+TOPIC27                     3.2615
+TOPIC28                     0.0289
+TOPIC29                     1.1047
+TOPIC30                       1.89
+TOPIC31                     2.0675
+TOPIC32                          0
+TOPIC33                    17.1037
+TOPIC34                      0.386
+TOPIC35                     1.8241
+TOPIC36                      0.791
+TOPIC37                     1.1605
+TOPIC38                      2.527
+TOPIC39                     0.1977
+TOPIC40                      0.159
+TOPIC41                     1.3434
+TOPIC42                     0.7051
+TOPIC43                      0.337
+TOPIC44                     0.6712
+TOPIC45                     0.3031
+TOPIC46                     1.8363
+TOPIC47                     1.8773
+TOPIC48                     0.7235
+TOPIC49                     0.1326
+TOPIC50                      0.394
+TOPIC51                     1.1754
+TOPIC52                     0.9694
+TOPIC53                     0.7315
+TOPIC54                     0.0612
+TOPIC55                     0.8061
+TOPIC56                     7.6182
+TOPIC57                     0.4405
+TOPIC58                     1.0534
+TOPIC59                     1.0901
+TOPIC60                     1.7994
+TOPIC61                    25.3211
+TOPIC62                          0
+TOPIC63                     0.1194
+TOPIC64                     1.0265
+TOPIC65                     0.4009
+TOPIC66                     1.3119
+TOPIC67                     0.1937
+TOPIC68                     0.3144
+TOPIC69                     1.2211
+TOPIC70                     0.7131
+TOPIC71                     0.5297
+TOPIC72                     0.7385
+TOPIC73                     1.1023
+TOPIC74                     1.6362
+TOPIC75                     0.2304
+TOPIC76                     4.5326
+TOPIC77                     0.7284
+TOPIC78                     0.8577
+TOPIC79                     2.3849
+TOPIC80                     2.4845
+TOPIC81                     0.2126
+TOPIC82                      1.613
+TOPIC83                     5.0274
+TOPIC84                     0.3912
+TOPIC85                     4.2781
+TOPIC86                     0.5554
+TOPIC87                       0.26
+TOPIC88                     1.2831
+TOPIC89                     0.8017
+TOPIC90                     0.4132
+TOPIC91                     1.2382
+TOPIC92                     0.2614
+TOPIC93       2.807885367380103E25
+TOPIC94                     0.3322
+TOPIC95                     1.9662
+TOPIC96                     0.1543
+TOPIC97                     3.3015
+TOPIC98                      2.463
+TOPIC99                     0.2433
+TOPIC100                    0.8338
+TOPIC101                    0.8121
+TOPIC102                    1.4686
+TOPIC103                    1.9379
+TOPIC104                    0.6146
+TOPIC105                    0.4387
+TOPIC106                    0.1139
+TOPIC107                    0.6287
+TOPIC108                     3.254
+TOPIC109                    0.7352
+TOPIC110     1.8949881785895246E24
+TOPIC111                    5.8067
+TOPIC112                    0.8332
+TOPIC113                    1.7805
+TOPIC114                    0.2054
+TOPIC115                    0.3435
+TOPIC116                    0.0595
+TOPIC117                     1.259
+TOPIC118                    3.3727
+TOPIC119                    4.8838
+TOPIC120                    1.9753
+TOPIC121                     0.085
+TOPIC122                    1.7715
+TOPIC123                    0.5976
+TOPIC124                    0.3069
+TOPIC125                    0.4558
+TOPIC126                    2.0233
+TOPIC127                     1.188
+TOPIC128                    0.3731
+TOPIC129                    0.4008
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         508               68.1879 %
+Incorrectly Classified Instances       237               31.8121 %
+Kappa statistic                          0.3358
+Mean absolute error                      0.3468
+Root mean squared error                  0.4789
+Relative absolute error                 71.7011 %
+Root relative squared error             97.3976 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.752     0.42       0.721	0.752	0.736      0.726    FEATURE
+                 0.58      0.248      0.619	0.58	0.599      0.726    BUG
+Weighted Avg.    0.682     0.349      0.679	0.682	0.68       0.726
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 331 109 |   a = FEATURE
+ 128 177 |   b = BUG
+

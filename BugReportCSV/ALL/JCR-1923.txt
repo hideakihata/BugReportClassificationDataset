@@ -1,0 +1,2 @@
+Startup fails if clustered jackrabbit is upgrade from 1.4.4 to 1.5
+This is closely related to JCR-1087 The call to checkLocalRevisionSchema is too late because preapreStatements already uses the LOCAL REVISIONS table. checkLocalRevisionSchema should be called in checkSchema Good point. Thanks also for suggesting a fix Committed to trunk in revision 744940 and merged to the 1.5 branch in revision 744942.

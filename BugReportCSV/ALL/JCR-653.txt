@@ -1,0 +1,2 @@
+Some Workspace tests require a second workspace
+Some workspace test require a second workspace even though it is not used in the test cases.Fixed in revision 480932

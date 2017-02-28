@@ -1,0 +1,2 @@
+release is not signed
+there are no signatures checksums available for your latest release3.0 alpha 1 is signed. All releases from now on should be as well. Mike

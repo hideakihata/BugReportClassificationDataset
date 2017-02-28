@@ -1,0 +1,2 @@
+Interface TermFreqVector has incomplete Javadocs
+We should improve the Javadocs of org.apache.lucene.index.TermFreqVector Patch for both LUCENE 918 and 922 since they are both related to term vectors and both are relatively straightforward. Committed revision 546696 and Committed revision 546694

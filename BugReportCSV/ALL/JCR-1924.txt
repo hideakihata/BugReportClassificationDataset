@@ -1,0 +1,2 @@
+ms-sql tablespace support for FileSystem and PersistenceManager
+Trunk and released version 1.5.0 does not have complete support for ms-sqlserver tablespaces. This patch was originally submitted via JCR-1295 but was not applied to the 1.4 trunk. Patch to provide support for ms-sqlserver tablespaces.Thanks Patch committed in revision 792175 and merged to the 1.x branch in revision 792177. Note that as mentioned in JCR-1295 I would still recommend migration to bundle persistence.

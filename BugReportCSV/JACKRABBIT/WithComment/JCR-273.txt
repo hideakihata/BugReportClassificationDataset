@@ -1,0 +1,2 @@
+Registering cyclic dependent nodetypes does not work
+when registering the followin 2 nodetypes foo mybar bar bar myfoo foo NodeTypeRegistry.registerNodeTypes Collection throws Êorg.apache.jackrabbit.core.nodetype.InvalidNodeTypeDefException the following node types could not be registered because of unresolvable dependencies foo bar Tagged for 1.0fixing JCR-274 fixed this issue as well fixed in svn r. 373516

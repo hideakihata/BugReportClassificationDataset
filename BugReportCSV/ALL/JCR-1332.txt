@@ -1,0 +1,2 @@
+CLONE -Aggregate include ignored if no primaryType set
+If the include element of an aggregate definition does not have a primaryType attribute then the include is never matched.This issue seems to exist in 1.4 release version I hade to set primary type on my includes. include primaryType nt unstructured include works but include include does not workAdded test case and fixed issue in trunk and 1.4 branch. svn revisions 613908 trunk and 613910 1.4 branch . Thank you for reporting this issue.

@@ -1,0 +1,2 @@
+add IndexCommit.getTimestamp method
+Convenience method for getDirectory .fileModified getSegmentsFileName . Changes are trivial I plan to commit shortly. Committed revision 691952.

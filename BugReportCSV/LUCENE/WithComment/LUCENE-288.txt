@@ -1,0 +1,2 @@
+ patch better support gcj compilation
+In order to workaround http gcc.gnu.org bugzilla show bug.cgi id 15411 the attached patch is necessary. Created an attachment id 13077 patch for Searcher.java All patches should reference a GCJ bug in a comment e.g. Patched for GCJ to work around GCJ bug 15411. http gcc.gnu.org bugzilla show bug.cgi id 15411 .... End patch for GCJ bug 15411. That way folks can easily check to see when the GCJ bug is fixed in a major release and then remove the workaround code. applied with the recommended comments

@@ -1,0 +1,2 @@
+Automatic license header checking using the Apache Rat Plugin
+To avoid problems with incorrect license headers we should include some automated header check in the Maven build and have Hudson run the check whenever changes are committed.The attached patch integrates the latest 0.6-SNAPSHOT version of the RAT Maven plugin to the Jackrabbit build. I ll wait until there s an official 0.6 release of RAT before committing this.Automatic header checks are now enabled both in trunk and the 1.x branch.

@@ -1,0 +1,2 @@
+Improve handling for missing text filter dependency
+Using a LazyReader in a TextFilter implementation will not always throw a NoClassDefFoundError if a depending jar file is missing. The text filter implementations should therefore include a static block that forces an initialization of a depending class.Fixed in revision 408896. This change also contains a fix for the PdfTextFilter that prevents throwing of a runtime exception in initializeReader .

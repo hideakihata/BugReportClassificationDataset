@@ -1,0 +1,2 @@
+support for DB2 in BundleDbPersistenceManager
+BundleDbPersistenceManager doesn t work with DB2 db2.ddl file is missing.I ve created the database scheme for DB2.Added the ddl file in revision 529890. Thanks for the contribution 

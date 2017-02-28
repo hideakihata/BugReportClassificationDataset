@@ -1,0 +1,2 @@
+User definable default headers support
+Provide the ability to set default headers to be sent on every request. Should be used whenever an object is created or recycled. Needs to be user configurable.Created an attachment id 12707 Patch against 2.0 Looks like the wrong patch here. MikeCreated an attachment id 12731 Patch take 1 Changelog default headers can be defined at the host or agent level Header class made immutable Let me know what you think OlegLooks good. MikePatch committed. Oleg

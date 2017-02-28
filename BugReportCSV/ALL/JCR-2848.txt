@@ -1,0 +1,2 @@
+UserManagerImpl typo in compatibleJR16 config option constant
+

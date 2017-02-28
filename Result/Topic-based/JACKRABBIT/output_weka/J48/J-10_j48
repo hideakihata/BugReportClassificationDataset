@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   11
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TOPIC4 <= 0
+|   TOPIC7 <= 0
+|   |   TOPIC8 <= 0
+|   |   |   TOPIC6 <= 0
+|   |   |   |   TOPIC5 <= 0
+|   |   |   |   |   TOPIC1 <= 0: FEATURE (52.0/22.0)
+|   |   |   |   |   TOPIC1 > 0: BUG (13.0/5.0)
+|   |   |   |   TOPIC5 > 0: BUG (16.0/4.0)
+|   |   |   TOPIC6 > 0
+|   |   |   |   TOPIC3 <= 0: BUG (118.0/41.0)
+|   |   |   |   TOPIC3 > 0
+|   |   |   |   |   TOPIC2 <= 0: FEATURE (14.0/5.0)
+|   |   |   |   |   TOPIC2 > 0: BUG (7.0)
+|   |   TOPIC8 > 0: BUG (98.0/24.0)
+|   TOPIC7 > 0
+|   |   TOPIC0 <= 0
+|   |   |   TOPIC5 <= 0
+|   |   |   |   TOPIC9 <= 0: FEATURE (860.0/255.0)
+|   |   |   |   TOPIC9 > 0
+|   |   |   |   |   TOPIC3 <= 0
+|   |   |   |   |   |   TOPIC1 <= 0: FEATURE (363.0/133.0)
+|   |   |   |   |   |   TOPIC1 > 0
+|   |   |   |   |   |   |   TOPIC2 <= 0
+|   |   |   |   |   |   |   |   TOPIC8 <= 0: BUG (50.0/21.0)
+|   |   |   |   |   |   |   |   TOPIC8 > 0: FEATURE (11.0/2.0)
+|   |   |   |   |   |   |   TOPIC2 > 0: FEATURE (11.0/5.0)
+|   |   |   |   |   TOPIC3 > 0: BUG (138.0/62.0)
+|   |   |   TOPIC5 > 0: BUG (59.0/22.0)
+|   |   TOPIC0 > 0
+|   |   |   TOPIC1 <= 0: FEATURE (422.0/72.0)
+|   |   |   TOPIC1 > 0
+|   |   |   |   TOPIC8 <= 0
+|   |   |   |   |   TOPIC6 <= 0: FEATURE (25.0/8.0)
+|   |   |   |   |   TOPIC6 > 0: BUG (12.0/4.0)
+|   |   |   |   TOPIC8 > 0: BUG (12.0/3.0)
+TOPIC4 > 0: BUG (121.0/22.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	37
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1605               66.8193 %
+Incorrectly Classified Instances       797               33.1807 %
+Kappa statistic                          0.2678
+Mean absolute error                      0.413 
+Root mean squared error                  0.4624
+Relative absolute error                 86.7573 %
+Root relative squared error             94.7737 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.814     0.559      0.694	0.814	0.749      0.683    FEATURE
+                 0.441     0.186      0.603	0.441	0.51       0.683    BUG
+Weighted Avg.    0.668     0.413      0.659	0.668	0.656      0.683
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1191  273 |    a = FEATURE
+  524  414 |    b = BUG
+

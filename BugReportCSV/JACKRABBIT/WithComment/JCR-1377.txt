@@ -1,0 +1,2 @@
+Reduce memory usage of DocNumberCache
+Instead of using the uuid String the a UUID instance should be used as the key in the cache.Fixed in revision 620826Introduced regression. org.apache.jackrabbit.core.query.FnNameQueryTest testFnNameWithSpace fails sporadically.Fixed in revision 620855

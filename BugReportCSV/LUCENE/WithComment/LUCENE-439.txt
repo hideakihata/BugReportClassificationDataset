@@ -1,0 +1,2 @@
+Filters need hashCode and equals 
+Filters need to implement hashCode and equals esp since certain query types can contain a filter FilteredQuery ConstantScoreQuery patch for non-deprecated filters committed.

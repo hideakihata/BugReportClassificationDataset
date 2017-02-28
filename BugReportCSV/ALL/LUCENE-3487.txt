@@ -1,0 +1,2 @@
+TestBooleanMinShouldMatch test failure
+ant test -Dtestcase TestBooleanMinShouldMatch -Dtestmethod testRandomQueries -Dtests.seed 505d62a62e9f90d0 -60daa428161b404b -406411290a98f416 I think its an absolute relative epsilon issue i looked this over this is because its comparing two different queries one with minShouldMatch other without so there are some minor floating point differences because BS2 uses different scorers. this is fine its going to be consistent with itself so we just need to fix the test to use a relative epsilon like the queryutil check .

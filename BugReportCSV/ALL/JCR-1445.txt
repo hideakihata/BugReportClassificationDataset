@@ -1,0 +1,2 @@
+ PATCH Use entrySet iterators to avoid map look ups in loops
+Code uses a keySet iterator in a loop then does a map look up using the key retrieved from the iterator. Might as well use an entrySet iterator to avoid n map lookups. Patch does this.Patch applied in revision 691313. Thanks 

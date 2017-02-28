@@ -1,0 +1,2 @@
+ PATCH UpdateTest has two typos
+UpdateTest has a typo where it doesn t grab an element out of an array but uses the array itself to do comparisons. This patch fixes this.Committed in revision 640751 Thank you for providing the patch.

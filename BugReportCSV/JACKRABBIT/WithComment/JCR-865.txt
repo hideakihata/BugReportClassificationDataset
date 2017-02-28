@@ -1,0 +1,2 @@
+JCR mapping Upgrade to Maven 2
+Upgrade the JCR Mapping components to Maven 2 before a release.Done. Only maven 2 is supported.

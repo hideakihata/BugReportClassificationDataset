@@ -1,0 +1,2 @@
+ PATCH png apng mng text extractor
+Text extractor for tEXt chunk for png apng and mng formatsadd standard license headerDave thank you for the png text extractor. There are a couple of minor issues I ve identified. - the test class does not have a license header - the comment for PngTextExtractorTest.testContentTypes mentiones text xml and application xml - please consistently use spaces instead of tabschanges made as suggestedCommitted patch after reformatting code the sources still contained tabs . Thanks a lot for the patch. svn revision 645489

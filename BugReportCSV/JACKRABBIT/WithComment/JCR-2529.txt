@@ -1,0 +1,2 @@
+jcr2spi Remove sanityCheck from ItemImpl.getSession 
+same as JCR-911 for jcr2spi. the check was responsible for the failure of ActivitiesTest testActivitiesRelation

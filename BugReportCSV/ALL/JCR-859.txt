@@ -1,0 +1,2 @@
+rep excerpt may return malformed XML
+The rep excerpt function does not encode the prefined XML entities but writes them as is into the excerpt XML. This may produce malformed XML.Fixed in revision 531165Merged to the 1.3 branch in revision 544281.As far as I can tell this fix has not been applied to WeightedHighlighter which consequently suffers from the same trouble. Should I open another issue 

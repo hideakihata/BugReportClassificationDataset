@@ -1,0 +1,396 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     cross_weka_no_ID
+Instances:    5589
+Attributes:   51
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+              TOPIC40
+              TOPIC41
+              TOPIC42
+              TOPIC43
+              TOPIC44
+              TOPIC45
+              TOPIC46
+              TOPIC47
+              TOPIC48
+              TOPIC49
+              CLASSIFY
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute          BUG FEATURE
+                (0.35)  (0.65)
+===============================
+TOPIC0
+  mean           0.0557  0.0455
+  std. dev.      0.2293  0.2084
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC1
+  mean           0.0216  0.0466
+  std. dev.      0.1667  0.2108
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC2
+  mean           0.5974  0.5185
+  std. dev.      0.4904  0.4997
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC3
+  mean           0.1196  0.0767
+  std. dev.      0.3245  0.2662
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC4
+  mean           0.0113  0.0318
+  std. dev.      0.1667  0.1754
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC5
+  mean            0.016    0.02
+  std. dev.      0.1667  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC6
+  mean            0.051  0.1277
+  std. dev.      0.2201  0.3338
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC7
+  mean            0.032  0.0392
+  std. dev.      0.1759   0.194
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC8
+  mean           0.3789  0.5602
+  std. dev.      0.4851  0.4964
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC9
+  mean           0.0103  0.0025
+  std. dev.      0.1667  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC10
+  mean           0.0526  0.0293
+  std. dev.      0.2232  0.1687
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC11
+  mean           0.1938  0.1096
+  std. dev.      0.3953  0.3124
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC12
+  mean           0.0356  0.0318
+  std. dev.      0.1852  0.1754
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC13
+  mean           0.2804  0.4958
+  std. dev.      0.4492     0.5
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC14
+  mean           0.0479  0.0247
+  std. dev.      0.2136  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC15
+  mean           0.0314   0.028
+  std. dev.      0.1745  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC16
+  mean           0.0526   0.043
+  std. dev.      0.2232  0.2029
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC17
+  mean           0.0582  0.0603
+  std. dev.      0.2342   0.238
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC18
+  mean           0.0701  0.0118
+  std. dev.      0.2553  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC19
+  mean            0.101  0.1285
+  std. dev.      0.3014  0.3347
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC20
+  mean           0.0665  0.2044
+  std. dev.      0.2491  0.4033
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC21
+  mean           0.0629  0.0238
+  std. dev.      0.2428  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC22
+  mean           0.3082  0.3891
+  std. dev.      0.4618  0.4876
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC23
+  mean           0.0134  0.0197
+  std. dev.      0.1667  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC24
+  mean           0.0871  0.0663
+  std. dev.       0.282  0.2488
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC25
+  mean           0.0366  0.0784
+  std. dev.      0.1878  0.2688
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC26
+  mean           0.1289  0.0762
+  std. dev.      0.3351  0.2653
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC27
+  mean           0.0175  0.0184
+  std. dev.      0.1667  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC28
+  mean           0.0299  0.0164
+  std. dev.      0.1703  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC29
+  mean           0.0454  0.0337
+  std. dev.      0.2081  0.1805
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC30
+  mean           0.1082  0.1896
+  std. dev.      0.3107   0.392
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC31
+  mean           0.0371  0.0397
+  std. dev.       0.189  0.1953
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC32
+  mean           0.0418  0.0784
+  std. dev.         0.2  0.2688
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC33
+  mean           0.0716  0.0562
+  std. dev.      0.2579  0.2303
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC34
+  mean           0.0268  0.0332
+  std. dev.      0.1667  0.1791
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC35
+  mean           0.0361  0.0529
+  std. dev.      0.1865  0.2238
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC36
+  mean           0.2433  0.1817
+  std. dev.      0.4291  0.3856
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC37
+  mean           0.4134  0.1598
+  std. dev.      0.4924  0.3664
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC38
+  mean            0.251  0.1524
+  std. dev.      0.4336  0.3594
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC39
+  mean           0.0531  0.0458
+  std. dev.      0.2242   0.209
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC40
+  mean           0.1474  0.3305
+  std. dev.      0.3545  0.4704
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC41
+  mean           0.0402  0.0565
+  std. dev.      0.1964  0.2308
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC42
+  mean            0.034  0.0356
+  std. dev.      0.1813  0.1854
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC43
+  mean            0.033  0.0367
+  std. dev.      0.1786  0.1881
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC44
+  mean           0.0711  0.0586
+  std. dev.       0.257   0.235
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC45
+  mean           0.0912   0.094
+  std. dev.      0.2879  0.2918
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC46
+  mean           0.0278  0.1137
+  std. dev.      0.1667  0.3175
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC47
+  mean           0.0392  0.0502
+  std. dev.       0.194  0.2183
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC48
+  mean           0.0732  0.0611
+  std. dev.      0.2605  0.2395
+  weight sum       1940    3649
+  precision           1       1
+
+TOPIC49
+  mean           0.0675    0.02
+  std. dev.      0.2509  0.1667
+  weight sum       1940    3649
+  precision           1       1
+
+
+
+Time taken to build model: 0.25 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4021               71.9449 %
+Incorrectly Classified Instances      1568               28.0551 %
+Kappa statistic                          0.3866
+Mean absolute error                      0.3153
+Root mean squared error                  0.4465
+Relative absolute error                 69.5707 %
+Root relative squared error             93.7835 %
+Total Number of Instances             5589     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.615     0.225      0.592     0.615     0.604      0.773    BUG
+                 0.775     0.385      0.791     0.775     0.783      0.773    FEATURE
+Weighted Avg.    0.719     0.329      0.722     0.719     0.721      0.773
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1194  746 |    a = BUG
+  822 2827 |    b = FEATURE
+

@@ -1,0 +1,2 @@
+user need a way to control cookie policy
+User need a way to control what cookie can be accepted and what should be rejected. It would be nice to provide a cookie filter interface so the user can change the cookie policy by implementing his own filter. HTTPCLIENT-29 has been marked as a duplicate of this bug. It would be nice to provide a cookie filter interface so the user can change the cookie policy by implementing his own filter. Can you sketch out what you re thinking of in this part This bug has been marked as a duplicate of 10797 

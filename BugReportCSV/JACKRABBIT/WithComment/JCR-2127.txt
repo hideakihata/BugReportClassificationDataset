@@ -1,0 +1,2 @@
+DataStore.close is never called
+I ve searched through the jackrabbit-core code and never found a call to DataStore.close although the method exists on the DataStore interfaceAttached is a small patch that adds the call to DataStore.close inside RepositoryImpl.shutdown Fixed in revision 782930 trunk . Thanks a lot for the patch Merged to the 1.x branch in revision 791784.

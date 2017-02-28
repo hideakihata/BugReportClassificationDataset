@@ -1,0 +1,2 @@
+incorrect definition of built-in node type nt hierarchyNode
+the property jcr created of nt hierarchyNode should be non-mandatory according to the specification jcr 1.0 and jcr 1.0.1 . both the definition of the built-in node type and the related test case should be fixed accordingly.fixed in rev. 421892

@@ -1,0 +1,2 @@
+FALSE predicate always returns true
+org.apache.jackrabbit.spi.commons.iterator.Predicates..FALSE always returns true instead of false.Fixed at revision 1040661Reopening for 2.2 branchMerged fix into 2.2 branch at revision 1040683

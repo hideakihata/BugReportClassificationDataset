@@ -1,0 +1,2 @@
+Javadoc mistake in SegmentMerger
+Thanks Paul Ð I ll commit.

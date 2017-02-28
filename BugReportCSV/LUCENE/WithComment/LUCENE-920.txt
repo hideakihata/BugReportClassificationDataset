@@ -1,0 +1,2 @@
+IndexModifier has incomplete Javadocs
+A lot of public and protected members of org.apache.lucene.index.IndexModifier don t have javadocs. I think this bug can be closed as IndexModifier is deprecated. I agree.

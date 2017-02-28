@@ -1,0 +1,2 @@
+Enhance Ingres persistence bundle to handle unicode
+Tiny change to ingres.ddl for persistent bundles to handle unicode strings. Patches for 1.6 and 2.0 source to add unicode support for Ingres storage of name strings for persistence bundles.Thanks Patch committed in revision 1000958.

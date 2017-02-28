@@ -1,0 +1,2 @@
+make spi query code compatible with JCR 2.0
+SPI-Commons currently has it s own outdated copy of the new JCR 2.0 query interfaces.Julian what are the exact classes that you have in mind This was resolved in the process of updating jackrabbit-trunk. Apparently we forgot that we had opened a separate issue.

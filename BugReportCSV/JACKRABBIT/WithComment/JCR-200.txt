@@ -1,0 +1,2 @@
+move log4j initialization out of RepositoryStartupServlet
+the RepositoryStartupServlet initializes configures the Log4J environment. this might not be desirable since other applications might already done so. removed log4j configuration code from the RepositoryAccessSerlvet and created a LoggingServlet that also can be configured using log4j s DOMConfigurator. - removed WEB-INF repository log4j.properties - added WEB-INF log4j.xml fixed in r240176

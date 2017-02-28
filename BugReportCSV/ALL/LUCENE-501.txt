@@ -1,0 +1,2 @@
+need DOAP file for Lucene
+Can someone please draft a DOAP file for Lucene so that we re listed at http projects.apache.org A DOAP generator is at http projects.apache.org create.html Please attach it to this bug report. Thanks. Hey Doug Here is an attempt at a DOAP for the Lucene Java. I didn t fill out the maintainer as it wasn t clear to me who that should be I would be more than happy to maintain the DOAP file . I took the descriptions from the website. Let me know if you need anything else on this. -Grant Thanks Grant. I just committed this.

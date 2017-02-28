@@ -1,0 +1,2 @@
+fix generics violations in contrib modules
+There are some generics violations... we should fix them. here is a patch for modules. i will look at the rest of contrib while i wait for the policeman to look at this one. here s a patch for contrib the policeman informed me the patch is ok so i will commit it but there are more generics problems in contrib queryparser... the queryparser warnings were trivial just raw types that needed to be generified see revision 1003990. Bulk close for 3.1

@@ -1,0 +1,2 @@
+IndexReader subclasses must implement flex APIs
+To be fixed only on trunk... I made IndexReader s base flex APIs abstract fixed all core contrib solr places that subclassed IR and didn t already implement flex including contrib memory contrib instantiated and remove all the classes for the back-compat layer that emulated flex APIs on top of pre-flex APIs.

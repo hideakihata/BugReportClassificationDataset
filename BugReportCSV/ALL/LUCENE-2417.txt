@@ -1,0 +1,2 @@
+Fix IndexCommit hashCode and equals to be consistent
+IndexCommit s impl of hashCode and equals is inconsistent. One uses Dir version and the other uses Dir equals. According to hashCode s javadoc if o1.equals o2 then o1.hashCode o2.hashCode . Simple fix and I ll add a test case. Fixes hashCode to use getVersion and adds TestIndexCommit. All tests pass. I plan to commit shortly. Committed revision 938989. Backport to 3.1 Committed revision 941394. backport

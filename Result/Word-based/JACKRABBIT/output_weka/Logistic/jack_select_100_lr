@@ -1,0 +1,252 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,670,816,714,299,213,806,598,217,804,436,581,580,106,500,776,596,450,204,930,216,849,502,586,916,942,878,420,346,958,393,653,318,159,396,911,302,345,937,588,85,657,619,440,674,929,122,932,297,946,902,805,684,781,395,12,905,503,823,473,668,437,898,330,641,892,410,844,1001,443,913,875,949,585,388,659,931,999,528,739,95,1
+Instances:    2402
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                   Class
+Variable                             BUG
+========================================
+lang                              0.2282
+java                              0.0405
+org                               0.1167
+core                              0.0012
+merged                            0.5563
+branch                            0.2722
+apache                           -0.0189
+nullpointerexception              2.3803
+exception                        -0.1177
+reproduce                         0.3602
+state                            -0.0519
+addnode                             0.41
+invoke                           -0.4717
+jackrabbit                       -0.1008
+begin                             1.6796
+fixed                             0.3741
+throws                            0.2683
+save                             -0.1813
+xaitemstatemanager               -0.8827
+getrootnode                      -0.1707
+problem                           0.2486
+shareditemstatemanager            0.5463
+reflect                           0.0584
+fails                             0.5868
+delegatingmethodaccessorimpl      1.0663
+sessionitemstatemanager          -0.2041
+null                              0.1055
+dependency                       -0.3891
+session                           0.1406
+itemimpl                         -0.1255
+nativemethodaccessorimpl          0.3233
+native                           -0.6354
+caused                             0.249
+localitemstatemanager             -0.109
+run                              -0.1858
+npe                               0.7852
+javax                            -0.0242
+deadlock                          0.6725
+transaction                       0.2759
+dependencies                     -0.6262
+stack                            -0.5102
+lock                              0.0406
+node                              0.0667
+thrown                            0.3206
+unable                            0.6473
+sun                               0.0185
+interface                        -0.2189
+getpath                           0.4137
+util                             -0.0358
+improve                          -3.2495
+pom                              -2.2488
+fix                               0.2832
+configuration                    -0.4797
+improvements                     -1.1649
+thread                            0.0584
+false                             0.2107
+getnode                          -0.0075
+true                              0.5632
+nodeimpl                          0.0414
+bug                               0.3412
+prefer                           -1.9483
+package                          -0.4958
+itemstate                          0.567
+project                          -0.1866
+trace                            -0.0212
+classes                          -0.1024
+transactions                      0.7572
+failed                           -0.0145
+unknown                          -0.0639
+testresult                       -1.2851
+sessionimpl                       -0.117
+proposal                         -1.5913
+sandbox                          -0.6412
+improvement                      -0.8199
+acquire                           2.0138
+testsuite                         0.8473
+locked                            -0.087
+simplecredentials                 0.5498
+junit                            -0.0227
+println                           0.1402
+itemmanager                       0.1304
+testcase                          1.3554
+framework                          -0.46
+performance                      -0.7157
+tck                               -1.317
+init                              0.0492
+spi-commons                      -1.0808
+xasessionimpl                      -0.77
+jackrabbit-api                  -18.2122
+threads                           0.2711
+suggest                          -0.7928
+update                           -0.3242
+nice                             -0.9358
+implemented                      -0.6294
+prepare                           0.6932
+transactioncontext               -0.2028
+xa                               -0.2805
+make                             -0.6518
+reporting                         0.6912
+cachinghierarchymanager          -0.0599
+Intercept                        -0.9428
+
+
+Odds Ratios...
+                                   Class
+Variable                             BUG
+========================================
+lang                              1.2563
+java                              1.0413
+org                               1.1238
+core                              1.0012
+merged                            1.7441
+branch                            1.3128
+apache                            0.9813
+nullpointerexception              10.808
+exception                          0.889
+reproduce                         1.4336
+state                             0.9494
+addnode                           1.5068
+invoke                            0.6239
+jackrabbit                        0.9041
+begin                             5.3632
+fixed                             1.4537
+throws                            1.3077
+save                              0.8342
+xaitemstatemanager                0.4137
+getrootnode                        0.843
+problem                           1.2822
+shareditemstatemanager            1.7268
+reflect                           1.0601
+fails                             1.7982
+delegatingmethodaccessorimpl      2.9046
+sessionitemstatemanager           0.8154
+null                              1.1112
+dependency                        0.6776
+session                            1.151
+itemimpl                           0.882
+nativemethodaccessorimpl          1.3817
+native                            0.5297
+caused                            1.2828
+localitemstatemanager             0.8967
+run                               0.8305
+npe                               2.1928
+javax                             0.9761
+deadlock                          1.9591
+transaction                       1.3177
+dependencies                      0.5346
+stack                             0.6004
+lock                              1.0415
+node                               1.069
+thrown                            1.3779
+unable                            1.9103
+sun                               1.0187
+interface                         0.8034
+getpath                           1.5124
+util                              0.9649
+improve                           0.0388
+pom                               0.1055
+fix                               1.3274
+configuration                      0.619
+improvements                      0.3119
+thread                            1.0602
+false                             1.2345
+getnode                           0.9925
+true                              1.7562
+nodeimpl                          1.0423
+bug                               1.4067
+prefer                            0.1425
+package                           0.6091
+itemstate                         1.7629
+project                           0.8298
+trace                             0.9791
+classes                           0.9027
+transactions                      2.1324
+failed                            0.9856
+unknown                           0.9381
+testresult                        0.2766
+sessionimpl                       0.8896
+proposal                          0.2037
+sandbox                           0.5267
+improvement                       0.4405
+acquire                           7.4919
+testsuite                         2.3333
+locked                            0.9167
+simplecredentials                 1.7328
+junit                             0.9776
+println                           1.1505
+itemmanager                       1.1393
+testcase                          3.8783
+framework                         0.6313
+performance                       0.4889
+tck                               0.2679
+init                              1.0505
+spi-commons                       0.3393
+xasessionimpl                      0.463
+jackrabbit-api                         0
+threads                           1.3114
+suggest                           0.4526
+update                            0.7231
+nice                              0.3923
+implemented                       0.5329
+prepare                                2
+transactioncontext                0.8165
+xa                                0.7554
+make                              0.5211
+reporting                          1.996
+cachinghierarchymanager           0.9419
+
+
+Time taken to build model: 0.38 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1837               76.4779 %
+Incorrectly Classified Instances       565               23.5221 %
+Kappa statistic                          0.4881
+Mean absolute error                      0.3075
+Root mean squared error                  0.4035
+Relative absolute error                 64.6013 %
+Root relative squared error             82.7052 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.602     0.131      0.746	0.602	0.667      0.835    BUG
+                 0.869     0.398      0.773	0.869	0.818      0.835    FEATURE
+Weighted Avg.    0.765     0.294      0.763	0.765	0.759      0.835
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  565  373 |    a = BUG
+  192 1272 |    b = FEATURE
+

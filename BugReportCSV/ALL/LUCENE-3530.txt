@@ -1,0 +1,2 @@
+Remove deprecated methods in CompoundTokenFilters
+Patch Committed trunk revision 1188613

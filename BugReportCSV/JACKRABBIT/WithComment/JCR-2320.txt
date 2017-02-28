@@ -1,0 +1,2 @@
+Real In-memory Repository
+For unit tests it is desirable to have an in-memory repository which holds its whole data even PropertyType.BINARY in memory. The actual implementation of org.apache.jackrabbit.core.persistence.mem.InMemPersistenceManager uses the FileSystemBLOBStore along with LocalFileSystem. The binary properties are serialized to the OS-Filesystem. Here s a patch that uses an MemoryFileSystem to back the blob store if the persistent flag is set to false.Applied proposed patch.

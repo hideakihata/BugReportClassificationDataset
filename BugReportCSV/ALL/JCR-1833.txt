@@ -1,0 +1,2 @@
+Test case for RTFTextExtractor
+There should be a test case for the RTFTextExtractor.Added in revision 707307Merged to the 1.5 branch in revision 708616.

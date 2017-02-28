@@ -1,0 +1,2 @@
+QNodeTypeDefinitionImpl.getSerializablePropertyDefs might return non serializable property definitions
+QNodeTypeDefinitionImpl.getSerializablePropertyDefs returns a set-version of the passed in parameter irrespective of whether the property defs are serializable or not. See http markmail.org thread 65ngqvyxnu4nn3suI think the else branch should be   defs.add new QPropertyDefinitionImpl pd instead of   defs.add pd Fixed at revision 1188603

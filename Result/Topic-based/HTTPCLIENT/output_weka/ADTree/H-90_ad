@@ -1,0 +1,155 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     httpclient_weka_no_ID
+Instances:    745
+Attributes:   91
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+              TOPIC20
+              TOPIC21
+              TOPIC22
+              TOPIC23
+              TOPIC24
+              TOPIC25
+              TOPIC26
+              TOPIC27
+              TOPIC28
+              TOPIC29
+              TOPIC30
+              TOPIC31
+              TOPIC32
+              TOPIC33
+              TOPIC34
+              TOPIC35
+              TOPIC36
+              TOPIC37
+              TOPIC38
+              TOPIC39
+              TOPIC40
+              TOPIC41
+              TOPIC42
+              TOPIC43
+              TOPIC44
+              TOPIC45
+              TOPIC46
+              TOPIC47
+              TOPIC48
+              TOPIC49
+              TOPIC50
+              TOPIC51
+              TOPIC52
+              TOPIC53
+              TOPIC54
+              TOPIC55
+              TOPIC56
+              TOPIC57
+              TOPIC58
+              TOPIC59
+              TOPIC60
+              TOPIC61
+              TOPIC62
+              TOPIC63
+              TOPIC64
+              TOPIC65
+              TOPIC66
+              TOPIC67
+              TOPIC68
+              TOPIC69
+              TOPIC70
+              TOPIC71
+              TOPIC72
+              TOPIC73
+              TOPIC74
+              TOPIC75
+              TOPIC76
+              TOPIC77
+              TOPIC78
+              TOPIC79
+              TOPIC80
+              TOPIC81
+              TOPIC82
+              TOPIC83
+              TOPIC84
+              TOPIC85
+              TOPIC86
+              TOPIC87
+              TOPIC88
+              TOPIC89
+              CLASSIFY
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.183
+|  (1)TOPIC19 < 0.5: 0.198
+|  |  (4)TOPIC76 < 0.5: 0.074
+|  |  (4)TOPIC76 >= 0.5: -1.154
+|  |  (10)TOPIC50 < 0.5: -0.06
+|  |  (10)TOPIC50 >= 0.5: 0.382
+|  (1)TOPIC19 >= 0.5: -0.502
+|  |  (8)TOPIC56 < 0.5: -0.137
+|  |  (8)TOPIC56 >= 0.5: 0.524
+|  (2)TOPIC86 < 0.5: 0.065
+|  (2)TOPIC86 >= 0.5: -1.562
+|  |  (9)TOPIC41 < 0.5: -1.097
+|  |  (9)TOPIC41 >= 0.5: 0.76
+|  (3)TOPIC72 < 0.5: 0.069
+|  (3)TOPIC72 >= 0.5: -0.723
+|  (5)TOPIC88 < 0.5: -0.046
+|  |  (6)TOPIC34 < 0.5: -0.113
+|  |  |  (7)TOPIC79 < 0.5: -0.053
+|  |  |  (7)TOPIC79 >= 0.5: 0.89
+|  |  (6)TOPIC34 >= 0.5: 0.177
+|  (5)TOPIC88 >= 0.5: 0.953
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 0.52 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         514               68.9933 %
+Incorrectly Classified Instances       231               31.0067 %
+Kappa statistic                          0.3578
+Mean absolute error                      0.415 
+Root mean squared error                  0.4457
+Relative absolute error                 85.8048 %
+Root relative squared error             90.6354 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.741     0.384      0.736	0.741	0.738      0.751    FEATURE
+                 0.616     0.259      0.623	0.616	0.619      0.751    BUG
+Weighted Avg.    0.69      0.333      0.689	0.69	0.69       0.751
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 326 114 |   a = FEATURE
+ 117 188 |   b = BUG
+

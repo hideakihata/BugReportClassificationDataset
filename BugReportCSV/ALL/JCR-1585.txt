@@ -1,0 +1,2 @@
+Remove calls to System.out in tests
+Two tests write to System.out QueryTest and HierarchyNodeTestFixed in revision 654784 Jukka already fixed HierarchyNodeTest in the meantime.

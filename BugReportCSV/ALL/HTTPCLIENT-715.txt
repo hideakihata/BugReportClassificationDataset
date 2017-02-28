@@ -1,0 +1,2 @@
+remove RoutedRequest from API
+Remove RoutedRequest from the Client API. It can be moved to impl or dropped altogether. HttpClient could accept separate request and target arguments instead of RoutedRequest. No routes should be passed in the API.RoutedRequest moved to impl package it s still useful for the DefaultClientRequestDirector. All tests and examples changed to not use RoutedRequest. I am currently unable to run the examples because of a problem in my environment. I ll test them some other time. cheers   Roland

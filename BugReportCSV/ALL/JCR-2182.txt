@@ -1,0 +1,2 @@
+LockableFileRevision not thread-safe
+LockableFileRevision works well across process boundaries but does not within the same JVM. The methods lock and unlock must be synchronized similar to DatabaseRevision.Fixed as described and added test case in revision 790814Merged to the 1.x branch in revision 791856.

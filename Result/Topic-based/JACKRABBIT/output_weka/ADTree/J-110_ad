@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     jackrabbit_weka_no_ID
+Instances:    2402
+Attributes:   111
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: -0.222
+|  (1)TOPIC57 < 0.5: 0.06
+|  |  (3)TOPIC46 < 0.5: 0.062
+|  |  (3)TOPIC46 >= 0.5: -0.552
+|  |  (6)TOPIC68 < 0.5: -0.061
+|  |  |  (8)TOPIC32 < 0.5: 0.11
+|  |  |  (8)TOPIC32 >= 0.5: -0.188
+|  |  (6)TOPIC68 >= 0.5: 0.424
+|  (1)TOPIC57 >= 0.5: -1.016
+|  (2)TOPIC73 < 0.5: 0.109
+|  |  (9)TOPIC39 < 0.5: 0.045
+|  |  |  (10)TOPIC30 < 0.5: 0.043
+|  |  |  (10)TOPIC30 >= 0.5: -0.628
+|  |  (9)TOPIC39 >= 0.5: -0.48
+|  (2)TOPIC73 >= 0.5: -0.363
+|  (4)TOPIC43 < 0.5: 0.071
+|  |  (5)TOPIC18 < 0.5: 0.056
+|  |  (5)TOPIC18 >= 0.5: -0.623
+|  (4)TOPIC43 >= 0.5: -0.403
+|  (7)TOPIC2 < 0.5: 0.026
+|  (7)TOPIC2 >= 0.5: -0.934
+Legend: -ve = FEATURE, +ve = BUG
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 4.76 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1669               69.4838 %
+Incorrectly Classified Instances       733               30.5162 %
+Kappa statistic                          0.3432
+Mean absolute error                      0.4288
+Root mean squared error                  0.4502
+Relative absolute error                 90.0664 %
+Root relative squared error             92.2715 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.792     0.457      0.73	0.792	0.76       0.745    FEATURE
+                 0.543     0.208      0.626	0.543	0.581      0.745    BUG
+Weighted Avg.    0.695     0.36       0.689	0.695	0.69       0.745
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1160  304 |    a = FEATURE
+  429  509 |    b = BUG
+

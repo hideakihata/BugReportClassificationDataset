@@ -1,0 +1,2 @@
+AbstractHttpProcessor hard-wired against a single context
+I can t use the AbstractHttpProcessor as it is for asynchronously processing different requests because it is hard-wired to use a single context which can not be changed. Async requires different contexts for requests. Patch follows. cheers   RolandCreated an attachment id 17421 patch take 1 This allows passing a context to preprocessRequest and postprocessResonse. The single context stored in the request processor is used as a fallback. cheers   Roland Patch checked in with some minor tweaks Oleg

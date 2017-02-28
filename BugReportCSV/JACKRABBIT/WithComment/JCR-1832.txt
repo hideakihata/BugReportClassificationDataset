@@ -1,0 +1,2 @@
+Missing log4j.properties file
+The log4j.properties file is missing in the test resources.Fixed in revision 707303Merged to the 1.5 branch in revision 708616.

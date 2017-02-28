@@ -1,0 +1,2 @@
+SpanOrQuery.java simplification and test
+The current SpanOrQuery.java has some unnessary attributes. After removing these I found that there was no existing test for it so I added some tests to TestSpans.java. Two patches one to extend the test code in TestSpans.java and one to simplify SpanOrQuery.java Thanks Paul committed.

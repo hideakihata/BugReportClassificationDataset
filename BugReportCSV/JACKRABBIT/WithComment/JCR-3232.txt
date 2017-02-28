@@ -1,0 +1,2 @@
+Improve FileRevision extensibility
+It d be nice to make FileRevision more extensible by chaning some of its private variables to protected so it can be extended easier when needed.Proposed fix.Patch attached.Thanks for providing a patch Mete Applied it in revision 1241859.

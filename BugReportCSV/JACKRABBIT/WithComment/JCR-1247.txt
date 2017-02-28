@@ -1,0 +1,2 @@
+Add Warnlog on Extraction Failure
+It will be fine to have a feedback if a exception occurs in the TextExtractors. At the moment only a empty StringReader will be returned. We had the issue that we updated the content and in the textextractor a exception occured so the index was not updated and the document was searchable by its old content.Fixed in revision 605511.

@@ -1,0 +1,2 @@
+DefaultPrincipalProvider collectGroupMembership puts wrong principal instance into the cache
+DefaultPrincipalProvider collectGroupMembership adds the passed principal instance to the cache. This may cause inconsistencies as the cache should only contain principals obtained from by the provider.Merged into 2.0 branch in revision 896793

@@ -1,0 +1,2 @@
+SerializationTest and AbstractImportXmlTest leak temporary files
+Both test classes leak temporary files when setUp fails. fixed with revision 567695. Merged to the 1.3 branch in revision 577855.

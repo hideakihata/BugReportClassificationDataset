@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.ADTree -B 10 -E -3
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,1
+Instances:    2402
+Attributes:   21
+              lang
+              java
+              org
+              core
+              merged
+              branch
+              apache
+              nullpointerexception
+              exception
+              reproduce
+              state
+              addnode
+              invoke
+              jackrabbit
+              begin
+              fixed
+              throws
+              save
+              xaitemstatemanager
+              getrootnode
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Alternating decision tree:
+
+: 0.222
+|  (1)java < 7.5: 0.078
+|  |  (5)nullpointerexception < 0.5: 0.013
+|  |  |  (7)throws < 0.5: 0.034
+|  |  |  (7)throws >= 0.5: -0.315
+|  |  (5)nullpointerexception >= 0.5: -1.167
+|  |  (6)reproduce < 0.5: 0.018
+|  |  (6)reproduce >= 0.5: -0.717
+|  (1)java >= 7.5: -0.902
+|  (2)merged < 0.5: 0.112
+|  |  (3)fixed < 0.5: 0.234
+|  |  (3)fixed >= 0.5: -0.217
+|  (2)merged >= 0.5: -0.417
+|  (4)addnode < 0.5: 0.031
+|  |  (8)jackrabbit < 0.5: -0.077
+|  |  (8)jackrabbit >= 0.5: 0.126
+|  |  |  (9)org < 0.5: 0.259
+|  |  |  (9)org >= 0.5: -0.094
+|  |  |  (10)nullpointerexception < 1.5: 0.017
+|  |  |  (10)nullpointerexception >= 1.5: -0.948
+|  (4)addnode >= 0.5: -0.758
+Legend: -ve = BUG, +ve = FEATURE
+Tree size (total number of nodes): 31
+Leaves (number of predictor nodes): 21
+
+Time taken to build model: 1.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1674               69.6919 %
+Incorrectly Classified Instances       728               30.3081 %
+Kappa statistic                          0.3342
+Mean absolute error                      0.4346
+Root mean squared error                  0.454 
+Relative absolute error                 91.2834 %
+Root relative squared error             93.0637 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.49      0.171      0.648	0.49	0.558      0.728    BUG
+                 0.829     0.51       0.717	0.829	0.769      0.728    FEATURE
+Weighted Avg.    0.697     0.377      0.69	0.697	0.687      0.728
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  460  478 |    a = BUG
+  250 1214 |    b = FEATURE
+

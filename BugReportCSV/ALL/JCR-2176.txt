@@ -1,0 +1,2 @@
+o.a.j.spi.commons.nodetype.NodeTypeDefinitionFactory does not set required type
+NodeTypeDefinitionFactory does not set required type for property definitions.fixed in revision 789485

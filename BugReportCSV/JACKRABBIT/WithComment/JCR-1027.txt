@@ -1,0 +1,2 @@
+SPI change param order with RepositoryService.createBatch
+all methods on RepositoryService that require a SessionInfo list the info as first parameter except for RepositoryService.createBatch ItemId SessionInfo unless someone objects i would refacter the method signature for consistency reasons. new RepositoryService.createBatch SessionInfo ItemId fixed with rev. 555526 modified RepositoryService and adjusted all implementations present within the spi contrib.

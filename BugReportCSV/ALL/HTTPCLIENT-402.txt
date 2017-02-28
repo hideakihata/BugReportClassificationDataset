@@ -1,0 +1,2 @@
+DefaultMethodRetryHandler bug
+DefaultMethodRetryHandler does not seem to test correctly for the number of attempts to retry a given method. It seems to bail out one attempt too early if executionCount this.retryCount    Do not retry if over max retry count   return false For example if I set the retryCount to 1 HttpClient does not retry the method at all. At least that s what I m seeing when I step through it with a debugger.Created an attachment id 13785 Patch This should take care of the problem. OlegYep. MikePatch committed. Oleg

@@ -1,0 +1,2 @@
+Easier way to run benchmark
+Move Benchmark.main to a more easily accessible method exec that can be easily invoked by external programs. Trivial 3x patch Looks perfect 1 to commit. Committed r1083534 - 3x r1083557 - trunk Bulk closing for 3.2

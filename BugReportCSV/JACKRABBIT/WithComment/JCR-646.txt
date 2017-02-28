@@ -1,0 +1,2 @@
+Misleading exception message for jcr deref 
+If the type of the second argument in a jcr deref function is not a String an InvalidQueryException is thrown with a misleading message Wrong second argument type for jcr like It should be rather something like Second argument for jcr deref must be a String Fixed in revision 479587Merged the change also the the 1.1 branch in revision 480494 for inclusion in the 1.1.1 release.

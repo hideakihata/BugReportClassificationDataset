@@ -1,0 +1,2 @@
+Data Store DB2 fails to create the table
+DB2 throws an exception 1 when creating the table. The correct SQL sentence to create it is createTable CREATE TABLE tablePrefix table ID VARCHAR 255 PRIMARY KEY NOT NULL LENGTH BIGINT LAST MODIFIED BIGINT DATA BLOB 1000M 1 Sorry but I don t have the exception information since I made this change a few weeks ago.Fixed as suggested in revision 653362. Merged to the 1.4 branch in revision 653364.Thanks Jukka I m on vacations right now so I can t do much work 

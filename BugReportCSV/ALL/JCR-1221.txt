@@ -1,0 +1,2 @@
+IndexMerger blocks client threads when obsolete index segments are deleted
+When index segments have been merged the obsolete indexes are replaced with the new one an deleted afterwards. Currently deleting the obsolete segments is inside a MultiIndex synchronized block which may block other threads from updating the index concurrently.MultiIndex.attemptDelete is now synchronized on the deletable IndexInfo. svn revision 596582

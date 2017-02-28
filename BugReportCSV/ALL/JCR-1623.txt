@@ -1,0 +1,2 @@
+Typo in the DeltaVConstants class in constant XML CHECKOUT CHECKIN value
+Just spotted a typo in the http svn.apache.org repos asf jackrabbit trunk jackrabbit-webdav src main java org apache jackrabbit webdav version DeltaVConstants.java same is in released 1.4 version There s line     public static final String XML CHECKOUT CHECKIN checkin-checkout Probably should be     public static final String XML CHECKOUT CHECKIN checkout-checkin fixed at revision 659038. thanks for reporting. angela

@@ -1,0 +1,2 @@
+surround test code is incompatible with Test pattern in test target.
+Attachments to follow renamed BooleanQueryTest to BooleanQueryTst renamed ExceptionQueryTest to ExceptionQueryTst patch for the remainder of the test code to use the renamed classes. Renamed files patch to use the new class names. Thanks commited.

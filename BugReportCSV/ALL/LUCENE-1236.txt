@@ -1,0 +1,2 @@
+EdgeNGram documentation improvement
+To clarify what edge means I added some description. That edge means the beggining edge of a term or ending edge of a term. Hi Hiroaki Thanks for the patch. I will apply the doc changes but please don t combine other functionality into a patch my guess is you still had some of the other NGram patches applied Thanks Grant committed minus the 1024 clause. Also removed existing author tags.

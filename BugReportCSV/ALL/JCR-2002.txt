@@ -1,0 +1,2 @@
+Support system property to define the DefaultTransactionTimeout for a XASession
+It should be possible to define the DefaultTransactionTimeout for a XASession by a SystemPropertyAdded a new System Property org.apache.jackrabbit.core.defaultTransactionTimeout to define the default transaction timeout. XASessionImpl updated in revision 749622Do you need this in 1.5.4 Normally we only put bug fixes in patch releases.hi jukka. no i don t need it in 1.5.4. we can put it in the next feature release. greets clausOK thanks. Scheduling for 1.6.0.

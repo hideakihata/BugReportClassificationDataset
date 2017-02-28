@@ -1,0 +1,2 @@
+update NOTICE.txt
+From the java-dev discussion NOTICE.txt should be up-to-date. One thing I know is that the persian stopwords file analyzers fa came from the same source as the arabic stopwords file and is BSD-licensed. There might be others I think ICU has already been added patch to add NOTICE.txt for the persian stopwords file. Thanks a lot Robert 

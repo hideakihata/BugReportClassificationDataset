@@ -1,0 +1,2 @@
+addIndexes Directory... should not trigger merge on flush 
+IndexWriter.addIndexes Directory.. calls flush w triggerMerge true. This beats the purpose of the changes done to addIndexes to not merge any segments and leave it as the application s choice. The change is very simple - pass false instead of true. I don t plan to post a patch however opened an issue in case some want to comment about it. Committed revision 988083 3x . Committed revision 988084 trunk . Bulk close for 3.1

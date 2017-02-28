@@ -1,0 +1,2 @@
+URIResolverImpl use of bitwise instead of logical AND operator
+URIResolverImpl line 111                 if path null cache.containsItemId uuidId fixed in revision 1082599Merged to the 2.2 branch in revision 1202781.

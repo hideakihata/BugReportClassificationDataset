@@ -1,0 +1,2 @@
+o.a.j.core.state.ChildNodeEntries does not override equals Object and hashCode methods
+o.a.j.c.state.NodeStateMerger calls ChildNodeEntries.equals ChildNodeEntries to compare two child node entries collections. ChildNodeEntries however doesn t override the equals Object method.fixed in svn r782694.Merged to the 1.x branch in revision 791780.

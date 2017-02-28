@@ -1,0 +1,2 @@
+Better invalid format exception messages for value classes
+The valueOf methods of the Value classes throw an exception without information on the desired type and without the String value that gave the error.Changes look like this - throw new ValueFormatException invalid format e throw new ValueFormatException not a valid double format s e If you all agree with this change I will commit it. 1Fixed in revision 668857.

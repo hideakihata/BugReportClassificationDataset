@@ -1,0 +1,2 @@
+BoostingTermQuery s BoostingSpanScorer class should be protected instead of package access
+Currently BoostingTermScorer an inner class of BoostingTermQuery is not accessible from outside the search.payloads making it difficult to write an extension of BoostingTermQuery. The other inner classes are protected already as they should be. patch against lucene-2.3.1 sources The inaccessible class is called BoostingSpanScorer. The method I d to override there is the score method.

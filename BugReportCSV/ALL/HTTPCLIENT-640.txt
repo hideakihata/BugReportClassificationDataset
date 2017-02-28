@@ -1,0 +1,2 @@
+contrib.ssl.HostConfigurationWithHostFactory
+I d like to contribute an example specialized HostConfiguration to replace the one I contributed in HTTPCLIENT-634.Here s the patch HostFactory.patch .Patch checked in. Many thanks John Oleg

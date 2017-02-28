@@ -1,0 +1,2 @@
+Remove deprecated DocIdSetIterator methods
+All core contrib tests pass. looks good Thanks for reviewing I ll commit soon... Committed revision 824111.

@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   11
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable     FEATURE
+====================
+TOPIC0       -0.1527
+TOPIC1        1.1787
+TOPIC2       -0.2365
+TOPIC3       -0.6896
+TOPIC4        1.4258
+TOPIC5       -1.0455
+TOPIC6        -0.577
+TOPIC7       -1.0465
+TOPIC8        -0.306
+TOPIC9        0.3848
+Intercept     0.8933
+
+
+Odds Ratios...
+               Class
+Variable     FEATURE
+====================
+TOPIC0        0.8584
+TOPIC1        3.2501
+TOPIC2        0.7894
+TOPIC3        0.5018
+TOPIC4        4.1611
+TOPIC5        0.3515
+TOPIC6        0.5616
+TOPIC7        0.3512
+TOPIC8        0.7364
+TOPIC9        1.4693
+
+
+Time taken to build model: 0.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1848               75.6447 %
+Incorrectly Classified Instances       595               24.3553 %
+Kappa statistic                          0.2869
+Mean absolute error                      0.3404
+Root mean squared error                  0.414 
+Relative absolute error                 83.4415 %
+Root relative squared error             91.6835 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.938     0.697      0.771	0.938	0.846      0.745    FEATURE
+                 0.303     0.062      0.659	0.303	0.415      0.745    BUG
+Weighted Avg.    0.756     0.516      0.739	0.756	0.723      0.745
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1637  109 |    a = FEATURE
+  486  211 |    b = BUG
+

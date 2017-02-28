@@ -1,0 +1,2 @@
+ PATCH Mention RangeFilter in javadoc for maxClauseCount
+Created an attachment id 13526 The patch Thanks your patch has been committed to CVS.

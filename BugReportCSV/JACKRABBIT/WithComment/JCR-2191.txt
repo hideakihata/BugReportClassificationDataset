@@ -1,0 +1,2 @@
+IndexingAggregateTest testNtFileAggregate fails occasionally
+It may happen that the text extraction from a plain text resource times out due to the tough extractor time out set on the indexing-test workspace. The test should check if the indexing queue is empty before it executes a query.Fixed in revision 791527Merged to the 1.x branch in revision 794610.

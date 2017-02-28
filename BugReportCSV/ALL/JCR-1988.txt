@@ -1,0 +1,2 @@
+AbstractRecord does inefficient List.indexOf 
+AbstractRecord keeps a list of already used UUIDs and references them by index when used again in a record. Using a List does not scale well when the record grows larger. e.g. a transaction of 10k nodes takes more than a minute on my machine when the journal is enabled. Most of the time is spent doing List.indexOf in AbstractRecord.getOrCreateIndex .Proposed changes.Committed patch in revision 746932Merged into 1.4 branch in revision 813274Merged into 1.5 branch in revision 813319

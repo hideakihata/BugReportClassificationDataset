@@ -1,0 +1,2 @@
+Introduce Timer idle time
+Currently the Timer stops the internal thread as soon as there are no more tasks scheduled. With a usage pattern that repeatedly schedules tasks and immediately cancels them one thread per scheduled task is created. There should be some idle time before the background thread is stopped.The internal thread is now stopped after the timer had been idle for 3 seconds. svn revision 638790

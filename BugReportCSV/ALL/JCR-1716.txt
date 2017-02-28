@@ -1,0 +1,2 @@
+Prefer PathFactory.createElement over createPath .getNameElement 
+The latter creates an unnecessary Path instance.Fixed in revision 683999

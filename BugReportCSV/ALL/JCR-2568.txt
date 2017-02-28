@@ -1,0 +1,2 @@
+extract test content loading from JackrabbitRepositoryStub
+discussed here http markmail.org message vl5ldnfbocccccxwpatch. Feel free to change the class name method signature etc.Thanks I committed the patch and some cleanups in revisions 931483 and 931484. Merged to the 2.1 branch in revision 931486.

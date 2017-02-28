@@ -1,0 +1,2 @@
+Text.unescape should should preserve unicode characters
+When an input to Text.unescape contains characters u00ff the most significant byte is lost resulting in garbled output. The unescape function should preserve such characters in order to be useful to decode Internationalized Resource Identifiers RFC 3987 .Suggested patch please review.Fixed at revision 747096Merged to the 1.5 branch in revision 767511.

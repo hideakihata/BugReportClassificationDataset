@@ -1,0 +1,2 @@
+JSR 283 Node Identifier
+Summary of a short discussion with Michael yesterday We came to the conclusion that the creation of the JCR Node identifier from the SPI-NodeId and vice versa should be delegated to the SPI in order to allow for implementation specific optimization. I created an initial draft version - attachment and will commit in order to get rid of the failing tests... still needs improvement.

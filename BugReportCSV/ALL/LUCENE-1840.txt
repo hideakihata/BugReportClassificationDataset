@@ -1,0 +1,2 @@
+QueryUtils should check that equals properly handles null
+Its part of the equals contract but many classes currently violate Committed revision 1001006 1001025 3x . Nice catch Mark. Bulk close for 3.1

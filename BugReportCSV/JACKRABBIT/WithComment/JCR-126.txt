@@ -1,0 +1,2 @@
+Jcr-Server Module Remove Dependency from Jackrabbit-Core
+find attached patch that removes any jackrabbit-core dependency within the jcr-server contribution. commited with rev. 180346

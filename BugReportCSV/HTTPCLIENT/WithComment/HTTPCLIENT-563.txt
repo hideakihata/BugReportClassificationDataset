@@ -1,0 +1,2 @@
+Incorrect copyright statements
+Most of the copyright statements in http-core are for 1999-2004. These should be updated with the correct years.I ll take care of that OlegAFAIK this is only necessary if the content has changed significantly Done

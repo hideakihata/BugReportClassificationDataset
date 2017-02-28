@@ -1,0 +1,2 @@
+Rename some remaining tests for new IndexReader class hierarchy
+Simple patch also optimizing the old TestDirReader to not build useless indexes in each setup that are not used later . Will commit now. Committed trunk revision 1243061

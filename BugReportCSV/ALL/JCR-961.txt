@@ -1,0 +1,2 @@
+Add workspace population tool
+Add a simple tool to jackrabbit-webapp to populate the workspace with content.Added a JSP that does a search on google.com with a search term and given file types and then downloads the documents and adds them to the workspace. Committed in revision 544102

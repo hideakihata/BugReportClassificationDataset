@@ -1,0 +1,2 @@
+TCK testSaveMovedRefNode
+NodeUUIDTest.testSaveMovedRefNode SessionUUIDTest.testSaveMovedRefNode makes the assumption that moving a referenceable node with session A is visible as move operation within session B as well.Committed in revision 553217Merged to the 1.3 branch in revision 577811.

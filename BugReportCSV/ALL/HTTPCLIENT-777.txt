@@ -1,0 +1,2 @@
+SingleClientConnectionManager Needs to Recreate UniquePoolEntry
+Due to the change yesterday of adding some state into DefaultClientConnection remembering when shutdown was called aborting the next opening SingeClientConnectionManager now breaks when subsequent requests are performed if the first one encountered an exception or was aborted. Attaching a patch with the fix a testcase that previously failed .Patch thta always recreates the uniquePoolEntry if the prior connection was closed or had to be shutdown.Patch checked in. Many thanks Sam Oleg

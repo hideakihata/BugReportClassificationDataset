@@ -1,0 +1,2 @@
+Remove deprecated SpanQuery.getTerms and generify Query.extractTerms Set 
+All tests pass. Committed revision 824527.

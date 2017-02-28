@@ -1,0 +1,2 @@
+lazy fields don t enforce binary vs string value
+If you have a binary field and load it lazy and then ask that field for its stringValue it will incorrectly give you a String back and then will refuse to give a binaryValue . And vice-versa. Attached patch that just propagates the binary value from when we scanned the fields into the LazyField recording it as isBinary. Then I enforce isBinary before returning a binaryValue and isBinary before returning a stringValue . I ll commit in a day or two.

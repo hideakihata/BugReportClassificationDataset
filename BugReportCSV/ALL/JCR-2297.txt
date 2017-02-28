@@ -1,0 +1,2 @@
+Registering multiple node types with the same name in a single file must fail
+Registering node types from a file XML or CND containing multiple definitions with the same name will succeed and only the last definition will be used. The right behavior is to throw an exception as this kind of file is well-formed but invalid.The attached patch fixes the issue and add a test case for reproducing it.Patch applied in revision 812102.Merged to the 1.x branch in revision 812129. Merged to the 1.6 branch in revision 812145.Restore 1.6.1 fix version also removed by mistake 

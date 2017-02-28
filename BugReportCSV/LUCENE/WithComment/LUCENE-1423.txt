@@ -1,0 +1,2 @@
+InstantiatedTermEnum skipTo Term throws ArrayIndexOutOfBoundsException on empty index
+java.lang.ArrayIndexOutOfBoundsException 0 at org.apache.lucene.store.instantiated.InstantiatedTermEnum.skipTo InstantiatedTermEnum.java 105 at org.apache.lucene.store.instantiated.TestEmptyIndex.termEnumTest TestEmptyIndex.java 73 at org.apache.lucene.store.instantiated.TestEmptyIndex.testTermEnum TestEmptyIndex.java 54 committed in rev 705893

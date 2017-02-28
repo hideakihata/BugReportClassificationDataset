@@ -1,0 +1,2 @@
+Log trace wrapper upgrade to JCR API 2.0
+The JCR Log wrapper jcrlog currently only supports the JCR 1.0 API. It should be upgraded to 2.0. Also the dependency to jackrabbit-core should be removed and generics should be used.I think this issue is fixed now. If it doesn t work for you please open a new bug

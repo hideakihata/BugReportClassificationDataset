@@ -1,0 +1,2 @@
+shouldn t throw exception on bad cookies
+Currently HttpClient throws Exception on bad cookie. This is not expected. The user will expect HttpClient to ignore such cookies but not getting an exception. Once exception is throw user has no way to know if he can continue.Marking this as a duplicate of HTTPCLIENT-31 which includes this request. This bug has been marked as a duplicate of 8288 

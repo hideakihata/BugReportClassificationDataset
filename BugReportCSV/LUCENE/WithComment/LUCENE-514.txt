@@ -1,0 +1,2 @@
+MultiPhraseQuery should allow access to terms
+Actually that patch makes the list itself immutable but not the arrays inside. I think what is needed is something like this public List getTerms List nestedList new ArrayList for Iterator iter termArrays.iterator iter.hasNext Term terms Term iter.next nestedList.add Arrays.asList terms return Collections.unmodifiableList nestedList Thanks Eric I renamed the method to be more descriptive since we aren t using Java5 threw in an implementation of extractTerms and committed this.

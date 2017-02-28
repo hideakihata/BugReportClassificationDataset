@@ -1,0 +1,2 @@
+Group.addMemeber might add a REFERENCE instead of a WEAKREFERENCE
+...and this causes that the member can t be removed afterwards.was not able to reproduce it consistently with a junit test. but i saw the behavior in my application. the fix ensures that the property type is passed when the internal rep groups weak references are set.

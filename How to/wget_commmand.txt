@@ -1,0 +1,5 @@
+cd to the directory contained dataset of bug report ID of a project...
+
+> #!/bin/bash
+
+> cat ID.csv | while read id ; do wget "https://jira.exoplatform.org/si/jira.issueviews:issue-xml/""${id}/""${id}"".xml" ; done

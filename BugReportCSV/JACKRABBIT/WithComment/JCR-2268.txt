@@ -1,0 +1,2 @@
+Generify Security API
+The current security api namely the Authorizable and Group interface use non-generic collections iterators. suggest to change this.suggested patchapplied patch in revision 806534.

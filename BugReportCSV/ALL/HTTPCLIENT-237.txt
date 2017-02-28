@@ -1,0 +1,2 @@
+wire logger skips empty line
+When logging with org.apache.commons.logging.simplelog.log.httpclient.wire debug HttpConnection skips one line of server output in logs CRLF line between headers and body.Created an attachment id 7032 possible fix 1 I m not sure this fixes the problem you are seeing but there is definitely a bug. Could you try this one out and let me know if this works. If not please post a more descriptive example. MikePatch applied.

@@ -1,0 +1,2 @@
+Add PlainTextExtractor to default configuration of TransientRepository
+The current default configuration of TransientRepository does not include the PlainTextExtractor which means resources of type text plain are not fulltext indexed. The PlainTextExtractor should be added to the configuration.Added PlainTextExtractor in revision 680660

@@ -1,0 +1,2 @@
+broken link to the release notes
+On http jakarta.apache.org httpcomponents httpclient-3.x downloads.html the link to the release notes is brokenhttp www.apache.org dist jakarta httpcomponents commons-httpclient-3.x RELEASE-NOTES.txt should be http www.apache.org dist jakarta httpcomponents commons-httpclient-3.x RELEASE NOTES.txt or the file should be renamed...I ve changed the link and redeployed the site. It should be synced within a few hours. Thanks for spotting this   Roland

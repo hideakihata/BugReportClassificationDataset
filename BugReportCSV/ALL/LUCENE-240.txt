@@ -1,0 +1,2 @@
+bug form doesn t list latest version
+Someone with enough permissions can easily add it in Bugzilla log in click on the products link on the bottom navigation panel select the product click edit versions add 1.3 and 1.4. Done

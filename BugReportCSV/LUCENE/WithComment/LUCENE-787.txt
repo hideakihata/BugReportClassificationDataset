@@ -1,0 +1,2 @@
+ant test won t run in out of the box installation
+one possible solution would be to remove lib from the junit.classpath already fixed in trunk

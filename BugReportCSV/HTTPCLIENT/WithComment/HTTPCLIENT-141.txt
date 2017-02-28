@@ -1,0 +1,2 @@
+Using deprecated class javax.servlet.http.HttpUtils
+ javac test-webapp src org apache commons httpclient RedirectServlet.java 74 warning javax.servlet.http.HttpUtils in javax.servlet.http has been deprecated      javac to HttpUtils.getRequestURL request .append .append request.getQueryString .toString The javax.servlet.http.HttpUtils class is deprecated in Tomcat 4.1.18 and should not be used.This deprecation warning comes from the test-webapp-war ant target.Created an attachment id 5122 Fix

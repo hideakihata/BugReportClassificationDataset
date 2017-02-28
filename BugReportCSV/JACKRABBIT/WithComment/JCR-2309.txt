@@ -1,0 +1,2 @@
+Remove excessive dependencies from jcr-client module
+Fixed in revision 816402The jcr-client module does not build anymore for me. I ve changed the scope of the jcr2spi dependency from test to default - compile . svn revision 816544Some how the orphaned AbstractRepositoryConfig was not removed by my initial commit. This kept a dependency on jcr2spi. Fixing with revision 816558

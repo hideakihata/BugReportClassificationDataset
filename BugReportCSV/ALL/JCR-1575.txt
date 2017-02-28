@@ -1,0 +1,2 @@
+ PATCH cleanup unwanted stream closing that isn t used
+Due to refactoring a stream is being closed that is never used. Isn t harmful just is cruft.Patch committed in revision 654079. Thanks 

@@ -1,0 +1,2 @@
+Allow readOnly OpenReader task
+I d like to change OpenReader in contrib benchmark to open a readOnly reader by default and take readOnly optional param if for some reason a writable IndexReader becomes necessary in the future. Attached patch. I plan to commit soon. Committed revision 727029.

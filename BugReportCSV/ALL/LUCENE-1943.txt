@@ -1,0 +1,2 @@
+ChineseFilter is inefficient
+trivial patch to use CharArraySet so it can use termBuffer instead of term Committed revision 821322.

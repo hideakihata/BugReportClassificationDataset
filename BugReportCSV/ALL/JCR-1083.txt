@@ -1,0 +1,2 @@
+SQL parser chokes on prefixes containing a - character
+SQL parser chokes on prefixes containing a - character such as in   SELECT a-b c FROM nt resource OK in the meantime I have learned that this needs to be written as   SELECT a-b c FROM nt resource So test cases need to be fixed so that they use the delimited form when needed and so should the QueryFormat implementation. Fixed with revision 569490. Merged to the 1.3 branch in revision 577865.

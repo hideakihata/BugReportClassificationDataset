@@ -1,0 +1,2 @@
+deprecate Document.fields add getFields 
+A simple API improvement that I m going to commit if nobody objects. The patch has been committed. Closing all issues that were resolved for 2.1.

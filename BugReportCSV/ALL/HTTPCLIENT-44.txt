@@ -1,0 +1,2 @@
+Non-standards configuration and tracking
+A simple strict or setLenient is likely inadequate. Each particular non-standard behaviour should be tagged and settable from the client. A mask for particular behavioural features could be provided with STRICT meaning none and LENIENT meaning all.Created an attachment id 6042 Simple optimizations of httpstatus code lookups Ignore patch 6042 HTTPCLIENT-252 has been marked as a duplicate of this bug. Granular non-standards configuration based on the new preference architecture implemented. See HTTPCLIENT-132 for details Oleg

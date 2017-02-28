@@ -1,0 +1,112 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/JACKRABBIT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R477,447,614,177,550,80,34,599,272,747,855,22,428,442,71,319,917,782,1000,349,1
+Instances:    2402
+Attributes:   21
+              lang
+              java
+              org
+              core
+              merged
+              branch
+              apache
+              nullpointerexception
+              exception
+              reproduce
+              state
+              addnode
+              invoke
+              jackrabbit
+              begin
+              fixed
+              throws
+              save
+              xaitemstatemanager
+              getrootnode
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                          Class
+Variable                    BUG
+===============================
+lang                     0.1165
+java                     0.0401
+org                      0.0289
+core                     0.0474
+merged                   0.8532
+branch                   0.0235
+apache                   0.0483
+nullpointerexception     1.4986
+exception                0.0615
+reproduce                0.8452
+state                    0.0174
+addnode                  0.4644
+invoke                  -0.2087
+jackrabbit              -0.1194
+begin                      0.53
+fixed                    0.4056
+throws                    0.255
+save                    -0.0539
+xaitemstatemanager      -0.0937
+getrootnode              0.5064
+Intercept               -1.1269
+
+
+Odds Ratios...
+                          Class
+Variable                    BUG
+===============================
+lang                     1.1235
+java                     1.0409
+org                      1.0293
+core                     1.0486
+merged                   2.3471
+branch                   1.0238
+apache                   1.0495
+nullpointerexception     4.4752
+exception                1.0635
+reproduce                2.3283
+state                    1.0176
+addnode                   1.591
+invoke                   0.8116
+jackrabbit               0.8874
+begin                    1.6989
+fixed                    1.5002
+throws                   1.2904
+save                     0.9476
+xaitemstatemanager       0.9106
+getrootnode              1.6593
+
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1680               69.9417 %
+Incorrectly Classified Instances       722               30.0583 %
+Kappa statistic                          0.3176
+Mean absolute error                      0.3989
+Root mean squared error                  0.4477
+Relative absolute error                 83.7857 %
+Root relative squared error             91.7736 %
+Total Number of Instances             2402     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.407     0.113      0.697	0.407	0.514      0.736    BUG
+                 0.887     0.593      0.7	0.887	0.782      0.736    FEATURE
+Weighted Avg.    0.699     0.406      0.699	0.699	0.678      0.736
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  382  556 |    a = BUG
+  166 1298 |    b = FEATURE
+

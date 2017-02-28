@@ -1,0 +1,2 @@
+Make JCAManagedConnectionFactory non final so it can be extended
+Hello Is there a reason why JCAManagedConnectionFactory is final I need to build my own one and I d rather reuse some code of yours. Fixed in rev. 1189629

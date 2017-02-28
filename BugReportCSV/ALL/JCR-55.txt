@@ -1,0 +1,2 @@
+VFS backed file system
+File System implementation backed by commons VFS.The zip contains the code a test unit.added edgars code as is to contrib directory contrib vfs rev156521 

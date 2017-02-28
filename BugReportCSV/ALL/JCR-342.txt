@@ -1,0 +1,2 @@
+Jcr-Server DavResource getDavSession missing
+Instead of having DavResource getDavSession this method is defined individually by most of the derived interfaces.fixed for inclusion in version 1.0 rev 385540Merged to the 1.0 branch in revision 385846.

@@ -1,0 +1,2 @@
+Text.escapeIllegalJCRChars should be adjusted to match the 2.0 set of illegal chars
+Text.escapeIllegalJCRChars still contains chars that were illegal in JCR 1.0 but were removed from the set for JCR 2.0Patch removing single and double quote from the escape-illegal-jcr-char method. If I remember correctly this is the only needed change.

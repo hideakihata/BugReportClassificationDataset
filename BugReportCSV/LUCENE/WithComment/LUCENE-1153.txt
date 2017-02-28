@@ -1,0 +1,2 @@
+Lucene needs to ship the JUnit jar for testing
+In order for Hudson builds etc. to work properly Lucene needs to ship the JUnit jar and have it made available in the testing classpath. Our system reqs say 3.8.1 but I have 3.8.2 laying around so I will update the system requirements too. Patch. Requires junit-3.8.2.jar in lib directory which is not included in the patch but I figure anyone testing it can easily find it I will commit later today. Committed revision 615329.

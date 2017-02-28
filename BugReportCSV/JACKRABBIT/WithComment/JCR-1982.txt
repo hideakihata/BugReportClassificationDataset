@@ -1,0 +1,2 @@
+Exception root cause is swallowed in various places
+When re-throwing an exception the root cause is swallowed in some places in Jackrabbit mainly when converting to an IOException.Committed in revision 745051 when creating a BLOB object revision 745053 on configuration error revision 745056 on namespace index error revision 745060 on nodetype I O error .Revision 745120 on namespace index error was using a Java 1.5 constructor before 

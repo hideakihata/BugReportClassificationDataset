@@ -1,0 +1,2 @@
+Run TCK on Jackrabbit 1.0-rc3
+Run TCK on Jackrabbit 1.0-rc3Repository stub configuration that was used to run the TCK on jackrabbit.TCK exclude list Version 1.0 that was used to run the TCK on jackrabbit. Downloaded from http www.day.com site en index related downloads technology compatibility.htmlTest report.All tests succeeded and Jackrabbit 1.0-rc3 passed the TCK.Excellent Thanks Marcel 

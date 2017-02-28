@@ -1,0 +1,2 @@
+change some access-level modifiers to allow for better subclassing
+Some of the methods in the core parts of jackrabbit are package protected and do not allow easy subclassing. suggest to make some of the methods protected .suggested patch 1 for the patchLooks OK. Do we need this already in 1.2.x If yes then I d rather have it already in 1.2 instead of 1.2.1. If no then I d rather target 1.3 and let it live in trunk for a few months.the sooner the better - so 1.2 then.Committed revision 489363 to trunk.Merged to 1.2 in revision 489995.

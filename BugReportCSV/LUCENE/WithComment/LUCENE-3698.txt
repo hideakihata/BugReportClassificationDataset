@@ -1,0 +1,2 @@
+FastVectorHighlighter adds a multi value separator space to the end of the highlighted text
+The FVH adds an additional the multi value separator to the end of the highlighted text. Fix. Updated patch. As I think this fix changes runtime behavior I added an entry to CHANGES.txt. I changed Field.isTokenized to Field.fieldType .tokenized as well because it cannot be compiled in trunk. trunk Committed revision 1232470. 3x Committed revision 1232473. Thanks Shay 

@@ -1,0 +1,2 @@
+spi2dav avoid reusing the same document in repositoryserviceimpl
+... instead each call should create it s own document credits due to jukka that seems to avoid that odd npe in DomUtil.Merged to the 2.2 branch in revision 1174664.

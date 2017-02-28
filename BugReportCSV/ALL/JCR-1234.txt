@@ -1,0 +1,2 @@
+CachingMultiReader has inconsistent name
+All other classes that extend IndexReader are also named that way except CachingMultiReader. It should be renamed to CachingMultiIndexReader.Renamed to CachingMultiIndexReader. svn revision 601371

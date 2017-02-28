@@ -1,0 +1,2 @@
+MatchAllDocsQueryNode toString creates invalid XML-Tag
+MatchAllDocsQueryNode.toString returns matchAllDocs field term which is inavlid XML should read matchAllDocs field term . this patch returns a valid xml Element. looks like it would be good to fix as all the other querynodes return valid xml. will commit in a day or 2 if no one objects. Thanks for reporting this Frank Committed revision 916543. Thanks Frank reopening for possible 2.9.4 3.0.3 backport. Committed revision 1028767 to 3.0.x Committed revision 1028768 to 2.9.x

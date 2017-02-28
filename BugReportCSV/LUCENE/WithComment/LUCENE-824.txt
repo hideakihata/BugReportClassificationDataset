@@ -1,0 +1,2 @@
+IndexWriter addIndexesNoOptimize has redundent try catch
+With the new transaction code the try catch clause at the beginning of IndexWriter addIndexesNoOptimize is redundant. Remove redundant try catch. Good catch Steven I will commit this. Keep the patches coming 

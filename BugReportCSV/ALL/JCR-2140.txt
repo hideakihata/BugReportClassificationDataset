@@ -1,0 +1,2 @@
+JSR 283 Configurations and Baselines
+Committed revision 797094. - removed protected attribute for the configurations storage since there is currently no other way to remove a configuration. - added test cases for configurations and baselines Committed revision 797836. There was a change in the VersionManager API and semantics that needs to be addressed.done.

@@ -1,0 +1,2 @@
+Query may throw ArrayIndexOutOfBoundsException
+There s a bug in DescendantSelfAxisQuery.DescendantSelfAxisScorer.skipTo that causes the exception.Fixed in revision 718981 Jukka can you please merge this change into the 1.5 branch Thanks.Merged to the 1.5 branch in revision 719573.Merged to the 1.4 branch in revision 736682.

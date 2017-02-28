@@ -1,0 +1,2 @@
+Remove references to older versions of Lucene in per-release documentation
+Some of the documentation that is per release contains references to older versions which is often confusing. This is most noticeable in the file formats docs but there might be other places too. Note this issue should not effect code freeze as it is a doc change only. Looks like changes are only needed in fileformats.xml. Patch attached. Committed revision 807653.

@@ -1,0 +1,2 @@
+Versioning does not make use of tx
+for example - begin transaction - create node - add mix versionable - save will create version - checkin - cancel transaction should not leave any traces in versioningSchedule for 1.0Fixed in revision 368026.

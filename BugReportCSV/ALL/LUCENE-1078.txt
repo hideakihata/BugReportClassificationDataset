@@ -1,0 +1,2 @@
+Cleanup some unused and unnecessary code
+Several classes in trunk have some unused and unnecessary code. This includes unused fields unused automatic variables unused imports and unnecessary assignments. Attached it a patch to clean these up. Patch looks good Though StandardTokenizerImpl.java is generated from JFlex so we can t change that. I will commit shortly. Thanks Nathan Thanks for applying my patch. Sorry about the generated file i missed the comment at the top of the file.

@@ -1,0 +1,2 @@
+Document View Import ISO 9075-encoded element attribute names may lead to illegal node property names
+reported by sridhar raman on the users-list importing the following xml document leads to a node of name abc 1 which is illegal xml version 1.0 abc x0020 x005B 1 x005D foo bar fixed in svn r523372

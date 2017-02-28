@@ -1,0 +1,2 @@
+JSR 283 namespace handling
+JSR 283 makes namespace handling more flexible and user-friendly less exceptions no unexpected mapping changes during a session etc. . The changes are mostly compliant with JSR 170 so we can implement them already for Jackrabbit 1.x. TODO JSR 283 namespace handling related TCK testsThe new namespace handling functionality is in AbstractSession class and I just committed the missing new TCK test cases. Resolving as Fixed.

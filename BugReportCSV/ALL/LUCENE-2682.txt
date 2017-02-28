@@ -1,0 +1,2 @@
+create test case to verify we support 2.1B terms
+I created a test case for this... I m leaving it as Ignore because it takes more than four hours on a faaast machine beast to run. I think we should run this before each release. in MyTermAttributeImpl public int toBytesRef BytesRef bs bs.copy bytes i don t think you need to copy bytes maybe it saves a whole 30 seconds in your 4 hour test time i did a shallow-copy with collation. Ahh super I will fix that Committed to trunk... still need to backport run on 3.x... Bulk close for 3.1

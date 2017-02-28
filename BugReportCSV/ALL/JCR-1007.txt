@@ -1,0 +1,2 @@
+Move common implementations of SPI interfaces to spi-commons module
+Some of the spi modules use nearly duplicate code which should be moved to the spi-commons module.Done in revision 553507

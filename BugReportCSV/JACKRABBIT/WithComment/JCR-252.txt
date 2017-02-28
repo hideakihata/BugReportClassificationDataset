@@ -1,0 +1,2 @@
+new CachingNamespaceResolver introduces dependency from commons-jackrabbit to commons-collections
+new CachingNamespaceResolver introduces dependency from commons-jackrabbit to commons-collections which is undesriedMoved CachingNamespaceResolver to o.a.j.core package. At the same time also removed caching support from LocalNamespaceMappings. svn revision 314910

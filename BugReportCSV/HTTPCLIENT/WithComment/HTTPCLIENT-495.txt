@@ -1,0 +1,2 @@
+DefaultHttpMethodRetryHandler does not check whether the failed method has been aborted
+DefaultHttpMethodRetryHandler does not check whether the failed method has been aborted.Created an attachment id 16354 Patch Folks I know this is a horrible hack but I just realized I forgot to copy isAborted method from HttpMethodBase to HttpMethod interface and now it is too late to fix my oversight. HttpMethod interface is the worst thing ever done to HttpClient OlegAgreed not pretty but I think it s the only way to go. Mkeok with mePatch committed Oleg

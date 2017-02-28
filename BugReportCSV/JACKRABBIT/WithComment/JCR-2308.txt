@@ -1,0 +1,2 @@
+Allow reuse of Q DefinitionBuilder in QItemDefinitionsBuilder
+It would be nice to reuse the builder implementations in QItemDefinitionsBuilder elsewhere when Q Definitions need to be built. I will extract the relevant classes so they can be used independently and make QItemDefinitionsBuilder use them.Implemented in revision 816120 At the same time I also renamed QItemDefinitionsBuilder to DefinitionBuilderFactory. To me that seems to better match the purpose of the class because it basically allows you to create definition builder instances.

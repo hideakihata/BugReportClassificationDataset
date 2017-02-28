@@ -1,0 +1,2 @@
+jcr-rmi maven site target fails
+the target site in jcr rmi fails because org.apache.jackrabbit.rmi.remote.SerialValue.java is emptyIt seems o.a.j.rmi.remote.SerialValue has no purpose If noone objects I ll remove itThanks for reporting and investigating this. I just removed the file as proposed.

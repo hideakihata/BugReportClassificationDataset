@@ -1,0 +1,2 @@
+Move FilterIterator and SizedIterator from package flat to package iterator
+I suggest to move said classes from package org.apache.jackrabbit.commons.flat to package org.apache.jackrabbit.commons.iterator.Fixed at revision 1161095We should avoid breaking backwards compatibility in jackrabbit-jcr-commons. It would be good to leave at least deprecated dummy subclasses in o.a.j.commons.flat to avoid breaking things.Ok I ll add these.Done at revision 1161169

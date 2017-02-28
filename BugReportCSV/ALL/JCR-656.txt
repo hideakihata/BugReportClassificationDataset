@@ -1,0 +1,2 @@
+JCR-Server Allow header misses colong RootCollection WorkspaceResourceImpl 
+List of supported dav methods misses some colons.fixed r481210

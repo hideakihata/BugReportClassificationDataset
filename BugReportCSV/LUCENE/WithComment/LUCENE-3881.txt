@@ -1,0 +1,2 @@
+Create UAX29URLEmailAnalyzer a standard analyzer that recognizes URLs and emails
+This Analyzer should contain the same components as StandardAnalyzer except for the tokenizer which should be UAX29URLEmailTokenizer instead of StandardTokenizer. Patch implementing the idea. Committing shortly. Committed to trunk and branch 3x.

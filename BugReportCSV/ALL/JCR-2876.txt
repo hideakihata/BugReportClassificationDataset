@@ -1,0 +1,2 @@
+org.apache.jackrabbit.server.io.IOUtil getTempFile misses dot in tmp suffix
+At line 168 File tmpFile File.createTempFile importcontext tmp Suffix tmp has no use because the dot is missing. Should be File tmpFile File.createTempFile importcontext .tmp thanks for reporting this issue and the patch

@@ -1,0 +1,2 @@
+FieldCacheImpl cache gets rebuilt every time
+FieldCacheImpl uses WeakHashMap to store the cached objects but since there is no other reference to this cache it is getting released every time. This is fixed.

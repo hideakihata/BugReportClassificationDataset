@@ -1,0 +1,112 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     lucene_weka_no_ID
+Instances:    2443
+Attributes:   21
+              CLASSIFY
+              TOPIC0
+              TOPIC1
+              TOPIC2
+              TOPIC3
+              TOPIC4
+              TOPIC5
+              TOPIC6
+              TOPIC7
+              TOPIC8
+              TOPIC9
+              TOPIC10
+              TOPIC11
+              TOPIC12
+              TOPIC13
+              TOPIC14
+              TOPIC15
+              TOPIC16
+              TOPIC17
+              TOPIC18
+              TOPIC19
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable     FEATURE
+====================
+TOPIC0        -0.278
+TOPIC1        0.2764
+TOPIC2       -0.5956
+TOPIC3         0.267
+TOPIC4       -0.4469
+TOPIC5        -1.282
+TOPIC6       -0.5043
+TOPIC7       -0.6753
+TOPIC8        1.7309
+TOPIC9        0.7507
+TOPIC10       0.1016
+TOPIC11       1.2888
+TOPIC12       -0.986
+TOPIC13       0.6037
+TOPIC14      -0.3634
+TOPIC15      -0.5178
+TOPIC16      -0.4718
+TOPIC17       0.8347
+TOPIC18      -0.5606
+TOPIC19       0.4834
+Intercept     0.8925
+
+
+Odds Ratios...
+               Class
+Variable     FEATURE
+====================
+TOPIC0        0.7573
+TOPIC1        1.3184
+TOPIC2        0.5512
+TOPIC3        1.3061
+TOPIC4        0.6396
+TOPIC5        0.2775
+TOPIC6        0.6039
+TOPIC7         0.509
+TOPIC8         5.646
+TOPIC9        2.1184
+TOPIC10       1.1069
+TOPIC11       3.6286
+TOPIC12       0.3731
+TOPIC13       1.8289
+TOPIC14       0.6953
+TOPIC15       0.5958
+TOPIC16       0.6239
+TOPIC17       2.3041
+TOPIC18       0.5708
+TOPIC19       1.6216
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1887               77.2411 %
+Incorrectly Classified Instances       556               22.7589 %
+Kappa statistic                          0.391 
+Mean absolute error                      0.3111
+Root mean squared error                  0.3972
+Relative absolute error                 76.2648 %
+Root relative squared error             87.9556 %
+Total Number of Instances             2443     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.896     0.538      0.807	0.896	0.849      0.8      FEATURE
+                 0.462     0.104      0.64	0.462	0.537      0.8      BUG
+Weighted Avg.    0.772     0.414      0.759	0.772	0.76       0.8  
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1565  181 |    a = FEATURE
+  375  322 |    b = BUG
+

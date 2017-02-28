@@ -1,0 +1,2 @@
+Make all classes that have a close methods instanceof Closeable Java 1.5 
+This should be simple. Patch that adds Closeable to all public interfaces super-classes that define close . Package-private classes inside oal.index are not changed as they often only define package-private close Will commit soon. Committed revision 826540 Package-private classes might as well implement public close nobody s gonna see this method from outside anyway.

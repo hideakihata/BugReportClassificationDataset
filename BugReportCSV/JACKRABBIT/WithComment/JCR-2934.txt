@@ -1,0 +1,2 @@
+SQL2 queries are not logged
+SQL2 queries are constructed via QueryObjectModel and ran via QueryObjectModelImpl which does not log the run time. I ll attach a run time log similar to the old one.log the SQL2 query duration and statement as debugPatch committed in revision 1088987. Thanks 

@@ -1,0 +1,2 @@
+TCK check for wrong repository descriptor. should be versioning instead of locking
+... at least according to the comment.I agree it should be a check for the version option. Fixed in revision 508486 Thank you for the patch.

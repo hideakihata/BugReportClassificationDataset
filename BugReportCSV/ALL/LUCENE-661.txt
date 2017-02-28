@@ -1,0 +1,2 @@
+BUILD.txt instructions wrong for JavaCC
+The text in BUILD.txt for javacc says to set the property to the bin directory in the javacc installation. It should actually be set to the javacc installation directory the directory containing the bin directory. The comments common-build.xml correctly state this. Managed not to set the grant button on the original. commited Closing all issues that were resolved for 2.1.

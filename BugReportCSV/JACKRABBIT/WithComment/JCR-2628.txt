@@ -1,0 +1,2 @@
+registerNodeType is not implemented in the CLI
+registernodetype is listed in the standalone client but not implemented.Attached patch implement the needed stuff for thisThanks Patch committed in revision 944215.

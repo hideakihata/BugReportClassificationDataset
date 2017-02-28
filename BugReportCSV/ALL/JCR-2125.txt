@@ -1,0 +1,2 @@
+serialVersionUID for AuthorizableExistsException
+A little patch for jackrabbit-api trunk containing serialVersionUID for AuthorizableExistsException and NoSuchPrincipalException.The NoSuchPrincipalException no longer exists but I added the serialVersionUID field to AuthorizableExistException as proposed in revision 889556.

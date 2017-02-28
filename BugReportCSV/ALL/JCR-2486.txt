@@ -1,0 +1,2 @@
+Promote ItemInfo builder classes from GetItemsTest to top level classes
+org.apache.jackrabbit.jcr2spi.GetItem test contains builders for ItemInfo and NodeInfo instances. These should be generalized and promoted to spi-commons.Fixed at revision 906574

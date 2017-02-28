@@ -1,0 +1,2 @@
+Exception may get lost in WorkspaceManager.OperationVisitorImpl.execute 
+The method calls Batch.submit in the finally block. If both the try and finally block throw exceptions the one from the try block is ignored.Fixed in trunk in revision 609938The change is simple enough so I merged this already for the 1.4 release. See revision 610132.

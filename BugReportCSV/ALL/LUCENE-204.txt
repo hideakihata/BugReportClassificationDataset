@@ -1,0 +1,2 @@
+ PATCH usage feedback for IndexFiles demo
+Just a small patch that adds usage output if the demo is called without a parameter makes it a little bit friendlier to beginners. Created an attachment id 11033 usage output Thanks I applied your patch and modified it a bit.

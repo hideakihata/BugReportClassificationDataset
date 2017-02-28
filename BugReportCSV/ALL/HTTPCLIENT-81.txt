@@ -1,0 +1,2 @@
+need getResponseContentLength in HttpMethod
+We need a way to find out the response content length in HttpMethodThis seems like a pretty reasonable addition as there is a parallel method in HttpMethodBase protected int getRequestContentLength This would then have to be overridden in any httpmethod that has a response body. If this method is added to the HttpMethodBase and not the HttpMethod interface full backwards compatability can be maintained.Created an attachment id 5260 Fix take 1 Patch committed Oleg

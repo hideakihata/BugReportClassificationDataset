@@ -1,0 +1,2 @@
+SearchIndex parameter cacheSize is ignored
+The cacheSize is always set to 1024 no matter what is specified in the configuration.Fixed in revision 620823Merged to the 1.4 branch in revision 628268.

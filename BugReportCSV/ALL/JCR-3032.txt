@@ -1,0 +1,2 @@
+QDefinitionBuilderFactory should auto-subtype from nt base
+Similar to JCR-2066 the QNodeTypeDefinitions build by QDefinitionBuilderFactory should auto subtype from nt base.Fixed at revision 1149180

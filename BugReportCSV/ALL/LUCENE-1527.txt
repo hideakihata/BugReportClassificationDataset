@@ -1,0 +1,2 @@
+Benchmark deletes.alg fails
+Benchmark deletes.alg fails because the index reader defaults to open readonly. Adds false parameter to OpenReader in deletes.alg Committed revision 737175. Thanks Jason 

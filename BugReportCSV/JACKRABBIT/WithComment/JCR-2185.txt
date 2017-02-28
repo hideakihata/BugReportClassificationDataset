@@ -1,0 +1,2 @@
+Encapsulate RepositoryHelper field
+This is a first step towards a test suite that will run tests with multiple threads concurrently.Implemented in revision 791180

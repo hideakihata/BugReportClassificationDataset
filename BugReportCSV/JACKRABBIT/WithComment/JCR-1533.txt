@@ -1,0 +1,2 @@
+Update POI dependency to 3.0.2-FINAL
+3.0.2-FINAL is the most recent POI release.Updated pom.xml in revision 647119I tested POI 3.0.2 and go back to 3.0.1 because fails to extract on some Excel files.Thanks for the info. Anyone else with success or failure stories 

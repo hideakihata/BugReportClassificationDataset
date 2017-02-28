@@ -1,0 +1,2 @@
+Strengthen CheckIndex a bit
+A few small improvements to CheckIndex to detect possible docs out of order cases. Attached patch. I plan to commit in a day or so to 2.4 trunk.

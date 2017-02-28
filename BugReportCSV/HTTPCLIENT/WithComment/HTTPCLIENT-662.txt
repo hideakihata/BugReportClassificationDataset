@@ -1,0 +1,2 @@
+Disentangle commons-httpclient from commons in Gump
+Currently the Gump project for HttpClient 3.x is defined as one of the commons projects. It should be moved to a separate definition either all by itself or as a new group of HttpComponents Gump projects.

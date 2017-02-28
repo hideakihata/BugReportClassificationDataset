@@ -1,0 +1,2 @@
+Remove duplicate code in InternalValueFactory
+After JCR-2245 has been applied some of the duplicate code in InternaValueFactory can be removed. Namely - create String int - all other create methods that are non-binary Proposed changes.Client code of InternalValueFactory depends on implmentation of returned QValue instances - Updated patch.Applied latest patch in revision 802755

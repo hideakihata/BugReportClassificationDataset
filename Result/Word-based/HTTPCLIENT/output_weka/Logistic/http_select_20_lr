@@ -1,0 +1,112 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     text_files_in_/Users/pedzii/Documents/Work/Internship/work/BugReportCSV/HTTPCLIENT/WithComment-weka.filters.unsupervised.attribute.StringToWordVector-R1,2-W1000-prune-rate-1.0-C-N0-L-S-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-V-R292,691,326,759,967,251,698,491,249,231,723,538,574,502,220,471,229,308,217,440,1
+Instances:    745
+Attributes:   21
+              execute
+              problem
+              fix
+              reproduce
+              user-agent
+              documentation
+              projects
+              java
+              docs
+              dependencies
+              re-test
+              loop
+              mikepatch
+              keep-alive
+              defaultclientconnection
+              interface
+              define
+              fail
+              debug
+              impl
+              classify
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                   Class
+Variable                         FEATURE
+========================================
+execute                          -0.2834
+problem                          -0.0465
+fix                              -0.3261
+reproduce                        -0.4159
+user-agent                       -0.4171
+documentation                     1.4712
+projects                          0.2783
+java                              -0.036
+docs                              1.0555
+dependencies                     17.3836
+re-test                          -1.3485
+loop                             -0.3953
+mikepatch                        -1.4093
+keep-alive                       -0.4692
+defaultclientconnection          -3.4041
+interface                         0.7821
+define                            2.2154
+fail                             -1.0405
+debug                             0.0357
+impl                              0.0846
+Intercept                         0.7305
+
+
+Odds Ratios...
+                                   Class
+Variable                         FEATURE
+========================================
+execute                           0.7532
+problem                           0.9546
+fix                               0.7218
+reproduce                         0.6598
+user-agent                         0.659
+documentation                     4.3545
+projects                          1.3208
+java                              0.9646
+docs                              2.8733
+dependencies               35449291.7697
+re-test                           0.2596
+loop                              0.6735
+mikepatch                         0.2443
+keep-alive                        0.6255
+defaultclientconnection           0.0332
+interface                         2.1861
+define                            9.1654
+fail                              0.3533
+debug                             1.0363
+impl                              1.0883
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         532               71.4094 %
+Incorrectly Classified Instances       213               28.5906 %
+Kappa statistic                          0.3738
+Mean absolute error                      0.3622
+Root mean squared error                  0.4328
+Relative absolute error                 74.8898 %
+Root relative squared error             88.0161 %
+Total Number of Instances              745     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.884     0.531      0.706	0.884	0.785      0.78     FEATURE
+                 0.469     0.116      0.737	0.469	0.573      0.78     BUG
+Weighted Avg.    0.714     0.361      0.719	0.714	0.698      0.78 
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 389  51 |   a = FEATURE
+ 162 143 |   b = BUG
+

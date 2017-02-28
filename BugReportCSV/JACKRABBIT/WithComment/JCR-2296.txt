@@ -1,0 +1,2 @@
+Consolidate ItemDef QItemDefinition
+There is a great deal of duplicate code in ItemDef jackrabbit-core and QItemDefinition jackrabbit-spi and their implementing classes.I think this issue should be fixed first before we move on with JCR-2170.Proposed changes. 1 for the patch thanks This has been fixed as part a merge from the JCR-2170 sandbox branch into trunk. See revision 816343.

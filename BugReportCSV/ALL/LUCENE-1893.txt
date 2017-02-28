@@ -1,0 +1,2 @@
+All spatial contrib shape classes implement equals but not hashCode
+violates contract - at a min need to implement return constant. also LatLng a patch that attempts to clear up all of the equal hashCode issues and improve the impls

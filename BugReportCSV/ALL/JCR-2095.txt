@@ -1,0 +1,2 @@
+Use an enumeration for QOM join types
+Like JCR-2094 but for join types. The join type constants in the PFD version of QueryObjectModelConstants are broken and a type-safe enumeration would in any case be a good alternative to the string constants.The enumeration is now implemented as o.a.j.spi.commons.query.qom.JoinType.

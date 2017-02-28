@@ -1,0 +1,2 @@
+MatchAllQuery does not implement extractTerms 
+This is required for rep excerpt functionality.This is actually a new feature because the method was never used in already released versions of Jackrabbit.Implemented in revision 527132

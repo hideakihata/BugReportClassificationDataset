@@ -1,0 +1,2 @@
+Improve Greek analysis
+Changed tokenstreams to CharTermAttribute Moved stopwords out of private String to a txt file for use by Solr etc Removed TODO fixed unicode conformance of GreekLowerCaseFilter Reformatted touched files to normal indentation Added inflectional stemmer Ntais algorithm all the changes are backwards compatible with Version. attached is a patch. If no one objects I would like to commit in a few days. Committed revision 945090 trunk 945097 3x Bulk close for 3.1

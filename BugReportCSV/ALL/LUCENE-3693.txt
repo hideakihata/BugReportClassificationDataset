@@ -1,0 +1,2 @@
+Add a testing implementation for DocumentsWriterPerThreadPool
+currently we only have one impl for DocumentsWriterPerThreadPool. We should add some more to make sure the interface is sufficient and to beef up tests. For testing I m working on a randomized impl. selecting and locking states randomly. here is a patch adding a RandomDWTPool selected if newIndexWriterConfig is used. All tests pass I am going to commit this soon if nobody objects 1 this looks great 

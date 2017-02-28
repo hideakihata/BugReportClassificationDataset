@@ -1,0 +1,2 @@
+switch appendingcodec to use appending blocktree
+currently it still uses block terms fixed gap index I think instead of making the indexoutput protected in blocktree s writer we can just pass the appropriate outputs to the writeTrailer methods and keep it private. this is more consistent with the read writeHeader methods. also i think its bad we write the same codec header to both files... if .tib and .tiv get switched somehow we wouldn t detect it sorta destroys the point of the codec header . Ill update the patch. 1 Nice to see AppendingCodec get love 

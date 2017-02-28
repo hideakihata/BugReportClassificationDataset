@@ -1,0 +1,2 @@
+Enable Java asserts in the Junit tests
+For background see http www.mail-archive.com java-dev lucene.apache.org msg10307.html As discussed above this enables java assertions in tests. All tests pass. I ll commit it pretty soon. Fixed.

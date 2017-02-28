@@ -1,0 +1,2 @@
+OutOfMemory problem HandleMonitor does not release closed input streams
+The class o.a.j.core.fs.local.HandleMonitor does not release closed MonitoredInputStream. There is a close method but it is never called. The input streams are kept in a hash set map of HandleMonitor. Eventually this leads to an OutOfMemory exception after opening closing many files.Here is the patch.Committed revision 474234. Reopening to fix issue metadata.

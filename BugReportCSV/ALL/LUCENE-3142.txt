@@ -1,0 +1,2 @@
+benchmark stats package is obsolete and unused - remove it
+This seems like a leftover from the original benchmark implementation and can thus be removed. Does anyone see why this should remain I will wait 2 days before actually removing it Just to make sure this is clear the package in question is o.a.l.benchmark.stats r1141465 trunk r1141468 3x

@@ -1,0 +1,2 @@
+remove TermVectorsWriter it s no longer used 
+We should remove TermVectorsWriter it s no longer used now that DocumentsWriter writes the term vectors directly to the index. Attached patch. It turns out we still use TermVectorsWriter for segment merging so I kept it but optimized it for that specific use case of bulk-adding of term vectors.

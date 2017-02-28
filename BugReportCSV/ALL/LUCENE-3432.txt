@@ -1,0 +1,2 @@
+TieredMergePolicy expungeDeletes should not enforce maxMergedSegmentMB
+Thanks v.sevel Bulk close after release of 3.5

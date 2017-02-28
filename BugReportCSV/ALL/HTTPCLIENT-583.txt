@@ -1,0 +1,2 @@
+Build.xml - add log level definitions
+The default log level is debug which produces quite a lot of output when testing. The patch allows separate definition of wire and other log levels assuming SimpleLog is used Hi Sebastian we call them wire log and context log . I suggest to rename the properties to httpclient.test.loglevel.context and httpclient.test.loglevel.wire . otherwise 1 from me cheers   Roland Properties renamedPatch checked in Oleg

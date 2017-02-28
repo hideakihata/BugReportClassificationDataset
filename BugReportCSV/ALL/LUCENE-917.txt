@@ -1,0 +1,2 @@
+Javadoc improvements for Payload class
+Some methods in org.apache.lucene.index.Payload don t have javadocs Committed to trunk 2.2 branch.

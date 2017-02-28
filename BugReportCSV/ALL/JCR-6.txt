@@ -1,0 +1,2 @@
+VersionIteratorImpl problem 
+I meet with problem in VersionIterator Classic nextVersion hasNext loop for VersionIterator become endless. I think problem with peek pop misprint     public Version nextVersion .......         InternalVersion ret InternalVersion successors. b peek b ......      I change to InternalVersion ret InternalVersion successors. b pop b oops. thanks you re right.fixed as suggested.

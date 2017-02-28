@@ -1,0 +1,2 @@
+make compoundfilewriter public
+CompoundFileReader is public but CompoundFileWriter is not. I propose we make it public lucene.internal instead just in case someone else finds themselves wanting to manipulate cfs files 1 - patch looks good 1 Committed revision 1099745 1099747 3x Bulk closing for 3.2

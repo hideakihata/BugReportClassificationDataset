@@ -1,0 +1,2 @@
+JSR 283 Observation
+Implemented in revision 790826 Removed EventJournal tests from list of known issues in spi2jcr module.Other notable changes - EventBundle is now Iterable Event - Added EventBundle RepositoryService.getEvents SessionInfo sessionInfo EventFilter filter long after 

@@ -1,0 +1,2 @@
+NodeTest.testAddNodeConstraintViolationExceptionUndefinedNodeType relies on addNode name nt base 
+NodeTest.testAddNodeConstraintViolationExceptionUndefinedNodeType relies on the ability to create a new node of type nt base which isn t something repositories are required to support. Proposal make the node type name for this test case configurable. The same applies to WorkspaceCopyTest.testCopyNodesConstraintViolationException . Fixed in several places with revision 527261. julian can this issue be resolved Seems to be resolved with revision 527261.

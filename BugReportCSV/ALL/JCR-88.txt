@@ -1,0 +1,2 @@
+jcr path in QueryResult is only tested with SQL
+The TCK should also include a test case for XPath query syntax.Renamed JcrPathTest to SQLJcrPathTest and created XPathJcrPathTest to test feature in level1. SVN revision 159361

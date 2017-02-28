@@ -1,0 +1,2 @@
+JSR 283 NodeType Management
+as far as I know all TODOs and default-throw implementations have been replaced now in - jcr2spi - spi2jcr - spi2dav - spi2davex - jcr-server. leaving issue open until TCK is completed and we see that things work as expected.

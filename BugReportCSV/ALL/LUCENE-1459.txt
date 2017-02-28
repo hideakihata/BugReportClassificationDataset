@@ -1,0 +1,2 @@
+CachingWrapperFilter crashes if you call both bits and getDocIdSet 
+CachingWrapperFilter uses only a single cache so calling bits after calling getDocIdSet will result in a type error. Additionally more code than is necessary is wrapped in the synchronized blocks. Patch against 2.4.0 to be more careful about returning from the cache Committed revision 719716. Thanks Matt Reopening for backport to 2.4.1. Committed revision 745800 on 2.4 branch.

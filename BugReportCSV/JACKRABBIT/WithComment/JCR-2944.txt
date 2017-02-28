@@ -1,0 +1,2 @@
+Remove unnecessary NodeImpl references from LuceneQueryFactory
+LuceneQueryFactory casts to NodeImpl just to get the node id. This info is available via the api as well so the cast seems unnecessary. I ll attach a patch for this tiny issue.attached patch to remove unnecessary castsreattached the patch. I initially forgot to clean the imports tooThanks Patch committed in revision 1092736.

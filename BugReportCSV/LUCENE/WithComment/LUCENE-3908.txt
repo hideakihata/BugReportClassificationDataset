@@ -1,0 +1,2 @@
+when tests fail sometimes the testmethod in reproduce with is null
+an example is the recent fail https builds.apache.org job Lucene-3.x 680 it would be better to not populate -Dtestmethod with anything here... I didn t check but this may be a result of adding those handlers to dump reproduce seed on uncaught I ll take a look later today. Applied to trunk and 3.x attaching patch for completeness.
